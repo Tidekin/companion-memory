@@ -3584,8 +3584,8 @@
       "bytes": 2226
     },
     "examples/sqlite_demo.py": {
-      "sha256": "dd5e32a96f9a16a1dd9216d5402d3bc8451b2d949e0f505666666d0addd757a6",
-      "bytes": 4725
+      "sha256": "52bbaf5967ed2d01562b43fa66bb22fcb13c39b64f48106421b9ab31b99b04ea",
+      "bytes": 4781
     },
     "LICENSE": {
       "sha256": "ef730ae4a57db30a4e95486e501cb86e682eb5f83019c6336b0de830b047943d",
@@ -4244,8 +4244,8 @@
       "bytes": 1721
     },
     "tests/test_reference.py": {
-      "sha256": "4d7b12df3c9ed35b6ffb586b338eb91b6f05e2b9efd3cb8371059868f92f0250",
-      "bytes": 4691
+      "sha256": "53fb896b7b9a21dbe19408e1a732cfab10a6c3d740e8839cecde284ea8bedbf9",
+      "bytes": 5175
     },
     "uv.lock": {
       "sha256": "8cc222eaa12b7cb1cf1c8195b111a2d859f57ac69b6d87b8294ed67432e93102",

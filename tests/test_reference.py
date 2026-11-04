@@ -1,5 +1,8 @@
 import importlib.util
 import json
+import os
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
@@ -53,6 +56,18 @@ def test_sqlite_installed_helpers_and_source_erasure(tmp_path):
     result = demo.run(tmp_path / "example.sqlite")
     assert result["provider_calls"] == 0
     assert result["after_source_erasure"] == []
+
+
+def test_cli_outputs_utf8_on_legacy_windows_console():
+    result = subprocess.run(
+        [sys.executable, "-B", str(ROOT / "examples/sqlite_demo.py")],
+        env={**os.environ, "PYTHONIOENCODING": "cp1252"},
+        capture_output=True,
+        check=True,
+    )
+    value = json.loads(result.stdout.decode("utf-8"))
+    assert value["remembered"][0]["content"] == "周末喜欢去植物园散步"
+    assert value["provider_calls"] == 0
 
 
 def test_unknown_usage_and_bad_source_never_write(tmp_path):

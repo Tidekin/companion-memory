@@ -3,6 +3,7 @@
 import argparse
 import json
 import sqlite3
+import sys
 from pathlib import Path
 
 from companion_memory import lexical, parse_extraction, require_settled, resolve_review
@@ -114,6 +115,7 @@ def run(path):
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--database", type=Path, help="New SQLite file; defaults to in-memory SQLite"
