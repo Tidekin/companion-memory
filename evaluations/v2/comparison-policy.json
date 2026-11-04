@@ -1,0 +1,119 @@
+{
+  "status": "RUNNING_QWEN_RAG",
+  "created_at": "2026-11-02T11:11:41.478417+00:00",
+  "authorization": "User requests wait for existing optimization chat then new diverse corpus comparison, confirmsQwenRAG and category-by-delay grouped bars",
+  "optimization_thread": {
+    "id": "01a19acc-f207-78e2-993e-3cfde8cff5ac",
+    "hostId": "local",
+    "afterCursor": "ea81d780-9c68-46f9-bde0-3b290dfa44e0:3"
+  },
+  "old_source_commit": "7683844a560f5795695569198fb6d5bbea41a1e0",
+  "new_source_commit": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+  "new_bank_generated": true,
+  "desired_semantic_questions": 696,
+  "independent_lifecycle_checks": 18,
+  "arms": [
+    "old Core",
+    "new Core",
+    "Qwen retrieval/RAG reference using same official DeepSeek answer model"
+  ],
+  "providers": {
+    "deepseek": "existing official endpoint/key only",
+    "qwen": "previous working Qwen embedding/rerank endpoint and desktop key, verify unchanged configuration before use"
+  },
+  "caps_cny": {
+    "all_new_round_deepseek_calls_including_both_versions_reference_answering_judging_and_failures": 50,
+    "all_new_round_qwen_calls": 30
+  },
+  "no_automatic_cap_expansion": true,
+  "prior_ledgers_and_unknown_holds_preserved": true,
+  "source_and_corpus_freeze_order": [
+    "wait for optimization final candidate andchecks/receipt",
+    "verify old/newsource andsettings",
+    "freeze finalcode/prompt/settings/rubric policies",
+    "author fresh corpus with newsemanticstructures,facts,questions andmedia",
+    "freeze corpus/assets/rubric/seed hashes",
+    "run source-pinned isolated arms on exactsamequestionIDs",
+    "freeze all answers before grading",
+    "blind versionlabels forjudge and separateCodexreviews notcalled independenthuman"
+  ],
+  "diversity": {
+    "input_types": [
+      "text conversation",
+      "real WAV/ASR voice",
+      "PNG visual/spatial diagrams",
+      "documents and structured tables",
+      "quotes and forwards",
+      "mixed-modal changes/conflicts"
+    ],
+    "semantic_types": [
+      "profile andpreferences",
+      "conditional names/boundaries",
+      "promises andunfinishedtasks",
+      "thirdparty/assistant attribution",
+      "multi-hop dispersedclues",
+      "changes/corrections/unresolvedconflict",
+      "plans/hypotheses/dreams/fiction",
+      "absolute/relative dates andsequence",
+      "unknown facts",
+      "restricted secrets/privacy",
+      "cross-modal correction/contradiction"
+    ],
+    "delay_days": [
+      0,
+      3,
+      15,
+      45
+    ],
+    "requirements": [
+      "not merely rename oldtemplates",
+      "newfacts andchronology aftercodefreeze",
+      "preserve rawmetadata,firstattempts,allfailuresandcosts",
+      "no production or realQQ delivery"
+    ]
+  },
+  "deliverables": {
+    "overall": "3-arm whole-question pass count/rate on exactsameIDs",
+    "category_delay_charts": "faceted grouped verticalbars, category rows x same-day/3/15/45day groups,3arms pergroup,0-100% consistentaxis,labels passed/actualN",
+    "category_families": [
+      "basicinfo/preferences",
+      "promises/relationships/clues",
+      "changes/corrections/conflicts",
+      "plans/hypotheses/fiction",
+      "time/privacy/boundaries",
+      "crossmodal"
+    ],
+    "modality_charts": true,
+    "cost_tokens_latency_and_coverage": true,
+    "interactive_html_search_filters_andattachments": true,
+    "standalone_png_svg": true,
+    "perquestion_json_reviews_freezes_receipt_and_zip": true,
+    "chart_reference_layout_only": "LOCAL_PATH Files/1936533020/nt_qq/nt_data/Pic/2026-11/Ori/a91b545ae08573cee8ee60c590b65b1d.jpg",
+    "no_reference_scores_copied": true
+  },
+  "recovery_runner": {
+    "commit": "64fcfa0370b1f56021a3edd2921a43bd9ad74192",
+    "checkout": "LOCAL_PATH Core\\.local\\worktrees\\reusable-memory-benchmark-20261102",
+    "canonical_receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-recovery-20261102\\.local\\delivery\\verification-receipt.json",
+    "related_checks": 16,
+    "docs_checks": 200,
+    "unknown_costs_remain_held": true
+  },
+  "budget_preflight": "Estimate all3arms before paidwork, retain reserved/unknown, do not knowingly start an unaffordable fullcohort; ask only if scope cannot fit existing caps",
+  "preparation_only_before_candidate_freeze": true,
+  "source_freeze_sha256": "938f04d2fc112b4eded00b0793b1b4e637a36ad62b0639b2d2bf3f0d783afe3d",
+  "billing_scope": {
+    "user_instruction": "本轮按新30计费不继承上轮费用",
+    "new_round_starts_at_cny": 0,
+    "prior_round_costs_or_holds_charged_to_this_round": false,
+    "old_ledgers_retained_unchanged": true,
+    "deepseek_all_new_round_calls_cap_cny": 50,
+    "qwen_all_new_round_calls_cap_cny": 30,
+    "latest_user_instruction": "本轮deepseek额外扩充到50（本轮合计50，从0计费）"
+  },
+  "run_started_at": "2026-11-02T12:11:12.603015+00:00",
+  "controller_pid": 43628,
+  "phase": "BLIND_GRADING",
+  "grading_launcher_pid": 57976,
+  "last_update_at": "2026-11-02T14:08:36.134770+00:00"
+}

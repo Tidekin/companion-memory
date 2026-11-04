@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-11-02",
+  "deepseek_model": "deepseek-flash -> DeepSeek-V4.1-Flash-1017",
+  "deepseek_prices_cny_per_M": {
+    "off_peak": {
+      "uncached": 1,
+      "cached": 0.02,
+      "output": 4
+    },
+    "peak": {
+      "uncached": 2,
+      "cached": 0.04,
+      "output": 8
+    }
+  },
+  "deepseek_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "experiment_configured_usd_per_M": {
+    "uncached": 0.3,
+    "cached": 0.006,
+    "output": 1.2
+  },
+  "experiment_hold_cny_per_usd": 10,
+  "qwen_embedding_dimensions": 2560,
+  "qwen_embedding": "qwen3.7-text-embedding",
+  "qwen_rerank": "qwen3.7-text-rerank",
+  "qwen_source": "https://platform.qianwenai.com/docs/developer-guides/getting-started/model-prices",
+  "qwen_internal_cny_per_M": 5,
+  "invoice_verified": false,
+  "qwen_published_cny_per_M": {
+    "qwen3.7-text-embedding": 0.5,
+    "qwen3.7-text-rerank": 0.5
+  }
+}

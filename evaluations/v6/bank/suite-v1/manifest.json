@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "classification": "SELF_AUTHORED_FICTIONAL_UNSEEN_AFTER_SOURCE_FREEZE",
+  "semantic": 792,
+  "personas": 6,
+  "categories": 33,
+  "delays": [
+    0,
+    3,
+    15,
+    45
+  ],
+  "groups": 180,
+  "source_modalities": {
+    "text": 2115,
+    "image": 6,
+    "assistant": 12,
+    "file": 6,
+    "voice": 6,
+    "relative_voice": 6,
+    "forward": 9
+  },
+  "audio_assets": 12,
+  "audio_total_seconds": 100.3,
+  "per_persona": {
+    "X01": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 344
+    },
+    "X02": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 350
+    },
+    "X03": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 350
+    },
+    "X04": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 356
+    },
+    "X05": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 356
+    },
+    "X06": {
+      "semantic_questions": 132,
+      "turns": 360,
+      "maximum_cutoff_turn": 353
+    }
+  },
+  "source_freeze_sha256": "e787986ef4688072395cd88de0c9221186fab1385ee61b69edac6db632142b8d",
+  "files_sha256": {
+    "assets/X01-C13-S1.png": "854ce5d94d4b0d4f5e9ed88c3dd3f92c45e7c4f289b204975fb46f79436a8d9d",
+    "assets/X01-C16-S2.txt": "62d4544982d21039fd0eb8836f117d5c44551e893846385cdb364c768833a107",
+    "assets/X01-C17-S1.wav": "776a193860b4f3379ae9f411ca67c3afeb32d04a0a0049fd534b1af79ca98790",
+    "assets/X01-C18-S1.wav": "75751645d3ca09c0fad5b148127110eefecee8f56e877a68a22ccfdad315166b",
+    "assets/X02-C13-S1.png": "06952d97cbea616b63b1468b667a0a81dd029f45334ce2d46a830fd9b74e0dda",
+    "assets/X02-C16-S2.txt": "0abd9bdf4531b71a28cc7020d9faf63a7a5f79978d31f7dcd5c87ee02f9fa745",
+    "assets/X02-C17-S1.wav": "94059801d8574f74bd7b75331aed281899e1dba5e11733bb3160142f9df87df7",
+    "assets/X02-C18-S1.wav": "5f34034bfc229b339ad7cb5bbb20ad26c447ee98523e848c705249d1c95dfd24",
+    "assets/X03-C13-S1.png": "f67b572bc1d6a779427c86d2fb3aec97cbcee19a73aa4bdee7570784c0c2fe4b",
+    "assets/X03-C16-S2.txt": "d9ca0a592b90a94cc1567bd0021fbc787d455f35884f70655bee7de2d2339299",
+    "assets/X03-C17-S1.wav": "018af3d6ea00d90a56e6da70b7609ef2e02c4a0d26520be9627c74619c95c097",
+    "assets/X03-C18-S1.wav": "289834775807b179be595a0741d59a2454791780247dd83545243f568d1c7403",
+    "assets/X04-C13-S1.png": "a991eb8b2d93302edaee9249d534bf8ebde18176055ebd5335757142411de9ff",
+    "assets/X04-C16-S2.txt": "bf41a823c4ccbec1467e49c46d5f98e1e7962e524388ca20582c21d41f1406be",
+    "assets/X04-C17-S1.wav": "351781d26e17718fea48d8e5162ff05133051a0553bc4e658db0a4e65079fab3",
+    "assets/X04-C18-S1.wav": "0cc6232fbfb573846a99de09f6cee14ba93e0a051864e1da7e7d931bc5998fb8",
+    "assets/X05-C13-S1.png": "545b6f5e477cfb2ee8b93c88fad1c34702c5ba71882897302007fa52687c6940",
+    "assets/X05-C16-S2.txt": "5aafc6951875c56af26ad7135259ecbdbc5cd39145ee985c015a77b81429fc00",
+    "assets/X05-C17-S1.wav": "4979968c054f1bc4b9c860e44cf822e3e922239e630006d0da75fe4f38a648a7",
+    "assets/X05-C18-S1.wav": "066675b42d4484efaba9521f8d4ac09dc9d827ac25aa17bd6d34bc085eb04315",
+    "assets/X06-C13-S1.png": "38be1b7f7a150c7cfd1b1b8b3aa9c980f64c5d05a7cc3aae6d25ea0dd1fde7b5",
+    "assets/X06-C16-S2.txt": "ab1757c1e92c3b6fb4472ec11c81e7ec0a37ffec04a2fb8e7d79d4bad3003854",
+    "assets/X06-C17-S1.wav": "43b62053c1b8671b3740d79634d96075cf8e76a81653b17c09a9ab236dc67022",
+    "assets/X06-C18-S1.wav": "bd77eb0853dec2cc22f9e5884aef8a1ba6d54a49997dc8595f18724ead2efd6d",
+    "inputs/X01.jsonl": "f0699a6f0d278b7bd4c3299c3ed6b334747a711c8692fd1e0abc080021b0c63f",
+    "inputs/X02.jsonl": "c790e5bd7177699f9e79cd3d2eaa53371072d5c3b661304f7cf67fd431f4ca57",
+    "inputs/X03.jsonl": "5e0dd512c660164546d1343b7c547c6bf987f3624bd7ff6efb29d45b52296698",
+    "inputs/X04.jsonl": "9ffbd003e792423afe6b293ff43a142f09e93a0285462a08e1b86eddee3f5db2",
+    "inputs/X05.jsonl": "e37f3762ddfb0c1afc8304a8c16cbecad27d152bdb26afd9caa8171be8fd40ed",
+    "inputs/X06.jsonl": "e9389d1f8ba563efec9b7c379065e68e83dc5e4ccac5db478a2e852e33d68edc",
+    "questions.jsonl": "ac88b90c0ee080b57f4df16b8deec103ba6daaa560e9a40c1af950834ef3630b",
+    "review-only/criteria.jsonl": "09ad14c60e8d8e3148852b9b3e0d622c9d76da36c6c38bf0ed319f8a49a5c2e0",
+    "review-only/source-authoring-provenance.jsonl": "55b090e4d935e5d7fc9d2301df43af46f598e23c0ca9ba0e344bd0acb0b3994a"
+  }
+}

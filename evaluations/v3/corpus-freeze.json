@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_SCHEMA_CHRONOLOGY_MEDIA_PASSED",
+  "at": "2026-11-02T23:49:26.078370+00:00",
+  "bundle_manifest_sha256": "9636ae00ddbe9e41098c08c0680bc65ec49fd73df76a8e9e0fb26f38d97ffdeb",
+  "questions_sha256": "1f9faba8c059e3037865ec55f4adc494d7a49f7ef0bce668b49f98fd4c104269",
+  "criteria_sha256": "ba68e46e7970bdad3a1ddc285e1c051a0bd2151139f6d4e62330f056064c944d",
+  "asr_sha256": "2abb10a898a2a6e1ed984a0a03721676b16476b35114a05f18950a4535c265c6",
+  "source_counts": {
+    "file": 20,
+    "text": 150,
+    "quote": 5,
+    "forward": 10,
+    "assistant": 5,
+    "relative_voice": 3,
+    "voice": 12,
+    "image": 10
+  },
+  "audio_assets": 15,
+  "audio_total_seconds": 105.23609977324263,
+  "checked_cutoffs": 480,
+  "per_persona": {
+    "S01": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "S02": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "S03": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "S04": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "S05": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    }
+  },
+  "asr_errors_preserved_not_replaced_with_authoring_text": true,
+  "actual_pngs_inspected": {
+    "S02-R18-S1.png": "294fc1102f7bf5f283a104be3c7b4a1234534829656c4d5dff3eb00b1e1f9720",
+    "S01-R19-S1.png": "98184a7835c8e88a9ba9ece72ee0a57d82368f48d9b28774f69982dbd88da6a4"
+  },
+  "review_selection_preregistered": "S02/all24categories/d15 across3arms =72 answers, plus failures differing between arms",
+  "old_bank_or_optimizer_probe_facts_imported": false,
+  "limitation": "Five fictional people and 24 topic templates; repeated delay questions are correlated. Author is Claude (same agent that changed Core); review is not independent human grading."
+}

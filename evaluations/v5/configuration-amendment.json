@@ -1,0 +1,9 @@
+{
+  "reason": "Place exposed smoke assets inside the configured workspace; no tested source/native/model/price/grading setting changes",
+  "before_sha256": "a9a83b80961222ae8c4f5ad0e771ff82350ef2982a79b9b75db79bb607ef723c",
+  "after_sha256": "90137296095173b46a1d5ab5c36a1ecfa3601c741824cfd608381fa2ce8537af",
+  "changed_field": "smoke.bank",
+  "old": "LOCAL_PATH Core/.local/memory-accuracy-v4-20261103/bank",
+  "new": "LOCAL_PATH",
+  "before_first_provider_call": true
+}

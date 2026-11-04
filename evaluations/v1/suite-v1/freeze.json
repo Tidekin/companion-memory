@@ -1,0 +1,20 @@
+{
+  "dataset_manifest_sha256": "cf5ff7115ed2d2aef3c8a9b8dd966b8164f2dfae1242979545b752f8d5b6f8d8",
+  "status": "FROZEN_BEFORE_CUSTOM_ANSWERS",
+  "questions": 714,
+  "modalities": [
+    "text",
+    "image",
+    "audio",
+    "file",
+    "quote",
+    "forward"
+  ],
+  "qa": [
+    "714 unique IDs",
+    "2160 chronological rounds",
+    "all evidence within exact prefix",
+    "42 valid mono16k WAVs",
+    "PNG sample visually inspected"
+  ]
+}

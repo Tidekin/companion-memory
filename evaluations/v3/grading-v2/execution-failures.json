@@ -1,0 +1,20 @@
+[
+  {
+    "key": "c46d73fb41045229be47c625",
+    "missing": [],
+    "violations": [],
+    "execution_failure": true,
+    "status": "FAILED",
+    "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+    "pass": false
+  },
+  {
+    "key": "6626ebcee68e225a6e441d3b",
+    "missing": [],
+    "violations": [],
+    "execution_failure": true,
+    "status": "FAILED",
+    "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+    "pass": false
+  }
+]

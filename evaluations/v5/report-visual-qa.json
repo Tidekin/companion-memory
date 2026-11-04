@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-03T15:18:34.363360+00:00",
+  "method": "Playwright Chromium; local static report only, server bound127.0.0.1 then closed",
+  "desktop_viewport": [
+    1280,
+    900
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mobile_document_width": 390,
+  "horizontal_overflow": false,
+  "question_details": 744,
+  "answers": 2976,
+  "images_loaded": 8,
+  "broken_images": 0,
+  "detail_open_test": true,
+  "dsh_section_last": true,
+  "visual_inspected": [
+    "memory-summary.png",
+    "category-01.png",
+    "category-02.png",
+    "category-03.png",
+    "category-04.png",
+    "category-05.png",
+    "category-06.png",
+    "category-07.png",
+    "output/playwright/report-mobile.png",
+    "output/playwright/report-analysis.png",
+    "output/playwright/report-question.png"
+  ],
+  "console": "Only missing optional favicon404; no script errors",
+  "scope": "No external publication; no production or QQ operation"
+}

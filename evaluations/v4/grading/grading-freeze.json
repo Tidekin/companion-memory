@@ -1,0 +1,16 @@
+{
+  "rubric": "v3",
+  "rules_sha256": "46ce4d59a9573cc0b3b612b7f61367911171cd4d4bece3d356bb9f4a85ebbe60",
+  "answers_freeze_sha256": "98172f3848eeaf98b4c665bb459cbfaff3adc4a844edf525ea2d161c89c01482",
+  "criteria_sha256": "c383bb91eab734be908f3f82bbae275135924ae36cd9d8b7d47b3ddfb8f14c54",
+  "total": 1440,
+  "successful_candidates": 1438,
+  "failures": 2,
+  "arm_and_version_labels_sent_to_judge": false,
+  "not_independent_human": true,
+  "at": "2026-11-03T06:20:56.620131+00:00",
+  "votes": 3,
+  "batch_size": 8,
+  "concurrency": 3,
+  "max_tokens": 2048
+}

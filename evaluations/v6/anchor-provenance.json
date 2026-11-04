@@ -1,0 +1,9 @@
+{
+  "source": ".local/memory-accuracy-v5-20261103/anchors.jsonl",
+  "sha256": "205a7f5f8547d3710e3e84d901e042475e44962406b0c7493fa624ab4dd79882",
+  "anchors": 40,
+  "pass": 20,
+  "fail": 20,
+  "reused_exposed_v4_reviewed_anchors": true,
+  "new_bank_answers_read": 0
+}

@@ -1,0 +1,27 @@
+{
+  "name": "memory-accuracy-v4-20261103",
+  "arms": {
+    "old": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+    "new": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0"
+  },
+  "budget": {
+    "deepseek_total_cny": 49,
+    "deepseek_inference_cny": 46,
+    "qwen_total_cny": 50
+  },
+  "smoke": {
+    "bank": "LOCAL_PATH Core/.local/memory-accuracy-v3-20261103/bank",
+    "questions": 6,
+    "budget_cny": 1
+  },
+  "grading": {
+    "rubric": "v3",
+    "votes": 3
+  },
+  "limitations": [
+    "五个虚构人物、24类考点；同一事实在四个间隔重复提问，样本相关，不能当作480个独立样本。",
+    "题库和Core改动出自同一个助手（Claude）；判卷为同一模型三票多数，复核不是独立人工。",
+    "RAG复用旧版实际感知输入，耗时只计检索后的重排与生成，与Core端到端耗时口径不同。",
+    "没有真实等待半年，而是按冻结的逻辑时间重放180天对话。"
+  ]
+}

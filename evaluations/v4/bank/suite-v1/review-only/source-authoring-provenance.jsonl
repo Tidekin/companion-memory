@@ -1,0 +1,205 @@
+{"source_id": "U01-T01-S1", "author_text": "社区花园物资清单\n物品\t数量\t位置\t备注\n剪刀\t1\t第1层\t常用\n胶带\t2\t第2层\t备用\n记号笔\t3\t第3层\t待补货\n订书机\t4\t第4层\t借出中\n回形针\t5\t第1层\t常用\n尺子\t6\t第2层\t备用\n便签\t7\t第3层\t待补货\n铅笔\t1\t第4层\t借出中\n橡皮\t2\t第1层\t常用\n文件夹\t3\t第2层\t备用\n夹子\t4\t第3层\t待补货\n绳子\t5\t第4层\t借出中\n手套\t6\t第1层\t常用\n抹布\t7\t第2层\t备用\n垃圾袋\t1\t第3层\t待补货\n电池\t2\t第4层\t借出中\n插线板\t3\t第1层\t常用\n螺丝刀\t4\t第2层\t备用\n扳手\t5\t第3层\t待补货\n钳子\t6\t第4层\t借出中\n卷尺\t7\t第1层\t常用\n水桶\t1\t第2层\t备用\n扫把\t2\t第3层\t待补货\n簸箕\t3\t第4层\t借出中\n海绵\t4\t第1层\t常用\n喷壶\t5\t第2层\t备用\n花盆\t6\t第3层\t待补货\n铲子\t7\t第4层\t借出中\n种子袋\t1\t第1层\t常用\n剪刀（大号）\t2\t第2层\t备用\n胶带（大号）\t3\t第3层\t待补货\n记号笔（大号）\t4\t第4层\t借出中\n订书机（大号）\t5\t第1层\t常用\n回形针（大号）\t6\t第2层\t备用\n尺子（大号）\t7\t第3层\t待补货\n便签（大号）\t1\t第4层\t借出中\n铅笔（大号）\t2\t第1层\t常用\n橡皮（大号）\t3\t第2层\t备用\n文件夹（大号）\t4\t第3层\t待补货\n夹子（大号）\t5\t第4层\t借出中\n绳子（大号）\t6\t第1层\t常用\n手套（大号）\t7\t第2层\t备用\n抹布（大号）\t1\t第3层\t待补货\n垃圾袋（大号）\t2\t第4层\t借出中\n电池（大号）\t3\t第1层\t常用\n插线板（大号）\t4\t第2层\t备用\n螺丝刀（大号）\t5\t第3层\t待补货\n扳手（大号）\t6\t第4层\t借出中\n钳子（大号）\t7\t第1层\t常用\n卷尺（大号）\t1\t第2层\t备用\n胶枪\t6\t第3层\t常用\n胶枪备用件\t1\t第1层\t备用\n水桶（大号）\t2\t第3层\t待补货\n扫把（大号）\t3\t第4层\t借出中\n簸箕（大号）\t4\t第1层\t常用\n海绵（大号）\t5\t第2层\t备用\n喷壶（大号）\t6\t第3层\t待补货\n花盆（大号）\t7\t第4层\t借出中\n铲子（大号）\t1\t第1层\t常用\n种子袋（大号）\t2\t第2层\t备用", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T02-S1", "author_text": "蓝色雨伞我放在门口鞋柜里了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T02-S2", "author_text": "蓝色阳伞在车后备箱，别搞混。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T03-S1", "author_text": "苏棠的弟弟叫苏桐，在读大学。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T03-S2", "author_text": "苏桐国庆要来我这儿借住几天。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T04-S1", "author_text": "工作日我喝绿茶，周末喝红茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T04-S2", "author_text": "不管哪天，晚上九点以后都别给我泡茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T05-S1", "author_text": "周四前把报名表交给苏棠。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T05-S2", "author_text": "这里写错了，是周五前交，不是周四。", "quoted": {"text": "周四前把报名表交给苏棠。", "uin": "10001", "name": "祁砚"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T06-S1", "author_text": "我的工位在三楼东侧。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T06-S2", "author_text": "不对，上周已经搬到五楼西侧了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T07-S1", "author_text": "秋季分享会定在2026-10-27下午三点，在云杉馆。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T07-S2", "author_text": "苏棠转来的场馆通知，你看一下。", "quoted": {"text": "场馆通知：秋季分享会改到2026-10-27下午四点开始，地点不变。", "name": "场馆通知", "uin": "10005"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T08-S1", "author_text": "陆尧在群里说的，离谱。", "quoted": {"text": "听说祁砚要辞职去外地了。", "name": "陆尧", "uin": "10006"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T08-S2", "author_text": "我没打算辞职，也不去外地，那是瞎传的。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T09-S1", "author_text": "苏棠答应周末帮我修自行车，我说修好请她吃饭。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T10-S1", "author_text": "这周末去哪儿放松好？", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T10-S2", "author_text": "看展算了，我决定去爬山。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T11-S1", "author_text": "苏棠转来的话。", "quoted": {"text": "陆尧跟我说，南岸门那家面包店下周关门。", "name": "苏棠", "uin": "10007"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T11-S2", "author_text": "我还没去确认过。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T12-S1", "author_text": "下周五上午十点我要去云杉馆面试，按今天说的算。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T13-S1", "author_text": "夜班记录\n开始\t2026-11-15 23:20\n结束\t2026-11-16 02:05\n备注\t交接完成", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T14-S1", "author_text": "今天去银行办了张卡。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T14-S2", "author_text": "今天去理发了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T14-S3", "author_text": "今天去云杉馆还了书。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T15-S1", "author_text": "如果明天下雨，户外野餐就改到云杉馆室内。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T15-S2", "author_text": "今天真下雨了，户外野餐改在云杉馆室内办了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T16-S1", "author_text": "我打算明天把合同副本寄给苏棠。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T16-S2", "author_text": "合同副本已经寄出了，快递单号尾号7742。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T17-S1", "author_text": "昨晚梦见米粒走丢了，醒来一看它还在窝里睡觉。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T18-S1", "author_text": "社区花园橱柜照片", "quoted": null, "visual": {"type": "layout", "title": "社区花园橱柜", "labels": ["杯子", "盘子", "碗"], "counts": [4, 2, 3]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T19-S1", "author_text": "社区花园采购价签照片", "quoted": null, "visual": {"type": "tags", "title": "社区花园采购价签", "items": [["胶带", 18], ["便签本", 26], ["收纳盒", 9]]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T19-S2", "author_text": "胶带那张价签印错了，实际是23元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T20-S1", "author_text": "我家门牌号是3 6 0 8号，在2单元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T21-S1", "author_text": "排班表上按我的名字祁砚找，别看错成祁晴。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T21-S2", "author_text": "社区花园排班表\n日期\t上午\t下午\n周一\t陆尧\t祁晴\n周三\t祁砚\t苏棠\n周五\t祁晴\t祁砚\n周日\t苏棠\t陆尧", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T22-S1", "author_text": "苏棠的生日在十二月，具体哪天我也不记得了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T23-S1", "author_text": "陆尧是新来的社区花园志愿者。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T24-S1", "author_text": "相机三脚架锁在云杉馆的7号柜。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T24-S2", "author_text": "7号柜的钥匙在苏棠手上。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U01-T24-S3", "author_text": "社区花园值守表\n人\t时间\t地点\n陆尧\t周三 09:00-11:00\t云杉馆\n苏棠\t周一 14:00-16:00\t南岸门\n祁晴\t周日 10:00-12:00\t云杉馆", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T01-S1", "author_text": "城北读书会物资清单\n物品\t数量\t位置\t备注\n剪刀\t1\t第1层\t常用\n胶带\t2\t第2层\t备用\n记号笔\t3\t第3层\t待补货\n订书机\t4\t第4层\t借出中\n回形针\t5\t第1层\t常用\n尺子\t6\t第2层\t备用\n便签\t7\t第3层\t待补货\n铅笔\t1\t第4层\t借出中\n橡皮\t2\t第1层\t常用\n文件夹\t3\t第2层\t备用\n夹子\t4\t第3层\t待补货\n绳子\t5\t第4层\t借出中\n手套\t6\t第1层\t常用\n抹布\t7\t第2层\t备用\n垃圾袋\t1\t第3层\t待补货\n电池\t2\t第4层\t借出中\n插线板\t3\t第1层\t常用\n螺丝刀\t4\t第2层\t备用\n扳手\t5\t第3层\t待补货\n钳子\t6\t第4层\t借出中\n卷尺\t7\t第1层\t常用\n水桶\t1\t第2层\t备用\n扫把\t2\t第3层\t待补货\n簸箕\t3\t第4层\t借出中\n海绵\t4\t第1层\t常用\n喷壶\t5\t第2层\t备用\n花盆\t6\t第3层\t待补货\n铲子\t7\t第4层\t借出中\n种子袋\t1\t第1层\t常用\n剪刀（大号）\t2\t第2层\t备用\n胶带（大号）\t3\t第3层\t待补货\n记号笔（大号）\t4\t第4层\t借出中\n订书机（大号）\t5\t第1层\t常用\n回形针（大号）\t6\t第2层\t备用\n尺子（大号）\t7\t第3层\t待补货\n便签（大号）\t1\t第4层\t借出中\n铅笔（大号）\t2\t第1层\t常用\n橡皮（大号）\t3\t第2层\t备用\n文件夹（大号）\t4\t第3层\t待补货\n夹子（大号）\t5\t第4层\t借出中\n绳子（大号）\t6\t第1层\t常用\n手套（大号）\t7\t第2层\t备用\n抹布（大号）\t1\t第3层\t待补货\n垃圾袋（大号）\t2\t第4层\t借出中\n电池（大号）\t3\t第1层\t常用\n插线板（大号）\t4\t第2层\t备用\n螺丝刀（大号）\t5\t第3层\t待补货\n扳手（大号）\t6\t第4层\t借出中\n钳子（大号）\t7\t第1层\t常用\n卷尺（大号）\t1\t第2层\t备用\n量角器\t7\t第4层\t常用\n量角器备用件\t1\t第1层\t备用\n水桶（大号）\t2\t第3层\t待补货\n扫把（大号）\t3\t第4层\t借出中\n簸箕（大号）\t4\t第1层\t常用\n海绵（大号）\t5\t第2层\t备用\n喷壶（大号）\t6\t第3层\t待补货\n花盆（大号）\t7\t第4层\t借出中\n铲子（大号）\t1\t第1层\t常用\n种子袋（大号）\t2\t第2层\t备用", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T02-S1", "author_text": "蓝色雨伞我放在门口鞋柜里了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T02-S2", "author_text": "蓝色阳伞在车后备箱，别搞混。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T03-S1", "author_text": "程鸢的弟弟叫程野，在读大学。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T03-S2", "author_text": "程野国庆要来我这儿借住几天。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T04-S1", "author_text": "工作日我喝绿茶，周末喝红茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T04-S2", "author_text": "不管哪天，晚上九点以后都别给我泡茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T05-S1", "author_text": "周四前把报名表交给程鸢。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T05-S2", "author_text": "这里写错了，是周五前交，不是周四。", "quoted": {"text": "周四前把报名表交给程鸢。", "uin": "10001", "name": "闻溪"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T06-S1", "author_text": "我的工位在三楼东侧。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T06-S2", "author_text": "不对，上周已经搬到五楼西侧了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T07-S1", "author_text": "秋季分享会定在2026-10-27下午三点，在青松阁。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T07-S2", "author_text": "程鸢转来的场馆通知，你看一下。", "quoted": {"text": "场馆通知：秋季分享会改到2026-10-27下午四点开始，地点不变。", "name": "场馆通知", "uin": "10005"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T08-S1", "author_text": "许墨在群里说的，离谱。", "quoted": {"text": "听说闻溪要辞职去外地了。", "name": "许墨", "uin": "10006"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T08-S2", "author_text": "我没打算辞职，也不去外地，那是瞎传的。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T09-S1", "author_text": "程鸢答应周末帮我修自行车，我说修好请她吃饭。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T10-S1", "author_text": "这周末去哪儿放松好？", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T10-S2", "author_text": "看展算了，我决定去爬山。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T11-S1", "author_text": "程鸢转来的话。", "quoted": {"text": "许墨跟我说，东湖口那家面包店下周关门。", "name": "程鸢", "uin": "10007"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T11-S2", "author_text": "我还没去确认过。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T12-S1", "author_text": "下周五上午十点我要去青松阁面试，按今天说的算。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T13-S1", "author_text": "夜班记录\n开始\t2026-11-15 23:20\n结束\t2026-11-16 02:05\n备注\t交接完成", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T14-S1", "author_text": "今天去银行办了张卡。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T14-S2", "author_text": "今天去理发了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T14-S3", "author_text": "今天去青松阁还了书。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T15-S1", "author_text": "如果明天下雨，户外野餐就改到青松阁室内。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T15-S2", "author_text": "今天真下雨了，户外野餐改在青松阁室内办了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T16-S1", "author_text": "我打算明天把合同副本寄给程鸢。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T16-S2", "author_text": "合同副本已经寄出了，快递单号尾号0386。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T17-S1", "author_text": "昨晚梦见布丁走丢了，醒来一看它还在窝里睡觉。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T18-S1", "author_text": "城北读书会橱柜照片", "quoted": null, "visual": {"type": "layout", "title": "城北读书会橱柜", "labels": ["杯子", "盘子", "碗"], "counts": [3, 5, 2]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T19-S1", "author_text": "城北读书会采购价签照片", "quoted": null, "visual": {"type": "tags", "title": "城北读书会采购价签", "items": [["胶带", 35], ["便签本", 12], ["收纳盒", 48]]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T19-S2", "author_text": "胶带那张价签印错了，实际是40元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T20-S1", "author_text": "我家门牌号是1 2 7 5号，在3单元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T21-S1", "author_text": "排班表上按我的名字闻溪找，别看错成闻晴。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T21-S2", "author_text": "城北读书会排班表\n日期\t上午\t下午\n周一\t许墨\t闻晴\n周三\t闻溪\t程鸢\n周五\t闻晴\t闻溪\n周日\t程鸢\t许墨", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T22-S1", "author_text": "程鸢的生日在十二月，具体哪天我也不记得了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T23-S1", "author_text": "许墨是新来的城北读书会志愿者。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T24-S1", "author_text": "相机三脚架锁在青松阁的7号柜。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T24-S2", "author_text": "7号柜的钥匙在程鸢手上。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U02-T24-S3", "author_text": "城北读书会值守表\n人\t时间\t地点\n许墨\t周四 09:00-11:00\t青松阁\n程鸢\t周二 15:00-17:00\t东湖口\n闻晴\t周日 10:00-12:00\t青松阁", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T01-S1", "author_text": "骑行小队物资清单\n物品\t数量\t位置\t备注\n剪刀\t1\t第1层\t常用\n胶带\t2\t第2层\t备用\n记号笔\t3\t第3层\t待补货\n订书机\t4\t第4层\t借出中\n回形针\t5\t第1层\t常用\n尺子\t6\t第2层\t备用\n便签\t7\t第3层\t待补货\n铅笔\t1\t第4层\t借出中\n橡皮\t2\t第1层\t常用\n文件夹\t3\t第2层\t备用\n夹子\t4\t第3层\t待补货\n绳子\t5\t第4层\t借出中\n手套\t6\t第1层\t常用\n抹布\t7\t第2层\t备用\n垃圾袋\t1\t第3层\t待补货\n电池\t2\t第4层\t借出中\n插线板\t3\t第1层\t常用\n螺丝刀\t4\t第2层\t备用\n扳手\t5\t第3层\t待补货\n钳子\t6\t第4层\t借出中\n卷尺\t7\t第1层\t常用\n水桶\t1\t第2层\t备用\n扫把\t2\t第3层\t待补货\n簸箕\t3\t第4层\t借出中\n海绵\t4\t第1层\t常用\n喷壶\t5\t第2层\t备用\n花盆\t6\t第3层\t待补货\n铲子\t7\t第4层\t借出中\n种子袋\t1\t第1层\t常用\n剪刀（大号）\t2\t第2层\t备用\n胶带（大号）\t3\t第3层\t待补货\n记号笔（大号）\t4\t第4层\t借出中\n订书机（大号）\t5\t第1层\t常用\n回形针（大号）\t6\t第2层\t备用\n尺子（大号）\t7\t第3层\t待补货\n便签（大号）\t1\t第4层\t借出中\n铅笔（大号）\t2\t第1层\t常用\n橡皮（大号）\t3\t第2层\t备用\n文件夹（大号）\t4\t第3层\t待补货\n夹子（大号）\t5\t第4层\t借出中\n绳子（大号）\t6\t第1层\t常用\n手套（大号）\t7\t第2层\t备用\n抹布（大号）\t1\t第3层\t待补货\n垃圾袋（大号）\t2\t第4层\t借出中\n电池（大号）\t3\t第1层\t常用\n插线板（大号）\t4\t第2层\t备用\n螺丝刀（大号）\t5\t第3层\t待补货\n扳手（大号）\t6\t第4层\t借出中\n钳子（大号）\t7\t第1层\t常用\n卷尺（大号）\t1\t第2层\t备用\n热熔胶棒\t8\t第5层\t常用\n热熔胶棒备用件\t1\t第1层\t备用\n水桶（大号）\t2\t第3层\t待补货\n扫把（大号）\t3\t第4层\t借出中\n簸箕（大号）\t4\t第1层\t常用\n海绵（大号）\t5\t第2层\t备用\n喷壶（大号）\t6\t第3层\t待补货\n花盆（大号）\t7\t第4层\t借出中\n铲子（大号）\t1\t第1层\t常用\n种子袋（大号）\t2\t第2层\t备用", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T02-S1", "author_text": "蓝色雨伞我放在门口鞋柜里了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T02-S2", "author_text": "蓝色阳伞在车后备箱，别搞混。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T03-S1", "author_text": "沈悦的弟弟叫沈岚，在读大学。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T03-S2", "author_text": "沈岚国庆要来我这儿借住几天。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T04-S1", "author_text": "工作日我喝绿茶，周末喝红茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T04-S2", "author_text": "不管哪天，晚上九点以后都别给我泡茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T05-S1", "author_text": "周四前把报名表交给沈悦。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T05-S2", "author_text": "这里写错了，是周五前交，不是周四。", "quoted": {"text": "周四前把报名表交给沈悦。", "uin": "10001", "name": "叶知"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T06-S1", "author_text": "我的工位在三楼东侧。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T06-S2", "author_text": "不对，上周已经搬到五楼西侧了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T07-S1", "author_text": "秋季分享会定在2026-10-27下午三点，在白鹭楼。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T07-S2", "author_text": "沈悦转来的场馆通知，你看一下。", "quoted": {"text": "场馆通知：秋季分享会改到2026-10-27下午四点开始，地点不变。", "name": "场馆通知", "uin": "10005"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T08-S1", "author_text": "顾川在群里说的，离谱。", "quoted": {"text": "听说叶知要辞职去外地了。", "name": "顾川", "uin": "10006"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T08-S2", "author_text": "我没打算辞职，也不去外地，那是瞎传的。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T09-S1", "author_text": "沈悦答应周末帮我修自行车，我说修好请她吃饭。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T10-S1", "author_text": "这周末去哪儿放松好？", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T10-S2", "author_text": "看展算了，我决定去爬山。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T11-S1", "author_text": "沈悦转来的话。", "quoted": {"text": "顾川跟我说，西桥头那家面包店下周关门。", "name": "沈悦", "uin": "10007"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T11-S2", "author_text": "我还没去确认过。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T12-S1", "author_text": "下周五上午十点我要去白鹭楼面试，按今天说的算。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T13-S1", "author_text": "夜班记录\n开始\t2026-11-15 23:20\n结束\t2026-11-16 02:05\n备注\t交接完成", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T14-S1", "author_text": "今天去银行办了张卡。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T14-S2", "author_text": "今天去理发了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T14-S3", "author_text": "今天去白鹭楼还了书。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T15-S1", "author_text": "如果明天下雨，户外野餐就改到白鹭楼室内。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T15-S2", "author_text": "今天真下雨了，户外野餐改在白鹭楼室内办了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T16-S1", "author_text": "我打算明天把合同副本寄给沈悦。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T16-S2", "author_text": "合同副本已经寄出了，快递单号尾号5519。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T17-S1", "author_text": "昨晚梦见奶糖走丢了，醒来一看它还在窝里睡觉。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T18-S1", "author_text": "骑行小队橱柜照片", "quoted": null, "visual": {"type": "layout", "title": "骑行小队橱柜", "labels": ["杯子", "盘子", "碗"], "counts": [2, 3, 4]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T19-S1", "author_text": "骑行小队采购价签照片", "quoted": null, "visual": {"type": "tags", "title": "骑行小队采购价签", "items": [["胶带", 22], ["便签本", 15], ["收纳盒", 30]]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T19-S2", "author_text": "胶带那张价签印错了，实际是27元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T20-S1", "author_text": "我家门牌号是4 9 3 1号，在4单元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T21-S1", "author_text": "排班表上按我的名字叶知找，别看错成叶晴。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T21-S2", "author_text": "骑行小队排班表\n日期\t上午\t下午\n周一\t顾川\t叶晴\n周三\t叶知\t沈悦\n周五\t叶晴\t叶知\n周日\t沈悦\t顾川", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T22-S1", "author_text": "沈悦的生日在十二月，具体哪天我也不记得了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T23-S1", "author_text": "顾川是新来的骑行小队志愿者。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T24-S1", "author_text": "相机三脚架锁在白鹭楼的7号柜。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T24-S2", "author_text": "7号柜的钥匙在沈悦手上。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U03-T24-S3", "author_text": "骑行小队值守表\n人\t时间\t地点\n顾川\t周五 09:00-11:00\t白鹭楼\n沈悦\t周三 16:00-18:00\t西桥头\n叶晴\t周日 10:00-12:00\t白鹭楼", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T01-S1", "author_text": "摄影社物资清单\n物品\t数量\t位置\t备注\n剪刀\t1\t第1层\t常用\n胶带\t2\t第2层\t备用\n记号笔\t3\t第3层\t待补货\n订书机\t4\t第4层\t借出中\n回形针\t5\t第1层\t常用\n尺子\t6\t第2层\t备用\n便签\t7\t第3层\t待补货\n铅笔\t1\t第4层\t借出中\n橡皮\t2\t第1层\t常用\n文件夹\t3\t第2层\t备用\n夹子\t4\t第3层\t待补货\n绳子\t5\t第4层\t借出中\n手套\t6\t第1层\t常用\n抹布\t7\t第2层\t备用\n垃圾袋\t1\t第3层\t待补货\n电池\t2\t第4层\t借出中\n插线板\t3\t第1层\t常用\n螺丝刀\t4\t第2层\t备用\n扳手\t5\t第3层\t待补货\n钳子\t6\t第4层\t借出中\n卷尺\t7\t第1层\t常用\n水桶\t1\t第2层\t备用\n扫把\t2\t第3层\t待补货\n簸箕\t3\t第4层\t借出中\n海绵\t4\t第1层\t常用\n喷壶\t5\t第2层\t备用\n花盆\t6\t第3层\t待补货\n铲子\t7\t第4层\t借出中\n种子袋\t1\t第1层\t常用\n剪刀（大号）\t2\t第2层\t备用\n胶带（大号）\t3\t第3层\t待补货\n记号笔（大号）\t4\t第4层\t借出中\n订书机（大号）\t5\t第1层\t常用\n回形针（大号）\t6\t第2层\t备用\n尺子（大号）\t7\t第3层\t待补货\n便签（大号）\t1\t第4层\t借出中\n铅笔（大号）\t2\t第1层\t常用\n橡皮（大号）\t3\t第2层\t备用\n文件夹（大号）\t4\t第3层\t待补货\n夹子（大号）\t5\t第4层\t借出中\n绳子（大号）\t6\t第1层\t常用\n手套（大号）\t7\t第2层\t备用\n抹布（大号）\t1\t第3层\t待补货\n垃圾袋（大号）\t2\t第4层\t借出中\n电池（大号）\t3\t第1层\t常用\n插线板（大号）\t4\t第2层\t备用\n螺丝刀（大号）\t5\t第3层\t待补货\n扳手（大号）\t6\t第4层\t借出中\n钳子（大号）\t7\t第1层\t常用\n卷尺（大号）\t1\t第2层\t备用\n麻绳\t9\t第3层\t常用\n麻绳备用件\t1\t第1层\t备用\n水桶（大号）\t2\t第3层\t待补货\n扫把（大号）\t3\t第4层\t借出中\n簸箕（大号）\t4\t第1层\t常用\n海绵（大号）\t5\t第2层\t备用\n喷壶（大号）\t6\t第3层\t待补货\n花盆（大号）\t7\t第4层\t借出中\n铲子（大号）\t1\t第1层\t常用\n种子袋（大号）\t2\t第2层\t备用", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T02-S1", "author_text": "蓝色雨伞我放在门口鞋柜里了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T02-S2", "author_text": "蓝色阳伞在车后备箱，别搞混。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T03-S1", "author_text": "林夏的弟弟叫林朔，在读大学。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T03-S2", "author_text": "林朔国庆要来我这儿借住几天。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T04-S1", "author_text": "工作日我喝绿茶，周末喝红茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T04-S2", "author_text": "不管哪天，晚上九点以后都别给我泡茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T05-S1", "author_text": "周四前把报名表交给林夏。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T05-S2", "author_text": "这里写错了，是周五前交，不是周四。", "quoted": {"text": "周四前把报名表交给林夏。", "uin": "10001", "name": "方迟"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T06-S1", "author_text": "我的工位在三楼东侧。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T06-S2", "author_text": "不对，上周已经搬到五楼西侧了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T07-S1", "author_text": "秋季分享会定在2026-10-27下午三点，在枫叶堂。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T07-S2", "author_text": "林夏转来的场馆通知，你看一下。", "quoted": {"text": "场馆通知：秋季分享会改到2026-10-27下午四点开始，地点不变。", "name": "场馆通知", "uin": "10005"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T08-S1", "author_text": "赵野在群里说的，离谱。", "quoted": {"text": "听说方迟要辞职去外地了。", "name": "赵野", "uin": "10006"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T08-S2", "author_text": "我没打算辞职，也不去外地，那是瞎传的。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T09-S1", "author_text": "林夏答应周末帮我修自行车，我说修好请她吃饭。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T10-S1", "author_text": "这周末去哪儿放松好？", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T10-S2", "author_text": "看展算了，我决定去爬山。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T11-S1", "author_text": "林夏转来的话。", "quoted": {"text": "赵野跟我说，北街口那家面包店下周关门。", "name": "林夏", "uin": "10007"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T11-S2", "author_text": "我还没去确认过。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T12-S1", "author_text": "下周五上午十点我要去枫叶堂面试，按今天说的算。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T13-S1", "author_text": "夜班记录\n开始\t2026-11-15 23:20\n结束\t2026-11-16 02:05\n备注\t交接完成", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T14-S1", "author_text": "今天去银行办了张卡。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T14-S2", "author_text": "今天去理发了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T14-S3", "author_text": "今天去枫叶堂还了书。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T15-S1", "author_text": "如果明天下雨，户外野餐就改到枫叶堂室内。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T15-S2", "author_text": "今天真下雨了，户外野餐改在枫叶堂室内办了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T16-S1", "author_text": "我打算明天把合同副本寄给林夏。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T16-S2", "author_text": "合同副本已经寄出了，快递单号尾号6203。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T17-S1", "author_text": "昨晚梦见可乐走丢了，醒来一看它还在窝里睡觉。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T18-S1", "author_text": "摄影社橱柜照片", "quoted": null, "visual": {"type": "layout", "title": "摄影社橱柜", "labels": ["杯子", "盘子", "碗"], "counts": [5, 1, 2]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T19-S1", "author_text": "摄影社采购价签照片", "quoted": null, "visual": {"type": "tags", "title": "摄影社采购价签", "items": [["胶带", 16], ["便签本", 40], ["收纳盒", 7]]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T19-S2", "author_text": "胶带那张价签印错了，实际是21元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T20-S1", "author_text": "我家门牌号是2 8 4 6号，在5单元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T21-S1", "author_text": "排班表上按我的名字方迟找，别看错成方晴。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T21-S2", "author_text": "摄影社排班表\n日期\t上午\t下午\n周一\t赵野\t方晴\n周三\t方迟\t林夏\n周五\t方晴\t方迟\n周日\t林夏\t赵野", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T22-S1", "author_text": "林夏的生日在十二月，具体哪天我也不记得了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T23-S1", "author_text": "赵野是新来的摄影社志愿者。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T24-S1", "author_text": "相机三脚架锁在枫叶堂的7号柜。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T24-S2", "author_text": "7号柜的钥匙在林夏手上。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U04-T24-S3", "author_text": "摄影社值守表\n人\t时间\t地点\n赵野\t周一 09:00-11:00\t枫叶堂\n林夏\t周四 17:00-19:00\t北街口\n方晴\t周日 10:00-12:00\t枫叶堂", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T01-S1", "author_text": "志愿者中心物资清单\n物品\t数量\t位置\t备注\n剪刀\t1\t第1层\t常用\n胶带\t2\t第2层\t备用\n记号笔\t3\t第3层\t待补货\n订书机\t4\t第4层\t借出中\n回形针\t5\t第1层\t常用\n尺子\t6\t第2层\t备用\n便签\t7\t第3层\t待补货\n铅笔\t1\t第4层\t借出中\n橡皮\t2\t第1层\t常用\n文件夹\t3\t第2层\t备用\n夹子\t4\t第3层\t待补货\n绳子\t5\t第4层\t借出中\n手套\t6\t第1层\t常用\n抹布\t7\t第2层\t备用\n垃圾袋\t1\t第3层\t待补货\n电池\t2\t第4层\t借出中\n插线板\t3\t第1层\t常用\n螺丝刀\t4\t第2层\t备用\n扳手\t5\t第3层\t待补货\n钳子\t6\t第4层\t借出中\n卷尺\t7\t第1层\t常用\n水桶\t1\t第2层\t备用\n扫把\t2\t第3层\t待补货\n簸箕\t3\t第4层\t借出中\n海绵\t4\t第1层\t常用\n喷壶\t5\t第2层\t备用\n花盆\t6\t第3层\t待补货\n铲子\t7\t第4层\t借出中\n种子袋\t1\t第1层\t常用\n剪刀（大号）\t2\t第2层\t备用\n胶带（大号）\t3\t第3层\t待补货\n记号笔（大号）\t4\t第4层\t借出中\n订书机（大号）\t5\t第1层\t常用\n回形针（大号）\t6\t第2层\t备用\n尺子（大号）\t7\t第3层\t待补货\n便签（大号）\t1\t第4层\t借出中\n铅笔（大号）\t2\t第1层\t常用\n橡皮（大号）\t3\t第2层\t备用\n文件夹（大号）\t4\t第3层\t待补货\n夹子（大号）\t5\t第4层\t借出中\n绳子（大号）\t6\t第1层\t常用\n手套（大号）\t7\t第2层\t备用\n抹布（大号）\t1\t第3层\t待补货\n垃圾袋（大号）\t2\t第4层\t借出中\n电池（大号）\t3\t第1层\t常用\n插线板（大号）\t4\t第2层\t备用\n螺丝刀（大号）\t5\t第3层\t待补货\n扳手（大号）\t6\t第4层\t借出中\n钳子（大号）\t7\t第1层\t常用\n卷尺（大号）\t1\t第2层\t备用\n标签打印纸\t10\t第4层\t常用\n标签打印纸备用件\t1\t第1层\t备用\n水桶（大号）\t2\t第3层\t待补货\n扫把（大号）\t3\t第4层\t借出中\n簸箕（大号）\t4\t第1层\t常用\n海绵（大号）\t5\t第2层\t备用\n喷壶（大号）\t6\t第3层\t待补货\n花盆（大号）\t7\t第4层\t借出中\n铲子（大号）\t1\t第1层\t常用\n种子袋（大号）\t2\t第2层\t备用", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T02-S1", "author_text": "蓝色雨伞我放在门口鞋柜里了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T02-S2", "author_text": "蓝色阳伞在车后备箱，别搞混。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T03-S1", "author_text": "唐宁的弟弟叫唐越，在读大学。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T03-S2", "author_text": "唐越国庆要来我这儿借住几天。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T04-S1", "author_text": "工作日我喝绿茶，周末喝红茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T04-S2", "author_text": "不管哪天，晚上九点以后都别给我泡茶。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T05-S1", "author_text": "周四前把报名表交给唐宁。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T05-S2", "author_text": "这里写错了，是周五前交，不是周四。", "quoted": {"text": "周四前把报名表交给唐宁。", "uin": "10001", "name": "夏禾"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T06-S1", "author_text": "我的工位在三楼东侧。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T06-S2", "author_text": "不对，上周已经搬到五楼西侧了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T07-S1", "author_text": "秋季分享会定在2026-10-27下午三点，在银杏楼。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T07-S2", "author_text": "唐宁转来的场馆通知，你看一下。", "quoted": {"text": "场馆通知：秋季分享会改到2026-10-27下午四点开始，地点不变。", "name": "场馆通知", "uin": "10005"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T08-S1", "author_text": "周屿在群里说的，离谱。", "quoted": {"text": "听说夏禾要辞职去外地了。", "name": "周屿", "uin": "10006"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T08-S2", "author_text": "我没打算辞职，也不去外地，那是瞎传的。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T09-S1", "author_text": "唐宁答应周末帮我修自行车，我说修好请她吃饭。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T10-S1", "author_text": "这周末去哪儿放松好？", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T10-S2", "author_text": "看展算了，我决定去爬山。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T11-S1", "author_text": "唐宁转来的话。", "quoted": {"text": "周屿跟我说，中心广场那家面包店下周关门。", "name": "唐宁", "uin": "10007"}, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T11-S2", "author_text": "我还没去确认过。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T12-S1", "author_text": "下周五上午十点我要去银杏楼面试，按今天说的算。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T13-S1", "author_text": "夜班记录\n开始\t2026-11-15 23:20\n结束\t2026-11-16 02:05\n备注\t交接完成", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T14-S1", "author_text": "今天去银行办了张卡。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T14-S2", "author_text": "今天去理发了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T14-S3", "author_text": "今天去银杏楼还了书。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T15-S1", "author_text": "如果明天下雨，户外野餐就改到银杏楼室内。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T15-S2", "author_text": "今天真下雨了，户外野餐改在银杏楼室内办了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T16-S1", "author_text": "我打算明天把合同副本寄给唐宁。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T16-S2", "author_text": "合同副本已经寄出了，快递单号尾号1958。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T17-S1", "author_text": "昨晚梦见团子走丢了，醒来一看它还在窝里睡觉。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T18-S1", "author_text": "志愿者中心橱柜照片", "quoted": null, "visual": {"type": "layout", "title": "志愿者中心橱柜", "labels": ["杯子", "盘子", "碗"], "counts": [3, 2, 5]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T19-S1", "author_text": "志愿者中心采购价签照片", "quoted": null, "visual": {"type": "tags", "title": "志愿者中心采购价签", "items": [["胶带", 28], ["便签本", 19], ["收纳盒", 11]]}, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T19-S2", "author_text": "胶带那张价签印错了，实际是33元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T20-S1", "author_text": "我家门牌号是5 7 1 3号，在2单元。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T21-S1", "author_text": "排班表上按我的名字夏禾找，别看错成夏晴。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T21-S2", "author_text": "志愿者中心排班表\n日期\t上午\t下午\n周一\t周屿\t夏晴\n周三\t夏禾\t唐宁\n周五\t夏晴\t夏禾\n周日\t唐宁\t周屿", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T22-S1", "author_text": "唐宁的生日在十二月，具体哪天我也不记得了。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T23-S1", "author_text": "周屿是新来的志愿者中心志愿者。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T24-S1", "author_text": "相机三脚架锁在银杏楼的7号柜。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T24-S2", "author_text": "7号柜的钥匙在唐宁手上。", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}
+{"source_id": "U05-T24-S3", "author_text": "志愿者中心值守表\n人\t时间\t地点\n周屿\t周二 09:00-11:00\t银杏楼\n唐宁\t周五 14:00-16:00\t中心广场\n夏晴\t周日 10:00-12:00\t银杏楼", "quoted": null, "visual": null, "inference_uses_author_text_for_media": false}

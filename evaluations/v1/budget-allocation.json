@@ -1,0 +1,10 @@
+{
+  "deepseek_limit_cny": 30,
+  "qwen_limit_cny": 30,
+  "conservative_cny_per_configured_usd": 10,
+  "native_all_trials_usd": 1.268842,
+  "reference_cap_usd": 1.4,
+  "judge_cap_usd": 0.3,
+  "trial_headroom_usd": 0.03,
+  "maximum_deepseek_hold_cny": 29.988419999999994
+}

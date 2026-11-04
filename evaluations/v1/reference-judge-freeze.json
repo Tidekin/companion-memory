@@ -1,0 +1,7 @@
+{
+  "run_reference.py": "d1b82ee1e213522dc569458f8462d895d03b03772ec5ef4ea8b1e17c0812c040",
+  "grade_suite.py": "023a4b1e9710036edf65aa2f05c1d8bad60b8f7901ae4d1f31e51a0de0fd33e0",
+  "grading_clarification": "Before first grading: include original question and enforce owner/assistant pronoun roles; same rule for both systems; no answer changes.",
+  "annotation_change_receipt": "grader-index-normalization-change.json",
+  "initial_source_freeze": "reference-judge-freeze-initial.json"
+}

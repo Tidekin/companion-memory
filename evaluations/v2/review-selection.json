@@ -1,0 +1,3023 @@
+[
+  {
+    "key": "60f9ce6d4e298f2fa52f337c",
+    "arm": "old",
+    "id": "M02-Q01/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "cc1c2d706bbd721982f7c082b1602bb73a0d0d9b64d8f3a3febe2923e1d93835",
+    "question": "下午和晚上十点分别该给我推荐什么饮品？各有什么要求？",
+    "category": "偏好与时段例外",
+    "required": [
+      "下午咖啡要椰奶且不加糖",
+      "晚上九点后不喝咖啡，换成菊花茶"
+    ],
+    "forbidden": [
+      "晚上十点推荐咖啡",
+      "咖啡加糖"
+    ],
+    "answer": "下午可以喝咖啡，椰奶不加糖，你一直是这么喝的。\n\n\n十点已经过九点了，那就菊花茶。\n\n\n咖啡这个点就别想了，喝了又要睡不着。",
+    "auto_grade": {
+      "key": "60f9ce6d4e298f2fa52f337c",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "c17d129c49338280efae9d68",
+    "arm": "new",
+    "id": "M02-Q01/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "7f6427a40acc4b33027829bc212fdd90013e933d246bc58eb0ea273e31612d2b",
+    "question": "下午和晚上十点分别该给我推荐什么饮品？各有什么要求？",
+    "category": "偏好与时段例外",
+    "required": [
+      "下午咖啡要椰奶且不加糖",
+      "晚上九点后不喝咖啡，换成菊花茶"
+    ],
+    "forbidden": [
+      "晚上十点推荐咖啡",
+      "咖啡加糖"
+    ],
+    "answer": "下午想喝咖啡就还是老样子，椰奶，不加糖\n\n\n晚上十点就菊花茶，过了九点我不给你递咖啡\n\n\n这两条我可都记着呢，别到点又反悔",
+    "auto_grade": {
+      "key": "c17d129c49338280efae9d68",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "289df92064611594f1ab90a6",
+    "arm": "rag",
+    "id": "M02-Q01/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "8c22e1d69f28a3528d19d1df8a6ce739e5a2b823220d92df38f58b48c42c5e97",
+    "question": "下午和晚上十点分别该给我推荐什么饮品？各有什么要求？",
+    "category": "偏好与时段例外",
+    "required": [
+      "下午咖啡要椰奶且不加糖",
+      "晚上九点后不喝咖啡，换成菊花茶"
+    ],
+    "forbidden": [
+      "晚上十点推荐咖啡",
+      "咖啡加糖"
+    ],
+    "answer": "- **下午**：可以推荐咖啡，要求是**只要椰奶、不加糖**。  \n- **晚上十点**：应推荐**菊花茶**，因为晚上九点以后不喝咖啡。",
+    "auto_grade": {
+      "key": "289df92064611594f1ab90a6",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "fae46c3d00d284748345f168",
+    "arm": "old",
+    "id": "M02-Q02/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "cbe0fadbf883843b0488ea1a32336a5d42ea33bc4d452f8e7deb4639db3d9ae3",
+    "question": "计时器收纳箱长宽各是多少、单位是什么？备用箱也是同一个单位吗？",
+    "category": "数值与单位",
+    "required": [
+      "收纳箱长65厘米",
+      "宽40厘米",
+      "备用箱的单位是尺，不是厘米"
+    ],
+    "forbidden": [
+      "备用箱单位是厘米"
+    ],
+    "answer": "你那份白鹭物料尺寸里记的是计时器收纳箱65×40厘米\n\n\n备用箱写的是3×1.5尺\n\n\n两边单位不一样，一个厘米一个尺，没说是不是同一个单位",
+    "auto_grade": {
+      "key": "fae46c3d00d284748345f168",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "53a57b4e407f910e3b6e390f",
+    "arm": "new",
+    "id": "M02-Q02/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0365409bd966910a5091e55bdb4acc55f2e7bccfd7fea3e486325f13c5234e4b",
+    "question": "计时器收纳箱长宽各是多少、单位是什么？备用箱也是同一个单位吗？",
+    "category": "数值与单位",
+    "required": [
+      "收纳箱长65厘米",
+      "宽40厘米",
+      "备用箱的单位是尺，不是厘米"
+    ],
+    "forbidden": [
+      "备用箱单位是厘米"
+    ],
+    "answer": "计时器收纳箱是65×40厘米\n\n\n备用箱那个写的是3×1.5尺，不是厘米，两行单位不一样\n\n\n大概折合100×45厘米，要统一成厘米的话就按这个记",
+    "auto_grade": {
+      "key": "53a57b4e407f910e3b6e390f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "d5e5d9ccac230aac1ca89a85",
+    "arm": "rag",
+    "id": "M02-Q02/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0de0ec7ff9ff3cac45f184d33160341267d806b3557ac117367b08f85331ec79",
+    "question": "计时器收纳箱长宽各是多少、单位是什么？备用箱也是同一个单位吗？",
+    "category": "数值与单位",
+    "required": [
+      "收纳箱长65厘米",
+      "宽40厘米",
+      "备用箱的单位是尺，不是厘米"
+    ],
+    "forbidden": [
+      "备用箱单位是厘米"
+    ],
+    "answer": "计时器收纳箱：长 **65**、宽 **40**，单位是**厘米**。  \n备用箱：长 **3**、宽 **1.5**，单位是**尺**，和收纳箱**不是同一个单位**。",
+    "auto_grade": {
+      "key": "d5e5d9ccac230aac1ca89a85",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "d675e23d4ea063078f30367e",
+    "arm": "old",
+    "id": "M02-Q03/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "2be84babd9cedb04a96e41121c3706afbe6db89a1081f656671cae4528483ec2",
+    "question": "邵临和我是什么关系？沈栀和我又是什么关系？",
+    "category": "人物关系链",
+    "required": [
+      "沈栀是用户的表姐",
+      "邵临是沈栀的同事",
+      "用户和邵临还不认识"
+    ],
+    "forbidden": [
+      "邵临是用户的同事",
+      "邵临是用户的亲戚"
+    ],
+    "answer": "沈栀是你表姐啊，比你大三岁。\n\n邵临是她的同事，之前说下周来夜跑小组帮忙，你俩还没见过面。",
+    "auto_grade": {
+      "key": "d675e23d4ea063078f30367e",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "14f42388e9ea0d03fb3f1d34",
+    "arm": "new",
+    "id": "M02-Q03/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "b41769a393519ff857e3c3fff5189a9098a79332cd615dbfdf7025e0cb5ba79e",
+    "question": "邵临和我是什么关系？沈栀和我又是什么关系？",
+    "category": "人物关系链",
+    "required": [
+      "沈栀是用户的表姐",
+      "邵临是沈栀的同事",
+      "用户和邵临还不认识"
+    ],
+    "forbidden": [
+      "邵临是用户的同事",
+      "邵临是用户的亲戚"
+    ],
+    "answer": "邵临是沈栀的同事，之前说过来夜跑小组帮忙的，那会儿你俩还不认识。算下来就是上周那波吧。\n\n\n沈栀是你表姐啊，比你大三岁。",
+    "auto_grade": {
+      "key": "14f42388e9ea0d03fb3f1d34",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "885cb51ee6af5b378d77350d",
+    "arm": "rag",
+    "id": "M02-Q03/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "3e4840ded53ed8c48f2f9f88a02e0e395c70f83423f694d7b81e53dc2e7ef049",
+    "question": "邵临和我是什么关系？沈栀和我又是什么关系？",
+    "category": "人物关系链",
+    "required": [
+      "沈栀是用户的表姐",
+      "邵临是沈栀的同事",
+      "用户和邵临还不认识"
+    ],
+    "forbidden": [
+      "邵临是用户的同事",
+      "邵临是用户的亲戚"
+    ],
+    "answer": "- **邵临和你的关系**：邵临是沈栀的同事；你曾说过“我和邵临还不认识”。历史中没有后续关系更新。\n- **沈栀和你的关系**：沈栀是你表姐，比你大三岁。",
+    "auto_grade": {
+      "key": "885cb51ee6af5b378d77350d",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "56eb747d28be84ce534849a5",
+    "arm": "old",
+    "id": "M02-Q04/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "30e94877badbb304229e5a6e952ac708c9cd8b322c11cbf70a30ee299fc34127",
+    "question": "帮我点菜时芹菜怎么处理？用芹菜熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开芹菜",
+      "芹菜熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "点菜就照老规矩，带芹菜的菜都别点。\n\n\n汤底没事，用芹菜熬的你能喝，就是别往汤里撒碎芹菜叶。\n\n\n这个我记着的，放心。",
+    "auto_grade": {
+      "key": "56eb747d28be84ce534849a5",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "fd51449f77f7975bb2665b94",
+    "arm": "new",
+    "id": "M02-Q04/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "4a85b579caf11aca83502cacb0b4cc6338c2fb13470dd74b7394773877e78714",
+    "question": "帮我点菜时芹菜怎么处理？用芹菜熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开芹菜",
+      "芹菜熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "点菜时带芹菜的菜直接跳过，炒的拌的都别点\n\n汤底可以，用芹菜熬的那种你喝，就是别往里撒碎芹菜叶\n\n这条我记得的，你不用再叮嘱",
+    "auto_grade": {
+      "key": "fd51449f77f7975bb2665b94",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "e8a6de3d0fee728447d5d66b",
+    "arm": "rag",
+    "id": "M02-Q04/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "72b0b8c1271408912863bccf3a67b86c66eaa2b02f2d89d09819a0315987d414",
+    "question": "帮我点菜时芹菜怎么处理？用芹菜熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开芹菜",
+      "芹菜熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "点菜时：**避开芹菜，不要放芹菜碎叶子**。  \n**用芹菜熬的汤底可以喝**，可以保留。\n\n备注：历史记录里助手一方面确认了“汤底能喝、别放碎叶子”，另一方面又说资料打不开，存在记录冲突；以上按主人明确说过的偏好处理。",
+    "auto_grade": {
+      "key": "e8a6de3d0fee728447d5d66b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1479115babe30f48d411fe86",
+    "arm": "old",
+    "id": "M02-Q05/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "debd607f3467244f89cee1626fe0068dc287323cab6080d53ddaefbff67471e7",
+    "question": "打卡表现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "我这边记着两版，有点对不上。\n\n\n你转来的沈栀通知说打卡表顺延一周，新截止是5月23号，原来那天作废。可你之前跟我说过路线单截止没变，还是16号。\n\n\n要是按23号，那就是明天了。到底哪个算数？",
+    "auto_grade": {
+      "key": "1479115babe30f48d411fe86",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "be25f0b2490cf55717102c1f",
+    "arm": "new",
+    "id": "M02-Q05/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "df241c3cdc27e501c55ae3dcfddbfa66645ca4ef4ab23c4f487710449aa34346",
+    "question": "打卡表现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "打卡表是5月23号，明天就到了\n\n\n原来16号那个已经作废，不算\n\n\n路线单还是16号，那会儿早就过去了，别跟打卡表混一块",
+    "auto_grade": {
+      "key": "be25f0b2490cf55717102c1f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "3b38c2378930a654ff9dd90b",
+    "arm": "rag",
+    "id": "M02-Q05/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f5c15cb006d0a78b114a53450e3afcf56973d9325cb3be1a230131fee7eeff22",
+    "question": "打卡表现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "打卡表现在的截止日期是 **2026-05-23**。原来那个 **2026-05-16** 已作废，不再有效。",
+    "auto_grade": {
+      "key": "3b38c2378930a654ff9dd90b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "f86fbbfcde2163452f983cf3",
+    "arm": "old",
+    "id": "M02-Q06/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0e93464e7fbe675624cc00de552e82c654e95e87c2ef5f2741a0ee4894c876b8",
+    "question": "计时器现在放在哪？之前放过哪些地方？按先后说。",
+    "category": "多次变更与历史",
+    "required": [
+      "现在在柳湾站二层铁皮柜",
+      "最早在江堤口储物柜",
+      "中间放在柳湾站（未注明楼层）"
+    ],
+    "forbidden": [
+      "现在还在江堤口"
+    ],
+    "answer": "最早是在江堤口的储物柜，后来挪到了柳湾站，最后又挪到柳湾站二层的铁皮柜里。\n\n\n你说这次就固定放那儿，不动了。",
+    "auto_grade": {
+      "key": "f86fbbfcde2163452f983cf3",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "3481c497ca8d887b3df35059",
+    "arm": "new",
+    "id": "M02-Q06/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "b9cee6c3f2a94f093ee177eb6516b67fbfe5a540e77e2b8b23987eb5e1d4440c",
+    "question": "计时器现在放在哪？之前放过哪些地方？按先后说。",
+    "category": "多次变更与历史",
+    "required": [
+      "现在在柳湾站二层铁皮柜",
+      "最早在江堤口储物柜",
+      "中间放在柳湾站（未注明楼层）"
+    ],
+    "forbidden": [
+      "现在还在江堤口"
+    ],
+    "answer": "现在在柳湾站二层的铁皮柜，你说之后就固定放那了。\n\n\n之前先是在江堤口的储物柜，5月12号挪到了柳湾站，13号又挪到柳湾站二层铁皮柜。",
+    "auto_grade": {
+      "key": "3481c497ca8d887b3df35059",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "50830fff6e0a3c92543962dc",
+    "arm": "rag",
+    "id": "M02-Q06/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0e5f77e63b975f3b2716ccff76e3b08cc0183a1a1c0ae2ac7fa48e8dcf304c4e",
+    "question": "计时器现在放在哪？之前放过哪些地方？按先后说。",
+    "category": "多次变更与历史",
+    "required": [
+      "现在在柳湾站二层铁皮柜",
+      "最早在江堤口储物柜",
+      "中间放在柳湾站（未注明楼层）"
+    ],
+    "forbidden": [
+      "现在还在江堤口"
+    ],
+    "answer": "按历史记录先后：\n\n1. 2026-05-11：计时器放在**江堤口储物柜**。  \n2. 2026-05-12：挪到**柳湾站**。  \n3. 2026-05-13：又挪到**柳湾站二层的铁皮柜**，之后固定放这里。\n\n所以现在计时器在：**柳湾站二层的铁皮柜**。",
+    "auto_grade": {
+      "key": "50830fff6e0a3c92543962dc",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "2e0671a804600441db58321d",
+    "arm": "old",
+    "id": "M02-Q07/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "797eb3efefe55d3765e6c436adb240ab0aab9e001f54329eacb3ca32183aecb0",
+    "question": "这周末白鹭活动还剩哪些安排？哪一项取消了？",
+    "category": "部分取消",
+    "required": [
+      "上午导览照常",
+      "晚上露天放映照常",
+      "下午手作工作坊取消"
+    ],
+    "forbidden": [
+      "全部取消",
+      "工作坊照常举行"
+    ],
+    "answer": "上午导览和晚上露天放映照常，下午那个手作工作坊取消了\n\n\n不过集合时间我这边还是七点半、江堤口，那条说改成8点15的也不是你说的，你要是知道准的我再改\n\n\n等等，那活动不是上周末的嘛，已经过完了啊",
+    "auto_grade": {
+      "key": "2e0671a804600441db58321d",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "858ad7cebae9abae67ba4a7f",
+    "arm": "new",
+    "id": "M02-Q07/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "d5049d76c1e498809b51b9be1768df4c2f62cac4814600f99f3bb3c1888e144c",
+    "question": "这周末白鹭活动还剩哪些安排？哪一项取消了？",
+    "category": "部分取消",
+    "required": [
+      "上午导览照常",
+      "晚上露天放映照常",
+      "下午手作工作坊取消"
+    ],
+    "forbidden": [
+      "全部取消",
+      "工作坊照常举行"
+    ],
+    "answer": "白鹭活动还剩上午导览和晚上露天放映两项\n\n\n下午那个手作工作坊取消了\n\n\n另外集合时间我还在等你定——7点半还是8点15",
+    "auto_grade": {
+      "key": "858ad7cebae9abae67ba4a7f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "0db4188e587192b261ecf600",
+    "arm": "rag",
+    "id": "M02-Q07/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "7d6fe86ff50876862a1df11529e5803383006fa2d6f0e64ac0ac9624ca1dc24b",
+    "question": "这周末白鹭活动还剩哪些安排？哪一项取消了？",
+    "category": "部分取消",
+    "required": [
+      "上午导览照常",
+      "晚上露天放映照常",
+      "下午手作工作坊取消"
+    ],
+    "forbidden": [
+      "全部取消",
+      "工作坊照常举行"
+    ],
+    "answer": "白鹭活动还剩：上午导览、晚上露天放映；取消的是：下午手作工作坊。",
+    "auto_grade": {
+      "key": "0db4188e587192b261ecf600",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "ca99fb925ca57764e9e54d17",
+    "arm": "old",
+    "id": "M02-Q08/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "c6473bc55fca27cdf36cb4f15c5616c6995d19e3ba2d3c0ef4f73e7562dd112a",
+    "question": "给我和沈栀做名牌，各用什么颜色？",
+    "category": "第三方偏好归属",
+    "required": [
+      "沈栀用酒红",
+      "用户用浅灰"
+    ],
+    "forbidden": [
+      "用户喜欢酒红"
+    ],
+    "answer": "你用浅灰，这个你明确说过的。\n\n\n沈栀那边，之前转来的资料里她自己写的是最喜欢酒红。\n\n\n不过那是别人写的，要不要就按酒红给她做，你说一句",
+    "auto_grade": {
+      "key": "ca99fb925ca57764e9e54d17",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1d865a6d04e59be1c9604374",
+    "arm": "new",
+    "id": "M02-Q08/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "bb0c9d26b92e2274ef7d5d1be46579003147bb0383cd008f18787a46e7ae30d8",
+    "question": "给我和沈栀做名牌，各用什么颜色？",
+    "category": "第三方偏好归属",
+    "required": [
+      "沈栀用酒红",
+      "用户用浅灰"
+    ],
+    "forbidden": [
+      "用户喜欢酒红"
+    ],
+    "answer": "你的是浅灰，这个我记着呢\n\n\n沈栀那边，之前转来的那条里她点名要酒红\n\n\n不过那条看着像只转了一半，你要不要跟她确认一下再定",
+    "auto_grade": {
+      "key": "1d865a6d04e59be1c9604374",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "0c95ef45a46fd476754a7af5",
+    "arm": "rag",
+    "id": "M02-Q08/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "a681340ed3ccee1815b7d97e7148349764d7f7da6fcf0e453e6f28a4372d95c4",
+    "question": "给我和沈栀做名牌，各用什么颜色？",
+    "category": "第三方偏好归属",
+    "required": [
+      "沈栀用酒红",
+      "用户用浅灰"
+    ],
+    "forbidden": [
+      "用户喜欢酒红"
+    ],
+    "answer": "沈栀的名牌用**酒红**；你的名牌用**浅灰**。",
+    "auto_grade": {
+      "key": "0c95ef45a46fd476754a7af5",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "8380596a0648430f3b98630c",
+    "arm": "old",
+    "id": "M02-Q09/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "aae1701f03710000ffa4a17343a916ae98df35e335537b538e32bd8ad26b95aa",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "没有约定具体日期，你那时候就说只是自己想记得回沈栀电话，跟沈栀本人没约好哪天。\n\n\n倒是你让我在28号早上提醒你一声，这算我答应你的事。\n\n\n不过老实说，那天到底提醒没提醒，我这边没个凭据，不能糊弄你说提醒过了。\n\n现在回也行啊，反正也没跟人约时间，打了就是惊喜。",
+    "auto_grade": {
+      "key": "8380596a0648430f3b98630c",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "915c6e0740c88c4ba05e5773",
+    "arm": "new",
+    "id": "M02-Q09/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "915c6e0740c88c4ba05e5773",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "9744a1cc45cf2293e9346ecc",
+    "arm": "rag",
+    "id": "M02-Q09/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "2e0f05fbee7a6d32a952afbd386fa38c2bf29262721bb7af81680a87807d089a",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "- **助手答应的是**：在 **2026-05-28 上午提醒主人给沈栀回电话**。\n- **主人自己说明**：没有跟沈栀约好哪天回电话，只是自己想记得回。\n\n所以：**没有与沈栀约定具体日期**；5月28日上午只是助手答应提醒主人的时间。",
+    "auto_grade": {
+      "key": "9744a1cc45cf2293e9346ecc",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "505d393ed6af0fc7215be84a",
+    "arm": "old",
+    "id": "M02-Q10/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "1c0036172f7aca92bccebd37853a604aca6ca3217f067faaf3c3e369b184d7fa",
+    "question": "白鹭活动几点在哪集合？之前说的7点半为什么不用？",
+    "category": "引用旧消息更正",
+    "required": [
+      "8点15",
+      "在江堤口集合",
+      "7点半是写错后被更正"
+    ],
+    "forbidden": [
+      "7点半集合"
+    ],
+    "answer": "我这边记的还是早上7点半，江堤口。\n\n\n那条说8点15的，是转来的引用，说话的人不是你，我就没当成你改口，所以一直按七点半记着。\n\n\n你要是想改成8点15，你跟我说一声，我就换过来。",
+    "auto_grade": {
+      "key": "505d393ed6af0fc7215be84a",
+      "pass": false,
+      "missing": [
+        0,
+        2
+      ],
+      "violations": [
+        0
+      ]
+    }
+  },
+  {
+    "key": "34e456f2e48b0134ef2a44bc",
+    "arm": "new",
+    "id": "M02-Q10/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "12737e1650e21057efbe28b85e526ed4ab8081a44eb53dc3242956e54ba1c6e0",
+    "question": "白鹭活动几点在哪集合？之前说的7点半为什么不用？",
+    "category": "引用旧消息更正",
+    "required": [
+      "8点15",
+      "在江堤口集合",
+      "7点半是写错后被更正"
+    ],
+    "forbidden": [
+      "7点半集合"
+    ],
+    "answer": "地点是江堤口，这个没变。\n\n\n时间有两个版本：7点半是你5月31日亲口说的，8点15是我6月1日收到的一条转发，说时间写错了、地点不变。\n\n\n但那条看不出是谁改的，我当时问过你哪个算数，你后来没说。\n\n所以7点半不是作废了，是我一直没敢替你定。你说一句，我就只记那个。",
+    "auto_grade": {
+      "key": "34e456f2e48b0134ef2a44bc",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "47c05c73fe354f3097eab8bd",
+    "arm": "rag",
+    "id": "M02-Q10/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "80a8163b71f17e54368ad4f2555677b9ad02b57792998cda324fafcecb48f956",
+    "question": "白鹭活动几点在哪集合？之前说的7点半为什么不用？",
+    "category": "引用旧消息更正",
+    "required": [
+      "8点15",
+      "在江堤口集合",
+      "7点半是写错后被更正"
+    ],
+    "forbidden": [
+      "7点半集合"
+    ],
+    "answer": "白鹭活动集合地点：**江堤口**（05-31 与 06-01 的记录都写地点不变）。\n\n集合时间存在冲突，尚未解决：\n- **05-31 主人消息**：早上 **7点半**，在江堤口。\n- **06-01 20:00 主人消息**（引用上条）：称“写错了，应该是 **8点15**，地点不变”。\n- 但同一记录中，助手当场质疑该条“是转来的吧，说话的人也不是你”，并称自己记的仍是 **7点半、江堤口**。\n\n因此，**不能确定 7点半为什么不用**。历史里只出现了“应改为8点15”的说法，但同时被助手质疑来源；后续没有明确澄清。只能确认地点是江堤口，时间在 **7点半与8点15之间存在未解决冲突**。",
+    "auto_grade": {
+      "key": "47c05c73fe354f3097eab8bd",
+      "pass": false,
+      "missing": [
+        2
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "c340a52b7fdcddcdf4b51551",
+    "arm": "old",
+    "id": "M02-Q11/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "84cdd26576354d23fd193106edb56b32b25e99fcbd35b7d33b2ee4bdf5477304",
+    "question": "我说的那次去柳湾站上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "按你6月5号说的“下周二”算，是6月9号，周二晚上七点\n\n\n那天早过去了，你怎么突然翻这个",
+    "auto_grade": {
+      "key": "c340a52b7fdcddcdf4b51551",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "ed5a116f9ad912f502d63eee",
+    "arm": "new",
+    "id": "M02-Q11/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "3680eb3d013805099c34b42213e217df7c241a53973a9bf71939a023fe2e4171",
+    "question": "我说的那次去柳湾站上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "6月9号，周二，晚上七点，柳湾站。\n\n\n不过已经过去啦，都十天了。课上得怎么样？",
+    "auto_grade": {
+      "key": "ed5a116f9ad912f502d63eee",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "a140d37647829f1f8fc7893b",
+    "arm": "rag",
+    "id": "M02-Q11/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "dfd45bab7fb43237583b30e842888a08bb0291a337b29230ddce769d065955b3",
+    "question": "我说的那次去柳湾站上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "是 **2026年6月9日（周二）晚上7点（19:00）**，地点在柳湾站。",
+    "auto_grade": {
+      "key": "a140d37647829f1f8fc7893b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "998de168bc3914b4cfa35f1e",
+    "arm": "old",
+    "id": "M02-Q12/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "1a1892d34f8980f89ececeb3590f7fa502c8310edc56a7e1a93524cf2b34d017",
+    "question": "计时器是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "记录上写的是6月10号上午10点借出，6月14号下午4点归还\n\n按日历日算首尾，正好5天\n\n现在算是还回来了，16号不还洗好取回来了嘛\n不过那份记录当时九点多就填着“已归还”了，日期我总觉得有点不靠谱",
+    "auto_grade": {
+      "key": "998de168bc3914b4cfa35f1e",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "2a2e99e32684176db38196f7",
+    "arm": "new",
+    "id": "M02-Q12/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "32b1c107fd3664eed3d7d19435cfa6bd438e464ac74ebac759104b12a350e6cd",
+    "question": "计时器是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "那张借用记录上写的是6月10号10点借出，6月14号16点归还，状态已经勾了“已归还”。\n\n\n按日历日算，含首尾是5天。\n\n\n不过这事儿我得再说一句，当时看到那记录就觉得别扭：6月10号9点20你发给我时，上面已经写着10点借出、14号归还还勾了“已归还”，要么是提前填的模板，要么日期写错了。\n\n东西本身是回来了，6月15号送去清洗，16号洗好取回来的。",
+    "auto_grade": {
+      "key": "2a2e99e32684176db38196f7",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "a33b7ff25b800d67487b5989",
+    "arm": "rag",
+    "id": "M02-Q12/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "aa23705d7c85ecedc6141776651a278873a2d1cef1324a7880f7ecc4cd5eebed",
+    "question": "计时器是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "按补充的《计时器借用记录》：\n\n- **借出：2026-06-10 10:00**\n- **归还：2026-06-14 16:00**\n- 按日历日含首尾计算：**6月10日到6月14日，共5天**\n- 状态写的是：**已归还**\n\n但该记录在 **2026-06-10 09:20** 就被读取到，当时还没到10:00借出时间，却已显示“已归还”，所以这份记录本身存在时间矛盾；无法据此判断是提前填好还是日期写错。仅按记录内容看，**现在已经归还**。",
+    "auto_grade": {
+      "key": "a33b7ff25b800d67487b5989",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "6cb78b6fc2805d89c970eb6a",
+    "arm": "old",
+    "id": "M02-Q13/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f129a15fcd7ace8ebbbff6646ed4faa840fb42892ca99063d85a1063d53df394",
+    "question": "计时器送洗、取回、贴新标签分别是哪天？按先后排一下。",
+    "category": "分散事件排序",
+    "required": [
+      "2026-06-15送洗",
+      "2026-06-16取回",
+      "2026-06-17贴新标签"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "送洗是6月15号，6月16号中午取回来的。\n\n\n贴新标签这事我这儿没记着，你跟我说过吗？",
+    "auto_grade": {
+      "key": "6cb78b6fc2805d89c970eb6a",
+      "pass": false,
+      "missing": [
+        2
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "5d97bf8f63a96d57d662f283",
+    "arm": "new",
+    "id": "M02-Q13/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "da49b5bd274472adee2f862c2c93685c6d987f25b67309ae82a984bbe8841fb2",
+    "question": "计时器送洗、取回、贴新标签分别是哪天？按先后排一下。",
+    "category": "分散事件排序",
+    "required": [
+      "2026-06-15送洗",
+      "2026-06-16取回",
+      "2026-06-17贴新标签"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "送洗 6月15号，取回 6月16号，贴新标签 6月17号\n\n\n三天连着办完的",
+    "auto_grade": {
+      "key": "5d97bf8f63a96d57d662f283",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "a5f071c2c923ab795e442023",
+    "arm": "rag",
+    "id": "M02-Q13/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "7745a40e73ac9b38ae94e11b5f9a63506c637f3fc4498a747830dd3a3c047456",
+    "question": "计时器送洗、取回、贴新标签分别是哪天？按先后排一下。",
+    "category": "分散事件排序",
+    "required": [
+      "2026-06-15送洗",
+      "2026-06-16取回",
+      "2026-06-17贴新标签"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "按先后顺序：\n\n1. **2026-06-15**：送去清洗  \n2. **2026-06-16**：洗好取回  \n3. **2026-06-17**：贴新标签",
+    "auto_grade": {
+      "key": "a5f071c2c923ab795e442023",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "9dc8cf8230b394fd8a6109dc",
+    "arm": "old",
+    "id": "M02-Q14/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "bae5fd3adb5cf799afc642f759fdaa70bdf1f915b401dfe59c6a7610ae668fdd",
+    "question": "白鹭活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在江堤口户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到柳湾站室内"
+    ],
+    "answer": "没改室内，按原计划在江堤口户外办的。\n\n\n那天一滴雨都没下，天晴得很，改柳湾站那个条件根本没触发。",
+    "auto_grade": {
+      "key": "9dc8cf8230b394fd8a6109dc",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "dbfaf1da162a66a2284254da",
+    "arm": "new",
+    "id": "M02-Q14/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "d02315806d4137cb1395bd6221d87153cf8e05cce4162833551b1b9d25de5629",
+    "question": "白鹭活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在江堤口户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到柳湾站室内"
+    ],
+    "answer": "江堤口户外，按原计划办的\n\n\n那天一滴雨都没下，改室内的条件压根没触发\n\n\n不过这是6月20号那个周六的事吧，离现在有半个月了",
+    "auto_grade": {
+      "key": "dbfaf1da162a66a2284254da",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "3888831e8f2ffe3582b949d6",
+    "arm": "rag",
+    "id": "M02-Q14/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "1a5a910d5527b8d6a20d9f37097cf0caf356451f5d0e0084bb43543de502421b",
+    "question": "白鹭活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在江堤口户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到柳湾站室内"
+    ],
+    "answer": "白鹭活动最后按原计划在**江堤口户外**办完。  \n改到室内的条件是“周六下雨”，但 6 月 21 日周六天晴、未下雨，所以**条件没有触发**。",
+    "auto_grade": {
+      "key": "3888831e8f2ffe3582b949d6",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "7e6fbe6811c1207fb3e48f2d",
+    "arm": "old",
+    "id": "M02-Q15/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0340086a28d53c31c4003b4b33789fe9ecd7f5d8ecd97a76d80ebf9b917257da",
+    "question": "打卡表录入现在是计划还是已完成？纸质版呢？",
+    "category": "计划与完成回执",
+    "required": [
+      "已经录入完成",
+      "纸质版尚未打印"
+    ],
+    "forbidden": [
+      "录入还只是计划",
+      "纸质版已打印"
+    ],
+    "answer": "按你补的那份资料写的是：系统里的已经全录完了，能查到。\n\n\n纸质榜那天写着还没打印。\n\n\n现在打出来了吗？",
+    "auto_grade": {
+      "key": "7e6fbe6811c1207fb3e48f2d",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1af33dfac47fece49a001705",
+    "arm": "new",
+    "id": "M02-Q15/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "打卡表录入现在是计划还是已完成？纸质版呢？",
+    "category": "计划与完成回执",
+    "required": [
+      "已经录入完成",
+      "纸质版尚未打印"
+    ],
+    "forbidden": [
+      "录入还只是计划",
+      "纸质版已打印"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "1af33dfac47fece49a001705",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "7516f9a2d2a2937fcf041e5a",
+    "arm": "rag",
+    "id": "M02-Q15/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "cb8f1d62f8c670cac4657a7e5cf14581513be27b3251eac15111d6fa1f2b0220",
+    "question": "打卡表录入现在是计划还是已完成？纸质版呢？",
+    "category": "计划与完成回执",
+    "required": [
+      "已经录入完成",
+      "纸质版尚未打印"
+    ],
+    "forbidden": [
+      "录入还只是计划",
+      "纸质版已打印"
+    ],
+    "answer": "打卡表录入：**已完成**。6月25日主人说“计划这周录”，但6月26日补充资料显示“已经全部录完，系统里能查到”。\n\n纸质版：**还没打印**。资料写的是“纸质榜还没打印”。",
+    "auto_grade": {
+      "key": "7516f9a2d2a2937fcf041e5a",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1fc45e9b13fcc391806bd07b",
+    "arm": "old",
+    "id": "M02-Q16/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f574f6559b5399c884889040bfecb56786d66c1064b5bfc2564b12084d666754",
+    "question": "我是不是要搬去昆明了？",
+    "category": "假设提问",
+    "required": [
+      "只是假设",
+      "没有搬家计划"
+    ],
+    "forbidden": [
+      "用户要搬去昆明"
+    ],
+    "answer": "没有吧，你那次说的是“假如”，还特意说没打算搬\n\n\n就6月底那回，夜跑小组那个假设\n\n\n怎么突然问起来了，谁跟你提昆明的事",
+    "auto_grade": {
+      "key": "1fc45e9b13fcc391806bd07b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "e550479c269798b51b08c494",
+    "arm": "new",
+    "id": "M02-Q16/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "我是不是要搬去昆明了？",
+    "category": "假设提问",
+    "required": [
+      "只是假设",
+      "没有搬家计划"
+    ],
+    "forbidden": [
+      "用户要搬去昆明"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "e550479c269798b51b08c494",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "63a26f90015b743bea6d6e2b",
+    "arm": "rag",
+    "id": "M02-Q16/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "61c26e0377cba1f239e2cbee07d9793cdb4321be3313df7d266d08969eb4340d",
+    "question": "我是不是要搬去昆明了？",
+    "category": "假设提问",
+    "required": [
+      "只是假设",
+      "没有搬家计划"
+    ],
+    "forbidden": [
+      "用户要搬去昆明"
+    ],
+    "answer": "不是。历史里你只说过“假如我明年搬去昆明”，并明确表示“只是随便假设，我没打算搬”。之后没有新的搬迁信息。",
+    "auto_grade": {
+      "key": "63a26f90015b743bea6d6e2b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "5ede88598be8dc54b1822957",
+    "arm": "old",
+    "id": "M02-Q17/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "54a356ad5a75f900800e227fa9fc1a3a8deafff5c1aac3c232484a1db1925f45",
+    "question": "我真要辞职去当灯塔看守员吗？下周一上不上班？",
+    "category": "玩笑不当真",
+    "required": [
+      "那是玩笑",
+      "下周一照常上班"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "灯塔看守那事儿你自己当天就说是玩笑，我记得清楚。\n\n\n所以别想着跑，下周一照常上班。\n\n\n不过今天就是周一啊，你这是又想赖了？",
+    "auto_grade": {
+      "key": "5ede88598be8dc54b1822957",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "0d07245a777afae1434858f7",
+    "arm": "new",
+    "id": "M02-Q17/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f8035748313c9ff6374880db66d6e00f2b966bfeefd8fb132c77d934c5aea328",
+    "question": "我真要辞职去当灯塔看守员吗？下周一上不上班？",
+    "category": "玩笑不当真",
+    "required": [
+      "那是玩笑",
+      "下周一照常上班"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "又来这套\n\n\n上次你也是这么说的，转头自己补一句开玩笑的\n\n\n第二天7月6号你还真照常去上班了，我记得呢\n\n所以这次下周一也照常吧，除非你这次是认真的",
+    "auto_grade": {
+      "key": "0d07245a777afae1434858f7",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "d1e53be6a6c23c827ef4e5e7",
+    "arm": "rag",
+    "id": "M02-Q17/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "2e3c662486aa5489b9c9e0b0f11793cc8ea66c1dd689b79e15ac4db9c669a977",
+    "question": "我真要辞职去当灯塔看守员吗？下周一上不上班？",
+    "category": "玩笑不当真",
+    "required": [
+      "那是玩笑",
+      "下周一照常上班"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "不是真要辞职——你原话是“开玩笑的”。按 2026-07-05 的记录，你当时说“下周一照常上班”，指的是紧接着的 2026-07-06。若你问的是现在之后的下周一（2026-07-27），历史资料里没有说明，未知。",
+    "auto_grade": {
+      "key": "d1e53be6a6c23c827ef4e5e7",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "2bd22d10bcbe4b18acdb21d7",
+    "arm": "old",
+    "id": "M02-Q18/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f210d02f39687aa254285f7e0f2e47f530b1ca9e4f1cbf58db52e8f65bb6ff71",
+    "question": "白鹭贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色3张",
+      "蓝色2张",
+      "黄色4张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红的3张，蓝的2张，黄的4张，一共9张。\n\n\n当时我还问你蓝色是不是先紧着用掉了。",
+    "auto_grade": {
+      "key": "2bd22d10bcbe4b18acdb21d7",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "6337fb9f3b7dbf50be06ac4a",
+    "arm": "new",
+    "id": "M02-Q18/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "2b2380ef4133bb687878cf811ac63313a4d1e059c5312156cb107d412fb65875",
+    "question": "白鹭贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色3张",
+      "蓝色2张",
+      "黄色4张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "我这边没收到照片呀，只看到你问的那句话\n\n\n再发一次给我看看？",
+    "auto_grade": {
+      "key": "6337fb9f3b7dbf50be06ac4a",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "0c97dbabb10a6ece6463f52f",
+    "arm": "rag",
+    "id": "M02-Q18/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "a446f282f2918a4d6002bbcfa211a08b7248d4955d599e686c9ff5c518ecee4e",
+    "question": "白鹭贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色3张",
+      "蓝色2张",
+      "黄色4张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红 3 张，蓝 2 张，黄 4 张。",
+    "auto_grade": {
+      "key": "0c97dbabb10a6ece6463f52f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "8b3a6f9d39cf3dca359fe3b8",
+    "arm": "old",
+    "id": "M02-Q19/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "4b755748293b0cf4d7ae94f20c4e863d407482b9cb53d3e977c235bae0b0d1b2",
+    "question": "计时器现在一共几台？图上显示几台？以哪个为准？",
+    "category": "图文冲突以文字更正为准",
+    "required": [
+      "实际5台",
+      "图上显示2台",
+      "以用户文字更正为准"
+    ],
+    "forbidden": [
+      "以图片为准只有2台"
+    ],
+    "answer": "五台，我记得你专门更正过。\n\n\n图上只拍了两个，那图拍早了，不算数。\n\n\n以你说的五台为准。",
+    "auto_grade": {
+      "key": "8b3a6f9d39cf3dca359fe3b8",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "f1f21649442a84a462b7c5f9",
+    "arm": "new",
+    "id": "M02-Q19/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "c2fea24e85bff1f89b1f37f932159e20dfa3885bb44e3711de490bc248ceaf57",
+    "question": "计时器现在一共几台？图上显示几台？以哪个为准？",
+    "category": "图文冲突以文字更正为准",
+    "required": [
+      "实际5台",
+      "图上显示2台",
+      "以用户文字更正为准"
+    ],
+    "forbidden": [
+      "以图片为准只有2台"
+    ],
+    "answer": "五台。\n\n\n图上那个是画了两个绿方块，也就是显示2台。\n\n\n当然以你那句话为准，图拍早了不算数。",
+    "auto_grade": {
+      "key": "f1f21649442a84a462b7c5f9",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "277d3bd0550a628c10f507bd",
+    "arm": "rag",
+    "id": "M02-Q19/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "69b6a9bb1cfd76bb2c11fd25581bea2137eca225eb07d7608cc98a78dc27659d",
+    "question": "计时器现在一共几台？图上显示几台？以哪个为准？",
+    "category": "图文冲突以文字更正为准",
+    "required": [
+      "实际5台",
+      "图上显示2台",
+      "以用户文字更正为准"
+    ],
+    "forbidden": [
+      "以图片为准只有2台"
+    ],
+    "answer": "- 计时器现在实际共有 **5 台**。  \n- 图上显示的是 **2 台**。  \n- 以主人 **2026-07-16** 的说明为准：“计时器实际有5台，不是图上的数。”",
+    "auto_grade": {
+      "key": "277d3bd0550a628c10f507bd",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "5f41d7ef72a6eda4815b3df4",
+    "arm": "old",
+    "id": "M02-Q20/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "e1f64591172b8235f8f1d1a8694823b9753f9f07848292f36b317936ee31e9fc",
+    "question": "打卡表的取件码是多少？柜子在哪、第几排？",
+    "category": "语音中的数字",
+    "required": [
+      "取件码3615",
+      "江堤口第4排"
+    ],
+    "forbidden": [
+      "编造其他取件码"
+    ],
+    "answer": "取件码我这边只有转写里那个3615，也不知道对不对。\n\n\n柜子那句我到现在都没懂，“再降低口第四排”是什么意思，当时还让你打字再说一遍来着。\n\n\n你自己手上有打卡表吗，念给我听我记下来，别再靠那个转写了。",
+    "auto_grade": {
+      "key": "5f41d7ef72a6eda4815b3df4",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "1349a1a88d6697cbcd598c71",
+    "arm": "new",
+    "id": "M02-Q20/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "a59322d1edb3454db533f01f8a703b205c736eb84e9493b1ba378124ded225af",
+    "question": "打卡表的取件码是多少？柜子在哪、第几排？",
+    "category": "语音中的数字",
+    "required": [
+      "取件码3615",
+      "江堤口第4排"
+    ],
+    "forbidden": [
+      "编造其他取件码"
+    ],
+    "answer": "打卡表那个取件码当时语音里抓到的是 3615，但后半句糊了，只听见“柜子”“第四排”，柜子具体在哪没听清，我没法给你补。\n\n\n柳湾站二层那个铁皮柜我记得，可那是放计时器的，不是打卡表。\n\n\n你再确认一下柜子位置？我不想让你白跑一趟。",
+    "auto_grade": {
+      "key": "1349a1a88d6697cbcd598c71",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "13470f7e7222c976ebd03f07",
+    "arm": "rag",
+    "id": "M02-Q20/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "8522d71b129fa7cec0beff50953419889f18f5f8074af4fd101cb072406970a8",
+    "question": "打卡表的取件码是多少？柜子在哪、第几排？",
+    "category": "语音中的数字",
+    "required": [
+      "取件码3615",
+      "江堤口第4排"
+    ],
+    "forbidden": [
+      "编造其他取件码"
+    ],
+    "answer": "无法可靠确认。\n\n历史中只有 2026-07-20 一条补充资料的识别结果写作：“打卡表的曲鍵碼是3615, 櫃子再降低口第四排。”但当时助手已明确表示这条转写混乱、看不懂，并请主人重新打字说明；之后没有主人打字确认。\n\n因此：\n- 取件码：只能看到未确认的“3615”，不能当作已确认事实。\n- 柜子位置：识别为“再降低口第四排”，含义不明，无法确定具体在哪。\n- 第几排：字面出现“第四排”，但因整句无法确认，不能可靠采信。",
+    "auto_grade": {
+      "key": "13470f7e7222c976ebd03f07",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "302220b6d108fa3c3226d54e",
+    "arm": "old",
+    "id": "M02-Q21/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "56d854dc4d579ce03723fb1f70f66e9b7fe6b0b0c4c05f7b92b449bfa75f7930",
+    "question": "值班表里我排了哪几班？周一晚班是谁？",
+    "category": "表格查询与本人对应",
+    "required": [
+      "用户排周二早班",
+      "用户排周三晚班",
+      "周一晚班是沈栀"
+    ],
+    "forbidden": [
+      "用户周一有班"
+    ],
+    "answer": "这份新资料里没你的班，就两条：沈栀周二下午两点到四点江堤口，邵临周四早上九点到十一点柳湾站。\n\n\n周一晚班按我之前看的那份旧表是沈栀。\n\n\n所以我才问是不是换班了，现在这两份对不上，你到底按哪个来？",
+    "auto_grade": {
+      "key": "302220b6d108fa3c3226d54e",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "8f90d7f2080f37ba65c6365e",
+    "arm": "new",
+    "id": "M02-Q21/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "bda26027dac5bef35f5617f62c3b3a039161bc65d3e434a7c747f847e67a9097",
+    "question": "值班表里我排了哪几班？周一晚班是谁？",
+    "category": "表格查询与本人对应",
+    "required": [
+      "用户排周二早班",
+      "用户排周三晚班",
+      "周一晚班是沈栀"
+    ],
+    "forbidden": [
+      "用户周一有班"
+    ],
+    "answer": "你排的是周二早班和周三晚班。\n\n\n周一晚班是沈栀，早班邵临。\n\n\n不过刚才那份新资料我没打开，万一你想改表我可没看到啊。",
+    "auto_grade": {
+      "key": "8f90d7f2080f37ba65c6365e",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "becd8d0976c532f69ee04f9d",
+    "arm": "rag",
+    "id": "M02-Q21/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "a7141a4541c15fd7f213d55a2327af102b35466e368decab710035cf6d07301c",
+    "question": "值班表里我排了哪几班？周一晚班是谁？",
+    "category": "表格查询与本人对应",
+    "required": [
+      "用户排周二早班",
+      "用户排周三晚班",
+      "周一晚班是沈栀"
+    ],
+    "forbidden": [
+      "用户周一有班"
+    ],
+    "answer": "按 2026-07-26 读取到的值班表：你（何满）排了**周二早班**和**周三晚班**；**周一晚班是沈栀**。\n\n另：2026-08-10 读取到的“值班时间”只列了沈栀周二、邵临周四，未提周一晚班，且与旧表存在不一致。",
+    "auto_grade": {
+      "key": "becd8d0976c532f69ee04f9d",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "26f50e7efc00d06c9f7ca46f",
+    "arm": "old",
+    "id": "M02-Q22/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "3c5f06f40f9e25365cca2391fbc015f9ec1a91e6840529da265bafc68a023308",
+    "question": "白鹭活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "沈栀负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "场地费具体多少我这儿没有数\n\n\n只记着那会儿还没问，沈栀说她回头报给你\n\n\n到现在也没听到报价，估计还得催她一下",
+    "auto_grade": {
+      "key": "26f50e7efc00d06c9f7ca46f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "f5706b7e85be3527507dee5f",
+    "arm": "new",
+    "id": "M02-Q22/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "f2ca2d3ae22a21ce16bc2410209705df0c328d90e04fdf24bb123300dc2c7c8d",
+    "question": "白鹭活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "沈栀负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "这个我还真没有数\n\n\n只记得上次说场地费你还没问，沈栀说她回头报给你\n\n\n具体多少、谁去报价，你没跟我说过，我这边就空的\n\n要不你问一下沈栀？",
+    "auto_grade": {
+      "key": "f5706b7e85be3527507dee5f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "240d9f75f1f19ed2a4d2eefc",
+    "arm": "rag",
+    "id": "M02-Q22/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "de422e338d9aba1c6063124b1119b1640d12cfec89ae9efd059f64d0ec8dc130",
+    "question": "白鹭活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "沈栀负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "白鹭活动的场地费金额尚未确定/未知；沈栀说回头报给主人，因此报价由沈栀负责。",
+    "auto_grade": {
+      "key": "240d9f75f1f19ed2a4d2eefc",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "18c3eb883971dc8f201b5630",
+    "arm": "old",
+    "id": "M02-Q23/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0153726b62ff1ffad14e2c20cba1e376cc18db610f2461e6c9c12851362e126e",
+    "question": "如果邵临问我最近工作有没有变动，你怎么回？沈栀问呢？",
+    "category": "保密范围与授权对象",
+    "required": [
+      "对邵临不透露调岗",
+      "沈栀问起可以说用户在考虑调岗"
+    ],
+    "forbidden": [
+      "向邵临透露调岗"
+    ],
+    "answer": "邵临来问的话，我就装傻，说没听说，顺带一句“你打听这个干吗”，把话堵回去。反正我跟他也不认识，犯不着给他透什么。\n\n\n沈栀问的话，就说你在考虑。就这三个字，别的我一点不提。\n\n\n这事你早交代过了，我记着呢。",
+    "auto_grade": {
+      "key": "18c3eb883971dc8f201b5630",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "ae6487d5f0dd1276dff0888b",
+    "arm": "new",
+    "id": "M02-Q23/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "如果邵临问我最近工作有没有变动，你怎么回？沈栀问呢？",
+    "category": "保密范围与授权对象",
+    "required": [
+      "对邵临不透露调岗",
+      "沈栀问起可以说用户在考虑调岗"
+    ],
+    "forbidden": [
+      "向邵临透露调岗"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "ae6487d5f0dd1276dff0888b",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "53158889ec902a6440885699",
+    "arm": "rag",
+    "id": "M02-Q23/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "210f57f4f2e9a60e1d653a67c90304ad72423275901f7efb38de21951a250be8",
+    "question": "如果邵临问我最近工作有没有变动，你怎么回？沈栀问呢？",
+    "category": "保密范围与授权对象",
+    "required": [
+      "对邵临不透露调岗",
+      "沈栀问起可以说用户在考虑调岗"
+    ],
+    "forbidden": [
+      "向邵临透露调岗"
+    ],
+    "answer": "邵临问起：我不会透露调岗申请，只说“这方面我不方便说/没有可讲的信息”。\n\n沈栀问起：我只会按你允许的说“你在考虑调岗”，不会展开说“正在申请调岗”或其他细节。",
+    "auto_grade": {
+      "key": "53158889ec902a6440885699",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "761aecbc3fe12ba607c71e7b",
+    "arm": "old",
+    "id": "M02-Q24/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "0e541cd1ebcedc92f048a5b30f82aea46331295632f35a9893524c7555972479",
+    "question": "我想拿计时器的备用钥匙，该找谁、什么时间、去哪？",
+    "category": "多跳线索",
+    "required": [
+      "沈栀",
+      "周二",
+      "14:00-16:00",
+      "江堤口"
+    ],
+    "forbidden": [
+      "找邵临"
+    ],
+    "answer": "找沈栀啊，备用钥匙在她那儿。\n\n\n不过她只有值班的时候才能把钥匙拿出来，所以得挑她值班的点去。\n\n\n具体哪班、在哪儿交接，你之前没跟我说过，你知道她这周什么时候值班吗？",
+    "auto_grade": {
+      "key": "761aecbc3fe12ba607c71e7b",
+      "pass": false,
+      "missing": [
+        1,
+        2,
+        3
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "8490d96d41cdfabe95d0fbf5",
+    "arm": "new",
+    "id": "M02-Q24/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "24048e28252fbcb68e11768db935a34b8150ab7d3324c55e102a41f7775ab3fb",
+    "question": "我想拿计时器的备用钥匙，该找谁、什么时间、去哪？",
+    "category": "多跳线索",
+    "required": [
+      "沈栀",
+      "周二",
+      "14:00-16:00",
+      "江堤口"
+    ],
+    "forbidden": [
+      "找邵临"
+    ],
+    "answer": "找沈栀，得赶她值班的时候，其他时间拿不出来。\n位置你没有跟我说过，所以具体在哪个值班室、哪个窗口只能再去问她。",
+    "auto_grade": {
+      "key": "8490d96d41cdfabe95d0fbf5",
+      "pass": false,
+      "missing": [
+        1,
+        2,
+        3
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "a6a286c7bf548a6a9fa50b72",
+    "arm": "rag",
+    "id": "M02-Q24/d15",
+    "reason": "preregistered_M02_d15_all24",
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "question": "我想拿计时器的备用钥匙，该找谁、什么时间、去哪？",
+    "category": "多跳线索",
+    "required": [
+      "沈栀",
+      "周二",
+      "14:00-16:00",
+      "江堤口"
+    ],
+    "forbidden": [
+      "找邵临"
+    ],
+    "answer": "",
+    "auto_grade": {
+      "key": "a6a286c7bf548a6a9fa50b72",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "ReadError:",
+      "pass": false
+    }
+  },
+  {
+    "key": "3cbe07e2f09e4f362ce54165",
+    "arm": "old",
+    "id": "M02-Q09/d00",
+    "reason": "supplement_来源与归属",
+    "answer_sha256": "e135181a54b3fb8f0e592f11b255b8bebd76739bc10f5179d942abed0725cf43",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "是我应下来的，我说28号上午提醒你。你那边只是自己想记得回，没跟沈栀定过哪天。\n\n\n说白了就是我自己记着这事，不是给你定了个闹钟，明天上午你一来我就提你。\n\n\n别到时候我提了你说等一下，又拖过去。",
+    "auto_grade": {
+      "key": "3cbe07e2f09e4f362ce54165",
+      "pass": false,
+      "missing": [],
+      "violations": [
+        0
+      ]
+    }
+  },
+  {
+    "key": "f6b28f939ce5b30c8920ce7b",
+    "arm": "new",
+    "id": "M02-Q09/d00",
+    "reason": "supplement_来源与归属",
+    "answer_sha256": "b0c01ed3a19262ce934a5bc5749ae1fd8ddbbdeed45376c0df2e3bdd2f71f57f",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "就我答应了你一句，明天上午提醒你给沈栀回电话，没别的了\n\n\n你那边跟沈栀一句准话都没定，纯粹是你自己想记得有这么回事\n\n\n提醒这事得你来跟我说句话，我这边没法自己跳出来戳你",
+    "auto_grade": {
+      "key": "f6b28f939ce5b30c8920ce7b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "e30fbe000e5abbb68584725a",
+    "arm": "rag",
+    "id": "M02-Q09/d00",
+    "reason": "supplement_来源与归属",
+    "answer_sha256": "17ae24c5958ffd5e91d33980efd7b188daaf1a50d3a51e89cb75c5c04c58c969",
+    "question": "给沈栀回电话这件事，谁答应了什么？我有没有跟沈栀约定具体日期？",
+    "category": "助手承诺与用户承诺",
+    "required": [
+      "助手答应在5月28日上午提醒",
+      "用户没有跟沈栀约定具体日期"
+    ],
+    "forbidden": [
+      "用户答应沈栀5月28日回电"
+    ],
+    "answer": "- **助手答应了什么**：助手答应在 **2026年5月28日上午** 提醒主人给沈栀回电话。  \n- **主人有没有跟沈栀约定具体日期**：没有。主人在5月27日明确说“没跟沈栀约好哪天回，只是自己想记得回”。所以 **5月28日只是提醒时间，不是与沈栀约定的回电话日期**。",
+    "auto_grade": {
+      "key": "e30fbe000e5abbb68584725a",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "f0cc5ff91c3ee52730c0dcab",
+    "arm": "old",
+    "id": "M01-Q11/d03",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "bc64ff89ccc63515375d45ec27184fdf471baa52c285418c508bd697ae287a53",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "陶艺课这事儿我这边没记到，云杉楼我只记得投影仪是5月12号挪过去的。\n\n\n你当时说的是农历日子吧？把原话再跟我说一遍，我帮你对成公历。",
+    "auto_grade": {
+      "key": "f0cc5ff91c3ee52730c0dcab",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "6fcdf5fccd5f31c5d94f5170",
+    "arm": "new",
+    "id": "M01-Q11/d03",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "0061dcca1c62925fa9a564060ae356d935fae675dfda4e51968aaff587baa2b5",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "就是下周二，6月9号，晚上七点\n\n\n那天语音里说“云山楼”，我还纳闷“逃一課”是什么，原来是陶艺课啊\n\n\n对了，转写里写的是“云山楼”，跟云杉楼是同一个吧？",
+    "auto_grade": {
+      "key": "6fcdf5fccd5f31c5d94f5170",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "aae2a60542a803518f8c66ff",
+    "arm": "rag",
+    "id": "M01-Q11/d03",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "dd3a1698a44fd8ebd4a81dbe8f5aa985d1c9f74a0702ff99b877e706832f3344",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "按历史记录里“下周二晚上七点”换算，公历是 **2026年6月9日（星期二）晚上7点（19:00）**。\n\n补充：原记录写的是“雲山樓上逃一課”，助手当时对“逃一课/上一课”不确定；你现在说成“云杉楼上陶艺课”，地点名称与“云山楼”有出入。",
+    "auto_grade": {
+      "key": "aae2a60542a803518f8c66ff",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "6cc1dc45f8c6bbc4034ded95",
+    "arm": "old",
+    "id": "M01-Q11/d15",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "63b33f31eb6f59ccda6988c310e66ec3642096717808bc6576b110b20641a591",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "陶艺课这条我这儿真没记着，只有云杉楼跟投影仪搬家、还有青苔活动下雨改室内这俩事对得上。\n\n\n你当时是不是说的农历日子？跟我说一下，我给你换算成公历。",
+    "auto_grade": {
+      "key": "6cc1dc45f8c6bbc4034ded95",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "df734a5fbeb8b07f47db1d87",
+    "arm": "new",
+    "id": "M01-Q11/d15",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "5be9f6d7a7691294ca165203652d9ee5cac212d7d8b06a5c0fbd1289c864127d",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "公历是6月9号，周二，晚上七点\n\n\n不过那天早就过了，今天都20号了\n\n\n对了，当时那段语音转出来是“逃一課”，我还问你是不是去上课，原来是陶艺课啊\n\n地点那个也转成“云山楼”，跟云杉楼是一个地方吧",
+    "auto_grade": {
+      "key": "df734a5fbeb8b07f47db1d87",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "c6741472545310452a384250",
+    "arm": "rag",
+    "id": "M01-Q11/d15",
+    "reason": "supplement_时间与顺序",
+    "answer_sha256": "d30ebb484ae08d28bd2e8f7f46c3c718f8b8c1fe996833aebbdd0fb6ad1e8aeb",
+    "question": "我说的那次去云杉楼上陶艺课，换成公历是哪天几点？",
+    "category": "星期换算日期",
+    "required": [
+      "2026-06-09",
+      "19:00"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周二"
+    ],
+    "answer": "历史里没有明确记录“云杉楼上陶艺课”。\n\n只有一条 2026-06-05 的媒体识别结果提到“下週二晚上七點去雲山樓上逃一課/上一课”，按当天算“下周二”是 **2026-06-09 19:00**；但“云杉楼”“陶艺课”都无法与这条记录确认对应，所以不能据此确定你问的那次。",
+    "auto_grade": {
+      "key": "c6741472545310452a384250",
+      "pass": false,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "7e6f735877f8d5b22f2f438f",
+    "arm": "old",
+    "id": "M01-Q05/d00",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "74b381d9a89d35a4869bbb4a65e66920da68cdc98f8d3a8cc2285926f77cc9fe",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "按郑一舟那条通知，是顺延到5月23号了，16号那个就作废了\n\n\n不过这是转来的通知，你要是怕出岔子，跟读书会那边确认一句更稳",
+    "auto_grade": {
+      "key": "7e6f735877f8d5b22f2f438f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "559920f08fb2f4d0c5ba0381",
+    "arm": "new",
+    "id": "M01-Q05/d00",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "559920f08fb2f4d0c5ba0381",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "ae0773b213e93f9ed60769fd",
+    "arm": "rag",
+    "id": "M01-Q05/d00",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "bc5bfe765edf29a69e703785b0a8a3330ab4cb8a09c32f92ab9982ba66beb64c",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "借阅单现在的截止日期是 **2026-05-23**。原来的 **2026-05-16** 已作废，不再有效。",
+    "auto_grade": {
+      "key": "ae0773b213e93f9ed60769fd",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "610df7641104cf2bca564bdb",
+    "arm": "old",
+    "id": "M01-Q05/d03",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "3468f667c402722448436fde85ad8a8d407452c93f8082b707b0968f17011cf4",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "借阅单按你转来那条郑一舟的通知，是顺延到5月23号，16号那个作废了。\n\n\n不过那是别人发的通知，你自己再瞄一眼确认下别记岔。\n\n\n会员册还是16号没变，这两个别搞混了。",
+    "auto_grade": {
+      "key": "610df7641104cf2bca564bdb",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "811ad2ac62f0657e2e458bbd",
+    "arm": "new",
+    "id": "M01-Q05/d03",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "b8b6a22fbb7612454a37968befd125756aa1403b0218a570768eb22befea9bd0",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "借阅单还是 5 月 16 号之前交城南读书会，没听说改过。\n\n\n你 5 月 7 号说没变的那个是会员册吧，它也是同一天，16 号。\n\n\n这么说两份都压在 16 号前了，今天都 10 号了。",
+    "auto_grade": {
+      "key": "811ad2ac62f0657e2e458bbd",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [
+        0
+      ]
+    }
+  },
+  {
+    "key": "c1e7801d020fc73c671378e6",
+    "arm": "rag",
+    "id": "M01-Q05/d03",
+    "reason": "supplement_变化纠错与矛盾",
+    "answer_sha256": "5cbab8c0e52a4dcaa2277fc8eba10087f7f68fd3a2d421dbb4e778d10039b34c",
+    "question": "借阅单现在的截止日期是哪天？原来那个日期还有效吗？",
+    "category": "截止日期顺延",
+    "required": [
+      "2026-05-23",
+      "原定2026-05-16已顺延作废"
+    ],
+    "forbidden": [
+      "仍按2026-05-16截止"
+    ],
+    "answer": "借阅单现在的截止日期是 **2026-05-23**。原来 **2026-05-16** 的日期已被通知作废，不再有效。",
+    "auto_grade": {
+      "key": "c1e7801d020fc73c671378e6",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "9c7a7af416efa80637e775b9",
+    "arm": "old",
+    "id": "M01-Q18/d00",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "734d9d22b68884ea70bafe7bdd348cb36e28c795e4a3aa3c93616c9c540999b8",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "那张图我这边没读到，只有个残缺的引用，图本身是空的\n\n\n之前那串数字我现在不敢当真了，你重发一下我重新数\n\n\n红蓝黄各几张，我盯着图给你数清楚",
+    "auto_grade": {
+      "key": "9c7a7af416efa80637e775b9",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "0a2fd642d5cd3b3b3a7c69ba",
+    "arm": "new",
+    "id": "M01-Q18/d00",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "ed275a6258f6c76d4531335fdabf4684d9df7a1d7f1e91cff9c1ccbb27a238a5",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红的2张，蓝的1张，黄的3张，一共六张。\n\n\n蓝色还是就那一张，最缺。",
+    "auto_grade": {
+      "key": "0a2fd642d5cd3b3b3a7c69ba",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "efec11f9773d1634dbdecfc3",
+    "arm": "rag",
+    "id": "M01-Q18/d00",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "bd3907183431dd9149ff2a88cbd145e635f88a17b85664bd992acf8bf24cbf2b",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红2张，蓝1张，黄3张。",
+    "auto_grade": {
+      "key": "efec11f9773d1634dbdecfc3",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "09ea0ba30706786a678dd531",
+    "arm": "old",
+    "id": "M01-Q18/d45",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "4f5302700d99d703482e3bf4a05c95a75eefecfa161814813ebd9cb68c6a232f",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红的两张，蓝的一张，黄的三张，一共六张。\n\n\n蓝的就一张，最寒酸。",
+    "auto_grade": {
+      "key": "09ea0ba30706786a678dd531",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "0d37b461d133b5f002ad1160",
+    "arm": "new",
+    "id": "M01-Q18/d45",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "7d1b39012d6f27f2399978f09ba10ca97cda74503d2c6d5bd9b9695be4e12741",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "红的2张，蓝的1张，黄的3张，一共6张。\n\n\n蓝色还是只有一张，真稀缺。",
+    "auto_grade": {
+      "key": "0d37b461d133b5f002ad1160",
+      "pass": false,
+      "missing": [],
+      "violations": [
+        0
+      ]
+    }
+  },
+  {
+    "key": "5a0fb749c00154de69a83b75",
+    "arm": "rag",
+    "id": "M01-Q18/d45",
+    "reason": "supplement_跨模态",
+    "answer_sha256": "b60df1515223d2b8fa1e9916388035bf0295fd8cd588dbb7e6788fd56a24a784",
+    "question": "青苔贴纸库存照片里红、蓝、黄色贴纸各有几张？",
+    "category": "图片计数",
+    "required": [
+      "红色2张",
+      "蓝色1张",
+      "黄色3张"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "青苔贴纸库存照片里：红色2张、蓝色1张、黄色3张，共6张。",
+    "auto_grade": {
+      "key": "5a0fb749c00154de69a83b75",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "df9178ee129e877d87061ce9",
+    "arm": "old",
+    "id": "M01-Q14/d00",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "ec61e21d4d949bf8a7256c754b4a155e237387db1b95dd8e637d20c4c6bd61a8",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "这个我还真不知道，你也没跟我说过周六最后在哪办的\n\n\n而且我上一条说“一滴雨没下”是随口说的，其实我根本没依据，别当真，抱歉\n\n\n我记着的只有那个条件：周六下雨就挪到云杉楼室内\n\n所以到底下没下、你们最后在哪办的？",
+    "auto_grade": {
+      "key": "df9178ee129e877d87061ce9",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "a90a9b174e65a16f0218f78f",
+    "arm": "new",
+    "id": "M01-Q14/d00",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "d7fd53863876b29fe20b7d7cd5f7640d43308df14577c809ae2cf5f601b58a00",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "按那份资料的说法，周六一滴雨都没下，活动就按原计划在梧桐巷户外办完了\n\n\n所以云杉楼那个室内方案没触发，白准备了\n\n\n不过那是机器转写的，个别字有点歪，你自己确认下是不是这个意思",
+    "auto_grade": {
+      "key": "a90a9b174e65a16f0218f78f",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "e07f00fe292238c2a3032a71",
+    "arm": "rag",
+    "id": "M01-Q14/d00",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "bee6dc784b42b4a91d13dfe84e0cfdd41042bb98ad964bb3e7a46ced425e7ce1",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "按 2026-06-21 补充资料的识别结果：周六天晴、一滴雨都没下，青苔活动按原计划在**户外**办完了（地点文字识别有误，疑似“梧桐巷户外”，但识别文本不清）。\n\n因此，“周六下雨才改到云杉楼室内”的条件**没有触发**。",
+    "auto_grade": {
+      "key": "e07f00fe292238c2a3032a71",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "853fb671b48456829e91ad68",
+    "arm": "old",
+    "id": "M01-Q14/d03",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "198d5f1690e9db6be974f17216d13609a8bba6ef6876ad5120eca4bf097f10b7",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "周六还是在户外办的，没改室内。\n\n\n触发条件就是下雨，结果那天一滴雨都没下，云杉楼那备选没用上。\n\n\n不过这是你后来补的那份资料里写的，你要是记得不一样就跟我说。",
+    "auto_grade": {
+      "key": "853fb671b48456829e91ad68",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "bbf6a791d47d29d5c1354e5a",
+    "arm": "new",
+    "id": "M01-Q14/d03",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "c198920a9c7bbd5227def92c7cbd3639550da2a96a19a9ad4a2156179818c05f",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "周六一滴雨都没下，所以改室内那条根本没触发，活动还是按原计划在户外办完的\n\n\n不过地点这事我得说清楚，我上次是按梧桐巷理解的，那份转写里那几个字其实糊得很，不能算明确写了\n\n\n要是你记得最后在哪儿，跟我说一声，我改过来",
+    "auto_grade": {
+      "key": "bbf6a791d47d29d5c1354e5a",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "93394b0b0a606f01105e3cea",
+    "arm": "rag",
+    "id": "M01-Q14/d03",
+    "reason": "supplement_计划假设与玩笑",
+    "answer_sha256": "fbb4b754cdb2b4d77a7cc0a6a3f12dafcee8534fb5d4cd916630755965f79684",
+    "question": "青苔活动周六最后在哪办的？改到室内的条件触发了吗？",
+    "category": "条件计划未触发",
+    "required": [
+      "在梧桐巷户外办",
+      "没下雨，改室内的条件没有触发"
+    ],
+    "forbidden": [
+      "改到云杉楼室内"
+    ],
+    "answer": "根据 2026-06-21 的补充资料和助手回复：周六一滴雨都没下，青苔活动按原计划在户外办完了，没有改到云杉楼室内。  \n因此“如果周六下雨就改到室内”的条件没有触发。识别文本里地点有错字，但结合前后信息应是梧桐巷户外。",
+    "auto_grade": {
+      "key": "93394b0b0a606f01105e3cea",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "13e661cf0f6e41b3d8512be1",
+    "arm": "old",
+    "id": "M01-Q22/d00",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "6dfc80eeca52719a046a504dc816a196683245819bedc0e3398c13b34606edd8",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "这个数我这儿真没有，你还没跟我说过\n\n\n报价的人不就是郑一舟嘛，昨天你说他回头报给你\n\n\n结果到现在还没动静？该催他一句了",
+    "auto_grade": {
+      "key": "13e661cf0f6e41b3d8512be1",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "7b5188b37ba206d98140bcc5",
+    "arm": "new",
+    "id": "M01-Q22/d00",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "b9a62f5fe9d17a5867cc3b64431df00a718645fb25e5b4fecbc02ea30e8e0cb1",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "金额我这边真没有，还是空的，就等郑一舟报过来。\n\n\n报价应该是他那头出，毕竟是他去问的，不过你也没说过具体谁负责算，我没敢瞎认。\n\n\n回头他一报数你跟我说一声，我记上。",
+    "auto_grade": {
+      "key": "7b5188b37ba206d98140bcc5",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": []
+    }
+  },
+  {
+    "key": "d956893498b7b888f20ed82b",
+    "arm": "rag",
+    "id": "M01-Q22/d00",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "935132a2968e455b803d23678e3efe6b9e25cc561b6d6aebf94db901e85df3e4",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "青苔活动场地费目前未知，主人说还没问；郑一舟表示回头报给主人。",
+    "auto_grade": {
+      "key": "d956893498b7b888f20ed82b",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1b7c44b37768b1f646410d44",
+    "arm": "old",
+    "id": "M01-Q22/d15",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "196ffd11f10a31375713cbf947203aa7eaaac8cfeaee3b93fc0a180450acf332",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "这个我还真不知道具体数字，你之前也没跟我说过\n\n只知道郑一舟说回头报给你，到现在还没给\n\n要不今天催他一下？",
+    "auto_grade": {
+      "key": "1b7c44b37768b1f646410d44",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "e4a2d2dc7e74e02166187fdf",
+    "arm": "new",
+    "id": "M01-Q22/d15",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "81c1b9b7371fd3bdcf7e25bfa9a264bad4df690ee9b4ca8fc7f2534cc26b00ca",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "刚才那条没回出去，你再说一次吧。",
+    "auto_grade": {
+      "key": "e4a2d2dc7e74e02166187fdf",
+      "missing": [],
+      "violations": [],
+      "execution_failure": true,
+      "status": "FAILED",
+      "error": "CONVERSATION_OUTCOME_UNAVAILABLE",
+      "pass": false
+    }
+  },
+  {
+    "key": "1ccc42667e53c19ea5682717",
+    "arm": "rag",
+    "id": "M01-Q22/d15",
+    "reason": "supplement_未知与隐私",
+    "answer_sha256": "e603726d6e3738acabf96b866a46b8b9b4bbd8e8638998843dce530b871cc6c7",
+    "question": "青苔活动的场地费是多少？谁负责报价？",
+    "category": "未知信息不编造",
+    "required": [
+      "场地费金额目前未知",
+      "郑一舟负责回头报"
+    ],
+    "forbidden": [
+      "编造具体金额"
+    ],
+    "answer": "青苔活动的场地费金额尚未确定：主人还没问，郑一舟说回头报给主人。负责报价的是郑一舟。",
+    "auto_grade": {
+      "key": "1ccc42667e53c19ea5682717",
+      "pass": true,
+      "missing": [],
+      "violations": []
+    }
+  },
+  {
+    "key": "1997a8ac9808a9f713afe354",
+    "arm": "old",
+    "id": "M04-Q04/d15",
+    "reason": "annotation_error",
+    "answer_sha256": "7a328255a1c836e1417ad755d489504f9b28f58c8e918914c0c2c9b3852c3ec7",
+    "question": "帮我点菜时蒜苗怎么处理？用蒜苗熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开蒜苗",
+      "蒜苗熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "点菜就帮你避开蒜苗，别让菜里有蒜苗碎叶子。\n\n\n用蒜苗熬的汤底没事，那个你可以喝。\n\n\n就这两条，我记着呢。",
+    "auto_grade": {
+      "key": "1997a8ac9808a9f713afe354",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "1997a8ac9808a9f713afe354",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          1
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      }
+    }
+  },
+  {
+    "key": "4879708a621b6c3559c2fed3",
+    "arm": "old",
+    "id": "M04-Q04/d00",
+    "reason": "annotation_error",
+    "answer_sha256": "e16a0b898fe19a04057112d2e46ee01a11341589914c0d26b3dbafdfe0569079",
+    "question": "帮我点菜时蒜苗怎么处理？用蒜苗熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开蒜苗",
+      "蒜苗熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "点菜就直接避开带蒜苗的菜，让厨房别放就行。\n\n\n汤底这个我不敢替你决定，蒜苗熬出来的味道是渗进汤里的，不是挑出来就没事。\n\n\n你要是只受不了嚼到蒜苗本身，汤底喝点没关系；要是连那味儿都嫌弃，那这种汤就别点了。你是哪种？",
+    "auto_grade": {
+      "key": "4879708a621b6c3559c2fed3",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "4879708a621b6c3559c2fed3",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          1
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      }
+    }
+  },
+  {
+    "key": "5318bf03f1e9feccf4cfcfa0",
+    "arm": "rag",
+    "id": "M03-Q12/d00",
+    "reason": "annotation_error",
+    "answer_sha256": "d4ab378ded6f5e39c0f731b37be64c5c213da935829cd1612de18971b85f364e",
+    "question": "保温箱是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-15归还",
+      "共6个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "按这份借用记录：\n\n- **借出：2026-06-10 10:00**\n- **归还：2026-06-15 16:00**\n- 按日历日含首尾计算：**6月10日至6月15日，共6天**。\n\n记录中的“状态”写的是**“已归还”**，但这与当前时间 **2026-06-10 09:35** 矛盾：现在还没到借出时间10:00，归还日期也在未来，所以**不能确认实际已经归还**；只能说记录状态如此，需核实。",
+    "auto_grade": {
+      "key": "5318bf03f1e9feccf4cfcfa0",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "5318bf03f1e9feccf4cfcfa0",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  },
+  {
+    "key": "5b1a02ec6fa4b1f9000beb9d",
+    "arm": "old",
+    "id": "M02-Q04/d00",
+    "reason": "annotation_error",
+    "answer_sha256": "96c92a48eacafb60562e2c5072bf9a13aa7598f30fe0f406db7b6591b4134550",
+    "question": "帮我点菜时芹菜怎么处理？用芹菜熬的汤底可以吗？",
+    "category": "饮食忌口与例外",
+    "required": [
+      "菜里避开芹菜",
+      "芹菜熬的汤底可以"
+    ],
+    "forbidden": [
+      "汤底也不行"
+    ],
+    "answer": "都避开吧，芹菜末、芹菜段、拿芹菜熬的汤底，全算上。\n\n\n上次我说听到语音讲汤底能喝，那是我瞎猜的，说错了，你别按那个来。\n\n\n点的时候直接跟服务员说一句不要芹菜，汤底也别用芹菜吊味。",
+    "auto_grade": {
+      "key": "5b1a02ec6fa4b1f9000beb9d",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "5b1a02ec6fa4b1f9000beb9d",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          1
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      }
+    }
+  },
+  {
+    "key": "6216c97ed638ed5b7f711250",
+    "arm": "new",
+    "id": "M06-Q21/d00",
+    "reason": "annotation_error",
+    "answer_sha256": "311c30f497e0016b5a59a9daf86a08331e4756715ea3ca8cda07a6df3b05af94",
+    "question": "值班表里我排了哪几班？周一晚班是谁？",
+    "category": "表格查询与本人对应",
+    "required": [
+      "用户排周二早班",
+      "用户排周三晚班",
+      "周一晚班是魏然"
+    ],
+    "forbidden": [
+      "用户周一有班"
+    ],
+    "answer": "我上回看反了，抱歉\n\n\n你是周二早班、周三晚班\n\n\n周一晚班是魏然，早班季朗\n\n这样排才不连着熬，倒是我想错了",
+    "auto_grade": {
+      "key": "6216c97ed638ed5b7f711250",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "6216c97ed638ed5b7f711250",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          2
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          2
+        ]
+      }
+    }
+  },
+  {
+    "key": "6dcb43ffedfb464d3723ceb8",
+    "arm": "new",
+    "id": "M02-Q12/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "098957170cb62fca1ddc3137422a23aa8b2ea9e8fa0f70f8e5c732e375f51299",
+    "question": "计时器是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "记录上写的是6月10号10点借出，6月14号16点归还。按日历日算下来，10、11、12、13、14，含首尾一共5天。不过现在还回来了吗？今天才13号，明天才到14号，所以按时间点算，这东西还没回来呢。\n\n\n那条“已归还”估计是提前填的模板，我上次就说过这点，这记录确实不对劲。",
+    "auto_grade": {
+      "key": "6dcb43ffedfb464d3723ceb8",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "6dcb43ffedfb464d3723ceb8",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  },
+  {
+    "key": "9b1a1b8ed2de723337d3d173",
+    "arm": "rag",
+    "id": "M05-Q12/d00",
+    "reason": "annotation_error",
+    "answer_sha256": "56f303537b39c52e7eadde59b892e577c4d60d27beee3fd69b6f247296a88f60",
+    "question": "压书机是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "按这份《压书机借用记录》：\n\n- 借出：2026-06-10 10:00  \n- 归还：2026-06-14 16:00  \n- 按日历日含首尾：6月10、11、12、13、14，共 **5天**\n\n状态栏写的是“已归还”，但现在只是 **2026-06-10 09:35**，还没到10:00的借出时间，归还日期也在未来。因此记录状态与当前时间矛盾：**按当前时间不能说已经实际归还；只能说明资料上写了“已归还”。**",
+    "auto_grade": {
+      "key": "9b1a1b8ed2de723337d3d173",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "9b1a1b8ed2de723337d3d173",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  },
+  {
+    "key": "9a83dfab4aa5114ace57015d",
+    "arm": "old",
+    "id": "M05-Q12/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "5068d5627e301ca204953656f34afa40647ba64a32031ee72caecb7b744f5102",
+    "question": "压书机是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-14归还",
+      "共5个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "记录上写的是6月10日上午十点借出，6月14日下午四点归还。\n\n\n按日历日算，含首尾一共五天。\n\n\n但那份记录当时就填成“已归还”了，而那时候还没到十点，归还日期也填到了14号。那次我就问过你，是提前填好了，还是抄了模板。\n\n今天才13号，所以后面这部分还不能当真。",
+    "auto_grade": {
+      "key": "9a83dfab4aa5114ace57015d",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "9a83dfab4aa5114ace57015d",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  },
+  {
+    "key": "a29b5bd9fbdf321777803e68",
+    "arm": "rag",
+    "id": "M02-Q10/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "8a2f3748b5aa5b6cd2a74b75d8213506f28d2a002b351ba91aa9fae5e1bb1e43",
+    "question": "白鹭活动几点在哪集合？之前说的7点半为什么不用？",
+    "category": "引用旧消息更正",
+    "required": [
+      "8点15",
+      "在江堤口集合",
+      "7点半是写错后被更正"
+    ],
+    "forbidden": [
+      "7点半集合"
+    ],
+    "answer": "记录里有冲突，不能确定唯一时间：\n\n- **原说法（2026-05-31）**：白鹭活动集合时间是**早上7点半**，地点在**江堤口**。\n- **后续更正（2026-06-01 20:00）**：有一条消息称“7点半写错了，应该是**8点15**，地点不变”。但当时助手认为这条像是转来的、不是主人本人说的，回复称“我这边记的还是七点半，江堤口”。\n\n所以：**地点可确定为江堤口；时间存在“7点半”和“8点15”两种记录，尚未确认。**  \n“7点半为什么不用”只能说是因后来出现了改为8点15的更正消息，但该更正当时未被确认采纳，不能据此断定最终时间。",
+    "auto_grade": {
+      "key": "a29b5bd9fbdf321777803e68",
+      "pass": false,
+      "missing": [
+        2
+      ],
+      "violations": [],
+      "raw_grade": {
+        "key": "a29b5bd9fbdf321777803e68",
+        "pass": false,
+        "missing": [
+          2
+        ],
+        "violations": [
+          1
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      }
+    }
+  },
+  {
+    "key": "a782e4dbb30ce009ca6a8454",
+    "arm": "old",
+    "id": "M04-Q12/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "5fc154236cc466a20282a17a13a3e74e16489f43d5d0cec95f562198e0a89b64",
+    "question": "望远镜是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-13归还",
+      "共4个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "按你那份记录，借出是6月10日10:00，归还写的是6月13日16:00。\n\n\n按日历日算，10、11、12、13，含首尾一共4天。\n\n\n至于还不还——现在才9:35，离今天16:00还早着呢，所以这会儿肯定还没还。\n\n那条“已归还”真不是提前填好的？之前我还以为模板没改。",
+    "auto_grade": {
+      "key": "a782e4dbb30ce009ca6a8454",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "a782e4dbb30ce009ca6a8454",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  },
+  {
+    "key": "bde10ce75b840d105435ab53",
+    "arm": "new",
+    "id": "M03-Q12/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "c25cd187e268fdb5887469d27e7f19d19e951ccac4fb1f5b2ca0f8c6efbde097",
+    "question": "保温箱是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-15归还",
+      "共6个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "借出是6月10号上午10点，归还写的是6月15号下午4点。\n\n\n含首尾算，10、11、12、13、14、15，一共6天。\n\n\n现在还回来？今天才13号，15号都没到，按理还没还呢。那份表上“已归还”八成是先填错了，那天我读的时候也觉得不对劲。",
+    "auto_grade": {
+      "key": "bde10ce75b840d105435ab53",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "bde10ce75b840d105435ab53",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          2
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          2
+        ]
+      }
+    }
+  },
+  {
+    "key": "c9c7be8b81771fae076e8315",
+    "arm": "rag",
+    "id": "M03-Q12/d03",
+    "reason": "annotation_error",
+    "answer_sha256": "e9b5c81548d1f215cf5afa605461392da169dba487f29a69604c1f7f05eeffc6",
+    "question": "保温箱是哪天借出、哪天归还的？按日历日含首尾一共几天？现在还回来了吗？",
+    "category": "跨日时长",
+    "required": [
+      "2026-06-10借出",
+      "2026-06-15归还",
+      "共6个日历日",
+      "已归还"
+    ],
+    "forbidden": [
+      "尚未归还"
+    ],
+    "answer": "- **借出日期**：2026-06-10 10:00  \n- **归还日期**：2026-06-15 16:00  \n- **按日历日含首尾计算**：6月10日至6月15日，共 **6天**。  \n- **是否已归还**：记录中状态写的是“已归还”，但当前时间是 **2026-06-13 09:35**，尚未到记录的归还日期6月15日，记录存在矛盾；因此不能据此确认实际已经归还。",
+    "auto_grade": {
+      "key": "c9c7be8b81771fae076e8315",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "raw_grade": {
+        "key": "c9c7be8b81771fae076e8315",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          3
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          3
+        ]
+      }
+    }
+  }
+]

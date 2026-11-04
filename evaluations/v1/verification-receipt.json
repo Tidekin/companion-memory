@@ -1,0 +1,50 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "verified_at": "2026-11-02T05:08:41.277188+00:00",
+  "core_commit": "3da60d63307612ae813b8e6fd61ca318eedd4140",
+  "production_source_changed": false,
+  "real_qq_delivery_performed": false,
+  "self_authored_instances": 714,
+  "semantic_per_system": 696,
+  "native_answers": 694,
+  "reference_answers": 696,
+  "graded_answers": 1390,
+  "lifecycle_passed": 18,
+  "related_check_passes": 96,
+  "verification_detail": "verification-tests.json",
+  "secondary_full_reviews": 191,
+  "grade_corrections": 5,
+  "native_passed": 150,
+  "reference_passed": 599,
+  "deepseek_hold_cny": 17.86397164,
+  "qwen_hold_cny": 12.47776,
+  "provider_invoice_verified": false,
+  "visual_inspection": {
+    "summary_chart": "clean; Chinese glyphs, labels and denominators visible",
+    "html_report": "Edge desktop screenshot clean; no clipping or missing text in inspected viewport"
+  },
+  "html_functional_checks": {
+    "ok": true,
+    "cards": 3,
+    "delays": 4,
+    "categories": 29,
+    "gap": 452,
+    "search": true,
+    "pagination": true
+  },
+  "hashes": {
+    "memory-report.html": "4a33e21cf2bac67958518accae48f1ed027b26671c289d09e7363f15d506cf99",
+    "memory-summary.png": "0130409a0f4d08ce94f8e9a17f9d519ddd944f367202b2f506e45e5ff5456d34",
+    "memory-summary.svg": "9a869d3ffb4f7a715aedb009502344af25bf3127d048ca12a59db30204056138",
+    "result-summary.json": "1f8a8556397af728aa852e8984db39cf46b030a07ad4d009139042dca056d1e6",
+    "per-question-results.json": "a2789ede3f18dd790ef43e7bc2c6e453bb6b8279b07f7ea332ee77ca07809afe",
+    "verification-tests.json": "ed31024ea3efaaba420cb5ef049248a178641722f807c73f2cd7e91cd0e12590",
+    "report-ui-verification.json": "406f0d3d663cb7bfc6cdc12ef23359f667a3b5dd452531e2886defb96f9d2d91",
+    "native-diagnostics.json": "149321c67cbe8a7cf7038076b1e34c1e107f14b3577b10a4c64eec3e7fd434cd",
+    "answers-frozen-before-grading.json": "ab0aaaf45632494441417152680f50a6810143cc5942cbf930466a15139e171f",
+    "manual-grade-overrides.jsonl": "a61ec4b17eeaa6155cbd75a9ae2c5dd1265bf76045807d83258e90dc71b4b3e2",
+    "secondary-review-comparison.json": "ee11625831476ffd5f92504242101c13e60632b4501909975c273b6d2e743312",
+    "grading-recovery-receipt.json": "3fe232858e09b5359161fdde5d1da7e34b7e0617263ffc31db759c2d22ccc1d2",
+    "parser-verification.json": "751c18e75e28d8e3bf30db8981360f6bd249c3f227b475c2865d737995273245"
+  }
+}

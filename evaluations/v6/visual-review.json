@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "at": "2026-11-03T23:25:34.374913+00:00",
+  "reviewer": "same_assistant_visual_inspection",
+  "embedded_charts_inspected": [
+    "category-01.png",
+    "category-02.png",
+    "category-03.png",
+    "category-04.png",
+    "category-05.png",
+    "category-06.png",
+    "category-07.png",
+    "category-08.png"
+  ],
+  "additional_chart_inspected": "memory-summary.png",
+  "screenshots_inspected": [
+    "report-desktop.png",
+    "report-analysis.png",
+    "report-question.png",
+    "report-mobile.png",
+    "report-question-mobile.png"
+  ],
+  "findings": "Chinese glyphs, legends, bar counts, complete axes and 0-100 scales visible. No clipping, overlap or horizontal overflow. Conclusion and post-evaluation candidate distinction visible near top. Both question-detail layouts readable.",
+  "files_sha256": {
+    "category-01.png": "4812b3dfdf20b2d2bb49a26c97e4ab2f2ec6b7e913d4ac5427d744e5bb4ca38e",
+    "category-02.png": "799327c0de81a75f2ea184ee660150bd952f596ca2f4d4e214f4db145759e942",
+    "category-03.png": "2708e99ee16fcbcf026485d538e46738194e173ead74e41163221565a38b6986",
+    "category-04.png": "6cb6aa25bb62b15b25723b66c4d6e803c9b6ad6b8d8418d89d38788282fc4c23",
+    "category-05.png": "8e91fa2d03d29d673e108f1e5628718bf7884a10f69be2e791445e03189c6abe",
+    "category-06.png": "a656785ece3663bd926c1b214292a772b2d6fa3ced0401e8324f2111bfe894d7",
+    "category-07.png": "51d22f4afad184ce224202d90b875bc1c936c8a29403af95b519ed0e63d3a7b3",
+    "category-08.png": "aa64be5031a189855229e9fc69fab92d77e5812cade5216f712b7cc2f4f84ef7",
+    "memory-summary.png": "ad52ed558ba211ec0317f468dfa88a34b98fd431697c495d784856859f1352e0",
+    "output/playwright/report-desktop.png": "ba9fb766cfe84301a3dac43138697c53ae5fd9455290b2f6d8a6fcf522e0a6c8",
+    "output/playwright/report-analysis.png": "ee655769ec4d66b71a808db588d0a58bed4e025f956be8782b42c7d9d9264063",
+    "output/playwright/report-question.png": "efb6a220bfab6ab88cde803255601386e41af7ad5f8a501180896558f681751a",
+    "output/playwright/report-mobile.png": "75b7f883d712a243f59ef4b10f8a21176110edb7aae3a0cc69379a3bb2046d33",
+    "output/playwright/report-question-mobile.png": "88a191b9228c0ccb72943ce3c1ff29c7f465976ad063155b4ab10416b2d53a9e"
+  }
+}

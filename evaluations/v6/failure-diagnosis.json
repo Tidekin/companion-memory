@@ -1,0 +1,121 @@
+{
+  "method": "只读闭合数据库；batch_failed为失败尝试事件，不是终态批次数。",
+  "explicit_recovery_executed": false,
+  "arms": {
+    "old": {
+      "attempt_events": {
+        "memory.review_invalid": 10,
+        "memory.batch_failed": 12
+      },
+      "review_invalid_reasons": {
+        "schema": 7,
+        "invalid_reference": 3
+      },
+      "retained_terminal_failures": [],
+      "current_checkpoints": [
+        {
+          "persona": "X01",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X02",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X03",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X04",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X05",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X06",
+          "phase": "COMPLETE"
+        }
+      ]
+    },
+    "new": {
+      "attempt_events": {
+        "memory.batch_failed": 37,
+        "memory.review_invalid": 16
+      },
+      "review_invalid_reasons": {
+        "schema": 7,
+        "invalid_replacement": 9
+      },
+      "retained_terminal_failures": [
+        {
+          "persona": "X02",
+          "entry": "memory_failed_batch:memory_batch_e593a398290846ddaa15ec22eb4ae9a3",
+          "state": "FAILED",
+          "recoveries": 0,
+          "candidates": 1,
+          "source_count": 5,
+          "error": "MEMORY_REVIEW_INVALID",
+          "review_attempts": 3,
+          "receipts": [
+            {
+              "request_id": "request_17db44f6ca144bafa232d50d275bc547",
+              "state": "SETTLED"
+            },
+            {
+              "request_id": "request_d146d105aedb4aecbad167da2a3ab333",
+              "state": "SETTLED"
+            }
+          ]
+        },
+        {
+          "persona": "X03",
+          "entry": "memory_failed_batch:memory_batch_8b613666dd9345f9a0288222551a8a3e",
+          "state": "FAILED",
+          "recoveries": 0,
+          "candidates": 3,
+          "source_count": 5,
+          "error": "MEMORY_REVIEW_INVALID",
+          "review_attempts": 3,
+          "receipts": [
+            {
+              "request_id": "request_0bf42e9d4325414eba804eae798eb58f",
+              "state": "SETTLED"
+            },
+            {
+              "request_id": "request_3deb8bc81f6b4e4980921f6124943ab3",
+              "state": "SETTLED"
+            }
+          ]
+        }
+      ],
+      "current_checkpoints": [
+        {
+          "persona": "X01",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X02",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X03",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X04",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X05",
+          "phase": "COMPLETE"
+        },
+        {
+          "persona": "X06",
+          "phase": "COMPLETE"
+        }
+      ]
+    }
+  }
+}

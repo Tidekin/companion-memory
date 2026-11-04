@@ -1,0 +1,39 @@
+{
+  "status": "SOURCE_AND_EVALUATION_SETTINGS_FROZEN_BEFORE_NEW_CORPUS",
+  "at": "2026-11-02T23:46:55.196360+00:00",
+  "old_commit": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+  "new_commit": "93795f329e4c18b00c96d335d49894eef4d75eb6",
+  "source_checkout": "LOCAL_PATH Core\\.local\\worktrees\\memory-recall-probes-20261102",
+  "runner_commit": "64fcfa0370b1f56021a3edd2921a43bd9ad74192",
+  "common_settings": {
+    "context_soft_tokens": 8000,
+    "max_recent_messages": 12,
+    "history_nominated_rounds": 6,
+    "max_output_tokens": 768,
+    "chat_thinking": "high",
+    "chat_thinking_tokens": 3072,
+    "memory_extract_max_output_tokens": 2048,
+    "extraction_min_events": 5,
+    "extraction_idle_seconds": 900,
+    "raw_event_retention_days": 365,
+    "native_concurrency_basis": "local_active_attempts_v2",
+    "model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com"
+  },
+  "original_rules_sha256": "023a4b1e9710036edf65aa2f05c1d8bad60b8f7901ae4d1f31e51a0de0fd33e0",
+  "new_changes": [
+    "history replays read media",
+    "raw turn recall + local int8 bge-reranker-v2-m3",
+    "lexical keep rank 3, 10 facts + 2 conflicts",
+    "happened_on/origin in memory block, extraction prompt keeps numbers/speakers/absolute dates",
+    "memory_sensitive keeps attributed third-party facts",
+    "recalled turns share the signed history max_turns/max_utf8_bytes ceiling; harness grants 14 turns/32000 bytes to both arms",
+    "raw recall takes the shared history allowance before episode continuation (attempt 1 aborted after early exams showed continuation filled the ceiling)",
+    "off-loop turn ranking prefetch and async memory rescoring with 15s bound; batched media replay",
+    "owner-relayed update candidates end older values (valid_to), across origins"
+  ],
+  "local_reranker_sha256": "912fc1215c2dbff6499700534bd8d31253af01573861abbfc43afd1fab6cce5d",
+  "before_new_bank": true,
+  "prior_banks_reused_as_holdout": false,
+  "new_provider_calls": 0
+}

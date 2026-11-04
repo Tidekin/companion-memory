@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_NOT_STARTED",
+  "at": "2026-11-02T17:56:40.323582+00:00",
+  "source_freeze_sha256": "7f90d2893287edfcedeffafd6662706dd6e58d585b60b17455ed2f7b23162f92",
+  "corpus_freeze_sha256": "71ea8f7cbef8816884f8fdd0a9605ac2cec7463c9ae8a1564beb090dc9b062c9",
+  "campaign_budget_sha256": "35669dc15b1ee8ded38e19c7f2001d34f3dee99a486c7ef78d0966d6182ab473",
+  "tooling_sha256": {
+    "runner/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runner/scripts/memory_benchmark/budget.py": "c5894d720c0be354a7ea3c075c879300a5ba8d28a021bb4363a753c2a90e3811",
+    "runner/scripts/memory_benchmark/cli.py": "d989adfa8a947cbb10781e37822093015abe4233caa1dfd3717a478f3cc87062",
+    "runner/scripts/memory_benchmark/grading.py": "7c797202e50ba2c510ad03ef9d0410698971e10e753aa4f488a20b6c368b2df1",
+    "runner/scripts/memory_benchmark/native.py": "f2e872d6501ff66eb640fd0f278d9df2f6b8457f8d0d518327c69a4b899081a7",
+    "runner/scripts/memory_benchmark/report.py": "d0ad1664e86bc3f368d31deadd205e787b30d864d659b7d157ab5cb9ae1b10a0",
+    "runner/scripts/memory_benchmark/rubric.py": "ec9e45d19884bab7323e93c8e87430510498b1f5a2d0573b9f36df4acaf01e86",
+    "runner/scripts/memory_benchmark/runtime.py": "bc028908fef1745bfca814c421cb4289daa7357db1937e79664b3f55ede59a69",
+    "runner/scripts/memory_benchmark/worker.py": "1b2c4f151635a515c905f205f3f655278b7b517533f4539ddd735c43b5222043",
+    "runner/scripts/memory_benchmark/__init__.py": "0f2357fc4201cfd39650d9cbb4715c3e44cebccf5d07efea666d2130e08005a4"
+  },
+  "arm_freeze_sha256": {
+    "old": "4e67e5d7df45c0ad0589e9e0ca3f39d886ce70f7d9f7f5d8771a1a5e398995f3",
+    "new": "546f1c5321bdc2e33a8a9f6dee55ac985c6f7e36d8554cfdbe6933f914ab42cc"
+  },
+  "native_original_runner_commit": "64fcfa0370b1f56021a3edd2921a43bd9ad74192",
+  "tooling_scope": "previous round harness; v2 counts, separate 50CNY DeepSeek and 50CNY Qwen caps, harness drives Core RETRY_WAIT for both arms",
+  "answers_per_arm": 576,
+  "paid_calls": 0
+}

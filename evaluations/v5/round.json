@@ -1,0 +1,59 @@
+{
+  "name": "memory-accuracy-v5-20261103",
+  "workspace": "LOCAL_PATH",
+  "source_checkout": "LOCAL_PATH",
+  "arms": {
+    "old": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0",
+    "new": "86aa9e468e9e7f91d63f17964af82921eb65fc22"
+  },
+  "embedding_cache_dir": "LOCAL_PATH",
+  "concurrency": 1,
+  "budget": {
+    "deepseek_total_cny": 79,
+    "deepseek_inference_cny": 68,
+    "qwen_total_cny": 80
+  },
+  "smoke": {
+    "bank": "LOCAL_PATH",
+    "persona": "U01",
+    "questions": 6,
+    "budget_cny": 1
+  },
+  "parser": {
+    "transport": "ssh",
+    "host": "root@203.0.113.10",
+    "port": 60022,
+    "known_hosts_file": "LOCAL_PATH",
+    "image": "sha256:f57cbc752e6e828e2ca044509c3e30ff78790d433116f092d2359448280c4aaa",
+    "source_sha256": "349cd037867fadfe27e8b7a8a969adb676ec98f908269e4f05be1c2a1a76a1ae"
+  },
+  "controls": [
+    "closed"
+  ],
+  "grading": {
+    "rubric": "v3",
+    "votes": 3,
+    "judges": [
+      "deepseek",
+      "deepseek",
+      "qwen"
+    ],
+    "anchors": "anchors.jsonl",
+    "anchors_per_batch": 2,
+    "anchor_retries": 2,
+    "anchor_gate_margin": 0.15
+  },
+  "review": {
+    "persona": "V02",
+    "delay_days": 15,
+    "changed_per_family": 2
+  },
+  "limitations": [
+    "六个新虚构人物，168个事实组，744个提问实例；重复时间档和版本链视角共享事实，统计按事实组聚合。",
+    "题库参考Ornn公开方法新编，正式714题私有卷未公开；本轮分数不能与其公开排名直接比较。",
+    "题库与Core修复由同一助手完成；模型判官盲判并掺固定锚，复核不等于独立人工审计。",
+    "使用逻辑时间重放半年历史，不是真实等待半年；记录原生维护与证据截止轮。",
+    "原生新旧臂和人物串行；RAG仅记录检索后重排与生成耗时，不能和Core端到端耗时直接比较。",
+    "DeepSeek主账上限79元加已曝光示例冒烟上限1元；千问另账80元。账本为保守估计及预留，非供应商发票。"
+  ]
+}

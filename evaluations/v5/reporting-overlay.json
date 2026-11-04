@@ -1,0 +1,100 @@
+{
+  "at": "2026-11-03T15:16:07.507508+00:00",
+  "frozen_round_sha256": "90137296095173b46a1d5ab5c36a1ecfa3601c741824cfd608381fa2ce8537af",
+  "frozen_report_sha256": "7e96fade8d480ac24abab27e8df7e1f37ae1f1b9dc198603e935dbb217c3c553",
+  "original_limitations": [
+    "六个新虚构人物，168个事实组，744个提问实例；重复时间档和版本链视角共享事实，统计按事实组聚合。",
+    "题库参考Ornn公开方法新编，正式714题私有卷未公开；本轮分数不能与其公开排名直接比较。",
+    "题库与Core修复由同一助手完成；模型判官盲判并掺固定锚，复核不等于独立人工审计。",
+    "使用逻辑时间重放半年历史，不是真实等待半年；记录原生维护与证据截止轮。",
+    "原生新旧臂和人物串行；RAG仅记录检索后重排与生成耗时，不能和Core端到端耗时直接比较。",
+    "DeepSeek主账上限79元加已曝光示例冒烟上限1元；千问另账80元。账本为保守估计及预留，非供应商发票。"
+  ],
+  "reporting_limitations": [
+    "六个新虚构人物，168个事实组，744个提问实例；重复时间档和版本链视角共享事实，统计按事实组聚合。",
+    "题库参考Ornn公开方法新编，正式714题私有卷未公开；本轮分数不能与其公开排名直接比较。",
+    "题库与Core修复由同一助手完成；模型判官盲判并掺固定锚，复核不等于独立人工审计。",
+    "使用逻辑时间重放半年历史，不是真实等待半年；记录原生维护与证据截止轮。",
+    "DeepSeek主账上限79元加已曝光示例冒烟上限1元；千问另账80元。账本为保守估计及预留，非供应商发票。",
+    "实际调度：19:14旧版先开始；19:46:09起新旧臂并行，每臂人物串行。21:55起判卷，22:08:59起三票并行。混合调度且争用CPU，不能据整轮或单题耗时宣称隔离性能提升。",
+    "细考点每个间隔通常只有6题（6个事实组），薄于参考图的10–19题；31个细类中的版本链视角共享6条链。168个事实组也共享6个人物及模板，区间为探索性描述。",
+    "事后发现24道题有当前/当天时间指代歧义：主分数保留冻结判据，另对全部系统统一排除；9份钥匙归属答案存在语义边界，保留原多数票并给宽严范围。",
+    "C12判据中的或原因不明，以及v3不因unsupported额外说法直接判错，会使部分错误采信后报颜色的回答过关；该类分数不能当作严格矛盾保留率。",
+    "字段诊断为同一证据单元内的词串启发式，并非语义正确证据或端到端召回率；无法匹配的判据另列，不能把覆盖率称为准确率。",
+    "提取时有一条引用即计提问时已抽取，不表示全部必要事实齐备；batch_failed是任务事件数，与坏JSON响应数定义不同。",
+    "双供应商三票中的两票来自同一DeepSeek模型，三票不是三位独立人类；锚点来自已曝光v4复核材料，过门槛不保证每题判对。"
+  ],
+  "schedule_sources": [
+    "schedule-amendment.json",
+    "grading-schedule-amendment.json"
+  ],
+  "inputs_unchanged": true,
+  "review_complete": 449,
+  "anchor_uncertain_reviewed": 70,
+  "posthoc_audit": "question-validity-audit.json",
+  "statistical_method": {
+    "fact_group": {
+      "cluster": "dependency_group",
+      "clusters": 168,
+      "repetitions": 20000,
+      "seed": 20261103,
+      "method": "paired percentile cluster bootstrap; question-weighted ratio",
+      "accuracy_95_ci": {
+        "old": [
+          0.8571428571428571,
+          0.9525862068965517
+        ],
+        "new": [
+          0.9402985074626866,
+          0.9775132275132276
+        ],
+        "rag": [
+          0.9596774193548387,
+          0.9908854166666666
+        ]
+      },
+      "new_minus_old_points_95_ci": [
+        0.4310344827586188,
+        10.546875
+      ],
+      "equal_cluster_weight_accuracy": {
+        "old": 0.9468005952380952,
+        "new": 0.9642857142857143,
+        "rag": 0.9747023809523809
+      },
+      "exploratory_not_independent_story_or_persona_guarantee": true
+    },
+    "persona": {
+      "cluster": "persona",
+      "clusters": 6,
+      "repetitions": 20000,
+      "seed": 20261103,
+      "method": "paired percentile cluster bootstrap; question-weighted ratio",
+      "accuracy_95_ci": {
+        "old": [
+          0.8817204301075269,
+          0.9341397849462365
+        ],
+        "new": [
+          0.9395161290322581,
+          0.978494623655914
+        ],
+        "rag": [
+          0.9637096774193549,
+          0.9865591397849462
+        ]
+      },
+      "new_minus_old_points_95_ci": [
+        1.2096774193548487,
+        8.870967741935488
+      ],
+      "equal_cluster_weight_accuracy": {
+        "old": 0.9086021505376344,
+        "new": 0.9596774193548386,
+        "rag": 0.9771505376344086
+      },
+      "exploratory_not_independent_story_or_persona_guarantee": true
+    }
+  },
+  "matplotlib_docs": "https://matplotlib.org/stable/users/explain/figure/backends.html"
+}

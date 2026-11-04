@@ -1,0 +1,480 @@
+{"id": "U01-T01/d00", "required": ["胶枪6个", "放在第3层"], "forbidden": ["胶枪在第1层"], "source_ids": ["U01-T01-S1"]}
+{"id": "U01-T01/d03", "required": ["胶枪6个", "放在第3层"], "forbidden": ["胶枪在第1层"], "source_ids": ["U01-T01-S1"]}
+{"id": "U01-T01/d15", "required": ["胶枪6个", "放在第3层"], "forbidden": ["胶枪在第1层"], "source_ids": ["U01-T01-S1"]}
+{"id": "U01-T01/d45", "required": ["胶枪6个", "放在第3层"], "forbidden": ["胶枪在第1层"], "source_ids": ["U01-T01-S1"]}
+{"id": "U01-T02/d00", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U01-T02-S1", "U01-T02-S2"]}
+{"id": "U01-T02/d03", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U01-T02-S1", "U01-T02-S2"]}
+{"id": "U01-T02/d15", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U01-T02-S1", "U01-T02-S2"]}
+{"id": "U01-T02/d45", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U01-T02-S1", "U01-T02-S2"]}
+{"id": "U01-T03/d00", "required": ["苏桐是苏棠的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["苏桐是用户的弟弟"], "source_ids": ["U01-T03-S1", "U01-T03-S2"]}
+{"id": "U01-T03/d03", "required": ["苏桐是苏棠的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["苏桐是用户的弟弟"], "source_ids": ["U01-T03-S1", "U01-T03-S2"]}
+{"id": "U01-T03/d15", "required": ["苏桐是苏棠的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["苏桐是用户的弟弟"], "source_ids": ["U01-T03-S1", "U01-T03-S2"]}
+{"id": "U01-T03/d45", "required": ["苏桐是苏棠的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["苏桐是用户的弟弟"], "source_ids": ["U01-T03-S1", "U01-T03-S2"]}
+{"id": "U01-T04/d00", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U01-T04-S1", "U01-T04-S2"]}
+{"id": "U01-T04/d03", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U01-T04-S1", "U01-T04-S2"]}
+{"id": "U01-T04/d15", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U01-T04-S1", "U01-T04-S2"]}
+{"id": "U01-T04/d45", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U01-T04-S1", "U01-T04-S2"]}
+{"id": "U01-T05/d00", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U01-T05-S1", "U01-T05-S2"]}
+{"id": "U01-T05/d03", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U01-T05-S1", "U01-T05-S2"]}
+{"id": "U01-T05/d15", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U01-T05-S1", "U01-T05-S2"]}
+{"id": "U01-T05/d45", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U01-T05-S1", "U01-T05-S2"]}
+{"id": "U01-T06/d00", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U01-T06-S1", "U01-T06-S2"]}
+{"id": "U01-T06/d03", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U01-T06-S1", "U01-T06-S2"]}
+{"id": "U01-T06/d15", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U01-T06-S1", "U01-T06-S2"]}
+{"id": "U01-T06/d45", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U01-T06-S1", "U01-T06-S2"]}
+{"id": "U01-T07/d00", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U01-T07-S1", "U01-T07-S2"]}
+{"id": "U01-T07/d03", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U01-T07-S1", "U01-T07-S2"]}
+{"id": "U01-T07/d15", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U01-T07-S1", "U01-T07-S2"]}
+{"id": "U01-T07/d45", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U01-T07-S1", "U01-T07-S2"]}
+{"id": "U01-T08/d00", "required": ["用户没有辞职去外地的打算", "说法是陆尧传的"], "forbidden": ["用户要辞职"], "source_ids": ["U01-T08-S1", "U01-T08-S2"]}
+{"id": "U01-T08/d03", "required": ["用户没有辞职去外地的打算", "说法是陆尧传的"], "forbidden": ["用户要辞职"], "source_ids": ["U01-T08-S1", "U01-T08-S2"]}
+{"id": "U01-T08/d15", "required": ["用户没有辞职去外地的打算", "说法是陆尧传的"], "forbidden": ["用户要辞职"], "source_ids": ["U01-T08-S1", "U01-T08-S2"]}
+{"id": "U01-T08/d45", "required": ["用户没有辞职去外地的打算", "说法是陆尧传的"], "forbidden": ["用户要辞职"], "source_ids": ["U01-T08-S1", "U01-T08-S2"]}
+{"id": "U01-T09/d00", "required": ["苏棠答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮苏棠修车"], "source_ids": ["U01-T09-S1"]}
+{"id": "U01-T09/d03", "required": ["苏棠答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮苏棠修车"], "source_ids": ["U01-T09-S1"]}
+{"id": "U01-T09/d15", "required": ["苏棠答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮苏棠修车"], "source_ids": ["U01-T09-S1"]}
+{"id": "U01-T09/d45", "required": ["苏棠答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮苏棠修车"], "source_ids": ["U01-T09-S1"]}
+{"id": "U01-T10/d00", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U01-T10-S1", "U01-T10-S2"]}
+{"id": "U01-T10/d03", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U01-T10-S1", "U01-T10-S2"]}
+{"id": "U01-T10/d15", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U01-T10-S1", "U01-T10-S2"]}
+{"id": "U01-T10/d45", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U01-T10-S1", "U01-T10-S2"]}
+{"id": "U01-T11/d00", "required": ["陆尧告诉苏棠，苏棠再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U01-T11-S1", "U01-T11-S2"]}
+{"id": "U01-T11/d03", "required": ["陆尧告诉苏棠，苏棠再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U01-T11-S1", "U01-T11-S2"]}
+{"id": "U01-T11/d15", "required": ["陆尧告诉苏棠，苏棠再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U01-T11-S1", "U01-T11-S2"]}
+{"id": "U01-T11/d45", "required": ["陆尧告诉苏棠，苏棠再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U01-T11-S1", "U01-T11-S2"]}
+{"id": "U01-T12/d00", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U01-T12-S1"]}
+{"id": "U01-T12/d03", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U01-T12-S1"]}
+{"id": "U01-T12/d15", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U01-T12-S1"]}
+{"id": "U01-T12/d45", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U01-T12-S1"]}
+{"id": "U01-T13/d00", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U01-T13-S1"]}
+{"id": "U01-T13/d03", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U01-T13-S1"]}
+{"id": "U01-T13/d15", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U01-T13-S1"]}
+{"id": "U01-T13/d45", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U01-T13-S1"]}
+{"id": "U01-T14/d00", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U01-T14-S1", "U01-T14-S2", "U01-T14-S3"]}
+{"id": "U01-T14/d03", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U01-T14-S1", "U01-T14-S2", "U01-T14-S3"]}
+{"id": "U01-T14/d15", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U01-T14-S1", "U01-T14-S2", "U01-T14-S3"]}
+{"id": "U01-T14/d45", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U01-T14-S1", "U01-T14-S2", "U01-T14-S3"]}
+{"id": "U01-T15/d00", "required": ["在云杉馆室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U01-T15-S1", "U01-T15-S2"]}
+{"id": "U01-T15/d03", "required": ["在云杉馆室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U01-T15-S1", "U01-T15-S2"]}
+{"id": "U01-T15/d15", "required": ["在云杉馆室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U01-T15-S1", "U01-T15-S2"]}
+{"id": "U01-T15/d45", "required": ["在云杉馆室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U01-T15-S1", "U01-T15-S2"]}
+{"id": "U01-T16/d00", "required": ["已经寄出", "尾号7742"], "forbidden": ["还没寄"], "source_ids": ["U01-T16-S1", "U01-T16-S2"]}
+{"id": "U01-T16/d03", "required": ["已经寄出", "尾号7742"], "forbidden": ["还没寄"], "source_ids": ["U01-T16-S1", "U01-T16-S2"]}
+{"id": "U01-T16/d15", "required": ["已经寄出", "尾号7742"], "forbidden": ["还没寄"], "source_ids": ["U01-T16-S1", "U01-T16-S2"]}
+{"id": "U01-T16/d45", "required": ["已经寄出", "尾号7742"], "forbidden": ["还没寄"], "source_ids": ["U01-T16-S1", "U01-T16-S2"]}
+{"id": "U01-T17/d00", "required": ["走丢只是梦", "米粒实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U01-T17-S1"]}
+{"id": "U01-T17/d03", "required": ["走丢只是梦", "米粒实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U01-T17-S1"]}
+{"id": "U01-T17/d15", "required": ["走丢只是梦", "米粒实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U01-T17-S1"]}
+{"id": "U01-T17/d45", "required": ["走丢只是梦", "米粒实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U01-T17-S1"]}
+{"id": "U01-T18/d00", "required": ["杯子4个", "盘子2个", "碗3个"], "forbidden": ["数量与图不符"], "source_ids": ["U01-T18-S1"]}
+{"id": "U01-T18/d03", "required": ["杯子4个", "盘子2个", "碗3个"], "forbidden": ["数量与图不符"], "source_ids": ["U01-T18-S1"]}
+{"id": "U01-T18/d15", "required": ["杯子4个", "盘子2个", "碗3个"], "forbidden": ["数量与图不符"], "source_ids": ["U01-T18-S1"]}
+{"id": "U01-T18/d45", "required": ["杯子4个", "盘子2个", "碗3个"], "forbidden": ["数量与图不符"], "source_ids": ["U01-T18-S1"]}
+{"id": "U01-T19/d00", "required": ["实际23元", "价签上印的是18元"], "forbidden": ["实际是18元"], "source_ids": ["U01-T19-S1", "U01-T19-S2"]}
+{"id": "U01-T19/d03", "required": ["实际23元", "价签上印的是18元"], "forbidden": ["实际是18元"], "source_ids": ["U01-T19-S1", "U01-T19-S2"]}
+{"id": "U01-T19/d15", "required": ["实际23元", "价签上印的是18元"], "forbidden": ["实际是18元"], "source_ids": ["U01-T19-S1", "U01-T19-S2"]}
+{"id": "U01-T19/d45", "required": ["实际23元", "价签上印的是18元"], "forbidden": ["实际是18元"], "source_ids": ["U01-T19-S1", "U01-T19-S2"]}
+{"id": "U01-T20/d00", "required": ["门牌号3608", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U01-T20-S1"]}
+{"id": "U01-T20/d03", "required": ["门牌号3608", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U01-T20-S1"]}
+{"id": "U01-T20/d15", "required": ["门牌号3608", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U01-T20-S1"]}
+{"id": "U01-T20/d45", "required": ["门牌号3608", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U01-T20-S1"]}
+{"id": "U01-T21/d00", "required": ["周三上午", "周五下午", "周一下午是祁晴"], "forbidden": ["用户排了周一"], "source_ids": ["U01-T21-S1", "U01-T21-S2"]}
+{"id": "U01-T21/d03", "required": ["周三上午", "周五下午", "周一下午是祁晴"], "forbidden": ["用户排了周一"], "source_ids": ["U01-T21-S1", "U01-T21-S2"]}
+{"id": "U01-T21/d15", "required": ["周三上午", "周五下午", "周一下午是祁晴"], "forbidden": ["用户排了周一"], "source_ids": ["U01-T21-S1", "U01-T21-S2"]}
+{"id": "U01-T21/d45", "required": ["周三上午", "周五下午", "周一下午是祁晴"], "forbidden": ["用户排了周一"], "source_ids": ["U01-T21-S1", "U01-T21-S2"]}
+{"id": "U01-T22/d00", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U01-T22-S1"]}
+{"id": "U01-T22/d03", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U01-T22-S1"]}
+{"id": "U01-T22/d15", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U01-T22-S1"]}
+{"id": "U01-T22/d45", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U01-T22-S1"]}
+{"id": "U01-T23/d00", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U01-T23-S1"]}
+{"id": "U01-T23/d03", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U01-T23-S1"]}
+{"id": "U01-T23/d15", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U01-T23-S1"]}
+{"id": "U01-T23/d45", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U01-T23-S1"]}
+{"id": "U01-T24/d00", "required": ["苏棠", "周一", "14:00-16:00", "南岸门"], "forbidden": ["找陆尧"], "source_ids": ["U01-T24-S1", "U01-T24-S2", "U01-T24-S3"]}
+{"id": "U01-T24/d03", "required": ["苏棠", "周一", "14:00-16:00", "南岸门"], "forbidden": ["找陆尧"], "source_ids": ["U01-T24-S1", "U01-T24-S2", "U01-T24-S3"]}
+{"id": "U01-T24/d15", "required": ["苏棠", "周一", "14:00-16:00", "南岸门"], "forbidden": ["找陆尧"], "source_ids": ["U01-T24-S1", "U01-T24-S2", "U01-T24-S3"]}
+{"id": "U01-T24/d45", "required": ["苏棠", "周一", "14:00-16:00", "南岸门"], "forbidden": ["找陆尧"], "source_ids": ["U01-T24-S1", "U01-T24-S2", "U01-T24-S3"]}
+{"id": "U02-T01/d00", "required": ["量角器7个", "放在第4层"], "forbidden": ["量角器在第1层"], "source_ids": ["U02-T01-S1"]}
+{"id": "U02-T01/d03", "required": ["量角器7个", "放在第4层"], "forbidden": ["量角器在第1层"], "source_ids": ["U02-T01-S1"]}
+{"id": "U02-T01/d15", "required": ["量角器7个", "放在第4层"], "forbidden": ["量角器在第1层"], "source_ids": ["U02-T01-S1"]}
+{"id": "U02-T01/d45", "required": ["量角器7个", "放在第4层"], "forbidden": ["量角器在第1层"], "source_ids": ["U02-T01-S1"]}
+{"id": "U02-T02/d00", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U02-T02-S1", "U02-T02-S2"]}
+{"id": "U02-T02/d03", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U02-T02-S1", "U02-T02-S2"]}
+{"id": "U02-T02/d15", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U02-T02-S1", "U02-T02-S2"]}
+{"id": "U02-T02/d45", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U02-T02-S1", "U02-T02-S2"]}
+{"id": "U02-T03/d00", "required": ["程野是程鸢的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["程野是用户的弟弟"], "source_ids": ["U02-T03-S1", "U02-T03-S2"]}
+{"id": "U02-T03/d03", "required": ["程野是程鸢的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["程野是用户的弟弟"], "source_ids": ["U02-T03-S1", "U02-T03-S2"]}
+{"id": "U02-T03/d15", "required": ["程野是程鸢的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["程野是用户的弟弟"], "source_ids": ["U02-T03-S1", "U02-T03-S2"]}
+{"id": "U02-T03/d45", "required": ["程野是程鸢的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["程野是用户的弟弟"], "source_ids": ["U02-T03-S1", "U02-T03-S2"]}
+{"id": "U02-T04/d00", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U02-T04-S1", "U02-T04-S2"]}
+{"id": "U02-T04/d03", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U02-T04-S1", "U02-T04-S2"]}
+{"id": "U02-T04/d15", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U02-T04-S1", "U02-T04-S2"]}
+{"id": "U02-T04/d45", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U02-T04-S1", "U02-T04-S2"]}
+{"id": "U02-T05/d00", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U02-T05-S1", "U02-T05-S2"]}
+{"id": "U02-T05/d03", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U02-T05-S1", "U02-T05-S2"]}
+{"id": "U02-T05/d15", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U02-T05-S1", "U02-T05-S2"]}
+{"id": "U02-T05/d45", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U02-T05-S1", "U02-T05-S2"]}
+{"id": "U02-T06/d00", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U02-T06-S1", "U02-T06-S2"]}
+{"id": "U02-T06/d03", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U02-T06-S1", "U02-T06-S2"]}
+{"id": "U02-T06/d15", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U02-T06-S1", "U02-T06-S2"]}
+{"id": "U02-T06/d45", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U02-T06-S1", "U02-T06-S2"]}
+{"id": "U02-T07/d00", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U02-T07-S1", "U02-T07-S2"]}
+{"id": "U02-T07/d03", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U02-T07-S1", "U02-T07-S2"]}
+{"id": "U02-T07/d15", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U02-T07-S1", "U02-T07-S2"]}
+{"id": "U02-T07/d45", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U02-T07-S1", "U02-T07-S2"]}
+{"id": "U02-T08/d00", "required": ["用户没有辞职去外地的打算", "说法是许墨传的"], "forbidden": ["用户要辞职"], "source_ids": ["U02-T08-S1", "U02-T08-S2"]}
+{"id": "U02-T08/d03", "required": ["用户没有辞职去外地的打算", "说法是许墨传的"], "forbidden": ["用户要辞职"], "source_ids": ["U02-T08-S1", "U02-T08-S2"]}
+{"id": "U02-T08/d15", "required": ["用户没有辞职去外地的打算", "说法是许墨传的"], "forbidden": ["用户要辞职"], "source_ids": ["U02-T08-S1", "U02-T08-S2"]}
+{"id": "U02-T08/d45", "required": ["用户没有辞职去外地的打算", "说法是许墨传的"], "forbidden": ["用户要辞职"], "source_ids": ["U02-T08-S1", "U02-T08-S2"]}
+{"id": "U02-T09/d00", "required": ["程鸢答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮程鸢修车"], "source_ids": ["U02-T09-S1"]}
+{"id": "U02-T09/d03", "required": ["程鸢答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮程鸢修车"], "source_ids": ["U02-T09-S1"]}
+{"id": "U02-T09/d15", "required": ["程鸢答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮程鸢修车"], "source_ids": ["U02-T09-S1"]}
+{"id": "U02-T09/d45", "required": ["程鸢答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮程鸢修车"], "source_ids": ["U02-T09-S1"]}
+{"id": "U02-T10/d00", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U02-T10-S1", "U02-T10-S2"]}
+{"id": "U02-T10/d03", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U02-T10-S1", "U02-T10-S2"]}
+{"id": "U02-T10/d15", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U02-T10-S1", "U02-T10-S2"]}
+{"id": "U02-T10/d45", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U02-T10-S1", "U02-T10-S2"]}
+{"id": "U02-T11/d00", "required": ["许墨告诉程鸢，程鸢再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U02-T11-S1", "U02-T11-S2"]}
+{"id": "U02-T11/d03", "required": ["许墨告诉程鸢，程鸢再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U02-T11-S1", "U02-T11-S2"]}
+{"id": "U02-T11/d15", "required": ["许墨告诉程鸢，程鸢再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U02-T11-S1", "U02-T11-S2"]}
+{"id": "U02-T11/d45", "required": ["许墨告诉程鸢，程鸢再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U02-T11-S1", "U02-T11-S2"]}
+{"id": "U02-T12/d00", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U02-T12-S1"]}
+{"id": "U02-T12/d03", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U02-T12-S1"]}
+{"id": "U02-T12/d15", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U02-T12-S1"]}
+{"id": "U02-T12/d45", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U02-T12-S1"]}
+{"id": "U02-T13/d00", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U02-T13-S1"]}
+{"id": "U02-T13/d03", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U02-T13-S1"]}
+{"id": "U02-T13/d15", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U02-T13-S1"]}
+{"id": "U02-T13/d45", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U02-T13-S1"]}
+{"id": "U02-T14/d00", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U02-T14-S1", "U02-T14-S2", "U02-T14-S3"]}
+{"id": "U02-T14/d03", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U02-T14-S1", "U02-T14-S2", "U02-T14-S3"]}
+{"id": "U02-T14/d15", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U02-T14-S1", "U02-T14-S2", "U02-T14-S3"]}
+{"id": "U02-T14/d45", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U02-T14-S1", "U02-T14-S2", "U02-T14-S3"]}
+{"id": "U02-T15/d00", "required": ["在青松阁室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U02-T15-S1", "U02-T15-S2"]}
+{"id": "U02-T15/d03", "required": ["在青松阁室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U02-T15-S1", "U02-T15-S2"]}
+{"id": "U02-T15/d15", "required": ["在青松阁室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U02-T15-S1", "U02-T15-S2"]}
+{"id": "U02-T15/d45", "required": ["在青松阁室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U02-T15-S1", "U02-T15-S2"]}
+{"id": "U02-T16/d00", "required": ["已经寄出", "尾号0386"], "forbidden": ["还没寄"], "source_ids": ["U02-T16-S1", "U02-T16-S2"]}
+{"id": "U02-T16/d03", "required": ["已经寄出", "尾号0386"], "forbidden": ["还没寄"], "source_ids": ["U02-T16-S1", "U02-T16-S2"]}
+{"id": "U02-T16/d15", "required": ["已经寄出", "尾号0386"], "forbidden": ["还没寄"], "source_ids": ["U02-T16-S1", "U02-T16-S2"]}
+{"id": "U02-T16/d45", "required": ["已经寄出", "尾号0386"], "forbidden": ["还没寄"], "source_ids": ["U02-T16-S1", "U02-T16-S2"]}
+{"id": "U02-T17/d00", "required": ["走丢只是梦", "布丁实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U02-T17-S1"]}
+{"id": "U02-T17/d03", "required": ["走丢只是梦", "布丁实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U02-T17-S1"]}
+{"id": "U02-T17/d15", "required": ["走丢只是梦", "布丁实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U02-T17-S1"]}
+{"id": "U02-T17/d45", "required": ["走丢只是梦", "布丁实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U02-T17-S1"]}
+{"id": "U02-T18/d00", "required": ["杯子3个", "盘子5个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U02-T18-S1"]}
+{"id": "U02-T18/d03", "required": ["杯子3个", "盘子5个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U02-T18-S1"]}
+{"id": "U02-T18/d15", "required": ["杯子3个", "盘子5个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U02-T18-S1"]}
+{"id": "U02-T18/d45", "required": ["杯子3个", "盘子5个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U02-T18-S1"]}
+{"id": "U02-T19/d00", "required": ["实际40元", "价签上印的是35元"], "forbidden": ["实际是35元"], "source_ids": ["U02-T19-S1", "U02-T19-S2"]}
+{"id": "U02-T19/d03", "required": ["实际40元", "价签上印的是35元"], "forbidden": ["实际是35元"], "source_ids": ["U02-T19-S1", "U02-T19-S2"]}
+{"id": "U02-T19/d15", "required": ["实际40元", "价签上印的是35元"], "forbidden": ["实际是35元"], "source_ids": ["U02-T19-S1", "U02-T19-S2"]}
+{"id": "U02-T19/d45", "required": ["实际40元", "价签上印的是35元"], "forbidden": ["实际是35元"], "source_ids": ["U02-T19-S1", "U02-T19-S2"]}
+{"id": "U02-T20/d00", "required": ["门牌号1275", "3单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U02-T20-S1"]}
+{"id": "U02-T20/d03", "required": ["门牌号1275", "3单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U02-T20-S1"]}
+{"id": "U02-T20/d15", "required": ["门牌号1275", "3单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U02-T20-S1"]}
+{"id": "U02-T20/d45", "required": ["门牌号1275", "3单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U02-T20-S1"]}
+{"id": "U02-T21/d00", "required": ["周三上午", "周五下午", "周一下午是闻晴"], "forbidden": ["用户排了周一"], "source_ids": ["U02-T21-S1", "U02-T21-S2"]}
+{"id": "U02-T21/d03", "required": ["周三上午", "周五下午", "周一下午是闻晴"], "forbidden": ["用户排了周一"], "source_ids": ["U02-T21-S1", "U02-T21-S2"]}
+{"id": "U02-T21/d15", "required": ["周三上午", "周五下午", "周一下午是闻晴"], "forbidden": ["用户排了周一"], "source_ids": ["U02-T21-S1", "U02-T21-S2"]}
+{"id": "U02-T21/d45", "required": ["周三上午", "周五下午", "周一下午是闻晴"], "forbidden": ["用户排了周一"], "source_ids": ["U02-T21-S1", "U02-T21-S2"]}
+{"id": "U02-T22/d00", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U02-T22-S1"]}
+{"id": "U02-T22/d03", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U02-T22-S1"]}
+{"id": "U02-T22/d15", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U02-T22-S1"]}
+{"id": "U02-T22/d45", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U02-T22-S1"]}
+{"id": "U02-T23/d00", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U02-T23-S1"]}
+{"id": "U02-T23/d03", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U02-T23-S1"]}
+{"id": "U02-T23/d15", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U02-T23-S1"]}
+{"id": "U02-T23/d45", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U02-T23-S1"]}
+{"id": "U02-T24/d00", "required": ["程鸢", "周二", "15:00-17:00", "东湖口"], "forbidden": ["找许墨"], "source_ids": ["U02-T24-S1", "U02-T24-S2", "U02-T24-S3"]}
+{"id": "U02-T24/d03", "required": ["程鸢", "周二", "15:00-17:00", "东湖口"], "forbidden": ["找许墨"], "source_ids": ["U02-T24-S1", "U02-T24-S2", "U02-T24-S3"]}
+{"id": "U02-T24/d15", "required": ["程鸢", "周二", "15:00-17:00", "东湖口"], "forbidden": ["找许墨"], "source_ids": ["U02-T24-S1", "U02-T24-S2", "U02-T24-S3"]}
+{"id": "U02-T24/d45", "required": ["程鸢", "周二", "15:00-17:00", "东湖口"], "forbidden": ["找许墨"], "source_ids": ["U02-T24-S1", "U02-T24-S2", "U02-T24-S3"]}
+{"id": "U03-T01/d00", "required": ["热熔胶棒8个", "放在第5层"], "forbidden": ["热熔胶棒在第1层"], "source_ids": ["U03-T01-S1"]}
+{"id": "U03-T01/d03", "required": ["热熔胶棒8个", "放在第5层"], "forbidden": ["热熔胶棒在第1层"], "source_ids": ["U03-T01-S1"]}
+{"id": "U03-T01/d15", "required": ["热熔胶棒8个", "放在第5层"], "forbidden": ["热熔胶棒在第1层"], "source_ids": ["U03-T01-S1"]}
+{"id": "U03-T01/d45", "required": ["热熔胶棒8个", "放在第5层"], "forbidden": ["热熔胶棒在第1层"], "source_ids": ["U03-T01-S1"]}
+{"id": "U03-T02/d00", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U03-T02-S1", "U03-T02-S2"]}
+{"id": "U03-T02/d03", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U03-T02-S1", "U03-T02-S2"]}
+{"id": "U03-T02/d15", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U03-T02-S1", "U03-T02-S2"]}
+{"id": "U03-T02/d45", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U03-T02-S1", "U03-T02-S2"]}
+{"id": "U03-T03/d00", "required": ["沈岚是沈悦的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["沈岚是用户的弟弟"], "source_ids": ["U03-T03-S1", "U03-T03-S2"]}
+{"id": "U03-T03/d03", "required": ["沈岚是沈悦的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["沈岚是用户的弟弟"], "source_ids": ["U03-T03-S1", "U03-T03-S2"]}
+{"id": "U03-T03/d15", "required": ["沈岚是沈悦的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["沈岚是用户的弟弟"], "source_ids": ["U03-T03-S1", "U03-T03-S2"]}
+{"id": "U03-T03/d45", "required": ["沈岚是沈悦的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["沈岚是用户的弟弟"], "source_ids": ["U03-T03-S1", "U03-T03-S2"]}
+{"id": "U03-T04/d00", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U03-T04-S1", "U03-T04-S2"]}
+{"id": "U03-T04/d03", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U03-T04-S1", "U03-T04-S2"]}
+{"id": "U03-T04/d15", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U03-T04-S1", "U03-T04-S2"]}
+{"id": "U03-T04/d45", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U03-T04-S1", "U03-T04-S2"]}
+{"id": "U03-T05/d00", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U03-T05-S1", "U03-T05-S2"]}
+{"id": "U03-T05/d03", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U03-T05-S1", "U03-T05-S2"]}
+{"id": "U03-T05/d15", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U03-T05-S1", "U03-T05-S2"]}
+{"id": "U03-T05/d45", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U03-T05-S1", "U03-T05-S2"]}
+{"id": "U03-T06/d00", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U03-T06-S1", "U03-T06-S2"]}
+{"id": "U03-T06/d03", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U03-T06-S1", "U03-T06-S2"]}
+{"id": "U03-T06/d15", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U03-T06-S1", "U03-T06-S2"]}
+{"id": "U03-T06/d45", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U03-T06-S1", "U03-T06-S2"]}
+{"id": "U03-T07/d00", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U03-T07-S1", "U03-T07-S2"]}
+{"id": "U03-T07/d03", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U03-T07-S1", "U03-T07-S2"]}
+{"id": "U03-T07/d15", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U03-T07-S1", "U03-T07-S2"]}
+{"id": "U03-T07/d45", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U03-T07-S1", "U03-T07-S2"]}
+{"id": "U03-T08/d00", "required": ["用户没有辞职去外地的打算", "说法是顾川传的"], "forbidden": ["用户要辞职"], "source_ids": ["U03-T08-S1", "U03-T08-S2"]}
+{"id": "U03-T08/d03", "required": ["用户没有辞职去外地的打算", "说法是顾川传的"], "forbidden": ["用户要辞职"], "source_ids": ["U03-T08-S1", "U03-T08-S2"]}
+{"id": "U03-T08/d15", "required": ["用户没有辞职去外地的打算", "说法是顾川传的"], "forbidden": ["用户要辞职"], "source_ids": ["U03-T08-S1", "U03-T08-S2"]}
+{"id": "U03-T08/d45", "required": ["用户没有辞职去外地的打算", "说法是顾川传的"], "forbidden": ["用户要辞职"], "source_ids": ["U03-T08-S1", "U03-T08-S2"]}
+{"id": "U03-T09/d00", "required": ["沈悦答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮沈悦修车"], "source_ids": ["U03-T09-S1"]}
+{"id": "U03-T09/d03", "required": ["沈悦答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮沈悦修车"], "source_ids": ["U03-T09-S1"]}
+{"id": "U03-T09/d15", "required": ["沈悦答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮沈悦修车"], "source_ids": ["U03-T09-S1"]}
+{"id": "U03-T09/d45", "required": ["沈悦答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮沈悦修车"], "source_ids": ["U03-T09-S1"]}
+{"id": "U03-T10/d00", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U03-T10-S1", "U03-T10-S2"]}
+{"id": "U03-T10/d03", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U03-T10-S1", "U03-T10-S2"]}
+{"id": "U03-T10/d15", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U03-T10-S1", "U03-T10-S2"]}
+{"id": "U03-T10/d45", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U03-T10-S1", "U03-T10-S2"]}
+{"id": "U03-T11/d00", "required": ["顾川告诉沈悦，沈悦再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U03-T11-S1", "U03-T11-S2"]}
+{"id": "U03-T11/d03", "required": ["顾川告诉沈悦，沈悦再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U03-T11-S1", "U03-T11-S2"]}
+{"id": "U03-T11/d15", "required": ["顾川告诉沈悦，沈悦再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U03-T11-S1", "U03-T11-S2"]}
+{"id": "U03-T11/d45", "required": ["顾川告诉沈悦，沈悦再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U03-T11-S1", "U03-T11-S2"]}
+{"id": "U03-T12/d00", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U03-T12-S1"]}
+{"id": "U03-T12/d03", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U03-T12-S1"]}
+{"id": "U03-T12/d15", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U03-T12-S1"]}
+{"id": "U03-T12/d45", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U03-T12-S1"]}
+{"id": "U03-T13/d00", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U03-T13-S1"]}
+{"id": "U03-T13/d03", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U03-T13-S1"]}
+{"id": "U03-T13/d15", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U03-T13-S1"]}
+{"id": "U03-T13/d45", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U03-T13-S1"]}
+{"id": "U03-T14/d00", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U03-T14-S1", "U03-T14-S2", "U03-T14-S3"]}
+{"id": "U03-T14/d03", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U03-T14-S1", "U03-T14-S2", "U03-T14-S3"]}
+{"id": "U03-T14/d15", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U03-T14-S1", "U03-T14-S2", "U03-T14-S3"]}
+{"id": "U03-T14/d45", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U03-T14-S1", "U03-T14-S2", "U03-T14-S3"]}
+{"id": "U03-T15/d00", "required": ["在白鹭楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U03-T15-S1", "U03-T15-S2"]}
+{"id": "U03-T15/d03", "required": ["在白鹭楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U03-T15-S1", "U03-T15-S2"]}
+{"id": "U03-T15/d15", "required": ["在白鹭楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U03-T15-S1", "U03-T15-S2"]}
+{"id": "U03-T15/d45", "required": ["在白鹭楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U03-T15-S1", "U03-T15-S2"]}
+{"id": "U03-T16/d00", "required": ["已经寄出", "尾号5519"], "forbidden": ["还没寄"], "source_ids": ["U03-T16-S1", "U03-T16-S2"]}
+{"id": "U03-T16/d03", "required": ["已经寄出", "尾号5519"], "forbidden": ["还没寄"], "source_ids": ["U03-T16-S1", "U03-T16-S2"]}
+{"id": "U03-T16/d15", "required": ["已经寄出", "尾号5519"], "forbidden": ["还没寄"], "source_ids": ["U03-T16-S1", "U03-T16-S2"]}
+{"id": "U03-T16/d45", "required": ["已经寄出", "尾号5519"], "forbidden": ["还没寄"], "source_ids": ["U03-T16-S1", "U03-T16-S2"]}
+{"id": "U03-T17/d00", "required": ["走丢只是梦", "奶糖实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U03-T17-S1"]}
+{"id": "U03-T17/d03", "required": ["走丢只是梦", "奶糖实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U03-T17-S1"]}
+{"id": "U03-T17/d15", "required": ["走丢只是梦", "奶糖实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U03-T17-S1"]}
+{"id": "U03-T17/d45", "required": ["走丢只是梦", "奶糖实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U03-T17-S1"]}
+{"id": "U03-T18/d00", "required": ["杯子2个", "盘子3个", "碗4个"], "forbidden": ["数量与图不符"], "source_ids": ["U03-T18-S1"]}
+{"id": "U03-T18/d03", "required": ["杯子2个", "盘子3个", "碗4个"], "forbidden": ["数量与图不符"], "source_ids": ["U03-T18-S1"]}
+{"id": "U03-T18/d15", "required": ["杯子2个", "盘子3个", "碗4个"], "forbidden": ["数量与图不符"], "source_ids": ["U03-T18-S1"]}
+{"id": "U03-T18/d45", "required": ["杯子2个", "盘子3个", "碗4个"], "forbidden": ["数量与图不符"], "source_ids": ["U03-T18-S1"]}
+{"id": "U03-T19/d00", "required": ["实际27元", "价签上印的是22元"], "forbidden": ["实际是22元"], "source_ids": ["U03-T19-S1", "U03-T19-S2"]}
+{"id": "U03-T19/d03", "required": ["实际27元", "价签上印的是22元"], "forbidden": ["实际是22元"], "source_ids": ["U03-T19-S1", "U03-T19-S2"]}
+{"id": "U03-T19/d15", "required": ["实际27元", "价签上印的是22元"], "forbidden": ["实际是22元"], "source_ids": ["U03-T19-S1", "U03-T19-S2"]}
+{"id": "U03-T19/d45", "required": ["实际27元", "价签上印的是22元"], "forbidden": ["实际是22元"], "source_ids": ["U03-T19-S1", "U03-T19-S2"]}
+{"id": "U03-T20/d00", "required": ["门牌号4931", "4单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U03-T20-S1"]}
+{"id": "U03-T20/d03", "required": ["门牌号4931", "4单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U03-T20-S1"]}
+{"id": "U03-T20/d15", "required": ["门牌号4931", "4单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U03-T20-S1"]}
+{"id": "U03-T20/d45", "required": ["门牌号4931", "4单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U03-T20-S1"]}
+{"id": "U03-T21/d00", "required": ["周三上午", "周五下午", "周一下午是叶晴"], "forbidden": ["用户排了周一"], "source_ids": ["U03-T21-S1", "U03-T21-S2"]}
+{"id": "U03-T21/d03", "required": ["周三上午", "周五下午", "周一下午是叶晴"], "forbidden": ["用户排了周一"], "source_ids": ["U03-T21-S1", "U03-T21-S2"]}
+{"id": "U03-T21/d15", "required": ["周三上午", "周五下午", "周一下午是叶晴"], "forbidden": ["用户排了周一"], "source_ids": ["U03-T21-S1", "U03-T21-S2"]}
+{"id": "U03-T21/d45", "required": ["周三上午", "周五下午", "周一下午是叶晴"], "forbidden": ["用户排了周一"], "source_ids": ["U03-T21-S1", "U03-T21-S2"]}
+{"id": "U03-T22/d00", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U03-T22-S1"]}
+{"id": "U03-T22/d03", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U03-T22-S1"]}
+{"id": "U03-T22/d15", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U03-T22-S1"]}
+{"id": "U03-T22/d45", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U03-T22-S1"]}
+{"id": "U03-T23/d00", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U03-T23-S1"]}
+{"id": "U03-T23/d03", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U03-T23-S1"]}
+{"id": "U03-T23/d15", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U03-T23-S1"]}
+{"id": "U03-T23/d45", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U03-T23-S1"]}
+{"id": "U03-T24/d00", "required": ["沈悦", "周三", "16:00-18:00", "西桥头"], "forbidden": ["找顾川"], "source_ids": ["U03-T24-S1", "U03-T24-S2", "U03-T24-S3"]}
+{"id": "U03-T24/d03", "required": ["沈悦", "周三", "16:00-18:00", "西桥头"], "forbidden": ["找顾川"], "source_ids": ["U03-T24-S1", "U03-T24-S2", "U03-T24-S3"]}
+{"id": "U03-T24/d15", "required": ["沈悦", "周三", "16:00-18:00", "西桥头"], "forbidden": ["找顾川"], "source_ids": ["U03-T24-S1", "U03-T24-S2", "U03-T24-S3"]}
+{"id": "U03-T24/d45", "required": ["沈悦", "周三", "16:00-18:00", "西桥头"], "forbidden": ["找顾川"], "source_ids": ["U03-T24-S1", "U03-T24-S2", "U03-T24-S3"]}
+{"id": "U04-T01/d00", "required": ["麻绳9个", "放在第3层"], "forbidden": ["麻绳在第1层"], "source_ids": ["U04-T01-S1"]}
+{"id": "U04-T01/d03", "required": ["麻绳9个", "放在第3层"], "forbidden": ["麻绳在第1层"], "source_ids": ["U04-T01-S1"]}
+{"id": "U04-T01/d15", "required": ["麻绳9个", "放在第3层"], "forbidden": ["麻绳在第1层"], "source_ids": ["U04-T01-S1"]}
+{"id": "U04-T01/d45", "required": ["麻绳9个", "放在第3层"], "forbidden": ["麻绳在第1层"], "source_ids": ["U04-T01-S1"]}
+{"id": "U04-T02/d00", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U04-T02-S1", "U04-T02-S2"]}
+{"id": "U04-T02/d03", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U04-T02-S1", "U04-T02-S2"]}
+{"id": "U04-T02/d15", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U04-T02-S1", "U04-T02-S2"]}
+{"id": "U04-T02/d45", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U04-T02-S1", "U04-T02-S2"]}
+{"id": "U04-T03/d00", "required": ["林朔是林夏的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["林朔是用户的弟弟"], "source_ids": ["U04-T03-S1", "U04-T03-S2"]}
+{"id": "U04-T03/d03", "required": ["林朔是林夏的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["林朔是用户的弟弟"], "source_ids": ["U04-T03-S1", "U04-T03-S2"]}
+{"id": "U04-T03/d15", "required": ["林朔是林夏的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["林朔是用户的弟弟"], "source_ids": ["U04-T03-S1", "U04-T03-S2"]}
+{"id": "U04-T03/d45", "required": ["林朔是林夏的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["林朔是用户的弟弟"], "source_ids": ["U04-T03-S1", "U04-T03-S2"]}
+{"id": "U04-T04/d00", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U04-T04-S1", "U04-T04-S2"]}
+{"id": "U04-T04/d03", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U04-T04-S1", "U04-T04-S2"]}
+{"id": "U04-T04/d15", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U04-T04-S1", "U04-T04-S2"]}
+{"id": "U04-T04/d45", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U04-T04-S1", "U04-T04-S2"]}
+{"id": "U04-T05/d00", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U04-T05-S1", "U04-T05-S2"]}
+{"id": "U04-T05/d03", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U04-T05-S1", "U04-T05-S2"]}
+{"id": "U04-T05/d15", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U04-T05-S1", "U04-T05-S2"]}
+{"id": "U04-T05/d45", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U04-T05-S1", "U04-T05-S2"]}
+{"id": "U04-T06/d00", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U04-T06-S1", "U04-T06-S2"]}
+{"id": "U04-T06/d03", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U04-T06-S1", "U04-T06-S2"]}
+{"id": "U04-T06/d15", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U04-T06-S1", "U04-T06-S2"]}
+{"id": "U04-T06/d45", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U04-T06-S1", "U04-T06-S2"]}
+{"id": "U04-T07/d00", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U04-T07-S1", "U04-T07-S2"]}
+{"id": "U04-T07/d03", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U04-T07-S1", "U04-T07-S2"]}
+{"id": "U04-T07/d15", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U04-T07-S1", "U04-T07-S2"]}
+{"id": "U04-T07/d45", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U04-T07-S1", "U04-T07-S2"]}
+{"id": "U04-T08/d00", "required": ["用户没有辞职去外地的打算", "说法是赵野传的"], "forbidden": ["用户要辞职"], "source_ids": ["U04-T08-S1", "U04-T08-S2"]}
+{"id": "U04-T08/d03", "required": ["用户没有辞职去外地的打算", "说法是赵野传的"], "forbidden": ["用户要辞职"], "source_ids": ["U04-T08-S1", "U04-T08-S2"]}
+{"id": "U04-T08/d15", "required": ["用户没有辞职去外地的打算", "说法是赵野传的"], "forbidden": ["用户要辞职"], "source_ids": ["U04-T08-S1", "U04-T08-S2"]}
+{"id": "U04-T08/d45", "required": ["用户没有辞职去外地的打算", "说法是赵野传的"], "forbidden": ["用户要辞职"], "source_ids": ["U04-T08-S1", "U04-T08-S2"]}
+{"id": "U04-T09/d00", "required": ["林夏答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮林夏修车"], "source_ids": ["U04-T09-S1"]}
+{"id": "U04-T09/d03", "required": ["林夏答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮林夏修车"], "source_ids": ["U04-T09-S1"]}
+{"id": "U04-T09/d15", "required": ["林夏答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮林夏修车"], "source_ids": ["U04-T09-S1"]}
+{"id": "U04-T09/d45", "required": ["林夏答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮林夏修车"], "source_ids": ["U04-T09-S1"]}
+{"id": "U04-T10/d00", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U04-T10-S1", "U04-T10-S2"]}
+{"id": "U04-T10/d03", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U04-T10-S1", "U04-T10-S2"]}
+{"id": "U04-T10/d15", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U04-T10-S1", "U04-T10-S2"]}
+{"id": "U04-T10/d45", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U04-T10-S1", "U04-T10-S2"]}
+{"id": "U04-T11/d00", "required": ["赵野告诉林夏，林夏再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U04-T11-S1", "U04-T11-S2"]}
+{"id": "U04-T11/d03", "required": ["赵野告诉林夏，林夏再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U04-T11-S1", "U04-T11-S2"]}
+{"id": "U04-T11/d15", "required": ["赵野告诉林夏，林夏再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U04-T11-S1", "U04-T11-S2"]}
+{"id": "U04-T11/d45", "required": ["赵野告诉林夏，林夏再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U04-T11-S1", "U04-T11-S2"]}
+{"id": "U04-T12/d00", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U04-T12-S1"]}
+{"id": "U04-T12/d03", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U04-T12-S1"]}
+{"id": "U04-T12/d15", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U04-T12-S1"]}
+{"id": "U04-T12/d45", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U04-T12-S1"]}
+{"id": "U04-T13/d00", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U04-T13-S1"]}
+{"id": "U04-T13/d03", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U04-T13-S1"]}
+{"id": "U04-T13/d15", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U04-T13-S1"]}
+{"id": "U04-T13/d45", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U04-T13-S1"]}
+{"id": "U04-T14/d00", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U04-T14-S1", "U04-T14-S2", "U04-T14-S3"]}
+{"id": "U04-T14/d03", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U04-T14-S1", "U04-T14-S2", "U04-T14-S3"]}
+{"id": "U04-T14/d15", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U04-T14-S1", "U04-T14-S2", "U04-T14-S3"]}
+{"id": "U04-T14/d45", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U04-T14-S1", "U04-T14-S2", "U04-T14-S3"]}
+{"id": "U04-T15/d00", "required": ["在枫叶堂室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U04-T15-S1", "U04-T15-S2"]}
+{"id": "U04-T15/d03", "required": ["在枫叶堂室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U04-T15-S1", "U04-T15-S2"]}
+{"id": "U04-T15/d15", "required": ["在枫叶堂室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U04-T15-S1", "U04-T15-S2"]}
+{"id": "U04-T15/d45", "required": ["在枫叶堂室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U04-T15-S1", "U04-T15-S2"]}
+{"id": "U04-T16/d00", "required": ["已经寄出", "尾号6203"], "forbidden": ["还没寄"], "source_ids": ["U04-T16-S1", "U04-T16-S2"]}
+{"id": "U04-T16/d03", "required": ["已经寄出", "尾号6203"], "forbidden": ["还没寄"], "source_ids": ["U04-T16-S1", "U04-T16-S2"]}
+{"id": "U04-T16/d15", "required": ["已经寄出", "尾号6203"], "forbidden": ["还没寄"], "source_ids": ["U04-T16-S1", "U04-T16-S2"]}
+{"id": "U04-T16/d45", "required": ["已经寄出", "尾号6203"], "forbidden": ["还没寄"], "source_ids": ["U04-T16-S1", "U04-T16-S2"]}
+{"id": "U04-T17/d00", "required": ["走丢只是梦", "可乐实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U04-T17-S1"]}
+{"id": "U04-T17/d03", "required": ["走丢只是梦", "可乐实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U04-T17-S1"]}
+{"id": "U04-T17/d15", "required": ["走丢只是梦", "可乐实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U04-T17-S1"]}
+{"id": "U04-T17/d45", "required": ["走丢只是梦", "可乐实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U04-T17-S1"]}
+{"id": "U04-T18/d00", "required": ["杯子5个", "盘子1个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U04-T18-S1"]}
+{"id": "U04-T18/d03", "required": ["杯子5个", "盘子1个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U04-T18-S1"]}
+{"id": "U04-T18/d15", "required": ["杯子5个", "盘子1个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U04-T18-S1"]}
+{"id": "U04-T18/d45", "required": ["杯子5个", "盘子1个", "碗2个"], "forbidden": ["数量与图不符"], "source_ids": ["U04-T18-S1"]}
+{"id": "U04-T19/d00", "required": ["实际21元", "价签上印的是16元"], "forbidden": ["实际是16元"], "source_ids": ["U04-T19-S1", "U04-T19-S2"]}
+{"id": "U04-T19/d03", "required": ["实际21元", "价签上印的是16元"], "forbidden": ["实际是16元"], "source_ids": ["U04-T19-S1", "U04-T19-S2"]}
+{"id": "U04-T19/d15", "required": ["实际21元", "价签上印的是16元"], "forbidden": ["实际是16元"], "source_ids": ["U04-T19-S1", "U04-T19-S2"]}
+{"id": "U04-T19/d45", "required": ["实际21元", "价签上印的是16元"], "forbidden": ["实际是16元"], "source_ids": ["U04-T19-S1", "U04-T19-S2"]}
+{"id": "U04-T20/d00", "required": ["门牌号2846", "5单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U04-T20-S1"]}
+{"id": "U04-T20/d03", "required": ["门牌号2846", "5单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U04-T20-S1"]}
+{"id": "U04-T20/d15", "required": ["门牌号2846", "5单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U04-T20-S1"]}
+{"id": "U04-T20/d45", "required": ["门牌号2846", "5单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U04-T20-S1"]}
+{"id": "U04-T21/d00", "required": ["周三上午", "周五下午", "周一下午是方晴"], "forbidden": ["用户排了周一"], "source_ids": ["U04-T21-S1", "U04-T21-S2"]}
+{"id": "U04-T21/d03", "required": ["周三上午", "周五下午", "周一下午是方晴"], "forbidden": ["用户排了周一"], "source_ids": ["U04-T21-S1", "U04-T21-S2"]}
+{"id": "U04-T21/d15", "required": ["周三上午", "周五下午", "周一下午是方晴"], "forbidden": ["用户排了周一"], "source_ids": ["U04-T21-S1", "U04-T21-S2"]}
+{"id": "U04-T21/d45", "required": ["周三上午", "周五下午", "周一下午是方晴"], "forbidden": ["用户排了周一"], "source_ids": ["U04-T21-S1", "U04-T21-S2"]}
+{"id": "U04-T22/d00", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U04-T22-S1"]}
+{"id": "U04-T22/d03", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U04-T22-S1"]}
+{"id": "U04-T22/d15", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U04-T22-S1"]}
+{"id": "U04-T22/d45", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U04-T22-S1"]}
+{"id": "U04-T23/d00", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U04-T23-S1"]}
+{"id": "U04-T23/d03", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U04-T23-S1"]}
+{"id": "U04-T23/d15", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U04-T23-S1"]}
+{"id": "U04-T23/d45", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U04-T23-S1"]}
+{"id": "U04-T24/d00", "required": ["林夏", "周四", "17:00-19:00", "北街口"], "forbidden": ["找赵野"], "source_ids": ["U04-T24-S1", "U04-T24-S2", "U04-T24-S3"]}
+{"id": "U04-T24/d03", "required": ["林夏", "周四", "17:00-19:00", "北街口"], "forbidden": ["找赵野"], "source_ids": ["U04-T24-S1", "U04-T24-S2", "U04-T24-S3"]}
+{"id": "U04-T24/d15", "required": ["林夏", "周四", "17:00-19:00", "北街口"], "forbidden": ["找赵野"], "source_ids": ["U04-T24-S1", "U04-T24-S2", "U04-T24-S3"]}
+{"id": "U04-T24/d45", "required": ["林夏", "周四", "17:00-19:00", "北街口"], "forbidden": ["找赵野"], "source_ids": ["U04-T24-S1", "U04-T24-S2", "U04-T24-S3"]}
+{"id": "U05-T01/d00", "required": ["标签打印纸10个", "放在第4层"], "forbidden": ["标签打印纸在第1层"], "source_ids": ["U05-T01-S1"]}
+{"id": "U05-T01/d03", "required": ["标签打印纸10个", "放在第4层"], "forbidden": ["标签打印纸在第1层"], "source_ids": ["U05-T01-S1"]}
+{"id": "U05-T01/d15", "required": ["标签打印纸10个", "放在第4层"], "forbidden": ["标签打印纸在第1层"], "source_ids": ["U05-T01-S1"]}
+{"id": "U05-T01/d45", "required": ["标签打印纸10个", "放在第4层"], "forbidden": ["标签打印纸在第1层"], "source_ids": ["U05-T01-S1"]}
+{"id": "U05-T02/d00", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U05-T02-S1", "U05-T02-S2"]}
+{"id": "U05-T02/d03", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U05-T02-S1", "U05-T02-S2"]}
+{"id": "U05-T02/d15", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U05-T02-S1", "U05-T02-S2"]}
+{"id": "U05-T02/d45", "required": ["在门口鞋柜里"], "forbidden": ["雨伞在车后备箱"], "source_ids": ["U05-T02-S1", "U05-T02-S2"]}
+{"id": "U05-T03/d00", "required": ["唐越是唐宁的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["唐越是用户的弟弟"], "source_ids": ["U05-T03-S1", "U05-T03-S2"]}
+{"id": "U05-T03/d03", "required": ["唐越是唐宁的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["唐越是用户的弟弟"], "source_ids": ["U05-T03-S1", "U05-T03-S2"]}
+{"id": "U05-T03/d15", "required": ["唐越是唐宁的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["唐越是用户的弟弟"], "source_ids": ["U05-T03-S1", "U05-T03-S2"]}
+{"id": "U05-T03/d45", "required": ["唐越是唐宁的弟弟", "在读大学", "国庆来用户这儿借住几天"], "forbidden": ["唐越是用户的弟弟"], "source_ids": ["U05-T03-S1", "U05-T03-S2"]}
+{"id": "U05-T04/d00", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U05-T04-S1", "U05-T04-S2"]}
+{"id": "U05-T04/d03", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U05-T04-S1", "U05-T04-S2"]}
+{"id": "U05-T04/d15", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U05-T04-S1", "U05-T04-S2"]}
+{"id": "U05-T04/d45", "required": ["周六下午泡红茶", "周二晚上十点不泡茶"], "forbidden": ["晚上十点泡绿茶"], "source_ids": ["U05-T04-S1", "U05-T04-S2"]}
+{"id": "U05-T05/d00", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U05-T05-S1", "U05-T05-S2"]}
+{"id": "U05-T05/d03", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U05-T05-S1", "U05-T05-S2"]}
+{"id": "U05-T05/d15", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U05-T05-S1", "U05-T05-S2"]}
+{"id": "U05-T05/d45", "required": ["周五前交", "周四是主人自己写错后更正的"], "forbidden": ["周四前交"], "source_ids": ["U05-T05-S1", "U05-T05-S2"]}
+{"id": "U05-T06/d00", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U05-T06-S1", "U05-T06-S2"]}
+{"id": "U05-T06/d03", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U05-T06-S1", "U05-T06-S2"]}
+{"id": "U05-T06/d15", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U05-T06-S1", "U05-T06-S2"]}
+{"id": "U05-T06/d45", "required": ["现在在五楼西侧", "以前在三楼东侧"], "forbidden": ["现在在三楼东侧"], "source_ids": ["U05-T06-S1", "U05-T06-S2"]}
+{"id": "U05-T07/d00", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U05-T07-S1", "U05-T07-S2"]}
+{"id": "U05-T07/d03", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U05-T07-S1", "U05-T07-S2"]}
+{"id": "U05-T07/d15", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U05-T07-S1", "U05-T07-S2"]}
+{"id": "U05-T07/d45", "required": ["下午四点开始", "改时间来自转来的场馆通知，不是主人本人说的"], "forbidden": ["仍是下午三点开始"], "source_ids": ["U05-T07-S1", "U05-T07-S2"]}
+{"id": "U05-T08/d00", "required": ["用户没有辞职去外地的打算", "说法是周屿传的"], "forbidden": ["用户要辞职"], "source_ids": ["U05-T08-S1", "U05-T08-S2"]}
+{"id": "U05-T08/d03", "required": ["用户没有辞职去外地的打算", "说法是周屿传的"], "forbidden": ["用户要辞职"], "source_ids": ["U05-T08-S1", "U05-T08-S2"]}
+{"id": "U05-T08/d15", "required": ["用户没有辞职去外地的打算", "说法是周屿传的"], "forbidden": ["用户要辞职"], "source_ids": ["U05-T08-S1", "U05-T08-S2"]}
+{"id": "U05-T08/d45", "required": ["用户没有辞职去外地的打算", "说法是周屿传的"], "forbidden": ["用户要辞职"], "source_ids": ["U05-T08-S1", "U05-T08-S2"]}
+{"id": "U05-T09/d00", "required": ["唐宁答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮唐宁修车"], "source_ids": ["U05-T09-S1"]}
+{"id": "U05-T09/d03", "required": ["唐宁答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮唐宁修车"], "source_ids": ["U05-T09-S1"]}
+{"id": "U05-T09/d15", "required": ["唐宁答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮唐宁修车"], "source_ids": ["U05-T09-S1"]}
+{"id": "U05-T09/d45", "required": ["唐宁答应帮用户修车", "用户答应请她吃饭"], "forbidden": ["用户帮唐宁修车"], "source_ids": ["U05-T09-S1"]}
+{"id": "U05-T10/d00", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U05-T10-S1", "U05-T10-S2"]}
+{"id": "U05-T10/d03", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U05-T10-S1", "U05-T10-S2"]}
+{"id": "U05-T10/d15", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U05-T10-S1", "U05-T10-S2"]}
+{"id": "U05-T10/d45", "required": ["去爬山", "看展是助手提议、被用户否了"], "forbidden": ["用户决定去看展"], "source_ids": ["U05-T10-S1", "U05-T10-S2"]}
+{"id": "U05-T11/d00", "required": ["周屿告诉唐宁，唐宁再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U05-T11-S1", "U05-T11-S2"]}
+{"id": "U05-T11/d03", "required": ["周屿告诉唐宁，唐宁再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U05-T11-S1", "U05-T11-S2"]}
+{"id": "U05-T11/d15", "required": ["周屿告诉唐宁，唐宁再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U05-T11-S1", "U05-T11-S2"]}
+{"id": "U05-T11/d45", "required": ["周屿告诉唐宁，唐宁再转告用户", "用户还没确认过"], "forbidden": ["用户亲眼确认过"], "source_ids": ["U05-T11-S1", "U05-T11-S2"]}
+{"id": "U05-T12/d00", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U05-T12-S1"]}
+{"id": "U05-T12/d03", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U05-T12-S1"]}
+{"id": "U05-T12/d15", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U05-T12-S1"]}
+{"id": "U05-T12/d45", "required": ["2026-11-20", "上午10点"], "forbidden": ["按提问当天重新计算下周五"], "source_ids": ["U05-T12-S1"]}
+{"id": "U05-T13/d00", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U05-T13-S1"]}
+{"id": "U05-T13/d03", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U05-T13-S1"]}
+{"id": "U05-T13/d15", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U05-T13-S1"]}
+{"id": "U05-T13/d45", "required": ["23:20开始", "次日02:05结束", "共2小时45分钟", "跨过了午夜"], "forbidden": ["不到两小时"], "source_ids": ["U05-T13-S1"]}
+{"id": "U05-T14/d00", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U05-T14-S1", "U05-T14-S2", "U05-T14-S3"]}
+{"id": "U05-T14/d03", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U05-T14-S1", "U05-T14-S2", "U05-T14-S3"]}
+{"id": "U05-T14/d15", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U05-T14-S1", "U05-T14-S2", "U05-T14-S3"]}
+{"id": "U05-T14/d45", "required": ["2026-11-21 办卡", "2026-11-22 理发", "2026-11-23 还书", "中间那件是理发"], "forbidden": ["顺序颠倒"], "source_ids": ["U05-T14-S1", "U05-T14-S2", "U05-T14-S3"]}
+{"id": "U05-T15/d00", "required": ["在银杏楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U05-T15-S1", "U05-T15-S2"]}
+{"id": "U05-T15/d03", "required": ["在银杏楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U05-T15-S1", "U05-T15-S2"]}
+{"id": "U05-T15/d15", "required": ["在银杏楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U05-T15-S1", "U05-T15-S2"]}
+{"id": "U05-T15/d45", "required": ["在银杏楼室内办", "下雨了，条件已触发"], "forbidden": ["在户外办"], "source_ids": ["U05-T15-S1", "U05-T15-S2"]}
+{"id": "U05-T16/d00", "required": ["已经寄出", "尾号1958"], "forbidden": ["还没寄"], "source_ids": ["U05-T16-S1", "U05-T16-S2"]}
+{"id": "U05-T16/d03", "required": ["已经寄出", "尾号1958"], "forbidden": ["还没寄"], "source_ids": ["U05-T16-S1", "U05-T16-S2"]}
+{"id": "U05-T16/d15", "required": ["已经寄出", "尾号1958"], "forbidden": ["还没寄"], "source_ids": ["U05-T16-S1", "U05-T16-S2"]}
+{"id": "U05-T16/d45", "required": ["已经寄出", "尾号1958"], "forbidden": ["还没寄"], "source_ids": ["U05-T16-S1", "U05-T16-S2"]}
+{"id": "U05-T17/d00", "required": ["走丢只是梦", "团子实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U05-T17-S1"]}
+{"id": "U05-T17/d03", "required": ["走丢只是梦", "团子实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U05-T17-S1"]}
+{"id": "U05-T17/d15", "required": ["走丢只是梦", "团子实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U05-T17-S1"]}
+{"id": "U05-T17/d45", "required": ["走丢只是梦", "团子实际还在窝里"], "forbidden": ["现实中走丢了"], "source_ids": ["U05-T17-S1"]}
+{"id": "U05-T18/d00", "required": ["杯子3个", "盘子2个", "碗5个"], "forbidden": ["数量与图不符"], "source_ids": ["U05-T18-S1"]}
+{"id": "U05-T18/d03", "required": ["杯子3个", "盘子2个", "碗5个"], "forbidden": ["数量与图不符"], "source_ids": ["U05-T18-S1"]}
+{"id": "U05-T18/d15", "required": ["杯子3个", "盘子2个", "碗5个"], "forbidden": ["数量与图不符"], "source_ids": ["U05-T18-S1"]}
+{"id": "U05-T18/d45", "required": ["杯子3个", "盘子2个", "碗5个"], "forbidden": ["数量与图不符"], "source_ids": ["U05-T18-S1"]}
+{"id": "U05-T19/d00", "required": ["实际33元", "价签上印的是28元"], "forbidden": ["实际是28元"], "source_ids": ["U05-T19-S1", "U05-T19-S2"]}
+{"id": "U05-T19/d03", "required": ["实际33元", "价签上印的是28元"], "forbidden": ["实际是28元"], "source_ids": ["U05-T19-S1", "U05-T19-S2"]}
+{"id": "U05-T19/d15", "required": ["实际33元", "价签上印的是28元"], "forbidden": ["实际是28元"], "source_ids": ["U05-T19-S1", "U05-T19-S2"]}
+{"id": "U05-T19/d45", "required": ["实际33元", "价签上印的是28元"], "forbidden": ["实际是28元"], "source_ids": ["U05-T19-S1", "U05-T19-S2"]}
+{"id": "U05-T20/d00", "required": ["门牌号5713", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U05-T20-S1"]}
+{"id": "U05-T20/d03", "required": ["门牌号5713", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U05-T20-S1"]}
+{"id": "U05-T20/d15", "required": ["门牌号5713", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U05-T20-S1"]}
+{"id": "U05-T20/d45", "required": ["门牌号5713", "2单元"], "forbidden": ["编造其他门牌号"], "source_ids": ["U05-T20-S1"]}
+{"id": "U05-T21/d00", "required": ["周三上午", "周五下午", "周一下午是夏晴"], "forbidden": ["用户排了周一"], "source_ids": ["U05-T21-S1", "U05-T21-S2"]}
+{"id": "U05-T21/d03", "required": ["周三上午", "周五下午", "周一下午是夏晴"], "forbidden": ["用户排了周一"], "source_ids": ["U05-T21-S1", "U05-T21-S2"]}
+{"id": "U05-T21/d15", "required": ["周三上午", "周五下午", "周一下午是夏晴"], "forbidden": ["用户排了周一"], "source_ids": ["U05-T21-S1", "U05-T21-S2"]}
+{"id": "U05-T21/d45", "required": ["周三上午", "周五下午", "周一下午是夏晴"], "forbidden": ["用户排了周一"], "source_ids": ["U05-T21-S1", "U05-T21-S2"]}
+{"id": "U05-T22/d00", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U05-T22-S1"]}
+{"id": "U05-T22/d03", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U05-T22-S1"]}
+{"id": "U05-T22/d15", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U05-T22-S1"]}
+{"id": "U05-T22/d45", "required": ["具体日期未知", "只知道在十二月"], "forbidden": ["编造具体日期"], "source_ids": ["U05-T22-S1"]}
+{"id": "U05-T23/d00", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U05-T23-S1"]}
+{"id": "U05-T23/d03", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U05-T23-S1"]}
+{"id": "U05-T23/d15", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U05-T23-S1"]}
+{"id": "U05-T23/d45", "required": ["没有记录，不知道"], "forbidden": ["编造手机号"], "source_ids": ["U05-T23-S1"]}
+{"id": "U05-T24/d00", "required": ["唐宁", "周五", "14:00-16:00", "中心广场"], "forbidden": ["找周屿"], "source_ids": ["U05-T24-S1", "U05-T24-S2", "U05-T24-S3"]}
+{"id": "U05-T24/d03", "required": ["唐宁", "周五", "14:00-16:00", "中心广场"], "forbidden": ["找周屿"], "source_ids": ["U05-T24-S1", "U05-T24-S2", "U05-T24-S3"]}
+{"id": "U05-T24/d15", "required": ["唐宁", "周五", "14:00-16:00", "中心广场"], "forbidden": ["找周屿"], "source_ids": ["U05-T24-S1", "U05-T24-S2", "U05-T24-S3"]}
+{"id": "U05-T24/d45", "required": ["唐宁", "周五", "14:00-16:00", "中心广场"], "forbidden": ["找周屿"], "source_ids": ["U05-T24-S1", "U05-T24-S2", "U05-T24-S3"]}

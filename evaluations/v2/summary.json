@@ -1,0 +1,2215 @@
+{
+  "status": "REVIEWED_AWAITING_VISUAL_QA",
+  "at": "2026-11-02T20:40:41.478568+00:00",
+  "overall": {
+    "old": {
+      "passed": 467,
+      "total": 576,
+      "rate": 0.8107638888888888,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 422,
+      "total": 576,
+      "rate": 0.7326388888888888,
+      "execution_failures": 64
+    },
+    "rag": {
+      "passed": 527,
+      "total": 576,
+      "rate": 0.9149305555555556,
+      "execution_failures": 18
+    }
+  },
+  "paired_changes": {
+    "both_pass": 352,
+    "gain": 70,
+    "both_fail": 39,
+    "loss": 115
+  },
+  "finance": {
+    "deepseek": {
+      "charged_or_held_cny": 43.7953945,
+      "cap_cny": 44.04,
+      "states": {
+        "SETTLED": 3598,
+        "UNKNOWN": 133
+      },
+      "unknown_held_cny": 11.960782,
+      "phases": {
+        "new": {
+          "calls": 1472,
+          "charged_or_held_cny": 25.035061300000013,
+          "input_tokens": 5354468,
+          "cached_tokens": 2825855,
+          "output_tokens": 475954
+        },
+        "old": {
+          "calls": 1489,
+          "charged_or_held_cny": 13.40425344000002,
+          "input_tokens": 5682846,
+          "cached_tokens": 3120124,
+          "output_tokens": 460740
+        },
+        "rag": {
+          "calls": 564,
+          "charged_or_held_cny": 3.9649936800000005,
+          "input_tokens": 603469,
+          "cached_tokens": 128,
+          "output_tokens": 146867
+        },
+        "judge": {
+          "calls": 206,
+          "charged_or_held_cny": 1.39108608,
+          "input_tokens": 284980,
+          "cached_tokens": 26368,
+          "output_tokens": 51139
+        }
+      },
+      "invoice_verified": false,
+      "previous_round_carry_cny": 0
+    },
+    "qwen": {
+      "charged_or_held_cny": 11.753445,
+      "cap_cny": 50,
+      "states": {
+        "SETTLED": 838,
+        "UNKNOWN": 8
+      },
+      "unknown_held_cny": 0.613305,
+      "phases": {
+        "rag": {
+          "calls": 846,
+          "charged_or_held_cny": 11.753445,
+          "input_tokens": 2228028,
+          "cached_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "invoice_verified": false,
+      "previous_round_carry_cny": 0
+    }
+  },
+  "review_count": 117,
+  "override_count": 7,
+  "not_independent_human": true,
+  "limitations": [
+    "本次为新编的六个虚构人物、144组事实、24种考点与多种输入；与上轮题库无重叠。四个间隔复用同一事实，样本相关；考点或模态切片的题数不能相加。",
+    "三路使用同一官方 DeepSeek-flash 作答及输出上限。千问只做嵌入和重排；RAG复用旧版实际输入观测及媒体回复，包含旧版感知错误，不是独立的视觉/语音系统。",
+    "先冻结源码再编题；第一次启动后发现原文检索被情景接续挤占名额而中止并改码（见post-bank-code-revision.json），题库未改；全部1728份答案冻结后才打开判据。判卷隐藏版本标签，同模型自动判卷；Claude抽查不是独立人工判卷。",
+    "题库和Core改动出自同一个助手（Claude），存在出题偏向改动的风险；考点沿用事实/改口/约定/边界等通用类别，判据在看到任何答案前冻结。",
+    "主指标为576题整题通过率：required全部满足且无forbidden错误才算通过；终态执行失败留在分母。每个Core另做18项生命周期检查，不并入准确率。",
+    "费用为保守估算加未结算预留，不是实际账单：DeepSeek按官方峰值费率乘1.5；千问按5元/百万token估算。",
+    "没有真实等待半年，而是按冻结的逻辑时间重放180天对话。结论只适用于本轮配置和这套新题。"
+  ],
+  "new_minus_old_percentage_points": -7.8125,
+  "latency": {
+    "old": {
+      "median_seconds": 16.68889,
+      "p95_seconds": 35.4615805,
+      "n": 576
+    },
+    "new": {
+      "median_seconds": 45.828165,
+      "p95_seconds": 87.27387125,
+      "n": 576
+    },
+    "rag": {
+      "median_seconds": 3.01549999999952,
+      "p95_seconds": 5.612650000000395,
+      "n": 570
+    }
+  },
+  "modality": {
+    "纯文字源": {
+      "old": {
+        "passed": 226,
+        "total": 252,
+        "rate": 0.8968253968253969,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 201,
+        "total": 252,
+        "rate": 0.7976190476190477,
+        "execution_failures": 33
+      },
+      "rag": {
+        "passed": 246,
+        "total": 252,
+        "rate": 0.9761904761904762,
+        "execution_failures": 2
+      }
+    },
+    "含语音": {
+      "old": {
+        "passed": 50,
+        "total": 84,
+        "rate": 0.5952380952380952,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 64,
+        "total": 84,
+        "rate": 0.7619047619047619,
+        "execution_failures": 8
+      },
+      "rag": {
+        "passed": 69,
+        "total": 84,
+        "rate": 0.8214285714285714,
+        "execution_failures": 2
+      }
+    },
+    "含图像": {
+      "old": {
+        "passed": 40,
+        "total": 48,
+        "rate": 0.8333333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 32,
+        "total": 48,
+        "rate": 0.6666666666666666,
+        "execution_failures": 10
+      },
+      "rag": {
+        "passed": 45,
+        "total": 48,
+        "rate": 0.9375,
+        "execution_failures": 3
+      }
+    },
+    "含文件/表格": {
+      "old": {
+        "passed": 66,
+        "total": 96,
+        "rate": 0.6875,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 57,
+        "total": 96,
+        "rate": 0.59375,
+        "execution_failures": 7
+      },
+      "rag": {
+        "passed": 74,
+        "total": 96,
+        "rate": 0.7708333333333334,
+        "execution_failures": 11
+      }
+    },
+    "含引用/转发": {
+      "old": {
+        "passed": 62,
+        "total": 72,
+        "rate": 0.8611111111111112,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 49,
+        "total": 72,
+        "rate": 0.6805555555555556,
+        "execution_failures": 5
+      },
+      "rag": {
+        "passed": 69,
+        "total": 72,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      }
+    },
+    "含助手历史": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 1
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "category_delay": {
+    "Q01": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q02": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q03": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q04": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q05": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q06": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q07": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q08": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q09": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q10": {
+      "0": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q11": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q12": {
+      "0": {
+        "old": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q13": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 4
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q14": {
+      "0": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q15": {
+      "0": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q16": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 4
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q17": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 3
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        }
+      }
+    },
+    "Q18": {
+      "0": {
+        "old": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q19": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 3
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 4
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q20": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 1
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q21": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q22": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        }
+      }
+    },
+    "Q23": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "Q24": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 1
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 2
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 2
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 2
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 3
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 4
+        }
+      }
+    }
+  }
+}

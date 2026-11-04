@@ -1,0 +1,190 @@
+{
+  "status": "ROUND_COMPLETE_REVIEWED_WITH_DISCLOSED_LIMITATIONS",
+  "at": "2026-11-03T15:18:34.363360+00:00",
+  "old": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0",
+  "new": "86aa9e468e9e7f91d63f17964af82921eb65fc22",
+  "answers": {
+    "old": 744,
+    "new": 744,
+    "rag": 744,
+    "closed": 744
+  },
+  "fact_groups": 168,
+  "personas": 6,
+  "frozen_hash_checks": {
+    "execution-freeze.json": 4,
+    "all-answers-frozen.json": 14,
+    "frozen_tooling_files": 28,
+    "old_source_config_tool_files": 1613,
+    "old_fixture_files": 35,
+    "new_source_config_tool_files": 1616,
+    "new_fixture_files": 35,
+    "unchanged_vote_files": 9
+  },
+  "reviewed": 449,
+  "overrides": 44,
+  "same_assistant_not_independent_human": true,
+  "all_anchor_gates_passed": true,
+  "any_vote_anchor_uncertain_answers_reviewed": 70,
+  "overall": {
+    "old": {
+      "passed": 676,
+      "total": 744,
+      "rate": 0.9086021505376344,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 714,
+      "total": 744,
+      "rate": 0.9596774193548387,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 727,
+      "total": 744,
+      "rate": 0.9771505376344086,
+      "execution_failures": 0
+    }
+  },
+  "paired_changes": {
+    "both_pass": 649,
+    "loss": 27,
+    "gain": 65,
+    "both_fail": 3
+  },
+  "finance": {
+    "deepseek_main": {
+      "charged_or_held_cny": 38.29572228,
+      "cap_cny": 79,
+      "calls": 6303,
+      "states": {
+        "SETTLED": 6303
+      },
+      "invoice_verified": false
+    },
+    "deepseek_smoke": {
+      "charged_or_held_cny": 0.11819016,
+      "cap_cny": 1,
+      "calls": 21,
+      "states": {
+        "SETTLED": 21
+      },
+      "invoice_verified": false
+    },
+    "qwen": {
+      "charged_or_held_cny": 33.104181,
+      "cap_cny": 80,
+      "calls": 1678,
+      "states": {
+        "SETTLED": 1678
+      },
+      "invoice_verified": false
+    },
+    "deepseek_combined_cny": 38.41391244
+  },
+  "posthoc_primary_preserved": true,
+  "mixed_schedule_no_isolated_latency_claim": true,
+  "cached_aggregation_new_provider_calls": 0,
+  "qa": {
+    "at": "2026-11-03T15:18:34.363360+00:00",
+    "method": "Playwright Chromium; local static report only, server bound127.0.0.1 then closed",
+    "desktop_viewport": [
+      1280,
+      900
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 390,
+    "horizontal_overflow": false,
+    "question_details": 744,
+    "answers": 2976,
+    "images_loaded": 8,
+    "broken_images": 0,
+    "detail_open_test": true,
+    "dsh_section_last": true,
+    "visual_inspected": [
+      "memory-summary.png",
+      "category-01.png",
+      "category-02.png",
+      "category-03.png",
+      "category-04.png",
+      "category-05.png",
+      "category-06.png",
+      "category-07.png",
+      "output/playwright/report-mobile.png",
+      "output/playwright/report-analysis.png",
+      "output/playwright/report-question.png"
+    ],
+    "console": "Only missing optional favicon404; no script errors",
+    "scope": "No external publication; no production or QQ operation"
+  },
+  "source_or_rubric_or_bank_tuned_after_answers": false,
+  "not_a_production_release_or_independent_human_certification": true,
+  "files_sha256": {
+    "memory-report.html": "87bb5b8b6bda4f635ca864d2b0dc9ca6aed0d3b53c0c00008e451a0609bc8174",
+    "summary.json": "b5333ccd90c1d58169ca465fad3b14afbba02d1da74f3e8e3e60982ffd6ce090",
+    "results.json": "53e81aca6c169e4c12dd1d77ac125313a298a8d26aa132e52ae8832d19582933",
+    "reporting-overlay.json": "52f0f4497f0a1b40b05202af7bd9d6338122120b7575783f74c19288e4009ba9",
+    "evidence-diagnosis.json": "4032b8aaa7b8ff2110b41c2ff075a62cec0ee1d4d11eee8aec0863b45a06df20",
+    "evidence-diagnosis.md": "6d30ff2bf9c239d252bee4a4217c4040a09a60670f81c5954753372d9603700e",
+    "native-runtime-metrics.json": "ef821a9ed50b3f414b42cb85232bfced1b235b98dc47d922c0d23dc693ff7d6c",
+    "question-validity-audit.json": "a885745ef5419f6a1e9c090f5ee77f4d6e0652a67ab215f40960e35ba583df15",
+    "review-completion.json": "cf0b4412d097ec48e3616d20725dd9106f9aac9c7a111badbb64b4b41907d167",
+    "all-answers-frozen.json": "b2e4b8572614d780c74fa8fc57d6e257c31d2865d5459ba8ba66d888f1cb7a21",
+    "execution-freeze.json": "a42838cc6f5b0965daeeaa519eb594531ef2b1f3342c74a2b3b3593bcfb0e3ab",
+    "campaign-freeze.json": "fb0100325a90003e28ea7b28b8523720a8d739da6f46e9906f32cb5046fe47db",
+    "source-freeze.json": "2fea3af3220646808139f3b3ab4429b4c493f251a46c6d3359ee86d117e96489",
+    "corpus-freeze.json": "aa9175c104f1004cebcd40f6a44270ca64a4742e7d8b6c8720655be68b26aeb5",
+    "round.json": "90137296095173b46a1d5ab5c36a1ecfa3601c741824cfd608381fa2ce8537af",
+    "configuration-amendment.json": "185a0681346501e13362babeadc4dd1c26f4f12fcfbb105176944c5fd0bc7faf",
+    "judge-inputs-freeze.json": "05f2d9c1085aaea73b94b3118f83b69ad1b670191aeac2ed9fdff46f09139d8f",
+    "anchors.jsonl": "205a7f5f8547d3710e3e84d901e042475e44962406b0c7493fa624ab4dd79882",
+    "schedule-amendment-active.json": "b1749339516725937bce248dc8dbdd3133cece54ebd9896ecd0b9367bca4bc9b",
+    "schedule-amendment.json": "6c4937a2f1e8371d4d0546512c7965956c1999288abf855737beffec9e5736a2",
+    "schedule-handoff-verification.json": "bb4521356bbd35c7f3cca2ca0f71a3d5a8c69375c8a6fc709a21e60f59e6836a",
+    "grading-schedule-amendment-active.json": "68cede7d4347d0aa5b2ccb828f4c18bc7d2a21e585f896600ed4562ff82592d4",
+    "grading-schedule-amendment.json": "d4227eeebf39f89ca076e0c4e3cbddb8fc8a405fa0c0892866b6c4897339f7fc",
+    "parallel-grading-verification.json": "7fc6812f2f4d54106a536262667dba8d43f4092a0b51938e67e173e96e6cc8c0",
+    "grading-finalization-repair.json": "a115916993553044bc334d9360e43a99c2918969c9d783ffbe8289204a96ea87",
+    "grading-boundary-receipt.json": "778262428b2be1c0e040cd83e9de157943089f8b1586138355f50b410105850d",
+    "grading/manifest.json": "49454f96d1ad5313f8b35abb540f0f7966e0d87beae7673112ace5b47fa17429",
+    "grading/grades.jsonl": "92c2dbd37e3236b6c1e88f756b1c52d5e247387a03c736da06f246f44dd43329",
+    "grading/review-selection.json": "3129a2c897bc2dc3a005b64086162d76cbee4e111d92c499a90e036fcdfadc70",
+    "grading/review.jsonl": "c97d5fb36a2f9597dea241943340952a6cebf8d87492d8705b3cf69f9e7eecaf",
+    "grading/overrides.jsonl": "75470cc89b3bd524ca14faa48b2b52484430be534de0511a6d4ce2ce1811f1c7",
+    "grading/review-semantic-boundaries.json": "cad2fe8e0e5506cf00f9a621507a1f0d390f2365022daeaaa697dbd4f10ce3a3",
+    "render_reviewed_report.py": "a4e70535a69396cdf9c6a0ee2ac18446d24228e0df1dd1fa20bc73d80a8d5af8",
+    "verify_final_report.py": "93c31c1ad597b14cc7e7d07f97dd8a85da0b38c3a1c8276d6299564022dd6941",
+    "deepseek-usage.jsonl": "18daa50dc00ded73605b380881d426a6185357b6b78b3bfc4b039944caf58c58",
+    "qwen-usage.jsonl": "73ad8913482c70210081ef38c0208df8a2b51af9b6a66ce7c2e853ba1af5b881",
+    "smoke/deepseek-usage.jsonl": "6886a632bb34dc96da167690ac12af0be74c04ab62e6ce482d614df621b694ce",
+    "analysis-dependencies.json": "93229a40e690926a50aed504762861f8138fd4315bffe65760b14059ecc3a264",
+    "report-visual-qa.json": "21688d2a3bee70a1de660712d5992ded4c9ae3282725ec4ad3d41572222fdb93",
+    "category-01.png": "88b33c3b2339c524edc5fb1619967ce2b307ef36f72fa0355f26409a745577a8",
+    "category-02.png": "44f0af5f221fefe1f6722c3890726e80782908f55250a098fcbbefaaa478ed18",
+    "category-03.png": "c9f24c5297bfc99ddce7debccf059413d9d62e1b9e54627c97c2afbe86db8105",
+    "category-04.png": "cbbbb280942f96ad74c9abfaa103bd407ecab445eb3fe1b75e5a19d1c2c7c91c",
+    "category-05.png": "d9be6f344a7008f825f2d8e4c07a0f39c41f8f314554804511cd971308220006",
+    "category-06.png": "5e6ebc116c0b257d5472856a714df0d4cb4d16c200eea35b964151a6d6469968",
+    "category-07.png": "65e3a18ee1bd16f282944edf8089f3bcc9f0e4ea18ca6fdc92d2a0149aec7477",
+    "memory-summary.png": "6e8f489263d0065118a00207bf4bdf2a7e6f6888adad45cd71b0d036f28a056c",
+    "category-01.svg": "c1d31da6b870a68c56d977d375bde9f927369a5d480d3ee43199e167ed4f7a89",
+    "category-02.svg": "85811e0c940d94c08ef55cc6547a7825e2c8ab263ad191b99efb59f9c82197c3",
+    "category-03.svg": "03ed16c0da10634ff9c58d12122e599398fbbb7bc317a4a7a42f7d5c503bea20",
+    "category-04.svg": "7389cf92317b78c3b6919f55f92a8e4f40082178941293c6f02cd80c2bacc6c6",
+    "category-05.svg": "9b63a20964e5260f820e14f2a111d9481c0888c0093f74b44f77297721eddfc9",
+    "category-06.svg": "2a684085b8feee1ef669927856113620aa47c6e6f1b402c489cd67d202f5bdc7",
+    "category-07.svg": "de59b3fbc169f244b248046a8729badd3b3fdbfdc6c376a674e8dd3c7100b763",
+    "memory-summary.svg": "e4d22a30e4b72d0374c5eb82a073dff0a9e92b7637d2585bf1d6f93455aba2fd",
+    "output/playwright/report-analysis.png": "5e36e1637584640107b68fda418ee29d166c3b922f19707385d08ea200842109",
+    "output/playwright/report-desktop.png": "81cd3ca0b0ae05111a253958e805a2579f1ab2512aa7e28ccef88b5d68ea53e3",
+    "output/playwright/report-mobile.png": "4f7bb05dc224d412054c565c57c0622d1fc809d73fe6951f22274582c5022f37",
+    "output/playwright/report-question.png": "7507314476815fd5440eedeac188e63c451cf0b4987d46b907bad90398893e9b"
+  },
+  "prior_product_verification_receipt": {
+    "path": "LOCAL_PATH",
+    "sha256": "25ffd3c09d6825645df6c4076e2fd9848a25bd2400c29b908a604e6d13993f02"
+  }
+}

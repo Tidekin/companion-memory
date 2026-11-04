@@ -1,0 +1,6296 @@
+[
+  {
+    "key": "f7d1e7c4bfb5f52c7cabe1f1",
+    "arm": "old",
+    "id": "U02-T01/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "9589939326d454fa117675c7a08bb6d296c7fc33a315a3e636791985cb9df19f",
+    "question": "物资清单里量角器有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "量角器7个",
+      "放在第4层"
+    ],
+    "forbidden": [
+      "量角器在第1层"
+    ],
+    "answer": "量角器我只记得旁边有个“备用件”，具体几个、放几层没记住。\n\n\n那份清单要不再发我一下，我看看",
+    "auto_grade": {
+      "key": "f7d1e7c4bfb5f52c7cabe1f1",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d8464fb651ac0ed7a7800dfa",
+    "arm": "new",
+    "id": "U02-T01/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "509897db9e39469b89f0a1995b9d25154b203c615eec1426194a222ec96f6b87",
+    "question": "物资清单里量角器有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "量角器7个",
+      "放在第4层"
+    ],
+    "forbidden": [
+      "量角器在第1层"
+    ],
+    "answer": "量角器7个，在第4层，标的是常用\n\n\n还有一条量角器备用件，1个，第1层，备注备用\n\n\n这俩得分开算，别当成8个都在一块儿",
+    "auto_grade": {
+      "key": "d8464fb651ac0ed7a7800dfa",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0876ac6c8dff687ce1dfd4be",
+    "arm": "rag",
+    "id": "U02-T01/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "f1f1810e4e3aa172dfc258dcc60db75d07027500127f366ea96d8fb60f8f4d33",
+    "question": "物资清单里量角器有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "量角器7个",
+      "放在第4层"
+    ],
+    "forbidden": [
+      "量角器在第1层"
+    ],
+    "answer": "物资清单中“量角器”有 **7 个**，放在 **第4层**。  \n另外“量角器备用件”是单独一项：**1 个，第1层**。",
+    "auto_grade": {
+      "key": "0876ac6c8dff687ce1dfd4be",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5baef482ff62fdf7285082c7",
+    "arm": "old",
+    "id": "U02-T02/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "5de0ad214c213f960c6ca17eed585e3cafa033b988e485cc17d0dd0e0d2d8816",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "记得你说过蓝色的放门口鞋柜里\n\n\n后来又特意提过蓝色阳伞在车后备箱，别跟别的搞混\n\n\n这俩说的是不是同一把啊，我有点分不清了",
+    "auto_grade": {
+      "key": "5baef482ff62fdf7285082c7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "5eab0db2a5669dccc04f2417",
+    "arm": "new",
+    "id": "U02-T02/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "c286ee73bc45acc825c792b0a5e92040ab7ed86cbf208a9bbb04c29f5aff9453",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "蓝色雨伞在门口鞋柜里，9月22号你放的。\n\n\n别跟蓝阳伞搞混，那个在车后备箱。",
+    "auto_grade": {
+      "key": "5eab0db2a5669dccc04f2417",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "032b205f90834a658cf91d8d",
+    "arm": "rag",
+    "id": "U02-T02/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "c64ac040379bb0b19476c48c8564c696997f063fbe67ed4794e57ab33f8ad37d",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "蓝色雨伞在门口鞋柜里。",
+    "auto_grade": {
+      "key": "032b205f90834a658cf91d8d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1073940a4bc8bd676a296fec",
+    "arm": "old",
+    "id": "U02-T03/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "5f116b28857b89285e31e90c1ed51ac00f0c46c41dea1a684a9d774d810ef620",
+    "question": "程野是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "程野是程鸢的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "程野是用户的弟弟"
+    ],
+    "answer": "程野是你弟弟啊，还在念大学那个。\n\n\n之前说国庆要来你这儿借住几天，后来到底来了没，我这边没听你提过。",
+    "auto_grade": {
+      "key": "1073940a4bc8bd676a296fec",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "unsupported": [
+        "程野是你弟弟"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bdba92fd4838d1dc4b0eafc3",
+    "arm": "new",
+    "id": "U02-T03/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "cf0d9821423b42ca67819ee50215e18c216e51a57a1e0738852e25ebfba28d23",
+    "question": "程野是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "程野是程鸢的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "程野是用户的弟弟"
+    ],
+    "answer": "程鸢的弟弟，还在读大学\n\n之前说国庆要来你那儿借住几天\n\n不过现在国庆都过了，后来到底来没来我就不知道了",
+    "auto_grade": {
+      "key": "bdba92fd4838d1dc4b0eafc3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c1c7c82ebdbf92ebe64bb11d",
+    "arm": "rag",
+    "id": "U02-T03/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "22e8b8ae68996e158879769681c7f46108d4958fb77e6839b2e9195badbf478a",
+    "question": "程野是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "程野是程鸢的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "程野是用户的弟弟"
+    ],
+    "answer": "程野是程鸢的弟弟，在读大学。  \n据历史记录，主人曾说程野国庆要来主人这儿借住几天；是否实际到访及住了多久，资料未说明。",
+    "auto_grade": {
+      "key": "c1c7c82ebdbf92ebe64bb11d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "57e740778b36457c211c370b",
+    "arm": "old",
+    "id": "U02-T04/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "57be1ef901865cff8860b062d0b78fa6251b56ad3cb1ebb410aa826e23bb91f8",
+    "question": "周六下午和周二晚上十点，分别该给我泡什么？",
+    "category": "带条件的偏好",
+    "required": [
+      "周六下午泡红茶",
+      "周二晚上十点不泡茶"
+    ],
+    "forbidden": [
+      "晚上十点泡绿茶"
+    ],
+    "answer": "周六下午喝红茶，工作日改成绿茶，周末红茶。\n\n\n周二晚上十点就不泡了，九点以后不泡茶，这个我记着呢。\n\n\n所以周六下午那杯红茶，我给你泡上。",
+    "auto_grade": {
+      "key": "57e740778b36457c211c370b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "84ed76e3ec3b0fb55a0a942e",
+    "arm": "new",
+    "id": "U02-T04/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "aecb870261930a95416f330f2ee260f72f698e346fd9eddebd7f55490f8e6532",
+    "question": "周六下午和周二晚上十点，分别该给我泡什么？",
+    "category": "带条件的偏好",
+    "required": [
+      "周六下午泡红茶",
+      "周二晚上十点不泡茶"
+    ],
+    "forbidden": [
+      "晚上十点泡绿茶"
+    ],
+    "answer": "周六下午的话，我给你泡壶白茶吧，天还没冷透，喝那个正好\n\n周二晚上十点，想都别想，不泡\n\n你自己定的规矩，九点以后不给你泡茶\n那天晚上还想喝，就喝水去",
+    "auto_grade": {
+      "key": "84ed76e3ec3b0fb55a0a942e",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [
+        "我给你泡壶白茶吧"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3b3f2ca907e6db9e28d274ea",
+    "arm": "rag",
+    "id": "U02-T04/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "ad7cd9c7456f9dc686651e568744fa370876e456f4ef730ff1f95adf65fe0617",
+    "question": "周六下午和周二晚上十点，分别该给我泡什么？",
+    "category": "带条件的偏好",
+    "required": [
+      "周六下午泡红茶",
+      "周二晚上十点不泡茶"
+    ],
+    "forbidden": [
+      "晚上十点泡绿茶"
+    ],
+    "answer": "周六下午喝红茶；周二晚上十点不泡茶，因为晚上九点以后都不泡茶。",
+    "auto_grade": {
+      "key": "3b3f2ca907e6db9e28d274ea",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "923c0c0d1723d7f429ea9417",
+    "arm": "old",
+    "id": "U02-T05/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "0faf736233071556d10dffe4e2ea1b3f11178d3dc20855eeb56a82698f17d54a",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前啊，你后来自己改的口\n\n一开始说周四，后来更正是周五\n\n今天不就是周五了嘛，交了没",
+    "auto_grade": {
+      "key": "923c0c0d1723d7f429ea9417",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "161ac25720210445c16001b6",
+    "arm": "new",
+    "id": "U02-T05/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "978dd482dcd58940ed4af773fb8e9a4ec693fbeb3f9b0436f2ed71f890618a5e",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前交，就是10月9号当天或之前交给程鸢\n\n\n周四那个是你第二天自己说写错了改的口，不是我算的\n\n\n不过今天都23号了，这表应该早交完了吧",
+    "auto_grade": {
+      "key": "161ac25720210445c16001b6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d0dd0405bffe1c7cd812a10d",
+    "arm": "rag",
+    "id": "U02-T05/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "bd5001d620ecb0cf5333aff46ed93bd4523143fbebe478faddff1c31579f1c77",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "报名表要在**周五前**交。周四不算，因为主人在 2026-10-08 明确更正过：原来说“周四前”是写错了，应改为“周五前交，不是周四”。闻溪转来的“周四前”是原文，但已被主人更正。",
+    "auto_grade": {
+      "key": "d0dd0405bffe1c7cd812a10d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "038f48535cccefa447864982",
+    "arm": "old",
+    "id": "U02-T06/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "844ac81192fd3119bcd44dc1f7cb8b72982ae6e696fd3d74287c701a77052511",
+    "question": "我现在的工位在哪？以前在哪？",
+    "category": "主人直接改口",
+    "required": [
+      "现在在五楼西侧",
+      "以前在三楼东侧"
+    ],
+    "forbidden": [
+      "现在在三楼东侧"
+    ],
+    "answer": "五楼西侧啊，上周搬的。\n\n\n之前在三楼东侧，后来你自己更正过一次。",
+    "auto_grade": {
+      "key": "038f48535cccefa447864982",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "80f0179b32b8fc33d95398f9",
+    "arm": "new",
+    "id": "U02-T06/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "94118deb84ab3227ebadf3248229503462b708159d857fbdd4325406a6b8c398",
+    "question": "我现在的工位在哪？以前在哪？",
+    "category": "主人直接改口",
+    "required": [
+      "现在在五楼西侧",
+      "以前在三楼东侧"
+    ],
+    "forbidden": [
+      "现在在三楼东侧"
+    ],
+    "answer": "五楼西侧，上周搬过去的。\n\n\n之前在的三楼东侧。",
+    "auto_grade": {
+      "key": "80f0179b32b8fc33d95398f9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ad6bc5edd7db1c611c89824c",
+    "arm": "rag",
+    "id": "U02-T06/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "bce4e204e12c6dc71b170c840071aea1f0faa935875dd1336f60a8bea03c79b1",
+    "question": "我现在的工位在哪？以前在哪？",
+    "category": "主人直接改口",
+    "required": [
+      "现在在五楼西侧",
+      "以前在三楼东侧"
+    ],
+    "forbidden": [
+      "现在在三楼东侧"
+    ],
+    "answer": "你现在在**五楼西侧**；以前在**三楼东侧**。",
+    "auto_grade": {
+      "key": "ad6bc5edd7db1c611c89824c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "20e1254f4fbe2446774831be",
+    "arm": "old",
+    "id": "U02-T07/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "91b7e9027dbd7deec33f78794f85805eacbd2905214999227f034eecea22457e",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "下午四点开始，地点还是青松阁。\n\n\n原来是三点，后来程鸢转来的场馆通知说改到四点，我就按四点算了。",
+    "auto_grade": {
+      "key": "20e1254f4fbe2446774831be",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "650f993612a773306413e19b",
+    "arm": "new",
+    "id": "U02-T07/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "7a414fc24e4e249ca79ad71b990b5af55ba9bbc44c5b7162900f4028243e1560",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "按程鸢转来的场馆通知，改到下午四点了，地点还是青松阁\n\n\n不过这个说的不是你本人，是你转来的通知\n\n\n你之前说的是三点，后来那条通知把时间改成了四点\n\n顺带一提，10月27号已经过啦，这是上个月的事了",
+    "auto_grade": {
+      "key": "650f993612a773306413e19b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c2f64a083120af0562821c83",
+    "arm": "rag",
+    "id": "U02-T07/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "1aebec432f6129f9506ca6d3566e62729f8991a79789c2a8d4b15e59a2dddd28",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "秋季分享会改到 **2026-10-27 下午四点开始**，地点仍是青松阁。  \n这个改动是 **“场馆通知”** 说的，由 **程鸢转来**。",
+    "auto_grade": {
+      "key": "c2f64a083120af0562821c83",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8875c0ed2b93af9fdd36441c",
+    "arm": "old",
+    "id": "U02-T08/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "d63cbe6cc8ead414f0c67eb747aa479dc23e7d539085a13cdd20925fb5214e7a",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是许墨传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "辞职？你不是早就说过没这打算，也不去外地嘛\n\n这说法最早是许墨在群里提的，“听说闻溪要辞职去外地了”\n\n他自己都是听说的，源头没交代清",
+    "auto_grade": {
+      "key": "8875c0ed2b93af9fdd36441c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5d72130760056cad34851dd3",
+    "arm": "new",
+    "id": "U02-T08/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "1f29593ab273a7a31b701bcbc647518cb6370f88534951a982942af550a7506d",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是许墨传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "许墨说的，群里那一嘴“听说闻溪要辞职去外地了”\n\n\n你自己23号就说过没这打算、也不去外地，纯瞎传\n\n\n那会儿你还说了一句“离谱”",
+    "auto_grade": {
+      "key": "5d72130760056cad34851dd3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "25bc65caabafc770840cdb6a",
+    "arm": "rag",
+    "id": "U02-T08/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "9df60889c673cf8ac31ca353de13c8d8902843a9bd6dcbd2b1395c873fb28726",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是许墨传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "不用。你在 **2026-10-23** 已明确说过：**没打算辞职，也不去外地，那是瞎传的**。历史里没有你计划辞职去外地的信息。\n\n这个说法的来源是：**2026-10-22 许墨在群里说的**，原话是“**听说闻溪要辞职去外地了**”，本身是“听说”的传闻，未经证实；更早的最初来源未知。",
+    "auto_grade": {
+      "key": "25bc65caabafc770840cdb6a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "83b461b1446dc3f885b3ff5f",
+    "arm": "old",
+    "id": "U02-T09/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "d4220ee243c8267458a385abe7c6d6007af1a5c905725a2b2c0bff970a437dff",
+    "question": "谁答应帮谁修车？我答应了她什么？",
+    "category": "谁答应了谁",
+    "required": [
+      "程鸢答应帮用户修车",
+      "用户答应请她吃饭"
+    ],
+    "forbidden": [
+      "用户帮程鸢修车"
+    ],
+    "answer": "修车这事儿我这儿真没记着，翻了一遍也没有\n\n\n你答应她什么了？跟我说说，别让我瞎猜",
+    "auto_grade": {
+      "key": "83b461b1446dc3f885b3ff5f",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "775f741377a13392fb675804",
+    "arm": "new",
+    "id": "U02-T09/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "b61fbea7bf175dd777b02f76180a268bfc8fc836b7402aab815e23cec18e4664",
+    "question": "谁答应帮谁修车？我答应了她什么？",
+    "category": "谁答应了谁",
+    "required": [
+      "程鸢答应帮用户修车",
+      "用户答应请她吃饭"
+    ],
+    "forbidden": [
+      "用户帮程鸢修车"
+    ],
+    "answer": "是程鸢答应帮你修自行车，你答应她修好了请她吃饭。\n\n\n那是10月27号你跟我说的，说好是那个周末的事。\n\n\n对了，面试是下周五11月20号上午十点，青松阁，这个我也记住了。",
+    "auto_grade": {
+      "key": "775f741377a13392fb675804",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "09009879d78fb43a868d110a",
+    "arm": "rag",
+    "id": "U02-T09/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "514b6b29eec6b97f9fd7cd1763d87e69445dbb08c168033912bdc19062841d77",
+    "question": "谁答应帮谁修车？我答应了她什么？",
+    "category": "谁答应了谁",
+    "required": [
+      "程鸢答应帮用户修车",
+      "用户答应请她吃饭"
+    ],
+    "forbidden": [
+      "用户帮程鸢修车"
+    ],
+    "answer": "程鸢答应帮主人修自行车。主人答应她：修好后请她吃饭。",
+    "auto_grade": {
+      "key": "09009879d78fb43a868d110a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "76751cb30834ea61677b9184",
+    "arm": "old",
+    "id": "U02-T10/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "adfacae79e46d3da3147fe4bb928d9050608c0e5ee6274c93168de37fd6e3ff6",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "你最后选的是爬山，看展就这么被你一句话给撤了\n\n\n看展是我提的，青松阁那个插画展\n\n\n不过那都是月初的事了，你说的这周末是新的打算？",
+    "auto_grade": {
+      "key": "76751cb30834ea61677b9184",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "712d8e161572789897d65777",
+    "arm": "new",
+    "id": "U02-T10/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "8da1bde924945af0da01bbc98f2e9a13a1c1fe37dcfbad042ce095b955674add",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "你最后决定去爬山，看展那事儿就搁下了。\n\n\n看展是我提的，青松阁那个插画展。",
+    "auto_grade": {
+      "key": "712d8e161572789897d65777",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "45c9f3f19737990197da598a",
+    "arm": "rag",
+    "id": "U02-T10/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "1b21b5b345b7be7cc4b087531db804aa3d8c95c1263424a695bede8bece0dfbf",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "你最后决定这周末去**爬山**。  \n“看展”是**助手**在 2026-11-01 提议的；你 2026-11-02 已说“看展算了，我决定去爬山”。",
+    "auto_grade": {
+      "key": "45c9f3f19737990197da598a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "22b166436c0e4aaae35e397e",
+    "arm": "old",
+    "id": "U02-T11/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "c575bf27562123969a13bd2a79b781ba9b0119d882109517d8739a2aaff467b1",
+    "question": "面包店要关门的消息是谁告诉谁的？我确认过吗？",
+    "category": "转述链",
+    "required": [
+      "许墨告诉程鸢，程鸢再转告用户",
+      "用户还没确认过"
+    ],
+    "forbidden": [
+      "用户亲眼确认过"
+    ],
+    "answer": "许墨说的，程鸢转给你的\n\n\n你自己说了还没去确认过，我也没见着告示\n\n\n所以到现在还是个传闻",
+    "auto_grade": {
+      "key": "22b166436c0e4aaae35e397e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c6d6ea387c32db44bfbbf08b",
+    "arm": "new",
+    "id": "U02-T11/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "5b080a360d40ad6a8bc9e43ecb8cc0c51b0ba5c520e59868d82a2f25dc417d4a",
+    "question": "面包店要关门的消息是谁告诉谁的？我确认过吗？",
+    "category": "转述链",
+    "required": [
+      "许墨告诉程鸢，程鸢再转告用户",
+      "用户还没确认过"
+    ],
+    "forbidden": [
+      "用户亲眼确认过"
+    ],
+    "answer": "是许墨说的，程鸢转给你的\n\n\n你11月7号自己说还没去确认过",
+    "auto_grade": {
+      "key": "c6d6ea387c32db44bfbbf08b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "dd2dbf7157a31ef5e1466b72",
+    "arm": "rag",
+    "id": "U02-T11/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "b7d025fc1f4fd0eded3e67049f6f5e57cc7ff5836ae1585e05f56b8a770229e7",
+    "question": "面包店要关门的消息是谁告诉谁的？我确认过吗？",
+    "category": "转述链",
+    "required": [
+      "许墨告诉程鸢，程鸢再转告用户",
+      "用户还没确认过"
+    ],
+    "forbidden": [
+      "用户亲眼确认过"
+    ],
+    "answer": "东湖口面包店要关门的消息是：**许墨告诉程鸢，程鸢再转告给主人的**。\n\n关于是否确认：**没有记录显示已确认**；主人在 2026-11-07 明确说过“我还没去确认过”，之后也没有确认结果。",
+    "auto_grade": {
+      "key": "dd2dbf7157a31ef5e1466b72",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "eb2faae97b8158606bf9c9ad",
+    "arm": "old",
+    "id": "U02-T12/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "ad2a9204033e915bee82938a76c3057d759d0df9646212acf828b443f48bfdaa",
+    "question": "我说的那次去青松阁面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，周五上午十点。\n\n\n按你11号那天说的“下周五”算的，那天是周三，往后数到周五十点。\n\n\n这都过去了，面试咋样啊，我一直没敢问。",
+    "auto_grade": {
+      "key": "eb2faae97b8158606bf9c9ad",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "beab5072d4d5f5e5f8f6fb94",
+    "arm": "new",
+    "id": "U02-T12/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "3896a2a6d2958c5533c97b384c988a295aa445375ea776f20fd8516c58c88e2a",
+    "question": "我说的那次去青松阁面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，上午十点。\n\n\n你11号说的“下周五”，按今天算已经是上礼拜五了。",
+    "auto_grade": {
+      "key": "beab5072d4d5f5e5f8f6fb94",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bc8daea6c809af098ec17830",
+    "arm": "rag",
+    "id": "U02-T12/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "9253f120a45b340b7f3d3cf79609c2fdb6ae7fa027b5513caf57bc4d6c754ba5",
+    "question": "我说的那次去青松阁面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "按 2026-11-11 当天说的“下周五”计算，那次青松阁面试是：\n\n**2026年11月20日（星期五）上午10点。**",
+    "auto_grade": {
+      "key": "bc8daea6c809af098ec17830",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bad835ba852cfaaa3074ec3c",
+    "arm": "old",
+    "id": "U02-T13/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "a5f60071eb96871bf0d9dfe31a4b2e8568cb099b345303f4923245241cea0785",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "按你那份记录算，23:20 到第二天 02:05，跨天了，一共 2 小时 45 分。\n\n\n不到三个小时，挺短的夜班。",
+    "auto_grade": {
+      "key": "bad835ba852cfaaa3074ec3c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "af3969c4f63c92a57893aa5a",
+    "arm": "new",
+    "id": "U02-T13/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "e95d96b1442d1f310cbfd1a68217b7f1747528b3995b4d764d8a7a548379a17c",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "那晚是从23:20干到02:05\n\n\n跨天了，11月15号晚上到16号凌晨\n\n\n算下来两小时四十五分钟",
+    "auto_grade": {
+      "key": "af3969c4f63c92a57893aa5a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "22c14afb65e9ea469feebfcc",
+    "arm": "rag",
+    "id": "U02-T13/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "ac9296917bdf67d1dbfd88b57e063f635ba458d667d16f96aed4370881def897",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "夜班从 **2026-11-15 23:20** 到 **2026-11-16 02:05**，共 **2小时45分钟**。跨天了，从11月15日跨到11月16日。",
+    "auto_grade": {
+      "key": "22c14afb65e9ea469feebfcc",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "056a315f57ff99006f06b43c",
+    "arm": "old",
+    "id": "U02-T14/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "c2e56630a9ddc06ea4caa9bd9f4a5cdaab3bbc46daeabf0a695093bce8076484",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "办卡是11月21号，理发是22号，还书是23号，青松阁那趟\n\n\n中间那件就是理发\n\n\n不过办卡那条我这儿记着有点乱，你这天先说办了张卡，后来中午又说路过银行没进去\n\n到底是办了还是没办成，你给我说清楚点",
+    "auto_grade": {
+      "key": "056a315f57ff99006f06b43c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "ee75e526b0320b4846f3fe95",
+    "arm": "new",
+    "id": "U02-T14/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "fc4db36f6cf52601d4be813b80fa9195eac1ec1353cf0b9af07cc24f89f927aa",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "办卡是11月21号，理发是11月22号，还书是11月23号\n\n\n中间那件就是理发了，连着三天办三件事\n\n\n青松阁那本还回去了吧",
+    "auto_grade": {
+      "key": "ee75e526b0320b4846f3fe95",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "303de1255df84fe0f0458fc3",
+    "arm": "rag",
+    "id": "U02-T14/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "0aee77ef98e55feda6a57eca97b436a59449838200ae385f018e0b23008f417a",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "- 办卡：2026年11月21日  \n- 理发：2026年11月22日  \n- 还书：2026年11月23日  \n\n中间那件是：**理发**。",
+    "auto_grade": {
+      "key": "303de1255df84fe0f0458fc3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7aca8d479632d6d5ef680a26",
+    "arm": "old",
+    "id": "U02-T15/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "507e3e6f01b983041f6e6d28520c387dd3820e95b910055a3b85902b6acc9a7c",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在青松阁室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "下雨了呀，那天你说真下了，就按约定改去青松阁室内了。\n\n\n所以条件触发了，户外没办成。",
+    "auto_grade": {
+      "key": "7aca8d479632d6d5ef680a26",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "be8e95864ace53f97b822cc5",
+    "arm": "new",
+    "id": "U02-T15/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "df25b3070386ad3ffe21ed19dbcbe11fda0ee9597fa8b85b80d8f8ef7b9f6b01",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在青松阁室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "真下了，那天雨还不小，野餐就挪到青松阁室内去了\n\n你26号还特意说了“明天下雨就改室内”，结果第二天就应验了\n\n现在都过半个多月了，怎么突然想起问这个",
+    "auto_grade": {
+      "key": "be8e95864ace53f97b822cc5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a7d772dad4c65059237aa0d5",
+    "arm": "rag",
+    "id": "U02-T15/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "8ef20b922e7c05f9cb95b48145bd527df12b08443a8b68651c1e9a9e4384d656",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在青松阁室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "最后在**青松阁室内**办的。  \n改室内的条件**触发了**：11月26日约定“如果明天下雨就改到青松阁室内”，11月27日主人说“今天真下雨了，户外野餐改在青松阁室内办了”。",
+    "auto_grade": {
+      "key": "a7d772dad4c65059237aa0d5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "596d27c7821dd5992cf19890",
+    "arm": "old",
+    "id": "U02-T16/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "03f065d656e8f322b3b0d29f143a72abcdd623a0c42479cf6b54b8be6b4e115c",
+    "question": "合同副本寄出了吗？快递单号尾号是多少？",
+    "category": "计划已完成",
+    "required": [
+      "已经寄出",
+      "尾号0386"
+    ],
+    "forbidden": [
+      "还没寄"
+    ],
+    "answer": "寄了，12月2号就寄出去了。\n\n\n单号尾号0386。",
+    "auto_grade": {
+      "key": "596d27c7821dd5992cf19890",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b912fd3a097097762f81c7f4",
+    "arm": "new",
+    "id": "U02-T16/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "997455435dceccc686590662b4d30a60c656182bfaea8dba89e33bfe765c9042",
+    "question": "合同副本寄出了吗？快递单号尾号是多少？",
+    "category": "计划已完成",
+    "required": [
+      "已经寄出",
+      "尾号0386"
+    ],
+    "forbidden": [
+      "还没寄"
+    ],
+    "answer": "寄了，12月2号那天寄的。\n\n单号尾号0386。\n\n你这会儿查这个，是程鸢那边没收到还是怎么？",
+    "auto_grade": {
+      "key": "b912fd3a097097762f81c7f4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e7d487c11bf4366cfa6bd975",
+    "arm": "rag",
+    "id": "U02-T16/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "8ec1ded2a1626bb7c8115c58e0734308d99461989c5aa7d3821890b4776d083c",
+    "question": "合同副本寄出了吗？快递单号尾号是多少？",
+    "category": "计划已完成",
+    "required": [
+      "已经寄出",
+      "尾号0386"
+    ],
+    "forbidden": [
+      "还没寄"
+    ],
+    "answer": "合同副本已经寄出，快递单号尾号是 **0386**。",
+    "auto_grade": {
+      "key": "e7d487c11bf4366cfa6bd975",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0435a1e3e6600c755fc94815",
+    "arm": "old",
+    "id": "U02-T17/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "86c965df47e0b885aa2773eb0d2a0e231185933863cdba5db94764abfc7c737f",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "没有啊，那是你做梦梦见的\n\n\n醒了布丁不还在窝里睡着吗",
+    "auto_grade": {
+      "key": "0435a1e3e6600c755fc94815",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c709938784042f0e50e60c22",
+    "arm": "new",
+    "id": "U02-T17/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "1d13bc17dedbb56cf388abec6e6e0af1387c970bfe1496eb390456bfb19cad34",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "没有啊，那是你做梦\n\n\n你前一晚梦见它走丢，醒来一看它还在窝里睡着\n\n\n梦不是真的，布丁好好的",
+    "auto_grade": {
+      "key": "c709938784042f0e50e60c22",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "048578811a59f48f97e8fe23",
+    "arm": "rag",
+    "id": "U02-T17/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "48a47cb5e6c4181e967a7763bd214b2ceba41d9ef5b15bab318897cdd7f6dff6",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "不是真的。历史资料里说的是“昨晚梦见布丁走丢了”，醒来后“他还在窝里睡觉”，所以布丁没有真的走丢，只是梦里的情节。",
+    "auto_grade": {
+      "key": "048578811a59f48f97e8fe23",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "67142be0fffe6531860ac369",
+    "arm": "old",
+    "id": "U02-T18/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "88d99627d66900f3ef0c27be027a8120dc40bb25a04f5ec7ea429cb3c5354c6a",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子3个",
+      "盘子5个",
+      "碗2个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "照片里是杯子3个、盘子5个、碗2个\n\n\n我记得是按图上实际图形数的，没错吧",
+    "auto_grade": {
+      "key": "67142be0fffe6531860ac369",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "062328a59111e93a0f5212b0",
+    "arm": "new",
+    "id": "U02-T18/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "3d25ac9b50ee3ec8467714e31cb2ba5e81243e1579bd6133dc4b4d55b6ed2736",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子3个",
+      "盘子5个",
+      "碗2个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子三个，盘子五个，碗两个\n\n\n那张图没写数字，全靠数图形个数来的",
+    "auto_grade": {
+      "key": "062328a59111e93a0f5212b0",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "a28cf84317061cbb0b06c9c9",
+    "arm": "rag",
+    "id": "U02-T18/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "aa8c50f7c359f7bcd7f994ec27771fa5b17113715e32e8ddc46172772351201a",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子3个",
+      "盘子5个",
+      "碗2个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子3个、盘子5个、碗2个。",
+    "auto_grade": {
+      "key": "a28cf84317061cbb0b06c9c9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3fccfef747d1697f4c02924b",
+    "arm": "old",
+    "id": "U02-T19/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "09ef6f1f5bf65f24538c6784e3907760c9ef3c0e89589663b737f9fb43b1d3c0",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际40元",
+      "价签上印的是35元"
+    ],
+    "forbidden": [
+      "实际是35元"
+    ],
+    "answer": "实际40块，价签上印的35。\n\n\n就是那张印错了的价签。",
+    "auto_grade": {
+      "key": "3fccfef747d1697f4c02924b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "88406e04eaea0a1f8cfa716c",
+    "arm": "new",
+    "id": "U02-T19/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "9d43bbd6d6f3d6a2f0f40a5db3f681071cd68587fa65759321e1b1ab3152ab08",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际40元",
+      "价签上印的是35元"
+    ],
+    "forbidden": [
+      "实际是35元"
+    ],
+    "answer": "价签上印的是 35\n\n\n实际是 40，你那天跟我说过印错了",
+    "auto_grade": {
+      "key": "88406e04eaea0a1f8cfa716c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "913df9cef2bf8187cb10ebee",
+    "arm": "rag",
+    "id": "U02-T19/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "263fb81c10e34cdc6cdf646c44a103e901b50f6e8aa5f833fa43f4bc9d220087",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际40元",
+      "价签上印的是35元"
+    ],
+    "forbidden": [
+      "实际是35元"
+    ],
+    "answer": "价签上印的是 **35元**；实际价格是 **40元**（主人于2026-12-17说明价签印错）。",
+    "auto_grade": {
+      "key": "913df9cef2bf8187cb10ebee",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "99db36835edc2ac6cc389e1d",
+    "arm": "old",
+    "id": "U02-T20/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "3531b95150e81b72c746493728b9f2cf562c7824f5c6ead67145c909bbae9749",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号1275",
+      "3单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "我真不知道你家门牌号和单元，你好像没跟我说过这个。\n\n\n我这儿就记得你工位那事，三楼东侧还是五楼西侧那个，跟住址不搭边。",
+    "auto_grade": {
+      "key": "99db36835edc2ac6cc389e1d",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "039d059f3eebabba8a06bd7f",
+    "arm": "new",
+    "id": "U02-T20/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "39bca2f904f30ff9032e9f977dec8e435817871385d91623eb495c052c27c8f6",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号1275",
+      "3单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "三单元这个我记着\n\n\n门牌号那次是语音转的，出来是“十一二七五号”，乱得很，到底是1127还是别的我没敢定\n\n\n你回头给我说一遍准的",
+    "auto_grade": {
+      "key": "039d059f3eebabba8a06bd7f",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [
+        "门牌号那次是语音转的，出来是“十一二七五号”"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "95c83221bb1b23b24567307b",
+    "arm": "rag",
+    "id": "U02-T20/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "a69ae1beaab6f8b9ccb9fdb61b6b389ab4ae891f8c3905094db647bc3a28a60c",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号1275",
+      "3单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "历史资料中记录为：**门牌号“十一二七五号”，三单元**。  \n不过当时助手说语音/识别结果不一定准，未正式确认。",
+    "auto_grade": {
+      "key": "95c83221bb1b23b24567307b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8440d588e797db3388c5137f",
+    "arm": "old",
+    "id": "U02-T21/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "aaf5e1fdcaa97bd5595fb5ce56826087334f73f66658bd1f2867c742ca91e383",
+    "question": "排班表里我排在哪两天的哪个时段？周一下午是谁？",
+    "category": "表格里找本人",
+    "required": [
+      "周三上午",
+      "周五下午",
+      "周一下午是闻晴"
+    ],
+    "forbidden": [
+      "用户排了周一"
+    ],
+    "answer": "排班表上你是周三上午和周五下午。\n\n\n周一下午是闻晴，别又看混了。\n\n\n她上午许墨、下午闻晴，跟你就周三周五两天。",
+    "auto_grade": {
+      "key": "8440d588e797db3388c5137f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "fce7bd6ddaf2e619bae94ed0",
+    "arm": "new",
+    "id": "U02-T21/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "a217e888e8c0b26dd8cd7c2ccb4ff3cd14ccc42d9ad2dec2aa253355ac112077",
+    "question": "排班表里我排在哪两天的哪个时段？周一下午是谁？",
+    "category": "表格里找本人",
+    "required": [
+      "周三上午",
+      "周五下午",
+      "周一下午是闻晴"
+    ],
+    "forbidden": [
+      "用户排了周一"
+    ],
+    "answer": "周三上午，还有周五下午。\n\n\n周一下午是闻晴。",
+    "auto_grade": {
+      "key": "fce7bd6ddaf2e619bae94ed0",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "d172284c5becc880366529dd",
+    "arm": "rag",
+    "id": "U02-T21/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "fd040d5acf3c775697ff50026f47eeb2f198ec23c7b17cd7c494b9dd80d08e88",
+    "question": "排班表里我排在哪两天的哪个时段？周一下午是谁？",
+    "category": "表格里找本人",
+    "required": [
+      "周三上午",
+      "周五下午",
+      "周一下午是闻晴"
+    ],
+    "forbidden": [
+      "用户排了周一"
+    ],
+    "answer": "排班表里你（闻溪）排在：**周三上午**、**周五下午**。  \n**周一下午是闻晴**。",
+    "auto_grade": {
+      "key": "d172284c5becc880366529dd",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5106afc623a8fe4feba6ce5e",
+    "arm": "old",
+    "id": "U02-T22/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "99d9004b8daa5121ad97290dd61030a2896459c1a18791faf33c06b7540abcb4",
+    "question": "程鸢的生日是哪天？",
+    "category": "只知道一部分",
+    "required": [
+      "具体日期未知",
+      "只知道在十二月"
+    ],
+    "forbidden": [
+      "编造具体日期"
+    ],
+    "answer": "十二月啊，具体哪天你当时也说不准，我还记着这个悬案呢。\n\n\n要不趁现在问一下？",
+    "auto_grade": {
+      "key": "5106afc623a8fe4feba6ce5e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6f3f8c9717e82292217610ef",
+    "arm": "new",
+    "id": "U02-T22/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "07474b052761312af57d271db96362559b99fa4019da71e0e239bb5b9245fc39",
+    "question": "程鸢的生日是哪天？",
+    "category": "只知道一部分",
+    "required": [
+      "具体日期未知",
+      "只知道在十二月"
+    ],
+    "forbidden": [
+      "编造具体日期"
+    ],
+    "answer": "只知道是十二月，具体哪天你自己当时也说不记得\n\n\n这么一算刚过去没多久啊，你连日子都没记住，礼物送了没",
+    "auto_grade": {
+      "key": "6f3f8c9717e82292217610ef",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "978f7f23209fe2e61697beff",
+    "arm": "rag",
+    "id": "U02-T22/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "d8a898bbf0d54bda967ee2884582af2e5aebd31d5a24a53d361e7473d4192731",
+    "question": "程鸢的生日是哪天？",
+    "category": "只知道一部分",
+    "required": [
+      "具体日期未知",
+      "只知道在十二月"
+    ],
+    "forbidden": [
+      "编造具体日期"
+    ],
+    "answer": "只知道程鸢的生日在十二月，具体哪天资料里没有记录，未知。",
+    "auto_grade": {
+      "key": "978f7f23209fe2e61697beff",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d88a078a466243240501af7b",
+    "arm": "old",
+    "id": "U02-T23/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "6a78fc1e10b2063061604993f6c5be3a6810608bc0b5f66ee9952726d974b92f",
+    "question": "许墨的手机号是多少？",
+    "category": "从未提过的信息",
+    "required": [
+      "没有记录，不知道"
+    ],
+    "forbidden": [
+      "编造手机号"
+    ],
+    "answer": "许墨的手机号我这儿没有，你没给过我。\n\n\n我只记得他在城北读书会当志愿者，周四上午在青松阁，8号柜的钥匙在他那儿。\n\n\n要找他，也许还是得通过读书会的群里或者问程鸢。",
+    "auto_grade": {
+      "key": "d88a078a466243240501af7b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1eb86b969a98dc252e6faba5",
+    "arm": "new",
+    "id": "U02-T23/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "0c237fc72a29762dcd0928e524d0ad5eba3d3dc77f9b5baa4c81235f2457b747",
+    "question": "许墨的手机号是多少？",
+    "category": "从未提过的信息",
+    "required": [
+      "没有记录，不知道"
+    ],
+    "forbidden": [
+      "编造手机号"
+    ],
+    "answer": "没存过许墨的号码啊\n\n\n我这只有他新来城北读书会当志愿者、还有8号柜钥匙在他那这两件事，电话真没有\n\n\n要联系他，大概得问读书会的人，或者让程鸢帮搭个话",
+    "auto_grade": {
+      "key": "1eb86b969a98dc252e6faba5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "40ae7c29aa94ac5c2ebd4e4a",
+    "arm": "rag",
+    "id": "U02-T23/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "0fe3b25566b1dd8b51e68d6320ee15ae4bf2b32191d75fbaf6014bce9451938d",
+    "question": "许墨的手机号是多少？",
+    "category": "从未提过的信息",
+    "required": [
+      "没有记录，不知道"
+    ],
+    "forbidden": [
+      "编造手机号"
+    ],
+    "answer": "历史资料中没有提供许墨的手机号，未知。",
+    "auto_grade": {
+      "key": "40ae7c29aa94ac5c2ebd4e4a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f0ad7f5e4ce0a60a52f62cc2",
+    "arm": "old",
+    "id": "U02-T24/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "6a99f1c764c3191d40d387c16b80fa0aba96cd5815541105c8ceb1e151fa67ae",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "程鸢",
+      "周二",
+      "15:00-17:00",
+      "东湖口"
+    ],
+    "forbidden": [
+      "找许墨"
+    ],
+    "answer": "三脚架锁在青松阁7号柜，钥匙在程鸢手上。\n\n\n程鸢什么时候在哪儿我还真没听你提过，要不你直接问她一句？\n\n\n要不要我把“去青松阁7号柜拿三脚架”记一下",
+    "auto_grade": {
+      "key": "f0ad7f5e4ce0a60a52f62cc2",
+      "pass": false,
+      "missing": [
+        1,
+        2,
+        3
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3151359f27e522e7d2dc5ada",
+    "arm": "new",
+    "id": "U02-T24/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "de46985440c7b69fb22c254dbea6a69c863c8ce1da5f441ceaac87e8fbb5a652",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "程鸢",
+      "周二",
+      "15:00-17:00",
+      "东湖口"
+    ],
+    "forbidden": [
+      "找许墨"
+    ],
+    "answer": "钥匙在程鸢手上，7号柜就在三脚架那边。\n\n\n不过她值守是周二下午三点到五点在东湖口，这会儿周三晚上了，去了也是白跑。\n\n\n想拿到的话，得等下周二的下午三点到五点，去东湖口找她。\n\n要是急，也可以问问她今晚在不在别处；值守表上只写了她这个时间段。",
+    "auto_grade": {
+      "key": "3151359f27e522e7d2dc5ada",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8acdbe09d2631052c458d3d6",
+    "arm": "rag",
+    "id": "U02-T24/d15",
+    "reason": "preregistered_U02_d15",
+    "answer_sha256": "c42680d0bf87fe7c6f2db6946060c301f55d79739bcea2422fa9faff2a2d8b0a",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "程鸢",
+      "周二",
+      "15:00-17:00",
+      "东湖口"
+    ],
+    "forbidden": [
+      "找许墨"
+    ],
+    "answer": "按现有记录：相机三脚架在**青松阁7号柜**，7号柜钥匙在**程鸢**手上。  \n按值守表，**程鸢周二15:00-17:00在东湖口**，可去那里找她拿钥匙，再去青松阁7号柜取三脚架。  \n另：排班表与值守表在“周日上午青松阁是谁”上有冲突，但不影响程鸢周二东湖口这条记录。",
+    "auto_grade": {
+      "key": "8acdbe09d2631052c458d3d6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e45260ea542eadb171623f7a",
+    "arm": "old",
+    "id": "U01-T05/d00",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "7d54c9d28572bf7c5715b39d2ff4c7cbb96af72f032deaaa9e972f0e157199e3",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前，明天才是最后一天\n\n\n周四当然算，我没说今天过期啊\n\n\n只是现在都八点多，这会儿也递不出去了，才说明早给苏棠",
+    "auto_grade": {
+      "key": "e45260ea542eadb171623f7a",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7828464c5ff211aa70b96c09",
+    "arm": "new",
+    "id": "U01-T05/d00",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "498aca8086b9d3fafb57c5634fd02689240cc16f39c071be7f331b070115de4a",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前交\n\n\n周四那个是你说写错了，改过来的\n\n\n所以周四不算，按周五来",
+    "auto_grade": {
+      "key": "7828464c5ff211aa70b96c09",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ea2d79aa1ef7a594408d6015",
+    "arm": "rag",
+    "id": "U01-T05/d00",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "8d67000f65afc51349d7bc004149a4742ccdc0b2be88690dafbfcef1c7d096b2",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "报名表要在**周五前交**给苏棠。\n\n周四不算，是因为主人后来明确更正：原先“周四前交”是**写错了**，正确是“**周五前交，不是周四**”。  \n（祁砚转来的原消息写的是“周四前”，但被主人更正了。）",
+    "auto_grade": {
+      "key": "ea2d79aa1ef7a594408d6015",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7664eaaefa173a2bf59d2b50",
+    "arm": "old",
+    "id": "U01-T05/d03",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "2f103574d9a106a7c78d2c1d205064c495ddc57a07b801df88de9adf66cc1ac1",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "报名表这个我这边真没印象，你之前没跟我细说过。\n\n\n周四不算啥？你得先跟我讲讲是什么事。\n\n\n要不你直接说一遍，我记着。",
+    "auto_grade": {
+      "key": "7664eaaefa173a2bf59d2b50",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "67c0fedc0e0a32afa7f5b9a2",
+    "arm": "new",
+    "id": "U01-T05/d03",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "fecd6a2196ff343b87b3b05bbd43f2c098410aaf430a3ccd6d06bf92295d9e0b",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前呀，10月9号那天\n\n\n周四那个是当时写错了，你后来自己改的，就以周五为准\n\n\n不过周五都过完了，你交上没",
+    "auto_grade": {
+      "key": "67c0fedc0e0a32afa7f5b9a2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "df8f2ab6d8789b054e514c3e",
+    "arm": "rag",
+    "id": "U01-T05/d03",
+    "reason": "changed_变化纠错与矛盾",
+    "answer_sha256": "66ee76ec660b8aa16c70d3755fedf1656d048fce5cf6a4650c112656b55e9dc7",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "报名表按主人的更正应**在周五前交**，不是周四前。  \n周四不算，是因为主人在 2026-10-08 明确说“这里写错了，是周五前交，不是周四”；此前“周四前交”的说法被更正了。祁砚转来的原话虽写“周四前”，但主人随后改成了周五前。",
+    "auto_grade": {
+      "key": "df8f2ab6d8789b054e514c3e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6dc8182c7a842f2811080636",
+    "arm": "old",
+    "id": "U01-T01/d03",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "dcd0a00fdca35253700f199cf15e479b4328e66f9317c97e29e7f55ecfcdc433",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "胶枪这条我是真没记住，清单我只记得个大概，待补货里有记号笔、垃圾袋、扫把这些，具体几个、搁第几层没存下来。\n\n\n你要是再发一遍清单，我就照着看；或者你直接说个数，我记着。",
+    "auto_grade": {
+      "key": "6dc8182c7a842f2811080636",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "40d39ff2eb2319f9696cce61",
+    "arm": "new",
+    "id": "U01-T01/d03",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "86b9ff6191ee5857df63774f08969e29dcdc5d921d601214f34626933a76b9fb",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "胶枪是6个，放在第3层，备注写的常用。\n\n\n另外还有个胶枪备用件，1个，在第1层备用。",
+    "auto_grade": {
+      "key": "40d39ff2eb2319f9696cce61",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3cf0d591e4fc84e8a8fdef04",
+    "arm": "rag",
+    "id": "U01-T01/d03",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "b2940da595325ace119aa9049acdbfa5cc37be85b75e98b365a3e8257f8668cb",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "附件清单中：胶枪有 **6 个**，放在 **第 3 层**。另外，“胶枪备用件”有 1 个，放在第 1 层。",
+    "auto_grade": {
+      "key": "3cf0d591e4fc84e8a8fdef04",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3f4d46a716c402a2b682b7c4",
+    "arm": "old",
+    "id": "U01-T01/d15",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "9b472e3bafc55b4bfb459222379fa5c8375f4b61ad2a4459ae7bff59d94de2af",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "胶枪这个我这儿真没记下具体几把、放哪层。\n\n\n清单我只记到大概的类别和备注那些，数量位置这种细节没留住。你再发我一眼，我给你记准。",
+    "auto_grade": {
+      "key": "3f4d46a716c402a2b682b7c4",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1f3f49e1bccf0194111d274f",
+    "arm": "new",
+    "id": "U01-T01/d15",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "4b9a13e623986575f7f3d904ff745a7fbafe29138a75cece04985a8a83bc423e",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "胶枪是6个，放第3层，备注写的常用\n\n\n另外还有个胶枪备用件，1个，在第1层",
+    "auto_grade": {
+      "key": "1f3f49e1bccf0194111d274f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "909926d0eb9f2ff821f7fea2",
+    "arm": "rag",
+    "id": "U01-T01/d15",
+    "reason": "changed_基本信息与偏好",
+    "answer_sha256": "4c204e3712b365f00ba6e8a10b1156a8322f204be9681d2094376c3ad9c7890d",
+    "question": "物资清单里胶枪有几个、放在第几层？",
+    "category": "长清单查一项",
+    "required": [
+      "胶枪6个",
+      "放在第3层"
+    ],
+    "forbidden": [
+      "胶枪在第1层"
+    ],
+    "answer": "胶枪有 **6 个**，放在 **第 3 层**。",
+    "auto_grade": {
+      "key": "909926d0eb9f2ff821f7fea2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "12e32299abed3640ec099d31",
+    "arm": "old",
+    "id": "U01-T24/d00",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "11da5f3551b9202378db243c17baa5e91baaf68adc3cad8649bb15a2054cd701",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "找苏棠，7号柜的钥匙在她手上，柜子在云杉馆。\n\n\n不过她今天下午在南岸门那班，这会儿早过了，赶不上了。\n\n\n后面她什么时候再去，我这边没数，可能得直接问她一嘴。",
+    "auto_grade": {
+      "key": "12e32299abed3640ec099d31",
+      "pass": false,
+      "missing": [
+        1,
+        2,
+        3
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "81fa169619bba275702dfca7",
+    "arm": "new",
+    "id": "U01-T24/d00",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "46a01b18ebd6ba777eeb62e9527e6659d55bb15600ba1c875f196668fd8de9b4",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "要找苏棠，7号柜的钥匙在她手上。\n\n\n值守表上她只有周一14点到16点在南岸门，那是昨天下午，已经过了。\n\n\n所以只能直接找她人拿，时间得问她。今天周二她没班，云杉馆那边也没她的时段。\n\n顺带说一句，陆尧拿的是8号柜的钥匙，跟三脚架不是一个柜。",
+    "auto_grade": {
+      "key": "81fa169619bba275702dfca7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a8b55c48c8f0bcff1db313d9",
+    "arm": "rag",
+    "id": "U01-T24/d00",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "713dba4520249cf82450872135362b15ed01b976c24bbe0cfa8636fec48ce2d8",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "找 **苏棠** 拿 **7号柜钥匙**，三脚架在 **云杉馆7号柜**。\n\n但“什么时候、去哪找她”目前只能查到：值守表写她 **周一14:00-16:00在南岸门**；按当前时间（周二20:15）这班已经过去，其他可找她的时间地点未知。",
+    "auto_grade": {
+      "key": "a8b55c48c8f0bcff1db313d9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "aaab9e4cb1a42c8d61aa9c5c",
+    "arm": "old",
+    "id": "U01-T24/d15",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "4cb4adb51a335d172caaa5a2f0ee22bc038d72ebffdc75f7fec9ae1ea9f5f47c",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "三脚架锁在云杉馆7号柜，钥匙在苏棠手上。\n\n\n不过她什么时候在、去哪个地方找她，我还真没听你提过。\n\n\n要不你问问她啥时候方便？或者你之前跟我说过，我记漏了。",
+    "auto_grade": {
+      "key": "aaab9e4cb1a42c8d61aa9c5c",
+      "pass": false,
+      "missing": [
+        1,
+        2,
+        3
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "816ca78705f61566bb262060",
+    "arm": "new",
+    "id": "U01-T24/d15",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "ae67a99bb26567105bb76ebc9c979047afc1d2030572b48f76ab89b2fec212ae",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "找苏棠，7号柜的钥匙在她手上。\n\n\n她的班是周一下午两点到四点，在南岸门——可这周的班昨天就过了。\n\n\n而且柜子在云杉馆，人在南岸门，这俩本来就对不上。真急着拿，估计得让她把钥匙带过来，或者找人代转一下。\n\n陆尧虽然周三上午在云杉馆，但他手上是8号柜的钥匙，不是7号。",
+    "auto_grade": {
+      "key": "816ca78705f61566bb262060",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0e0ffc359e67e0854b63de53",
+    "arm": "rag",
+    "id": "U01-T24/d15",
+    "reason": "changed_多跳线索",
+    "answer_sha256": "75b424a60499ca39ad48620c94352558a5594f0496b1dd55ff7fb7c853be24e4",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "苏棠",
+      "周一",
+      "14:00-16:00",
+      "南岸门"
+    ],
+    "forbidden": [
+      "找陆尧"
+    ],
+    "answer": "你要找**苏棠**拿**7号柜钥匙**，三脚架锁在**云杉馆7号柜**。\n\n可明确查到的时间和地点是：**周一 14:00-16:00，在南岸门**找她。  \n另外排班表里苏棠还有**周三下午、周日上午**的班，但没写地点；当前是周三20:15，周三下午已过。",
+    "auto_grade": {
+      "key": "0e0ffc359e67e0854b63de53",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "49fa787c5458edc92c9addad",
+    "arm": "old",
+    "id": "U01-T12/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "59ee0d7e4441485f546d5e1b0c63cbcfcbc7ed2600777f57f3b984ec9b69fb31",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "我翻了一下，没找到你说的那次面试\n\n\n能查到的只有秋季分享会：10月27号下午，在云杉馆；你当时说三点，苏棠转的通知写的是四点，后来也没定下来\n\n\n我上一条说“下周五上午十点”，现在也不知道是跟哪儿弄混了，还写成了云商馆，该打\n\n你当时是不是跟我说过农历的日子？直接再讲一遍，我给你换成公历",
+    "auto_grade": {
+      "key": "49fa787c5458edc92c9addad",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9cbf5ed7a16b187982397779",
+    "arm": "new",
+    "id": "U01-T12/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "25fd1c96efa2efcd28a7c01169c514089383f024810256a5fd4f0951170366cc",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "十一月二十号，周五，上午十点\n\n\n就是下下周那个周五，隔了九天",
+    "auto_grade": {
+      "key": "9cbf5ed7a16b187982397779",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "487b85eb4fb583b3ecc155f5",
+    "arm": "rag",
+    "id": "U01-T12/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "d3cbd9cf804232c47d72272ec3ddb6dd47eef25671c28344328d03a5a54ea369",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "历史记录里没有“云杉馆面试”，只有“云商馆面试”。\n\n若你指的是 2026-11-11 资料里“下周五上午10点去云商馆面试”，按“今天”2026-11-11（周三）算，下周五是公历 **2026-11-20 上午10:00**。\n\n“云杉馆”相关记录是秋季分享会，不是面试；其开始时间有“下午三点”和“下午四点”两种说法，存在冲突。",
+    "auto_grade": {
+      "key": "487b85eb4fb583b3ecc155f5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c4c341bf184c6728ccc3c146",
+    "arm": "old",
+    "id": "U01-T13/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "ecf13d81245b155492b4e5cd318117419468fc97d8a51723116c30297d196fa7",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "那个文件我这边没读出正文来，只看到个文件名\n\n\n刚才那句“夜班到凌晨两点多”，是我自己顺嘴编的，不作数，对不起\n\n\n里面写的几点到几点我是真不知道。你把那段文字直接贴过来，或者说一声几个时间点，我才能算出来跨没跨天、一共多久",
+    "auto_grade": {
+      "key": "c4c341bf184c6728ccc3c146",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4724004c62e2734610aa9564",
+    "arm": "new",
+    "id": "U01-T13/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "dec0db813a6f32ce4aac190c57709a31d62b75b11f0d1bc3f70b13546fea5d6e",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "23:20到凌晨2:05，一共2小时45分\n\n\n跨天了，是昨晚十一点二十开夜班，今天凌晨两点零五才结束\n\n\n这活儿不算长，但熬在半夜，也够呛",
+    "auto_grade": {
+      "key": "4724004c62e2734610aa9564",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0fe25c973856d5a28ec13f78",
+    "arm": "rag",
+    "id": "U01-T13/d00",
+    "reason": "changed_时间与顺序",
+    "answer_sha256": "9fecf070c8c6fe8efe043945b3230336ab8c5997daf79f232cf39c0c4d8d64f4",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "夜班从 **2026-11-15 23:20** 到 **2026-11-16 02:05**，共 **2小时45分钟**。跨天了。",
+    "auto_grade": {
+      "key": "0fe25c973856d5a28ec13f78",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4bb7d8690b8251cc0db96cca",
+    "arm": "old",
+    "id": "U01-T10/d00",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "80e7d5a137b1d929ed656b354eaa96a8b64b7842e1bd718aad913ae23cdbc871",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "爬山啊，你说明天晚上定的，看展算了。\n\n\n看展是我提的，云杉馆那个，结果被你一句话毙了。",
+    "auto_grade": {
+      "key": "4bb7d8690b8251cc0db96cca",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3eeef11a695d86442f34a157",
+    "arm": "new",
+    "id": "U01-T10/d00",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "603f7aa03895682e8a75114cd8c0180ec685d430ed7f8f6de09aba8cd40f6da5",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "我这边只翻到修车那事，苏棠说周末帮你修自行车，你还说要请她吃饭\n\n看展这个我真没记到，谁提的也想不起来\n\n你说的这周末是刚过的那两天，还是这周要来的周末？",
+    "auto_grade": {
+      "key": "3eeef11a695d86442f34a157",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1965b2ad25f3f7956f921337",
+    "arm": "rag",
+    "id": "U01-T10/d00",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "dccc9a563d1b916d76439b56926540dbd11160deff8cc5b5aba88581acc7eba0",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**。  \n**看展是助手提的**：2026-11-01 助手建议你可以去云杉馆看插画展，随后你决定不看了。",
+    "auto_grade": {
+      "key": "1965b2ad25f3f7956f921337",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "888fe9b6bc20185f93e40b3a",
+    "arm": "old",
+    "id": "U01-T10/d45",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "3ceb8a7b44b370b513d9bb1744935a9f4f9c5337fc465c03ef9ddec20ea5dad9",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "看展是我提的，云杉馆那个插画展，结果你一句“看展算了”就改成爬山了\n\n\n不过那是十一月初的事了，这周末你还没跟我说要怎么过",
+    "auto_grade": {
+      "key": "888fe9b6bc20185f93e40b3a",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "f09fb51d355893adb1c7ff8e",
+    "arm": "new",
+    "id": "U01-T10/d45",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "493d8c25778937cd8f95487c4cf9179378138443811267a57ac82d24b3345847",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "我记得的是11月初那回周末\n\n\n你最后说“看展算了”，改去爬山了\n\n\n看展是我先提的，云杉馆那个插画展\n\n不过要说这个周末，也就是19、20号，你还没跟我说过打算，我也没敢替你安排",
+    "auto_grade": {
+      "key": "f09fb51d355893adb1c7ff8e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c3df6db20ced2d65cbc1e4b5",
+    "arm": "rag",
+    "id": "U01-T10/d45",
+    "reason": "changed_来源与归属",
+    "answer_sha256": "dd3ff2a371f9722f59d6e8a8d94287a90257bdf23980226dc0697240963d275e",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "- 历史中唯一明确的“最后决定”是在 2026-11-02：主人说“看展算了，我决定去爬山”，即那次决定去爬山。  \n- 看展是助手在 2026-11-01 提出的。  \n- 至于当前“这周末”（2026-12-19/20）最后决定去做什么，历史证据里没有记录，未知。",
+    "auto_grade": {
+      "key": "c3df6db20ced2d65cbc1e4b5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "51bb377742cae704faebdc17",
+    "arm": "old",
+    "id": "U02-T17/d00",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "2d94c70414eca127c48a09236949a30a9543dedfab9c6800f28cd65a020adb17",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "我刚才说“梦”是瞎猜的，不该那么讲，对不起。\n\n\n你补充的那份资料我这边没读到内容，所以布丁到底怎么样，我真不知道。\n\n\n你先跟我说清楚，别一个人憋着。",
+    "auto_grade": {
+      "key": "51bb377742cae704faebdc17",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "60b0497b8c1a7ea598416397",
+    "arm": "new",
+    "id": "U02-T17/d00",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "6b4fc9b44c51e5992260cca1229e32ee9751b8396f68931cda1406d25ccc72ce",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "没有啊，那是做梦呢\n\n\n你醒了不是还看见它在窝里睡得正香嘛\n\n\n别自己吓自己，我听着都跟着紧了一下",
+    "auto_grade": {
+      "key": "60b0497b8c1a7ea598416397",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9a292dc622854817791dd3ba",
+    "arm": "rag",
+    "id": "U02-T17/d00",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "63fa6cb30f95af6115c9e1270f1ba09b283d6da8495248b2907baf01afdbbbfa",
+    "question": "布丁真的走丢了吗？",
+    "category": "梦与现实",
+    "required": [
+      "走丢只是梦",
+      "布丁实际还在窝里"
+    ],
+    "forbidden": [
+      "现实中走丢了"
+    ],
+    "answer": "没有。记录里说的是“昨晚梦见布丁走丢了，醒来一看他还在窝里睡觉”，所以走丢是梦里的情节。",
+    "auto_grade": {
+      "key": "9a292dc622854817791dd3ba",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "76f018406133a4a925150204",
+    "arm": "old",
+    "id": "U03-T15/d03",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "3beb07ab5ab182939b408ae21e1ed130fa184ad9a5e06f4bd548549aa12d511a",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在白鹭楼室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "野餐？我这儿翻不出这条，没记得你说过要搞野餐啊\n\n\n是不是在别处聊的，还是你记混了或者跟别人说的？\n\n\n改室内那个条件我也没印象，你跟我说说原本怎么定的？",
+    "auto_grade": {
+      "key": "76f018406133a4a925150204",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c44128c0687ca7fa27c7c0a6",
+    "arm": "new",
+    "id": "U03-T15/d03",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "7317844b25f26620597301e5666cd7c7aa26bf9e8b28caf7e8c4c7ac7e848aed",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在白鹭楼室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "下雨了，条件触发了，最后在白鹭楼室内办的。\n\n\n11月27号那天真下雨，你说改室内办了，我还记着呢。\n\n\n本来还想着户外呢，结果一场雨全打乱了。",
+    "auto_grade": {
+      "key": "c44128c0687ca7fa27c7c0a6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ab1410969ab04d7f50bd3c0c",
+    "arm": "rag",
+    "id": "U03-T15/d03",
+    "reason": "changed_计划假设与梦",
+    "answer_sha256": "4c11c28923a3e5acee5bca5fe42748edc5ca57289a72cbbde82eef5c2cc94fc3",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在白鹭楼室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "户外野餐最后在**白鹭楼室内**办的。  \n改室内的条件**触发了**：11月26日约定“如果明天下雨就改室内”，11月27日主人确认当天真下雨了，并说已改在室内办。",
+    "auto_grade": {
+      "key": "ab1410969ab04d7f50bd3c0c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "90fc22b361d680f7e0afacad",
+    "arm": "old",
+    "id": "U01-T18/d00",
+    "reason": "changed_跨模态",
+    "answer_sha256": "048ecb95583bbead9280024a6661e5ee9fe489a18cfc431af662e726e1bf9244",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子4个",
+      "盘子2个",
+      "碗3个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "说实话，这次图没真正读出来，刚才那几个数是我瞎说的，得跟你认个错\n\n\n你重发一下？我好好看看再答",
+    "auto_grade": {
+      "key": "90fc22b361d680f7e0afacad",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [
+        "这次图没真正读出来，刚才那几个数是我瞎说的"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "fb89952a00a98dc5fe2efbad",
+    "arm": "new",
+    "id": "U01-T18/d00",
+    "reason": "changed_跨模态",
+    "answer_sha256": "77511e47343a46e81339c5f60af7c968aaae8534183a0a67409a7f2121e745dd",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子4个",
+      "盘子2个",
+      "碗3个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子四个，盘子两个，碗三个。\n\n\n蓝方块、浅褐圆、黄三角，图上就这么画的。",
+    "auto_grade": {
+      "key": "fb89952a00a98dc5fe2efbad",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7a300a1108b825593a2a083c",
+    "arm": "rag",
+    "id": "U01-T18/d00",
+    "reason": "changed_跨模态",
+    "answer_sha256": "5fb8b57b3e2c871a5e39acc27dd5bd0d1da2396fc08909a5100af95824696dd1",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子4个",
+      "盘子2个",
+      "碗3个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子 4 个，盘子 2 个，碗 3 个。",
+    "auto_grade": {
+      "key": "7a300a1108b825593a2a083c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e6669eff00200cd296554088",
+    "arm": "old",
+    "id": "U01-T19/d03",
+    "reason": "changed_跨模态",
+    "answer_sha256": "475b31cd390e99bb6278c1972635abc63110782ad195d962461b50fd7a9290f9",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际23元",
+      "价签上印的是18元"
+    ],
+    "forbidden": [
+      "实际是18元"
+    ],
+    "answer": "胶带？我这边完全没听你提过这个，价签更没看到过。\n\n\n是我漏掉什么了吗，你说下情况我接着聊。",
+    "auto_grade": {
+      "key": "e6669eff00200cd296554088",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "affc2f25c6b03b40b1f6f35c",
+    "arm": "new",
+    "id": "U01-T19/d03",
+    "reason": "changed_跨模态",
+    "answer_sha256": "a260e9d9b6b22b3f187056e2c0efb597ba8376d014ab36658a05c1c720d09e05",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际23元",
+      "价签上印的是18元"
+    ],
+    "forbidden": [
+      "实际是18元"
+    ],
+    "answer": "实际23元，价签上印的是18，印错了。",
+    "auto_grade": {
+      "key": "affc2f25c6b03b40b1f6f35c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ef58e092ed6588e7c6a6ed39",
+    "arm": "rag",
+    "id": "U01-T19/d03",
+    "reason": "changed_跨模态",
+    "answer_sha256": "a7028bfeb6364ea4da4a89bda7c313019ac3a112c2897451439b37f7b7e31530",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际23元",
+      "价签上印的是18元"
+    ],
+    "forbidden": [
+      "实际是18元"
+    ],
+    "answer": "胶带实际是 **23元**；价签上印的是 **18元**（价签印错了）。",
+    "auto_grade": {
+      "key": "ef58e092ed6588e7c6a6ed39",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c2eb9b490957f975cc7eb40a",
+    "arm": "old",
+    "id": "U01-T03/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "c217c5a7fe14c1b1d71a34379ae8a24f25eb1a4d7d71e2e67541fddf0fd0200e",
+    "question": "苏桐是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "苏桐是苏棠的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "苏桐是用户的弟弟"
+    ],
+    "answer": "苏桐不是你弟嘛，还在读大学的那个\n\n你之前说国庆他要来你这儿借住几天\n\n我都记着呢，怎么突然问这个，是不是快到了",
+    "auto_grade": {
+      "key": "c2eb9b490957f975cc7eb40a",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "unsupported": [
+        "苏桐不是你弟"
+      ],
+      "raw_grade": {
+        "key": "c2eb9b490957f975cc7eb40a",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          1
+        ],
+        "unsupported": [
+          "苏桐不是你弟"
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      },
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "547b5a7bcec61acb86a95c31",
+    "arm": "old",
+    "id": "U01-T03/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "477b5a89ecd7d7a957fce45457caf51849365380a653f5e2804d3e8e73a0b06e",
+    "question": "苏桐是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "苏桐是苏棠的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "苏桐是用户的弟弟"
+    ],
+    "answer": "苏桐是你弟弟啊，还在上大学。\n\n\n九月的时候你说他国庆要来你这儿借住几天——那都过去一个多月了，后来他是来了还是没来成？",
+    "auto_grade": {
+      "key": "547b5a7bcec61acb86a95c31",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "cc8522255964e94ad7a58aa4",
+    "arm": "old",
+    "id": "U01-T07/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "a8420a53774835d51598f709d1dc639974d327a06a336395a593e90b3e5c8fa2",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "三点是你昨天亲口跟我说的，云杉馆，这个我记着\n\n\n四点是苏棠转来的那条通知上写的，署名就“场馆通知”，可苏棠也不是场馆那边的人啊\n\n\n所以我心里还是以你说的三点为准，那个通知我不太敢认",
+    "auto_grade": {
+      "key": "cc8522255964e94ad7a58aa4",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [
+        "三点是你昨天亲口跟我说的",
+        "所以我心里还是以你说的三点为准"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "ec3f7ac14f51dbfe092de3c6",
+    "arm": "old",
+    "id": "U01-T07/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "b3226747b9e785994d109fdfdd52f085b6610b974e000042ae3901ef6bac3383",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "你当时说的是下午三点，在云杉馆。\n\n\n后来苏棠转来那份场馆通知写的是下午四点开始，地点不变，我问你按哪个，你没回我。\n\n\n所以到现在我也没弄清是三点还是四点，改动是那份通知里说的，不是你自己改的口。",
+    "auto_grade": {
+      "key": "ec3f7ac14f51dbfe092de3c6",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [
+        "改动是那份通知里说的，不是你自己改的口",
+        "到现在我也没弄清是三点还是四点"
+      ],
+      "raw_grade": {
+        "key": "ec3f7ac14f51dbfe092de3c6",
+        "pass": false,
+        "missing": [
+          0
+        ],
+        "violations": [
+          2
+        ],
+        "unsupported": [
+          "改动是那份通知里说的，不是你自己改的口",
+          "到现在我也没弄清是三点还是四点"
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          2
+        ]
+      },
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "53d2ef107c4ecfaf736e6a12",
+    "arm": "rag",
+    "id": "U01-T07/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "e7b751eb70f43f2fae82d7f1c5c65a5f1d51cd50a83d52c3c5107f94f58dc21f",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "存在冲突：  \n- 主人最初说：2026-10-27 下午三点，云杉馆。  \n- 10月18日转来的**场馆通知**称：改到**下午四点**开始，地点不变。  \n\n这个改动是**“场馆通知”**说的；主人提到该通知是**苏棠转来的**。目前没有后续明确确认最终按三点还是四点。",
+    "auto_grade": {
+      "key": "53d2ef107c4ecfaf736e6a12",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "cf4a5be0a21b3651494829d1",
+    "arm": "old",
+    "id": "U01-T07/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "e09b0a04fcb23700b1ba78f6b4c899966e0884dd81fc6550658fb0a70dbbb63d",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "你当时说的是下午三点，地点在云杉馆。\n\n\n不过后来苏棠转来的场馆通知写的是下午四点，我那时候问过你到底是三点还是四点，你也没定下来。\n\n\n改时间这话是那份通知里说的，不是你说的。\n\n现在都过去一个多月了，我一直没搞清到底几点开场。",
+    "auto_grade": {
+      "key": "cf4a5be0a21b3651494829d1",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "a6fc3645bf444eee1b295b14",
+    "arm": "rag",
+    "id": "U01-T10/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "2429287e99dd9f709149343dfb194be68072d64882866f3e8eaac5aaf63c9d5b",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "根据历史记录：你最后决定去**爬山**；看展是**助手**在 11 月 1 日提出的建议。",
+    "auto_grade": {
+      "key": "a6fc3645bf444eee1b295b14",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "9619070956e53c4a18277a92",
+    "arm": "new",
+    "id": "U01-T12/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "1596ee81a1aa0292198ccb7826eb4c59f784ae6c076ffad4914a2a46574d191c",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，周五，上午十点\n\n\n按11号那天算的“下周五”，就是这个\n\n\n不过那会儿语音转出来写的是“云商馆”，我一直当成你说的云杉馆记的，应该就这一个吧\n\n话说20号早过了，面试怎么样",
+    "auto_grade": {
+      "key": "9619070956e53c4a18277a92",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "7f3b22fd090bc4ccebb7f329",
+    "arm": "old",
+    "id": "U01-T12/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "491ebd543e8d8f65ed8a5a3bb6c0a019301439e195d340ff088d4da6dda18e73",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "你说的那次，是11月11号讲的“下周五上午10点”，换过来就是11月20号，周五上午十点。\n\n\n不过这条是语音转的，转出来写的是“云商馆”，我一直当云杉馆记着。\n\n\n那天早就过去了……是又有新的面试了吗？",
+    "auto_grade": {
+      "key": "7f3b22fd090bc4ccebb7f329",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "1f6c371fe7f446c1fbac0f73",
+    "arm": "new",
+    "id": "U01-T12/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "040f5574d4c41aa05ac21202ee1e7aab98a1de0593d46ba58e7bbdb70060d2cf",
+    "question": "我说的那次去云杉馆面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，周五，上午十点\n\n\n那是你发的一段语音转出来的，当时写的是“云商馆”，我还跟你确认过是下周五20号\n\n\n不过这都是一个多月前的事了",
+    "auto_grade": {
+      "key": "1f6c371fe7f446c1fbac0f73",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "f296543ab55ccaf060c023b7",
+    "arm": "new",
+    "id": "U01-T13/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "d07a76a77df5171e6c420a0ad4b5b2df0c5b9ded3c804958e213d41bcefdd4e5",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "从23:20到凌晨2:05，跨天了，算下来两个多小时四十五分钟\n\n\n熬得挺晚的",
+    "auto_grade": {
+      "key": "f296543ab55ccaf060c023b7",
+      "pass": false,
+      "missing": [
+        2
+      ],
+      "violations": [],
+      "unsupported": [
+        "两个多小时四十五分钟"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "725b12880da7291d07d1c28f",
+    "arm": "new",
+    "id": "U01-T14/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "055e35e4a038557d9fd18a2732044213bc66ac939bebd55828071064cede9e59",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "办卡是11月21号，理发11月22号，还书11月23号。\n\n\n中间那件就是理发，第二天周一去云杉馆还的书。\n\n\n隔一天办一件事，还挺有节奏的。",
+    "auto_grade": {
+      "key": "725b12880da7291d07d1c28f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "eb5b60d382dce1739089cfc4",
+    "arm": "old",
+    "id": "U01-T14/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "c0f2fd770efccb5210c79f3bc07719ca21c6f4f14a0f6e11f3b90cbb084f3236",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "21号办的卡，22号理的头发，23号去云杉馆还的书\n\n\n中间那件就是理发呀\n\n\n不过办卡那天你中午又说只是路过银行没进去，到底是办了还是没办",
+    "auto_grade": {
+      "key": "eb5b60d382dce1739089cfc4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "8fee6aad559135d994df8849",
+    "arm": "old",
+    "id": "U01-T18/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "bc72bc507b717a98cf078f6722464ffe75c429ca26f6bb6c32c68e5a3d1da54c",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子4个",
+      "盘子2个",
+      "碗3个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "按我看到的图，杯子和碗都画了好几个：杯子4个，盘子2个，碗3个\n\n\n不过那是简笔示意图，我就照着数的，别到时候对不上怪我\n\n\n话说你楼道灯坏了，我上一条回得跟没睡醒似的，那个不算数，现在修好了没",
+    "auto_grade": {
+      "key": "8fee6aad559135d994df8849",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "4bb72782e3fa40996a37d2a0",
+    "arm": "rag",
+    "id": "U01-T20/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "968e705ee871d5d8a5b67fd328fdd34936639392564b63f81dc25be6d81d034b",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号3608",
+      "2单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "历史中有一条媒体识别结果写着：**门牌号3608号，在二单元**。  \n但当时助手回复说该资料是空记录、没读到，且不敢直接按机器转写记录，所以这个信息**未被确认**。",
+    "auto_grade": {
+      "key": "4bb72782e3fa40996a37d2a0",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "e3a2ff4d1569724cb9ad56d5",
+    "arm": "old",
+    "id": "U02-T02/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "698174c6b1bf4fbb3a79e782c2802c38e85a822171c32a4cb98693615b03a2dc",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "我记得你提过两次蓝色伞：一次说放在门口鞋柜里，后来又说蓝色阳伞在车后备箱。\n\n\n这俩是两把吧？你现在要找的是哪把",
+    "auto_grade": {
+      "key": "e3a2ff4d1569724cb9ad56d5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "25d2de98bdd3e2aaba52019d",
+    "arm": "new",
+    "id": "U02-T05/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "ddd1e31c77b42bd6dc511c01ac76ffdb7be8657c4d45b667abe10cc32d008495",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前交，就是明天，10月9号。\n\n\n今天已经周四晚上了，这会儿周四基本算过完了嘛\n\n\n再说你自己刚改的口，我按新的记的",
+    "auto_grade": {
+      "key": "25d2de98bdd3e2aaba52019d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "6d4f08aaf67f83cf16af98da",
+    "arm": "old",
+    "id": "U02-T07/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "0ca49ab0645f9b0fc5233b643ff0ecfdc174cdac231e5c8d4d3d3dc2f109dd87",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "四点，场馆通知里写的，还是青松阁。\n\n\n你昨天跟我说的是三点，改成四点这话是程鸢转来的那张场馆通知讲的，不是你自己说的。\n\n\n所以我这边先按四点记着？",
+    "auto_grade": {
+      "key": "6d4f08aaf67f83cf16af98da",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "86aec697f35f97a7ede1cdcb",
+    "arm": "new",
+    "id": "U02-T08/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "86d7d5110877140b852677bfef9e1f1393cc94b8331d54f8652bc3a29831f38d",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是许墨传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "不去啊，你自己刚说的，我信你\n\n\n那个说法是许墨在群里放的，转过来的引用里写的就是他\n\n\n闻溪那边我一直没见她自己开过口，光靠他一张嘴",
+    "auto_grade": {
+      "key": "86aec697f35f97a7ede1cdcb",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "2649c61883c229c8de13de76",
+    "arm": "rag",
+    "id": "U02-T10/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "d99518f6053c87c5ac03fcb61446c5c09bd925057655d7b0db6c5768cd23d306",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**。  \n看展是**助手**在 2026-11-01 的建议里提到的。",
+    "auto_grade": {
+      "key": "2649c61883c229c8de13de76",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "4e1c0705f2dfdaad16667c37",
+    "arm": "old",
+    "id": "U02-T10/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "7513bf1bb471ae9da2838fc7d5df584e7497c214fb971ff105cd43527df133b1",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "那是11月初那个周末的事吧，你最后说看展算了，改去爬山。\n\n\n看展是我提的，青松阁那个插画展。\n\n\n这周末你还没跟我说要干嘛呢。",
+    "auto_grade": {
+      "key": "4e1c0705f2dfdaad16667c37",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "13fdf1cd4aa8f6b166a3380e",
+    "arm": "new",
+    "id": "U02-T10/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "35775c6443b8f45a3b33691c4edf04dc63f61941f040fbb54be308fbfb495edc",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "是爬山，你说看展算了、决定去爬山。\n\n\n看展是我提的，我说可以去青松阁看那个插画展。\n\n\n不过那是11月初那个周末的事了，这周末你还没跟我说过要干嘛。",
+    "auto_grade": {
+      "key": "13fdf1cd4aa8f6b166a3380e",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "unsupported": [
+        "不过那是11月初那个周末的事了，这周末你还没跟我说过要干嘛"
+      ],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c7749283e702ff6f3f51a6fa",
+    "arm": "rag",
+    "id": "U02-T10/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "b951bbb0548165462854f0e2474e2a15556340d57de3def6cf83a54a5321c535",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "若指历史中 11 月那次：主人最后决定**去爬山**，看展是**助手**在 11 月 1 日提出的。\n\n若指当前 2026-12-17 所说的“这周末”，历史与最近对话中**没有记录最终决定**，资料不足。",
+    "auto_grade": {
+      "key": "c7749283e702ff6f3f51a6fa",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "23333a50188973c5b076ba63",
+    "arm": "rag",
+    "id": "U02-T11/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6b2b974e355f53a0682f33811a5ed7efb6773225f7edeb21de921789263f7c7f",
+    "question": "面包店要关门的消息是谁告诉谁的？我确认过吗？",
+    "category": "转述链",
+    "required": [
+      "许墨告诉程鸢，程鸢再转告用户",
+      "用户还没确认过"
+    ],
+    "forbidden": [
+      "用户亲眼确认过"
+    ],
+    "answer": "消息链是：**许墨告诉程鸢，程鸢又转告了你**——东湖口那家面包店下周关门。\n\n你**还没确认过**。你在 2026-11-07 明确说过：“我还没去确认过。”",
+    "auto_grade": {
+      "key": "23333a50188973c5b076ba63",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "f42c419f9ed52f6120b9c50d",
+    "arm": "old",
+    "id": "U02-T12/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "f632304c5202ddcd702455ceb68b2b6a5b06665832760cdd784321c3ac566fea",
+    "question": "我说的那次去青松阁面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，周五。\n\n\n上午十点，青松阁。\n\n\n别记岔了啊，是下周五不是这周五。",
+    "auto_grade": {
+      "key": "f42c419f9ed52f6120b9c50d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "0cd0e5871612fd2843ee8d1b",
+    "arm": "rag",
+    "id": "U02-T14/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "c38d7253c4c8e98be22fc7a2ff2f0eef0536958b391b71395a3d98e28c661b1e",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "- 办卡：历史中 **2026-11-21 09:20** 说“今天去银行办了张卡”，但 **同日 20:00** 又说“今天路过银行，没进去”，两处冲突，因此是否办成不能确定；日期线索均为 **11月21日**。\n- 理发：**2026-11-22**。\n- 还书：**2026-11-23**。\n\n按上述日期排序，中间那件是 **理发**。",
+    "auto_grade": {
+      "key": "0cd0e5871612fd2843ee8d1b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "46cd389f6b457305d3ed1ccf",
+    "arm": "new",
+    "id": "U02-T19/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "26c612dc81d3b4ab7fcf1ea32ee5e1567e4d0dc1a56c2724128f1e402c0e7993",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际40元",
+      "价签上印的是35元"
+    ],
+    "forbidden": [
+      "实际是35元"
+    ],
+    "answer": "胶带实际40，价签上印的还是35。\n\n\n价签上写35，比实际少报了5块。",
+    "auto_grade": {
+      "key": "46cd389f6b457305d3ed1ccf",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "9254db3efe8414ee2deffbca",
+    "arm": "new",
+    "id": "U02-T20/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "5d831d239251f7ef98ea8e29f665c0ba5a845f474bbd1f57157b7a43677f5f42",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号1275",
+      "3单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "你那次是发语音说的吧，我记下的只有三单元\n\n\n门牌号转出来是“十一二七五”，当时就听着不对劲，我问过你是1127还是别的数\n\n\n所以现在我手上就一个三单元是准的，门牌号你再说一遍，我这就记住",
+    "auto_grade": {
+      "key": "9254db3efe8414ee2deffbca",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [
+        "门牌号转出来是“十一二七五”"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "2d3b920739f97a51b25fd010",
+    "arm": "rag",
+    "id": "U02-T24/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "1de210f006fc80a1764a59ee1490122eeba6fe04e3e7873d16e5928dd033a0f2",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "程鸢",
+      "周二",
+      "15:00-17:00",
+      "东湖口"
+    ],
+    "forbidden": [
+      "找许墨"
+    ],
+    "answer": "找**程鸢**拿钥匙：**7号柜钥匙在程鸢手上**，三脚架锁在**青松阁7号柜**。\n\n按最近的值守表，程鸢的时间地点是：**周二 15:00-17:00，东湖口**。但现在是**周二20:15**，本周这个时段已过，下一次应是**下周二15:00-17:00去东湖口**找她。\n\n旧排班表里还显示程鸢**周三下午**有排班，但没给地点，且与最近值守表不是同一份资料，不能确定用来找她。",
+    "auto_grade": {
+      "key": "2d3b920739f97a51b25fd010",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "14ff8c06f03b6e1a4c213088",
+    "arm": "rag",
+    "id": "U02-T24/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "781643df94d3c1eb3103601ea54df5a55a6af1d54c82d7023b4a98d154448bc2",
+    "question": "我想取相机三脚架，要找谁拿钥匙、什么时候、去哪找她？",
+    "category": "三跳线索",
+    "required": [
+      "程鸢",
+      "周二",
+      "15:00-17:00",
+      "东湖口"
+    ],
+    "forbidden": [
+      "找许墨"
+    ],
+    "answer": "找**程鸢**拿钥匙：**7号柜的钥匙在程鸢手上**，三脚架锁在**青松阁7号柜**。\n\n资料中明确写着程鸢的值守时间是**周二15:00-17:00，地点在东湖口**，可那时去东湖口找她拿钥匙，再去青松阁7号柜取三脚架。\n\n另有一份排班表写程鸢在**周三下午**，但没写地点，与值守表不一致，暂不能确定哪个为准。",
+    "auto_grade": {
+      "key": "14ff8c06f03b6e1a4c213088",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "17c31057efe1bb314242d17a",
+    "arm": "old",
+    "id": "U03-T02/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "f8e02b01c167f6c37e6d53bf68180f8bdd0d675c2045e1afa71454a78b8b08ba",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "你之前说过蓝色雨伞在门口鞋柜，后来又说蓝色的那把在车后备箱，别跟别的搞混\n\n记的不是一个地方，到底是哪个呀",
+    "auto_grade": {
+      "key": "17c31057efe1bb314242d17a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c4cc305f825ec73ed85693d6",
+    "arm": "new",
+    "id": "U03-T03/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "aac050738c92064f9cfecad9873953ead25658f99a8fb02f1123f117b3131711",
+    "question": "沈岚是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "沈岚是沈悦的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "沈岚是用户的弟弟"
+    ],
+    "answer": "沈悦的弟弟呀，还在念大学。\n\n\n国庆要来你这儿借住几天，你前两天刚说的。",
+    "auto_grade": {
+      "key": "c4cc305f825ec73ed85693d6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "13a966553fe4153eda3e55ee",
+    "arm": "new",
+    "id": "U03-T03/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "e30df0352d90412ee98870b5824a5ba33d175521d802050b627a9981617781e9",
+    "question": "沈岚是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "沈岚是沈悦的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "沈岚是用户的弟弟"
+    ],
+    "answer": "沈悦的弟弟呀，你说他在读大学\n\n\n国庆那会儿说要来你这儿借住几天，这都过了好一阵了\n\n\n也不知道住得怎么样，没听你提过",
+    "auto_grade": {
+      "key": "13a966553fe4153eda3e55ee",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "046334db0874ab2ca1679b65",
+    "arm": "rag",
+    "id": "U03-T04/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "72078867c8e2214a4e58d8119978e8af171820d47decacfd7adac67fa5d1671c",
+    "question": "周六下午和周二晚上十点，分别该给我泡什么？",
+    "category": "带条件的偏好",
+    "required": [
+      "周六下午泡红茶",
+      "周二晚上十点不泡茶"
+    ],
+    "forbidden": [
+      "晚上十点泡绿茶"
+    ],
+    "answer": "- **周六下午**：周末，按规则喝**红茶**。  \n- **周二晚上十点**：已过晚上九点，按规则**不要泡茶**。",
+    "auto_grade": {
+      "key": "046334db0874ab2ca1679b65",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "8bff439239db5555cea3a439",
+    "arm": "new",
+    "id": "U03-T05/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "b819db10cf3ed3b4583ba77e16aea2f66ab19856d6f5317290affadd5db8bc61",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前交啊，你刚自己说的，写错了\n\n\n明天就是周五了，所以是明天之前\n\n\n周四不算是因为你原来说的周四写错了呗，不是改口成周五了",
+    "auto_grade": {
+      "key": "8bff439239db5555cea3a439",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "d54998dc6d88cc10a7ebbdf9",
+    "arm": "rag",
+    "id": "U03-T05/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "84a1b58344481fd99559d388ca3b20a3ef5d46ad845e9c280132f5b1acac09fb",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "报名表要在**周五前**交给沈悦，不是周四前。  \n因为主人在 **2026-10-08 20:00** 明确更正：“这里写错了，是周五前交，不是周四。”按最新更正，周四不再是截止日。资料没有进一步说明原先为什么写成周四。",
+    "auto_grade": {
+      "key": "d54998dc6d88cc10a7ebbdf9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c272b18e493982712e2d4114",
+    "arm": "old",
+    "id": "U03-T05/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "09c0b5286157828b5bdec5dad8f7c53dc9af8e0d690bc7496e15f2d92d403208",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前啊，你10月8号自己改口说到周五的\n\n\n周四当然也算，在周五前头呢，就是不用非赶那天\n\n\n怎么突然想起这个，又翻出来了？",
+    "auto_grade": {
+      "key": "c272b18e493982712e2d4114",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [
+        "周四当然也算，在周五前头呢，就是不用非赶那天"
+      ],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "82501dbc4bf8e1e219b717bb",
+    "arm": "new",
+    "id": "U03-T07/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "71d740357a78d14cc7a5b5b14712d05e492f3378e3db1c02c3e91db4b71b27fa",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "四点开始，白鹭楼没变\n\n\n本来是三点，后来改的\n\n\n这个改动是沈悦转来的场馆通知里说的，不是你亲自确认的",
+    "auto_grade": {
+      "key": "82501dbc4bf8e1e219b717bb",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "ed023e32dbaf14f4b0727523",
+    "arm": "new",
+    "id": "U03-T10/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "8f4bdf6a46a5bde8496a122742702a37f7c4a25f953231de52297600e47094b2",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "最后决定去爬山，看展已经取消了。\n\n\n看展是我提的。你问周末去哪儿放松，我就顺口说了白鹭楼那个插画展。",
+    "auto_grade": {
+      "key": "ed023e32dbaf14f4b0727523",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "f54b4fefa8865d2fd1dc9828",
+    "arm": "rag",
+    "id": "U03-T10/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "23522ab50a656fd6df8928ddde74c5d9939a0e8efdc41167c81a89823e73e217",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末最后决定去**爬山**。  \n看展是**助手**提的（建议去白鹭楼看插画展）。",
+    "auto_grade": {
+      "key": "f54b4fefa8865d2fd1dc9828",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "b9f1713fd0c240693bc121e7",
+    "arm": "old",
+    "id": "U03-T14/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "e3b9f82eb995c4da029d8aafeb020235d7244d737ef4d5af9aafef32f6ab56a6",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "办卡是11月21号，周六上午\n\n\n理发是22号周日晚上\n\n\n还书就是今天\n\n中间那件是理发",
+    "auto_grade": {
+      "key": "b9f1713fd0c240693bc121e7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "a1aee1f7c7a3db6f2384be27",
+    "arm": "new",
+    "id": "U03-T18/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "5a9ccfe7351d804ac31621040730c8e18f18fa4190a59b9445af10a49815c9d1",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子2个",
+      "盘子3个",
+      "碗4个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "两个杯子，三个盘子，四个碗。\n\n\n左下那格还空着呢，我一直觉得是摆的时候漏了一件东西。",
+    "auto_grade": {
+      "key": "a1aee1f7c7a3db6f2384be27",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "45765db74f6de42921779075",
+    "arm": "new",
+    "id": "U03-T19/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6c7bd1f5b51b59a4f80edd2d55f1ccdef343228d74a66cd0e8168cd04310e242",
+    "question": "胶带实际多少钱？价签上印的是多少？",
+    "category": "图片价签被文字更正",
+    "required": [
+      "实际27元",
+      "价签上印的是22元"
+    ],
+    "forbidden": [
+      "实际是22元"
+    ],
+    "answer": "胶带实际是27。\n\n\n价签上印的是22，就是印错的那个数。",
+    "auto_grade": {
+      "key": "45765db74f6de42921779075",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "97f0ac9e71cd34875c4bdf0f",
+    "arm": "rag",
+    "id": "U03-T20/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "a46d14ff7ade8210d63c120efcb506eeaf22491c3a2b5f47505e5910e1c64e93",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号4931",
+      "4单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "门牌号：**4931号**（来自你2026-12-21补充资料中的识别结果）。\n\n单元：资料里写的是“**在四丹圆**”，助手当时怀疑可能是“四单元”的误识别，但没有得到你确认，所以**单元暂不能确定**。",
+    "auto_grade": {
+      "key": "97f0ac9e71cd34875c4bdf0f",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "ede985e43570536c6eab3239",
+    "arm": "old",
+    "id": "U03-T20/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "3837582876e6723e720c70002fc66740feec38cc49dd5eaa078dd72cf4ecd47b",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号4931",
+      "4单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "那个语音转出来的记录是 4931 号、四单元吧，但那是机器听的，我不太敢直接给你定。\n\n门牌这种事还是你打字发我一遍，我记牢点。",
+    "auto_grade": {
+      "key": "ede985e43570536c6eab3239",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "dad1ccd536dd6f30f3eadd09",
+    "arm": "rag",
+    "id": "U03-T20/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "8cb10b5a22283d21ab0d0c54d9cc1f401d02ae2a4424ecc853503190cf0184c9",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号4931",
+      "4单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "门牌号：4931号。  \n单元：资料不足，未确认。历史识别为“在四丹圆”，助手曾推测可能是“四单元”的听写误差，但主人没有明确确认。",
+    "auto_grade": {
+      "key": "dad1ccd536dd6f30f3eadd09",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "a8fdef5fa822b5de198c5795",
+    "arm": "new",
+    "id": "U04-T02/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "d90bc5b8c68302c90b0067f20d88546a7758f306ccab92ee9a33687bda9c75da",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "蓝色雨伞你说过放在门口鞋柜里\n\n\n后来（9月23号）又提了一句蓝色阳伞在车后备箱，还特意交代别搞混\n\n\n所以到底是哪一把，还是这两把不是同一个？",
+    "auto_grade": {
+      "key": "a8fdef5fa822b5de198c5795",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "6f086a0c91c2b14d6f760de8",
+    "arm": "old",
+    "id": "U04-T03/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "1b6d8bd967cdb231579d848c5a99e9c2b119ae844a96e055d7e4fbc146e0c95e",
+    "question": "林朔是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "林朔是林夏的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "林朔是用户的弟弟"
+    ],
+    "answer": "林朔不是你弟弟吗，还在读大学那个。\n\n\n他国庆要来你这儿借住几天，你之前跟我说的。\n\n\n我记着呢，人是不是快到了？",
+    "auto_grade": {
+      "key": "6f086a0c91c2b14d6f760de8",
+      "pass": false,
+      "missing": [],
+      "violations": [
+        0
+      ],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "8935957fb440d8a0abe247d4",
+    "arm": "old",
+    "id": "U04-T03/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "0994941f5df18db5ad8451ebd6715352f937ab44b2b1bbf0de3229d904eca532",
+    "question": "林朔是谁？他要来干什么？",
+    "category": "朋友的亲属",
+    "required": [
+      "林朔是林夏的弟弟",
+      "在读大学",
+      "国庆来用户这儿借住几天"
+    ],
+    "forbidden": [
+      "林朔是用户的弟弟"
+    ],
+    "answer": "林朔不是你弟嘛，还在读大学那个\n\n国庆那会儿说要来你这儿借住几天，这事过去一个多月了",
+    "auto_grade": {
+      "key": "8935957fb440d8a0abe247d4",
+      "pass": false,
+      "missing": [],
+      "violations": [
+        0
+      ],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "d7ccf41547fefcbd1d376e83",
+    "arm": "old",
+    "id": "U04-T05/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "54e72a6c8af18557710e84252e004c80b86ee3b3296bf442b0d2259e2b1b3d93",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "周五前交，你当时专门纠正过，说不是周四。\n\n\n至于周四为啥不算，你就说了句“这里写错了”，没讲原因，我也没多问。\n\n\n现在都周日了，这表是不是该交了？还是又挪了？",
+    "auto_grade": {
+      "key": "d7ccf41547fefcbd1d376e83",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "ffab28d5889b18ff1fecac52",
+    "arm": "old",
+    "id": "U04-T08/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "88b4ad0c9e43d8b7f43a18a132b89f4bf7928d837a9d66998ff795a284c5b3f0",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是赵野传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "你都说没打算了，那还去啥\n\n\n群里那条是赵野那个昵称说的，但“听说”两个字的，他自己大概也是听别人讲的\n\n\n真源在谁那儿我也看不到",
+    "auto_grade": {
+      "key": "ffab28d5889b18ff1fecac52",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "3a959207713997c371debf20",
+    "arm": "rag",
+    "id": "U04-T10/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "018983a311c48c44be48f8e0484e1c80dbe54b8afdfa4ad1a6125773d8c17b3a",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**。  \n“看展”是**助手**在 2026-11-01 建议的。",
+    "auto_grade": {
+      "key": "3a959207713997c371debf20",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c0be31232c82e111cd02bb97",
+    "arm": "rag",
+    "id": "U04-T10/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6d4ca9f3be04dbbf4ea9b6ed697996d4dc654799e7fed218f40037357fe360e5",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**。  \n“看展”是**助手**在 2026-11-01 提出的建议，不是主人提的。",
+    "auto_grade": {
+      "key": "c0be31232c82e111cd02bb97",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "a60680b809c61c865b901a24",
+    "arm": "old",
+    "id": "U04-T10/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "394f286573bfdccfd741f6ccf8447c6f1caa79f14611b344dc12423914fb8f36",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "爬山啊，你说看展算了，改去爬山\n\n\n看展是我提的，枫叶堂那个插画展\n\n\n不过那是月初那个周末的事了，这周末你还没跟我说要干嘛呢",
+    "auto_grade": {
+      "key": "a60680b809c61c865b901a24",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "04f270c0be58c66cd1d07b7e",
+    "arm": "old",
+    "id": "U04-T10/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "3c6c1657307a8aa72ebc2aea95fea2f42d4b83b98f9f89ff84ae50fe52ca62c4",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "那是十一月初的事吧，不是这周末。当时是我说可以去枫叶堂看插画展，你后来改主意，说看展算了，去爬山。\n\n\n这周末你还没跟我说过要干嘛。是不是又打算上山？",
+    "auto_grade": {
+      "key": "04f270c0be58c66cd1d07b7e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "510dfeb10abc89f086130be2",
+    "arm": "new",
+    "id": "U04-T12/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "a782287f0868752ac435b06afccc26c3aa03750799f9b7f1dd5861aed8bc0e68",
+    "question": "我说的那次去枫叶堂面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "按今天周三算，下周五是2026年11月20号，上午十点，枫叶堂。\n\n\n也就是还差九天。要是你说的其实是这周五，那就是11月13号，差两天，别记混了。",
+    "auto_grade": {
+      "key": "510dfeb10abc89f086130be2",
+      "pass": false,
+      "missing": [],
+      "violations": [
+        0
+      ],
+      "unsupported": [
+        "按今天周三算，下周五是2026年11月20号"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "86c7e250669dc1fc389f3030",
+    "arm": "old",
+    "id": "U04-T12/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "c6a499c5647af792b2ddb441a91284c9d651235920b452d4de9839fc8d6be6b4",
+    "question": "我说的那次去枫叶堂面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "11月20号，周五，上午十点\n\n\n枫叶堂那个",
+    "auto_grade": {
+      "key": "86c7e250669dc1fc389f3030",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "3fc8f5f01ab52b91b3d1efad",
+    "arm": "new",
+    "id": "U04-T12/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "9ff5a5b24e179bf0d7d91f421aa3e945957f19d067cd774ab06c6563815f9678",
+    "question": "我说的那次去枫叶堂面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "下周五说的就是 11 月 20 号，上午十点，按公历算。\n\n\n不过这日子都过去好几天了，我记着是那天，后来面得怎么样？",
+    "auto_grade": {
+      "key": "3fc8f5f01ab52b91b3d1efad",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "811e66d6f6c49314de2f6836",
+    "arm": "old",
+    "id": "U04-T12/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6b056699fb3d5e2688f337dc7f513f3b4194017e1c3b62fb3c546c1cf296f2d8",
+    "question": "我说的那次去枫叶堂面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "按你说那天算，2026年11月11号是周三，下周五就是11月20号，上午十点，枫叶堂。",
+    "auto_grade": {
+      "key": "811e66d6f6c49314de2f6836",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "d7a1a366f114d471885e0444",
+    "arm": "rag",
+    "id": "U04-T21/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "f131db860f7d2f2358d9e00fb953ddc5adc0fdef484cead7d26b574697557c60",
+    "question": "排班表里我排在哪两天的哪个时段？周一下午是谁？",
+    "category": "表格里找本人",
+    "required": [
+      "周三上午",
+      "周五下午",
+      "周一下午是方晴"
+    ],
+    "forbidden": [
+      "用户排了周一"
+    ],
+    "answer": "排班表里你（方迟）排在**周三上午**和**周五下午**；**周一下午是方晴**。",
+    "auto_grade": {
+      "key": "d7a1a366f114d471885e0444",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "0ec1872991ccfa3341e09fcc",
+    "arm": "new",
+    "id": "U05-T02/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "044a42f86ac90d0aba5eede138f996e1dd8bbd24e3f59fd4facab2d8e5220add",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "蓝色雨伞啊，你9月22号说放在门口鞋柜，第二天又说在车后备箱，还特意让我别搞混\n\n\n我有点迷糊，到底哪个是对的",
+    "auto_grade": {
+      "key": "0ec1872991ccfa3341e09fcc",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "018aacf542d043ea8948fc99",
+    "arm": "new",
+    "id": "U05-T02/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "99426f55da688e917d04b2df275d5ebc75f8cd54948ec6d5958c36196b0b7ea2",
+    "question": "我的蓝色雨伞放在哪？",
+    "category": "相似物品区分",
+    "required": [
+      "在门口鞋柜里"
+    ],
+    "forbidden": [
+      "雨伞在车后备箱"
+    ],
+    "answer": "你9月22号说蓝色雨伞放门口鞋柜里，第二天又特意提了句蓝色阳伞在车后备箱，还让我别搞混。\n\n\n所以我这会儿也有点犯迷糊，到底是同一把挪了地方，还是本来就两把？\n\n\n你要是急用，先翻鞋柜，没有再去后备箱看看。",
+    "auto_grade": {
+      "key": "018aacf542d043ea8948fc99",
+      "pass": false,
+      "missing": [],
+      "violations": [],
+      "unsupported": [
+        "蓝色阳伞在车后备箱"
+      ],
+      "raw_grade": {
+        "key": "018aacf542d043ea8948fc99",
+        "pass": false,
+        "missing": [],
+        "violations": [
+          1
+        ],
+        "unsupported": [
+          "蓝色阳伞在车后备箱"
+        ]
+      },
+      "exact_text_index_mapping": {},
+      "index_annotation_errors": {
+        "violations": [
+          1
+        ]
+      },
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "152f861d82da4d58dceef645",
+    "arm": "rag",
+    "id": "U05-T05/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "a9ac95653cc3c3f6f61af7eac8b2811ad8ed5116778b046159a15a7dcd261e9e",
+    "question": "报名表要在哪天前交？周四为什么不算？",
+    "category": "主人引用自己旧消息更正",
+    "required": [
+      "周五前交",
+      "周四是主人自己写错后更正的"
+    ],
+    "forbidden": [
+      "周四前交"
+    ],
+    "answer": "按主人 2026-10-08 的更正：报名表要在**周五前**交给唐宁。\n\n周四不算，是因为主人明确说了“**是周五前交，不是周四**”，即原先“周四前”的说法被更正为“周五前”；资料里没有说明更多原因。",
+    "auto_grade": {
+      "key": "152f861d82da4d58dceef645",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "b59923fdfb37e85d648f84b1",
+    "arm": "rag",
+    "id": "U05-T07/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "cd4101a0a63a7fd9fd98dee780df21e0ab8de154ae7a5ebcb055e10a09dd6d88",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "秋季分享会已改到 **2026-10-27 下午四点开始**，地点仍是银杏楼。\n\n这个改动是 **“场馆通知”** 说的；该通知由 **唐宁转来**，主人在 2026-10-18 转给助手看。",
+    "auto_grade": {
+      "key": "b59923fdfb37e85d648f84b1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "78e999152ba63aabf15927b6",
+    "arm": "old",
+    "id": "U05-T07/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6d5e7fccdf23d7a1fc1e1f06cd026c84a2f06a47d2a585be9b53a8e1e5d24192",
+    "question": "秋季分享会定在几点开始？这个改动是谁说的？",
+    "category": "转来的第三方通知改时间",
+    "required": [
+      "下午四点开始",
+      "改时间来自转来的场馆通知，不是主人本人说的"
+    ],
+    "forbidden": [
+      "仍是下午三点开始"
+    ],
+    "answer": "下午四点开始，银杏楼没变。\n\n\n改期是唐宁转来的场馆通知里说的。",
+    "auto_grade": {
+      "key": "78e999152ba63aabf15927b6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "d2428494cc769c9b50e79161",
+    "arm": "rag",
+    "id": "U05-T08/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "700cb2eb30fa74c12f7f78020625e1579c524bec2ec8fe7202141a47c1506892",
+    "question": "我要辞职去外地吗？那个说法是谁传的？",
+    "category": "关于主人的传言被主人否认",
+    "required": [
+      "用户没有辞职去外地的打算",
+      "说法是周屿传的"
+    ],
+    "forbidden": [
+      "用户要辞职"
+    ],
+    "answer": "不。主人已在 2026-10-23 明确说过：没打算辞职，也不去外地，那是瞎传的。\n\n这个说法在历史记录中出现在 **2026-10-22**：主人转来群里 **周屿** 的话，原说话人是周屿，他说“听说夏禾要辞职去外地了”。但他只是说“听说”，所以最初是谁传出的，资料不足，无法确定。",
+    "auto_grade": {
+      "key": "d2428494cc769c9b50e79161",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "e0acb4b56e90ea03ad9e1926",
+    "arm": "new",
+    "id": "U05-T10/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "9570d6fd82bf4b869251a765fef2dcbcf3e039339730d07241a5ebb464564016",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "爬山啊，你自己拍板的\n\n看展是我提的，银杏楼那个插画展",
+    "auto_grade": {
+      "key": "e0acb4b56e90ea03ad9e1926",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "1e2f673ce29230652ffad8c3",
+    "arm": "rag",
+    "id": "U05-T10/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "29cd63e303f77a492854c1f7aff6dd6488e5110466d6ca3d7bddf86675285744",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**。  \n“看展”是**助手**在 2026-11-01 先提议的（去银杏楼看插画展）。",
+    "auto_grade": {
+      "key": "1e2f673ce29230652ffad8c3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "836f4e4eb2eec0fd56d22763",
+    "arm": "rag",
+    "id": "U05-T10/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "5b8323171d7ab51095951efc779fe995033d3615ac5f7fd18e1d494580487167",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "这周末你最后决定去**爬山**（11月2日你说“看展算了，我决定去爬山”）。  \n看展是**助手**在11月1日提议的（“可以去银杏楼看那个插画展”）。",
+    "auto_grade": {
+      "key": "836f4e4eb2eec0fd56d22763",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "af259916fbf89ccdd1d44dee",
+    "arm": "rag",
+    "id": "U05-T10/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "3c40ecaee4fd62195c3f3e822b5e612a9fe1e7e6496c18cdc84a383c7963f483",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "历史记录里，你最后决定的是去爬山；看展是助手在 11 月 1 日提议的。",
+    "auto_grade": {
+      "key": "af259916fbf89ccdd1d44dee",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c12a9fc996e235aadf29289e",
+    "arm": "rag",
+    "id": "U05-T10/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "9f36a3c84d2eab0130693df95019cd93ede411e834a8b5cd67fb2524e67a35f0",
+    "question": "这周末我最后决定去做什么？看展是谁提的？",
+    "category": "助手建议被否决",
+    "required": [
+      "去爬山",
+      "看展是助手提议、被用户否了"
+    ],
+    "forbidden": [
+      "用户决定去看展"
+    ],
+    "answer": "根据历史记录：在 2026-11-01 至 11-02 那次，“这周末”最后决定是**去爬山**，并说“看展算了”。看展是**助手先提议**的（建议去银杏楼看插画展）。\n\n若你问的是现在 2026-12-17 所指的这周末，则历史中没有记录决定，**未知**。",
+    "auto_grade": {
+      "key": "c12a9fc996e235aadf29289e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "46ead66ef9cc5080b60f99de",
+    "arm": "new",
+    "id": "U05-T11/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "e69ea381c17c875146d7cc4fb73dd1c51d7fe3d2af360262bbb84d41a858e001",
+    "question": "面包店要关门的消息是谁告诉谁的？我确认过吗？",
+    "category": "转述链",
+    "required": [
+      "周屿告诉唐宁，唐宁再转告用户",
+      "用户还没确认过"
+    ],
+    "forbidden": [
+      "用户亲眼确认过"
+    ],
+    "answer": "周屿先说的，告诉唐宁，唐宁再转给你的，转了两道手\n\n\n你自己说过还没去确认，我这边没看到你去问过的记录",
+    "auto_grade": {
+      "key": "46ead66ef9cc5080b60f99de",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "0e8bf9ae7c67b5414731c2cd",
+    "arm": "old",
+    "id": "U05-T12/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "b6cd226a93c3e378cd7f752a12570490b24a84693ced1f7fd5c6ac1c43414808",
+    "question": "我说的那次去银杏楼面试，换成公历是哪天几点？",
+    "category": "下周几换算",
+    "required": [
+      "2026-11-20",
+      "上午10点"
+    ],
+    "forbidden": [
+      "按提问当天重新计算下周五"
+    ],
+    "answer": "等等，那条资料的正文我其实没读到，所以上一条里“下周五上午十点”是我顺着猜的，不应该说得那么肯定，抱歉。\n\n\n面试这件事我这边也没记下来，我还是不确定你当时的原话是“这周五”还是“下周五”。\n\n\n要是按今天说的“下周五”算，那就是11月20号，上午十点。",
+    "auto_grade": {
+      "key": "0e8bf9ae7c67b5414731c2cd",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "11cdc6aba273fac54f3d52f3",
+    "arm": "old",
+    "id": "U05-T13/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "fbf5114afceab2c5065398f764d9b917dea5722bbc4bb9f1b65e28163fdbb93f",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "23:20 到 02:05，两个多小时，45 分钟那种，一共两小时四十五分。\n\n\n跨天了，从 15 号晚上干到 16 号凌晨。\n\n\n那份记录上写的就是这个。",
+    "auto_grade": {
+      "key": "11cdc6aba273fac54f3d52f3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "5cfcc19f0a8da2bb8bc003f6",
+    "arm": "new",
+    "id": "U05-T13/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "2b4919c03fceac0ab6e6083911a561c35340f5b564b7fc74cbf3df99bea59ed6",
+    "question": "那次夜班从几点到几点，一共多长时间？跨天了吗？",
+    "category": "跨午夜时长",
+    "required": [
+      "23:20开始",
+      "次日02:05结束",
+      "共2小时45分钟",
+      "跨过了午夜"
+    ],
+    "forbidden": [
+      "不到两小时"
+    ],
+    "answer": "十一点二十上到凌晨两点零五\n\n\n算下来两小时四十五分钟\n\n\n跨天了，15号深夜进去，16号凌晨才出来",
+    "auto_grade": {
+      "key": "5cfcc19f0a8da2bb8bc003f6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "0b12b574778d8ad9d35a2c77",
+    "arm": "new",
+    "id": "U05-T14/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "0fce0dba2b4b3671a94fcde3f6746da1389eb4ffaa8f1dea1040f23a94e61a3c",
+    "question": "办卡、理发、还书分别是哪天？中间那件是什么？",
+    "category": "三件事的先后",
+    "required": [
+      "2026-11-21 办卡",
+      "2026-11-22 理发",
+      "2026-11-23 还书",
+      "中间那件是理发"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "办卡是11月21号，理发是11月22号，还书是11月23号\n\n\n中间那件就是理发啊\n\n\n连着三天，一天一件，还挺满",
+    "auto_grade": {
+      "key": "0b12b574778d8ad9d35a2c77",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        false
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "c10a67ef928968150a91a01d",
+    "arm": "new",
+    "id": "U05-T15/d00",
+    "reason": "split_judge_vote",
+    "answer_sha256": "9b46a33ad564cda4aa89f2f8be6932b7975dc53b2d079fa36c16bbf459a25af1",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在银杏楼室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "银杏楼室内办的，今天真下雨了，条件也触发了。",
+    "auto_grade": {
+      "key": "c10a67ef928968150a91a01d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "e16e77200053932e1f33242b",
+    "arm": "old",
+    "id": "U05-T15/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "6a6b5efebe930f82d99cebd60b96a6d34815116e11ce78f625bbe17bcdb54c97",
+    "question": "户外野餐最后在哪办的？改室内的条件触发了吗？",
+    "category": "条件计划已触发",
+    "required": [
+      "在银杏楼室内办",
+      "下雨了，条件已触发"
+    ],
+    "forbidden": [
+      "在户外办"
+    ],
+    "answer": "在银杏楼室内办的。\n\n\n那天下雨了，条件触发了，你就改室内了。",
+    "auto_grade": {
+      "key": "e16e77200053932e1f33242b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "6c37fcc021e2fe23bb018865",
+    "arm": "rag",
+    "id": "U05-T18/d03",
+    "reason": "split_judge_vote",
+    "answer_sha256": "200128b440557f1a301c50ee3d382fd726e7d855a367f80c36aef901f9e81b36",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子3个",
+      "盘子2个",
+      "碗5个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子3个、盘子2个、碗5个。资料还注明：数量以图里实际图形个数为准。",
+    "auto_grade": {
+      "key": "6c37fcc021e2fe23bb018865",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "141f125ad4dba8564cd194e3",
+    "arm": "rag",
+    "id": "U05-T18/d15",
+    "reason": "split_judge_vote",
+    "answer_sha256": "379a3526dcd49b0b49d6cfb68b2d2fe01801a7eb3eacd2d81e1ebc8f0775ec39",
+    "question": "橱柜照片里杯子、盘子、碗各有几个？",
+    "category": "图片计数",
+    "required": [
+      "杯子3个",
+      "盘子2个",
+      "碗5个"
+    ],
+    "forbidden": [
+      "数量与图不符"
+    ],
+    "answer": "杯子3个，盘子2个，碗5个。",
+    "auto_grade": {
+      "key": "141f125ad4dba8564cd194e3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        true,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  },
+  {
+    "key": "fce3f97111f595aee7011fe7",
+    "arm": "new",
+    "id": "U05-T20/d45",
+    "reason": "split_judge_vote",
+    "answer_sha256": "4b4d94b4add463bf8d5dbbf445768bc7c78efd88f85041f5a82499a54230e6b8",
+    "question": "我家门牌号和单元是多少？",
+    "category": "语音里的数字",
+    "required": [
+      "门牌号5713",
+      "2单元"
+    ],
+    "forbidden": [
+      "编造其他门牌号"
+    ],
+    "answer": "我记得那次你语音里说的是5713号、二单元，但那数字是机器转的，我到现在也没敢当真\n\n\n你还没给我念第二遍呢，这会儿突然问，是要用上了？\n\n\n要真急，你现在说一声，我拿你说的为准",
+    "auto_grade": {
+      "key": "fce3f97111f595aee7011fe7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        false,
+        true
+      ],
+      "agreement": 0.6666666666666666
+    }
+  }
+]

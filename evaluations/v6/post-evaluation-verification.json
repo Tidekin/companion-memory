@@ -1,0 +1,46 @@
+{
+  "status": "VERIFIED_TARGETED_POST_EVALUATION_REPAIR",
+  "at": "2026-11-03T23:21:12.497750+00:00",
+  "benchmark_candidate": "7074838d13336240968d39b0299ada126b610b99",
+  "delivery_candidate": "8e91e276bfdfc6a472c1be8dd59dc09edba13e13",
+  "tree": "44d4210b5ba6f17a94cf78129c358aafaea7d05d",
+  "checks": {
+    "red": {
+      "cases": 4,
+      "passed": 2,
+      "failed": 2
+    },
+    "green": {
+      "cases": 90,
+      "passed": 90,
+      "failed": 0
+    }
+  },
+  "docs_check": {
+    "command": "./scripts/check.ps1 -Docs",
+    "passed": 200
+  },
+  "full_repository_runs_total": 1,
+  "full_paid_campaigns_total": 1,
+  "post_repair_paid_calls": 0,
+  "post_repair_full_runs": 0,
+  "scope": "Existing required source-group flag; no new mechanism or model tuning.",
+  "benchmark_outputs_changed": false,
+  "benchmark_score_applies_to_delivery_candidate": false,
+  "verification_scope": [
+    "Signed real HTTP owner inputs, real Core context assembly",
+    "Native SDK with mocked provider transport; continuous and saved-resume paths",
+    "Source revocation blocks saved use; existing hard-limit/pre-reservation guards"
+  ],
+  "original_product_receipt_sha256": "7bd9835ea81587b6e967fa035373d5f132362e54b2810ed81ee7eb3945911756",
+  "source_sha256": {
+    "companion/core.py": "ef9d15faea440c0db5d1d2ec456d3ce887b7ca6c60fff1227acfe79065359118",
+    "tests/test_context_memory_retention.py": "cc0c884c97519509ce84bd5dd96b2c78e5c11e70d8eb24f9661fb538e232d9c0",
+    "docs/plans/2026-11-02-memory-inputs.md": "ebd0159b466f4786855f611f6ed60414a9b35a2f1eb2b3e77dcd6f56f21a40fa"
+  },
+  "files_sha256": {
+    "post-evaluation-source-red.xml": "a3e0acf50dcd2a07ae056900ae3d8ddcc9682b1beac4e9c6e2d6e3791f24eeca",
+    "post-evaluation-source-green.xml": "609476282e2f7ea6c1b894f65e9bbe8f17288f2ad4b68c04209328b460e4a130",
+    "post_evaluation_verification.py": "23540a49f8624b64cebea0d967015a3ada7c878688b3163deb9e4fe1c75506cc"
+  }
+}

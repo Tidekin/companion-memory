@@ -1,0 +1,40 @@
+{
+  "status": "EXECUTION_FROZEN_BEFORE_FIRST_NEW_PROVIDER_CALL",
+  "at": "2026-11-02T17:56:40.547567+00:00",
+  "files_sha256": {
+    "campaign-freeze.json": "2e054412a0085d20730f82280ad76921eb64bb94ce9305614cc065aa599e202a",
+    "campaign-budget.json": "35669dc15b1ee8ded38e19c7f2001d34f3dee99a486c7ef78d0966d6182ab473",
+    "source-freeze.json": "7f90d2893287edfcedeffafd6662706dd6e58d585b60b17455ed2f7b23162f92",
+    "corpus-freeze.json": "71ea8f7cbef8816884f8fdd0a9605ac2cec7463c9ae8a1564beb090dc9b062c9",
+    "run_campaign.py": "bbbffc5cdf733025c4a064a471b561ea5ba660d19b2027244d4cbb07487e8e59",
+    "run_rag.py": "8b90ee925a19ee6c01ab44cc7f4c1d419832cbd734c01c659bee1c12a0669bb4",
+    "grade_blind.py": "2712a8d3b5ce286c1178cc0ba58aa5ab19d2ad7226190fa33fbeae052209b45c",
+    "build_bank.py": "2c66153ece63b834c774fe521f147fa96cf19520034e2b1a6ea5a7cf4957aab3",
+    "freeze_bank.py": "d13c33c4285ec9fbd7d3e4e4e274394db5beafe771eadbe0d66f08ecaba41001",
+    "post-bank-code-revision.json": "51caea2046bcf5e0549dd050d3e862bda30cb0580ceaf216dba9cf99081642f6"
+  },
+  "grading_policy": {
+    "original_rules_file": "runner/scripts/memory_benchmark/rubric.py",
+    "original_rules_sha256": "ec9e45d19884bab7323e93c8e87430510498b1f5a2d0573b9f36df4acaf01e86",
+    "version_labels_hidden": true,
+    "same_generator_family_not_independent_human": true,
+    "automatic_results_immutable_separate_review_overrides": true,
+    "review_preregistered": "M02/d15 all24 x3 =72, plus answers where arms differ",
+    "no_gold_read_by_inference": true
+  },
+  "rag_policy": {
+    "canonical_inputs": "old native actual observations/replies only",
+    "top_k": 40,
+    "rerank_top_n": 10,
+    "recent_rounds": 6,
+    "embedding": "qwen3.7-text-embedding",
+    "rerank": "qwen3.7-text-rerank",
+    "dimensions": 2560,
+    "same_answer_model": "deepseek-flash",
+    "max_tokens": 3840,
+    "thinking": "high"
+  },
+  "smoke_spend_cny_on_old_bank": 0.3914,
+  "current_new_calls": 0,
+  "attempt": 2
+}

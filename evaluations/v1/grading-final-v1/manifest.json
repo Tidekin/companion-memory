@@ -1,0 +1,7 @@
+{
+  "judge": "deepseek-flash nonthinking",
+  "rules_sha256": "b48dafd4ca961f1e3fd9cf533e5ee8d01abcb20a8d2e937a050e3fc63180af7d",
+  "graded_candidates": 1390,
+  "not_an_independent_human_judge": true,
+  "cap_usd": 0.3
+}

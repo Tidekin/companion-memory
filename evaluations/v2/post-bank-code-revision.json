@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-02T17:56:22.264050+00:00",
+  "bank_unchanged": true,
+  "reason": "Attempt 1 (aborted-attempt-1/) showed raw recall in 3 of 35 early exam prompts: episode continuation filled the signed history turn ceiling first. Observation was prompt structure only; no criteria read, no answers graded.",
+  "change": "commit 43774e0: recall takes the shared allowance before continuation",
+  "spend_counted": {
+    "aborted_attempt_1_cny": 5.5664
+  },
+  "source_freeze_rewritten_after_bank_freeze": true
+}

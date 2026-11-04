@@ -1,0 +1,10 @@
+.local/
+.venv/
+.planning/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+*.sqlite*
+.env

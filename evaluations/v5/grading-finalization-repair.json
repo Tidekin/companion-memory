@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED_CACHED_FINALIZATION",
+  "at": "2026-11-03T14:42:15.137490+00:00",
+  "cause": "Windows OS error text used non-UTF8 console encoding",
+  "transport_disabled": true,
+  "new_provider_calls": 0,
+  "original_vote_files_sha256": {
+    "1": {
+      "grades.jsonl": "e0e82cd2110fd8a4110e592ae0d6b44e449fdd27db5b02c591899eba10864647",
+      "requests.jsonl": "ba035221e7ba9dbf3d5b95d461458bbe01aca7aa40cf491b1e7431cc7c56b0a9",
+      "responses.jsonl": "414142f8ff10b99646a37d6d12558e9397615c6c432d3a07e25b5e15655d9a87"
+    },
+    "2": {
+      "grades.jsonl": "8fc5aaaf8e3d59c85f9b6ce956616a83f88ff31fc6460a71d67c4cf88822dcc6",
+      "requests.jsonl": "27c7bad142355b5381fb148e0e2897807a752899cb3ae63e1318cc318f046724",
+      "responses.jsonl": "7372efb41b102bf7a93ccd23341495fe35cf291fcd1c279f18193c73a372bcf9"
+    },
+    "3": {
+      "grades.jsonl": "6bf6d7097889ad323153be738e0eb2d142dbc4e1ba0071119225f5c17940f401",
+      "requests.jsonl": "0a3a7c3d6f27054d444d98c3ada54dc5ecb0551dd1dc5c4b7cb3b2ca0c52fb95",
+      "responses.jsonl": "819e3424ff91aa30e075b16f35fc9d1ff1c440e928f686645d44b745cf186d47"
+    }
+  },
+  "original_grading_source_sha256": "643a4611522b30899657f3f30f23f509fafaa8899adfff6533b09eeb956096e5",
+  "grading_manifest_sha256": "49454f96d1ad5313f8b35abb540f0f7966e0d87beae7673112ace5b47fa17429"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "provider_calls": 0,
+  "cases": 36,
+  "same_candidate_and_environment_reused": true,
+  "files_sha256": {
+    "arms/old/lifecycle.xml": "3ad5722ae522f900c7e2b50de63e1e3057fb3d2404b254433f3f0815ae71997e",
+    "arms/old/lifecycle.log": "35dd8b69597ed45679a191ac2df70c7881c81bea86951b40338982c29e4c9cc7",
+    "arms/old/freeze.json": "248d7ee17ed65aa17a77f88c501a507ad25573ee6cd5477f69dc6dbd9d2cfdd7",
+    "arms/new/lifecycle.xml": "ec9ce1c03bc50daf3ed12d5182357873465f78c6475b5a2a767d829b3f831b25",
+    "arms/new/lifecycle.log": "41b91ce88ee91429b2626d6f129d92ff96870db9ab6266ccabb7da12abb66c9c",
+    "arms/new/freeze.json": "9c5cb8cd4a53d3e3ae95197ee850ff7bf2d8a542cd92f0bf03a012673bab194c"
+  }
+}

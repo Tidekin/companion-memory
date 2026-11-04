@@ -1,0 +1,131 @@
+{
+  "rounds": [
+    {
+      "round": "v1",
+      "semantic_question_instances": 696,
+      "lifecycle_checks": 18,
+      "scored_source_commits": {
+        "native": "3da60d63307612ae813b8e6fd61ca318eedd4140"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "per-question-results.json",
+      "summary": "result-summary.json",
+      "redaction_counts": {
+        "local_path": 101,
+        "network_address": 1
+      }
+    },
+    {
+      "round": "v2",
+      "semantic_question_instances": 576,
+      "lifecycle_checks": 0,
+      "scored_source_commits": {
+        "old": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+        "new": "43774e0244357ee13c1158924108d604db299ca4"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [
+        "coverage-and-freeze.json"
+      ],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "results.json",
+      "summary": "summary.json",
+      "redaction_counts": {
+        "local_path": 8,
+        "network_address": 1,
+        "unavailable_link_updated": 1
+      }
+    },
+    {
+      "round": "v3",
+      "semantic_question_instances": 480,
+      "lifecycle_checks": 0,
+      "scored_source_commits": {
+        "old": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+        "new": "93795f329e4c18b00c96d335d49894eef4d75eb6"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "results.json",
+      "summary": "summary.json",
+      "redaction_counts": {
+        "local_path": 8,
+        "network_address": 1
+      }
+    },
+    {
+      "round": "v4",
+      "semantic_question_instances": 480,
+      "lifecycle_checks": 0,
+      "scored_source_commits": {
+        "old": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+        "new": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "results.json",
+      "summary": "summary.json",
+      "redaction_counts": {
+        "local_path": 3
+      }
+    },
+    {
+      "round": "v5",
+      "semantic_question_instances": 744,
+      "lifecycle_checks": 0,
+      "scored_source_commits": {
+        "old": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0",
+        "new": "86aa9e468e9e7f91d63f17964af82921eb65fc22"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "results.json",
+      "summary": "summary.json",
+      "redaction_counts": {
+        "local_path": 11,
+        "network_address": 1
+      }
+    },
+    {
+      "round": "v6",
+      "semantic_question_instances": 792,
+      "lifecycle_checks": 0,
+      "scored_source_commits": {
+        "old": "86aa9e468e9e7f91d63f17964af82921eb65fc22",
+        "new": "7074838d13336240968d39b0299ada126b610b99"
+      },
+      "authorship": "Project-authored fictional synthetic stories and questions",
+      "media": "Project text/images and generic Windows System.Speech TTS output",
+      "publication": "Sanitized derived copy; original evidence left unchanged",
+      "unavailable_original_artifacts": [],
+      "semantic_fidelity": "Questions, criteria, sources, answers and verdicts equal originals",
+      "hash_policy": "Public hashes bind these bytes; historical freezes describe originals.",
+      "results": "results.json",
+      "summary": "summary.json",
+      "redaction_counts": {
+        "local_path": 10,
+        "network_address": 1
+      }
+    }
+  ]
+}

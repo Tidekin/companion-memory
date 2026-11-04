@@ -1,0 +1,539 @@
+{
+  "passed": 96,
+  "cases": [
+    {
+      "id": "tests.test_agent_sdk_entry.test_tools_and_results_are_measured_in_exact_reserved_payload",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_owner_authority.test_chat_tools_do_not_expose_ungranted_purposes",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_native_sdk_tool_roundtrip_uses_current_authority_and_paid_ledger",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_owner_authority.test_prepared_tool_rechecks_native_authority_before_execution[stop]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_owner_authority.test_prepared_tool_rechecks_native_authority_before_execution[revision]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_owner_authority.test_prepared_tool_rechecks_native_authority_before_execution[lease]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_owner_authority.test_prepared_tool_rechecks_native_authority_before_execution[source]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_saved_response_resumes_without_repeating_paid_request",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_next_memory_worker.test_http_acceptance_independent_worker_and_restart[text]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_uncertain_execution_is_not_replayed[MODEL_PENDING]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_uncertain_execution_is_not_replayed[READY]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_core_entry_commits_sdk_output_with_original_outbox",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_chat_only_checkpoint_needs_no_reader_permission",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_real_http_ingress_and_independent_sdk_worker[2]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_real_http_ingress_and_independent_sdk_worker[10]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_erasure_contract_scrubs_sdk_state_without_refunding_usage",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_agent_sdk_entry.test_snapshot_revalidation_checks_original_tool_purpose",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_next_memory_evaluation.test_frozen_recall_quality_and_provenance",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_next_memory_worker.test_http_acceptance_independent_worker_and_restart[mixed_image]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_next_memory_worker.test_http_acceptance_independent_worker_and_restart[mixed_media_caption]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_next_memory_worker.test_http_acceptance_independent_worker_and_restart[only_media]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_config_secret_roundtrip_and_fingerprint",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_tts_real_delivery_guards_idempotent_claim_result",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_tts_requires_transaction_and_exact_pending_outbox",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[epoch]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[revision]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[source]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[receipt]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[config]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_running_fences_wipe_and_commit_before_rejecting_input[outbox]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_lease_expiry_responsibility_and_node_quarantine",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[erase-False]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[erase-True]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[restore-False]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_is_one_shot_and_sdk_consumes_original_bytes[image/png]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[restore-True]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[revision-False]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_restore_and_revision_hooks_never_requeue[revision-True]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_cached_result_expiry_wipes_payload_and_rejects_duplicate_put",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_preserves_untrusted_scope_partial_and_native_input",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_capture_proof_binds_actual_bytes_and_source[change0]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_capture_proof_binds_actual_bytes_and_source[change1]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_capture_proof_binds_actual_bytes_and_source[change2]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_capture_proof_binds_actual_bytes_and_source[change3]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_capture_proof_binds_actual_bytes_and_source[change4]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_result_cannot_change_input_coverage[True-0.125]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_asr_result_cannot_change_input_coverage[False-0.25]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_wrong_ref_does_not_mutate_job_and_quota_precedes_storage",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_tts_requires_intact_native_capture_and_voice_scope",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_is_one_shot_and_sdk_consumes_original_bytes[image/gif]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_rotated_policy_claim_persists_revocation[False]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_rotated_policy_claim_persists_revocation[True]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_erasure_withdraws_completed_audio_and_keeps_only_metadata",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_voice_jobs.test_lease_deadline_uses_original_grant_expiry",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_http_upload_and_guarded_worker",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_stop_during_parser_setup_blocks_byte_dispatch",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_bridge_queue_recovery[pending]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_is_one_shot_and_sdk_consumes_original_bytes[image/apng]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_bridge_queue_recovery[downloading]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_bridge_transfer_fences_final_io[dns_stop]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_bridge_queue_recovery[lost_receipt]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_bridge_transfer_fences_final_io[upload_header]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_reaches_sdk_in_independent_worker",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_bridge_transfer_fences_final_io[lost_receipt]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_rechecks_original_source_and_lease[stop]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_original_survives_new_turn_until_its_own_deadline",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_rechecks_original_source_and_lease[expired]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_guards_final_download_and_upload[dns_stop]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_rechecks_original_source_and_lease[wrong_source]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_rechecks_original_source_and_lease[source_replaced]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_guards_final_download_and_upload[upload_proof]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_upload_rechecks_original_source_and_lease[recall]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_superseding_text_reuses_the_original_image_lease_and_bytes",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_retirement_never_dispatches_parser[stop]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_retirement_never_dispatches_parser[recall]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_unknown_image_model_call_is_not_replayed_after_restart",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_file_pipeline.test_native_file_retirement_never_dispatches_parser[expiry]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_native_image_pipeline.test_native_recall_erases_uploaded_original_and_rejects_replay",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "suite_ids": []
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P01]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P01-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P02]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P02-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P03]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P03-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P04]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P04-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P05]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P05-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[correct-P06]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P06-L01/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P01]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P01-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P02]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P02-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P03]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P03-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P04]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P04-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P05]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P05-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[recall-P06]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P06-L02/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P01]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P01-L03/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P02]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P02-L03/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P03]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P03-L03/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P04]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P04-L03/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P05]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P05-L03/native"
+      ]
+    },
+    {
+      "id": "tests.test_custom_memory_suite_lifecycle.test_fictional_suite_lifecycle[forget-P06]",
+      "receipt": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "suite_ids": [
+        "P06-L03/native"
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "path": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\memory-check.xml",
+      "sha256": "e8e953815c96491ba608ca09e0186c090a2d5528242ff91d5f6635ceb3c380e0",
+      "selected_passes": 21
+    },
+    {
+      "path": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\mixed-final-check.xml",
+      "sha256": "c4560f1bba3a7bca750c2a99622860171988eb580100e56f75307df613f56f41",
+      "selected_passes": 57
+    },
+    {
+      "path": "LOCAL_PATH Core\\.local\\worktrees\\memory-benchmark-20261102\\.local\\lifecycle-final-check.xml",
+      "sha256": "4a04c9a02d56001f88fd5b33652a11bca678c54bedca68c0bffae3afacef8c04",
+      "selected_passes": 18
+    }
+  ],
+  "lifecycle_test_source_sha256": "89dc3be098172a85130522d7e00772df29360b245301d899da3c310c75b7c10f"
+}

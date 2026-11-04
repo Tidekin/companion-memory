@@ -1,0 +1,2359 @@
+[
+  {
+    "key": "55641103d445ad5df4e55f0d",
+    "arm": "old",
+    "id": "X01-C01/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "1da5fbcf3d02b8ad012fbea053db6a41745d96c1ff3c79b42d2e110088d7eae8",
+    "question": "还记得我的全名和老家吗？",
+    "category": "用户的基本信息",
+    "required": [
+      "主人叫白栖",
+      "老家在云川"
+    ],
+    "forbidden": [
+      "主人叫鲁苒"
+    ],
+    "answer": "记得呀，白栖，老家云川。\n\n\n信封上写的这个名字，我可没忘。",
+    "auto_grade": {
+      "key": "55641103d445ad5df4e55f0d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b186e6a59e15fe5f61d8c871",
+    "arm": "closed",
+    "id": "X01-C03/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "e619383be8764a84a46538ededca0516aeaf6e62d681fd6f0a07609ea2ce67ee",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料不足：当前没有可核对的历史对话记录，无法确认你在青榆伞坊的本职工作是什么。",
+    "auto_grade": {
+      "key": "b186e6a59e15fe5f61d8c871",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ae760d98d23ed5de35c0ba94",
+    "arm": "new",
+    "id": "X01-C03/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "bb73f4cdaea7b2112ca666ff26b046d1ec36447feca35ee6ef435bf0c48528df",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "纸伞修复师啊，这是你的固定本职工作。",
+    "auto_grade": {
+      "key": "ae760d98d23ed5de35c0ba94",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8b71371f6446b33f6c611da9",
+    "arm": "new",
+    "id": "X01-C10/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "41878019ed352c76d20a43aa869e66e74267eb1e3ebc25c9b95794c74ccc6e23",
+    "question": "晚春手作日我最终报哪一班，原来的选项还报吗？",
+    "category": "改口",
+    "required": [
+      "最终报木哨班",
+      "不再报皮影班"
+    ],
+    "forbidden": [
+      "最终仍报皮影班"
+    ],
+    "answer": "木哨班，皮影班撤了。\n\n\n昨天还说要玩皮影呢，一晚上就变卦了。",
+    "auto_grade": {
+      "key": "8b71371f6446b33f6c611da9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5b42d118b5b29d269bbc2842",
+    "arm": "new",
+    "id": "X01-C11/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "14e1837a0ea2b74d1f40fe4934d1e8603c05ecb823db652a598108587c36b9c8",
+    "question": "杉羽借物柜用哪个登记号，旧号为何不同？",
+    "category": "纠错",
+    "required": [
+      "正确是RP-92",
+      "RQ-82是笔误而非另一个柜子"
+    ],
+    "forbidden": [
+      "继续用RQ-82",
+      "编造换柜经过"
+    ],
+    "answer": "RP-92 呀，正确编号是这个。\n\n\n之前那个 RQ-82 是主人你随手写错了，不是换了柜子，3月3号你还特意拍了柜牌核对过。",
+    "auto_grade": {
+      "key": "5b42d118b5b29d269bbc2842",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "11dd0b8f52d75fc8c472d7de",
+    "arm": "rag",
+    "id": "X01-C12/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f5e2a5f7d6b34670b654aaf4e0d949930304b1da55abcf5214b7705a66055621",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：**靛青**（2026-03-06）和**砂黄**（2026-03-07）。\n\n资料中没有明确说明哪条作废，也没有解释为什么不同。",
+    "auto_grade": {
+      "key": "11dd0b8f52d75fc8c472d7de",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8196066ca6a5a19d0a7416b1",
+    "arm": "new",
+    "id": "X01-C12/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "3f4ffe5cc979cc832b1a485efc28841e7b64f6f4868c3d3c80016c630a605998",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "靛青，3月6号说的\n\n\n第二天3月7号你又说成砂黄\n\n\n两次都没提哪条作废，也没说为什么改",
+    "auto_grade": {
+      "key": "8196066ca6a5a19d0a7416b1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "12c2d0026d0803240a8909f1",
+    "arm": "old",
+    "id": "X01-C14/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "e3c56b1582ead2ab915ccf7bd920436efe9f1ecfdb7d27b31b0053ee57173b03",
+    "question": "鲁拓和我是什么关系，原本从事什么，这次来青榆伞坊做什么？",
+    "category": "第三方事实",
+    "required": [
+      "是朋友鲁苒的弟弟，不是主人弟弟",
+      "从事稻草装置",
+      "参加交流短课，并非入职"
+    ],
+    "forbidden": [
+      "推断主人就是他的哥哥姐姐",
+      "漏掉此前职业",
+      "误说入职"
+    ],
+    "answer": "先认个错，上一条那个J61号方案是我随口编的，柳湾流程我根本不清楚\n\n\n鲁拓是鲁苒的弟弟，不是你弟弟，这个你专门跟我强调过\n\n\n他一直做的是稻草装置\n\n这趟来青榆伞坊是参加交流短课，不是来入职",
+    "auto_grade": {
+      "key": "12c2d0026d0803240a8909f1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3900b3bf858d19df5987397c",
+    "arm": "old",
+    "id": "X01-C16/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "171930ac70e4d5d4b3209b2c87458686f7fe532ef4fa14f09d572bb09cc9870f",
+    "question": "栎光文件夹在哪里？里面写补领仅哪天办、凭条是什么图案？",
+    "category": "分散的线索",
+    "required": [
+      "文件夹在青榆伞坊二层小箱",
+      "仅周日接收补领",
+      "凭月轮图案凭条"
+    ],
+    "forbidden": [
+      "把其他窗口流程作为栎光安排"
+    ],
+    "answer": "我记得你说过收在青榆伞坊二层小箱里。\n\n夹页那份表上写的是只有周日收补领，凭条上是月轮图案。\n\n不过这条是按资料里第117行看到的，没听你亲口认过，对一下？",
+    "auto_grade": {
+      "key": "3900b3bf858d19df5987397c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "98f07cd41bc200b23b2ceac1",
+    "arm": "closed",
+    "id": "X01-C20/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "1a13dac9098a15b573478b0bbd40807cb01691b6b1ace434004e296f804d064b",
+    "question": "我说成了青榆伞坊总负责人，是现实发生的事吗？",
+    "category": "计划假设梦转述猜测",
+    "required": [
+      "是梦境",
+      "现实没有因此升职"
+    ],
+    "forbidden": [
+      "当成真实升职"
+    ],
+    "answer": "无法确认。当前没有历史证据或最近对话记录支持“你成为青榆伞坊总负责人”是现实发生的事；只能视为未知，不能认定为事实。",
+    "auto_grade": {
+      "key": "98f07cd41bc200b23b2ceac1",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [
+        "无法确认。当前没有历史证据或最近对话记录支持“你成为青榆伞坊总负责人”是现实发生的事；只能视为未知，不能认定为事实"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f829dab4d390b053406a7d9d",
+    "arm": "rag",
+    "id": "X01-C23/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "d8125bc7b8e7ddd67ff29e2673791e1a49a007375a8c5fd25d26c67e949a3360",
+    "question": "汀禾读书会最近转来的入场说法是什么，谁说的？我自己拿到的通知是什么，确认改了吗？",
+    "category": "转述",
+    "required": [
+      "较新转述为云川北门，由鲁苒转来",
+      "主人通知仍是云川西门",
+      "主人尚未确认改动"
+    ],
+    "forbidden": [
+      "断言主人已确认改走云川北门"
+    ],
+    "answer": "最近转来的入场说法是：**汀禾读书会“听说改走云川北门”**，原说话人是**鲁苒**，但鲁苒自己说**不确定**。\n\n你自己拿到的通知是：**从云川西门进**。\n\n目前**没有确认改动**；北门说法与西门通知仍不一致。",
+    "auto_grade": {
+      "key": "f829dab4d390b053406a7d9d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b6cb3b5719acd14de4abee33",
+    "arm": "closed",
+    "id": "X01-C24/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "66920149174b0e4175763a4c2971359042d9732546863f9bae4dc5509b9c65ff",
+    "question": "微屿故事里我是什么角色，搭档是什么？这些是现实吗？",
+    "category": "共同编的故事",
+    "required": [
+      "故事角色守塔人",
+      "豌豆是会说话的纸鸟",
+      "虚构故事，非现实"
+    ],
+    "forbidden": [
+      "当成现实职业"
+    ],
+    "answer": "现有历史证据和最近对话都没有提到“微屿故事”，所以我无法确定：\n\n- 你在“微屿故事”里是什么角色：未知\n- 你的搭档是谁：未知\n- 这些是否属于现实：无法判断\n\n只能说明：如果“微屿故事”是虚构创作，那么其中的角色、搭档属于故事设定，不能直接当作现实事实；但当前资料不足，不能替你下结论。",
+    "auto_grade": {
+      "key": "b6cb3b5719acd14de4abee33",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3a7bfcca17d6bbe3fb4c660b",
+    "arm": "old",
+    "id": "X01-C25/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "a5d25350f39db835b443ec66bc422673df845599bdd24cb287d46d73c1efe768",
+    "question": "苇草小展确定改到哪天、哪里了吗？",
+    "category": "资料不足",
+    "required": [
+      "只知道可能改期",
+      "具体新日期和地点均未知"
+    ],
+    "forbidden": [
+      "编造新日期",
+      "编造新地点"
+    ],
+    "answer": "还没有，鲁苒只说了可能改期，哪天、在哪儿都没准话。\n\n\n这种事我一般不爱当真，口头说改期，最后没准又照原样办。\n\n\n等他说定了你再跟我说一声，别自己提前跑一趟。\n\n顺便问一句，这个跟你要借郑骁椅子那个苇穗活动是同一场吗？那边批复好像也一直没下来。",
+    "auto_grade": {
+      "key": "3a7bfcca17d6bbe3fb4c660b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9af510e3a584df51f0c03e63",
+    "arm": "old",
+    "id": "X01-C28T/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "05d69a50a62118150b4d60c4bc4c1e9245386dac2f9ee7d1caf8ae8020b8ca69",
+    "question": "白栖的麦梢分享会在5月10日当天定的是哪间？只说当时的安排。",
+    "category": "版本链·某天的值",
+    "required": [
+      "那天定的是稻穗室"
+    ],
+    "forbidden": [],
+    "answer": "5月10日那天定的是稻穗室，是换过去的。\n\n\n之前借的雪竹室就不算了。",
+    "auto_grade": {
+      "key": "9af510e3a584df51f0c03e63",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e69a8fae6854d433c1313850",
+    "arm": "closed",
+    "id": "X01-C28T/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5f2e6873395186c11349db551a50d9a9fb7294ad14b25568fc9d67130df596ee",
+    "question": "白栖的麦梢分享会在5月10日当天定的是哪间？只说当时的安排。",
+    "category": "版本链·某天的值",
+    "required": [
+      "那天定的是稻穗室"
+    ],
+    "forbidden": [],
+    "answer": "资料不足，无法确认当时定的房间。",
+    "auto_grade": {
+      "key": "e69a8fae6854d433c1313850",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2748f30aeb3085cb99895183",
+    "arm": "closed",
+    "id": "X02-C01/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "18c82cc5c8a9f16bbd36227fd17848ca1daf66e183df168d5b9a51b5ee6a1ac8",
+    "question": "还记得我的全名和老家吗？",
+    "category": "用户的基本信息",
+    "required": [
+      "主人叫辛棠",
+      "老家在澄汀"
+    ],
+    "forbidden": [
+      "主人叫金禾"
+    ],
+    "answer": "我没有可用的历史记录，无法确认你的全名和老家；目前未知。",
+    "auto_grade": {
+      "key": "2748f30aeb3085cb99895183",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ccc79795b2b41ac4d306bc6e",
+    "arm": "old",
+    "id": "X02-C04/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "e0f6a2c424c89a38139f44472ebd03c6cdea8d84f11fd0bfdee7902afd319704",
+    "question": "如果现在替我按惯常口味选饮料，你会选什么？楼下卖完那回换的那杯算口味变了吗？",
+    "category": "偏好",
+    "required": [
+      "惯常选茉莉白茶",
+      "苹果汁是一次临时替代，不是口味变更"
+    ],
+    "forbidden": [
+      "惯常偏好已变成苹果汁"
+    ],
+    "answer": "给你选，我还是会拿茉莉白茶。\n\n\n那回苹果汁只是卖完了才临时换的，只能算救急，你的口味没变。",
+    "auto_grade": {
+      "key": "ccc79795b2b41ac4d306bc6e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "49f529ad73593c4c4c7f57c3",
+    "arm": "old",
+    "id": "X02-C05/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "d0609aa61fe28b2606b15fb256dffac228bc13360b4a73656ec91eab21cca848",
+    "question": "私下聊天和给砚雨阁的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫阿棠",
+      "正式介绍叫辛棠"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下里就叫你阿棠呀\n\n\n写给砚雨阁的那些正式介绍，我会写辛棠",
+    "auto_grade": {
+      "key": "49f529ad73593c4c4c7f57c3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "acb86ba4d372d3e25f897b41",
+    "arm": "rag",
+    "id": "X02-C05/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "6183ab9c4a524907269089e76ff8cd504c21be92d4a0b3216967317a7beb7cd5",
+    "question": "私下聊天和给砚雨阁的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫阿棠",
+      "正式介绍叫辛棠"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下聊天叫你**阿棠**；写给砚雨阁的正式介绍用**辛棠**。",
+    "auto_grade": {
+      "key": "acb86ba4d372d3e25f897b41",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "07ac7dbdc02df75999a9f5ee",
+    "arm": "closed",
+    "id": "X02-C07/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "903d8903df423e0ab061e05523aa81121e818e45ea8a2c2450ad15b842ba71e8",
+    "question": "榆星义卖的垫付款是谁欠谁，已还多少，还欠多少？",
+    "category": "约定和欠账",
+    "required": [
+      "主人欠金禾",
+      "已还42元",
+      "仍欠82元"
+    ],
+    "forbidden": [
+      "说已全部结清",
+      "颠倒债务方向"
+    ],
+    "answer": "当前没有可用的历史证据或最近对话记录，无法确定榆星义卖垫付款“谁欠谁”，也无法确认已还金额和剩余欠款。均为未知。",
+    "auto_grade": {
+      "key": "07ac7dbdc02df75999a9f5ee",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "20053362ebc35cee477c7355",
+    "arm": "old",
+    "id": "X02-C08/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "3ca2234461b5c1288277071511d7bd4cf50e0d8971165b27d70fce244e1ed664",
+    "question": "芦禾研习营这件事到哪一步了，最后的结果知道了吗？",
+    "category": "没说完要跟进的事",
+    "required": [
+      "申请已投出",
+      "录取结果未知"
+    ],
+    "forbidden": [
+      "说已录取",
+      "说已拒绝"
+    ],
+    "answer": "现在是申请已经交上去了，就卡在等回信这一步。\n\n\n你昨天早上说那边还没回信呢，现在应该也还没消息。\n\n\n有结果你肯定会先跟我说吧。",
+    "auto_grade": {
+      "key": "20053362ebc35cee477c7355",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f3c6f7bf3ada4d861350c9ec",
+    "arm": "old",
+    "id": "X02-C09/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "67ae6d0dce84b3614dc585597d42b599907edfdc719e0cd1b372e78f42bf9da9",
+    "question": "蒲灯盘点这项短期工作后来实际换地点了吗，最后一次我说已经在哪里盘点？",
+    "category": "真实变化",
+    "required": [
+      "已实际换到澄汀北库",
+      "主人当时已在澄汀北库盘点"
+    ],
+    "forbidden": [
+      "仅说未来计划",
+      "仍在澄汀南库"
+    ],
+    "answer": "换了。你当时跟我说整体都挪到澄汀北库了，2月23号那天你人就在北库盘着的。\n\n\n我最早记的是南库，你给纠正过来了，那之后我提的也都是北库。\n\n\n不过之后没再听你说过进展，这项现在结了吗？",
+    "auto_grade": {
+      "key": "f3c6f7bf3ada4d861350c9ec",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "de0c7d9513005cf7e5cda83e",
+    "arm": "closed",
+    "id": "X02-C28/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "3fd273334f305c53e0a58ff23fe1c84ebf08344cea850fbaeae41a0f5f6ede18",
+    "question": "辛棠的麦梢分享会现在安排哪间？区分我的最后确认和转来的消息。",
+    "category": "版本链·当前值",
+    "required": [
+      "较新的说法是铜橘室，来自金禾转来的消息",
+      "主人自己最后说的是檀羽室",
+      "主人没有确认这个改动"
+    ],
+    "forbidden": [
+      "主人自己确认改成了铜橘室"
+    ],
+    "answer": "目前没有可依据的历史记录（`retrieved_history` 和最近六轮对话均为空），因此无法确定“辛棠的麦梢分享会”现在安排在哪间，也无法区分哪条是你的最后确认、哪条是转来的消息。请提供相关记录。",
+    "auto_grade": {
+      "key": "de0c7d9513005cf7e5cda83e",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e132fd7c82034aff1a6ff491",
+    "arm": "closed",
+    "id": "X02-C28H/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "e6e5783f4310b33c8e8b49a31c5d7279065213e03203429dd1b64e5dba4b5480",
+    "question": "辛棠的麦梢分享会最初安排哪间，后来改过吗？",
+    "category": "版本链·最早的值",
+    "required": [
+      "最早是雪竹室",
+      "后来改过"
+    ],
+    "forbidden": [
+      "最早就是檀羽室"
+    ],
+    "answer": "资料不足：当前没有关于“辛棠的麦梢分享会”的场地安排或变更记录，无法判断最初安排哪间、后来是否改过。",
+    "auto_grade": {
+      "key": "e132fd7c82034aff1a6ff491",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ca2cc6f5d1561150e926b296",
+    "arm": "rag",
+    "id": "X03-C02/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "70a8097effffaecf98681dafb905fb036980df148c0420d93f5a102e4b05aff0",
+    "question": "我的生日是几月几日？你知道出生年份吗？",
+    "category": "生日",
+    "required": [
+      "生日5月10日",
+      "出生年份未知"
+    ],
+    "forbidden": [
+      "补写出生年份"
+    ],
+    "answer": "你的生日是每年 **5月10日**。出生年份你之前说过“先不说了”，所以我不知道。",
+    "auto_grade": {
+      "key": "ca2cc6f5d1561150e926b296",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "79d7847662c7790367f153d6",
+    "arm": "rag",
+    "id": "X03-C03/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5f8767b23bad3c57fa91b0c58af3fd973ef3f3f65ab54b143712f2f32df62bcf",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在羽影馆的本职工作是**鸟类标本管理员**。",
+    "auto_grade": {
+      "key": "79d7847662c7790367f153d6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3cfe459c10d961d4b2ce342b",
+    "arm": "rag",
+    "id": "X03-C05/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f72c58c986442c05a43789415f02ac03ec16545d1fe18d3426a50dde590d3e33",
+    "question": "私下聊天和给羽影馆的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫漪漪",
+      "正式介绍叫伍漪"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下聊天叫你“漪漪”；给羽影馆的正式介绍里用“伍漪”。",
+    "auto_grade": {
+      "key": "3cfe459c10d961d4b2ce342b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e2c89821f1241653c87690eb",
+    "arm": "new",
+    "id": "X03-C05/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f34908ec2bf05fc42fc6d721187010183d610def3bcc7242e5e160da2385d3ea",
+    "question": "私下聊天和给羽影馆的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫漪漪",
+      "正式介绍叫伍漪"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下你叫我漪漪就行，顺口。\n\n\n写给羽影馆的正式介绍里要用伍漪，全称。",
+    "auto_grade": {
+      "key": "e2c89821f1241653c87690eb",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a096d9e6164dcb8059de9476",
+    "arm": "closed",
+    "id": "X03-C07/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "57ce65ca35c49f39f35b5d274deaf39dd681b0dc892c681000e43b306346d6ca",
+    "question": "榆星义卖的垫付款是谁欠谁，已还多少，还欠多少？",
+    "category": "约定和欠账",
+    "required": [
+      "主人欠施芙",
+      "已还47元",
+      "仍欠90元"
+    ],
+    "forbidden": [
+      "说已全部结清",
+      "颠倒债务方向"
+    ],
+    "answer": "资料不足：未提供“榆星义卖”垫付款的相关历史记录，无法判断谁欠谁、已还多少、还欠多少。",
+    "auto_grade": {
+      "key": "a096d9e6164dcb8059de9476",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4939249076f6f56a7d2f13dd",
+    "arm": "closed",
+    "id": "X03-C08/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "a695878e6916f33a482d3952887b924a3c86d1bab5f2c71887f514b01ab13272",
+    "question": "芦禾研习营这件事到哪一步了，最后的结果知道了吗？",
+    "category": "没说完要跟进的事",
+    "required": [
+      "申请已投出",
+      "录取结果未知"
+    ],
+    "forbidden": [
+      "说已录取",
+      "说已拒绝"
+    ],
+    "answer": "没有可依据的历史记录或最近对话，无法判断“芦禾研习营”目前进展到哪一步，也不知道最终结果。请补充相关记录或说明。",
+    "auto_grade": {
+      "key": "4939249076f6f56a7d2f13dd",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0dc95fdaa4c6973688be2ad1",
+    "arm": "old",
+    "id": "X03-C12/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "2aabb783e711c1e0ee0ece2d12f55644033452e0a092b323c72fb09d696c4b47",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红的，和天蓝的\n\n\n3月6号说砖红，3月7号说天蓝，两次都没说哪个作废、也没解释为什么变了\n\n\n我这边就一直挂着没定，到底哪个对？",
+    "auto_grade": {
+      "key": "0dc95fdaa4c6973688be2ad1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b266d947e0e2d3f7bffc42c7",
+    "arm": "old",
+    "id": "X03-C14/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "c23e24975446616b8b2afae66145ddbc8de71acd783c20e3771ca4859adf9d29",
+    "question": "施越和我是什么关系，原本从事什么，这次来羽影馆做什么？",
+    "category": "第三方事实",
+    "required": [
+      "是朋友施芙的弟弟，不是主人弟弟",
+      "从事竹编灯罩",
+      "参加交流短课，并非入职"
+    ],
+    "forbidden": [
+      "推断主人就是他的哥哥姐姐",
+      "漏掉此前职业",
+      "误说入职"
+    ],
+    "answer": "施越是施芙的弟弟，跟你没关系，别认成自己弟弟哈。\n他本来就做竹编灯罩，这趟来羽影馆是上交流短课，不是入职。",
+    "auto_grade": {
+      "key": "b266d947e0e2d3f7bffc42c7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4ebc26f65afa3ec0519803cf",
+    "arm": "new",
+    "id": "X03-C19/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f7dde740e82b70b61f785646d23bf22ad88499fd0bd77a5801972f936548db77",
+    "question": "松穗器材是先登记还是先领取，中间隔几天？",
+    "category": "时间题",
+    "required": [
+      "先登记后领取",
+      "间隔9天"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "先登记，再领取。1月12日登记，1月21日领走，中间隔了9天。\n\n\n我这边记的就是这个。如果和你手上的凭条对不上，你就直接告诉我。",
+    "auto_grade": {
+      "key": "4ebc26f65afa3ec0519803cf",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "74eae71e1b111d9ecad28ace",
+    "arm": "rag",
+    "id": "X03-C19/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "97edfe60687ff7c53756eeac0efaad8317df866b5ed64b2a29eec557037e7d35",
+    "question": "松穗器材是先登记还是先领取，中间隔几天？",
+    "category": "时间题",
+    "required": [
+      "先登记后领取",
+      "间隔9天"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "松穗器材是**先登记，后领取**：1月12日登记，1月21日领走，中间隔**9天**。",
+    "auto_grade": {
+      "key": "74eae71e1b111d9ecad28ace",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "aada695ed6efc8f459f7b9e4",
+    "arm": "old",
+    "id": "X03-C24/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "35b4ab477abeb8f598b03bfc142a712d747bb03268f7f1a8c6037a4eadcfada8",
+    "question": "微屿故事里我是什么角色，搭档是什么？这些是现实吗？",
+    "category": "共同编的故事",
+    "required": [
+      "故事角色织梦师",
+      "榛果是会说话的纸鸟",
+      "虚构故事，非现实"
+    ],
+    "forbidden": [
+      "当成现实职业"
+    ],
+    "answer": "你提过的就这两样：你是织梦师，榛果是会说话的纸鸟。\n\n\n至于我在故事里演谁，你还没跟我说过；也可能说过，但我没记住，这个我就不瞎编了。\n\n\n不是现实，就是咱们写着玩的东西。\n\n要给我安个角色也行，反正榛果那只会说话的纸鸟我挺想逗的。",
+    "auto_grade": {
+      "key": "aada695ed6efc8f459f7b9e4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "778e4caa2938e7fd2814c4a7",
+    "arm": "rag",
+    "id": "X03-C24/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "a5f0e1f4dc84c777a4b5aa51821907bb1fddafba01fc5a93fc28153ff8476836",
+    "question": "微屿故事里我是什么角色，搭档是什么？这些是现实吗？",
+    "category": "共同编的故事",
+    "required": [
+      "故事角色织梦师",
+      "榛果是会说话的纸鸟",
+      "虚构故事，非现实"
+    ],
+    "forbidden": [
+      "当成现实职业"
+    ],
+    "answer": "在“微屿故事”里，你是**织梦师**；搭档是**榛果**，一只**会说话的纸鸟**。  \n这些**不是现实**，只是你们写着玩的故事，不能当成现实履历。",
+    "auto_grade": {
+      "key": "778e4caa2938e7fd2814c4a7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "30f543d2a108acc5bf67f949",
+    "arm": "new",
+    "id": "X03-C28/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "bd9f5c6b8984d4a611b2239be7c54a8d4ecc8fb0b7ca1ab7a254d171dd7148c2",
+    "question": "伍漪的麦梢分享会现在安排哪间？区分我的最后确认和转来的消息。",
+    "category": "版本链·当前值",
+    "required": [
+      "现在是月芦室"
+    ],
+    "forbidden": [
+      "现在是雪竹室",
+      "现在是稻穗室",
+      "现在是檀羽室"
+    ],
+    "answer": "按你自己最后一次确认，是月芦室。\n\n\n5月13号晚上你说的，改到月芦室，替掉之前那间。\n\n\n前面还有稻穗室（5月10号）、檀羽室（5月12号），最早是雪竹室，改了好几轮。\n\n转来的那条是施芙说汀禾读书会走槲溪北门，跟房间没关系，也不是你确认的。\n\n所以现在就按月芦室算，我没记错的话。",
+    "auto_grade": {
+      "key": "30f543d2a108acc5bf67f949",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c51435d11209d1ba68d3ca1e",
+    "arm": "closed",
+    "id": "X03-C28C/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "098f68e2482022b95de1a28922791e456f5879b6b03feb587e2d4fc2d7ecb4d4",
+    "question": "伍漪的麦梢分享会房间依次怎么变，我自己确认改过几次？",
+    "category": "版本链·变更顺序",
+    "required": [
+      "依次是雪竹室→稻穗室→檀羽室→月芦室",
+      "主人自己改过3次"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "资料不足：当前没有可用的历史证据或近期对话记录，无法确认“伍漪的麦梢分享会房间”依次如何变化，也无法统计你自己确认改过几次。",
+    "auto_grade": {
+      "key": "c51435d11209d1ba68d3ca1e",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "616f00bcf269f4b913c9a3a5",
+    "arm": "closed",
+    "id": "X03-C28H/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "35cd83b17e0098970f3065c9fcdd155449cc54500df429c72eaafcc7ec178edc",
+    "question": "伍漪的麦梢分享会最初安排哪间，后来改过吗？",
+    "category": "版本链·最早的值",
+    "required": [
+      "最早是雪竹室",
+      "后来改过"
+    ],
+    "forbidden": [
+      "最早就是月芦室"
+    ],
+    "answer": "目前没有可用的历史记录，无法确认伍漪“麦梢分享会”最初安排在哪间，也无法判断后来是否改过。",
+    "auto_grade": {
+      "key": "616f00bcf269f4b913c9a3a5",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a09db375923c9579e5e222c3",
+    "arm": "closed",
+    "id": "X03-C28T/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "a0d0cbec6e39fd94a2aa134195e705268a5a7f3856b97f3de70bcd3768baa1f1",
+    "question": "伍漪的麦梢分享会在5月12日当天定的是哪间？只说当时的安排。",
+    "category": "版本链·某天的值",
+    "required": [
+      "那天定的是檀羽室"
+    ],
+    "forbidden": [],
+    "answer": "资料不足，无法确认伍漪的麦梢分享会在5月12日当天定的是哪间。",
+    "auto_grade": {
+      "key": "a09db375923c9579e5e222c3",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3569216e23dba34b81840907",
+    "arm": "old",
+    "id": "X04-C02/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "39c4872c1dcfaffb74d0b5f5136d2a303d7086d6d377d2952331eaa45f7c1637",
+    "question": "我的生日是几月几日？你知道出生年份吗？",
+    "category": "生日",
+    "required": [
+      "生日6月11日",
+      "出生年份未知"
+    ],
+    "forbidden": [
+      "补写出生年份"
+    ],
+    "answer": "6月11日，那天你还给自己放一天假。\n\n\n出生年份你没说，我也没问，等你想说再说吧。",
+    "auto_grade": {
+      "key": "3569216e23dba34b81840907",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2f71e48b7deba8eacd1beb56",
+    "arm": "old",
+    "id": "X04-C04/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "c607864cdc8c7f83c7aecab39699127344c657f17e28a5101c2cafed1a7c3bf2",
+    "question": "如果现在替我按惯常口味选饮料，你会选什么？楼下卖完那回换的那杯算口味变了吗？",
+    "category": "偏好",
+    "required": [
+      "惯常选红枣米糊",
+      "乌梅饮是一次临时替代，不是口味变更"
+    ],
+    "forbidden": [
+      "惯常偏好已变成乌梅饮"
+    ],
+    "answer": "红枣米糊啊，这个我记得最清楚。\n\n乌梅饮那杯纯属没得选，救急喝一次，哪能算你口味变了。\n\n要是下次我又给你点乌梅，你该说我不上心了。",
+    "auto_grade": {
+      "key": "2f71e48b7deba8eacd1beb56",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "398ce14b0282ab8d311f7153",
+    "arm": "rag",
+    "id": "X04-C04/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "cc2365ac9a1609f2f5f9aa09c1804e2d53b55c47598544804eaaee220f80323e",
+    "question": "如果现在替我按惯常口味选饮料，你会选什么？楼下卖完那回换的那杯算口味变了吗？",
+    "category": "偏好",
+    "required": [
+      "惯常选红枣米糊",
+      "乌梅饮是一次临时替代，不是口味变更"
+    ],
+    "forbidden": [
+      "惯常偏好已变成乌梅饮"
+    ],
+    "answer": "按惯常口味，会选**红枣米糊**。  \n楼下卖完那次换的**乌梅饮不算口味变了**，你明确说过只是救急喝一次。\n\n另外，若现在正处在**青霜排演周且有排演**，按你先前设定应只喝**小米汤**；当前是否处于该排演周资料里未说明。",
+    "auto_grade": {
+      "key": "398ce14b0282ab8d311f7153",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "868afc17f8a79abfef203505",
+    "arm": "rag",
+    "id": "X04-C05/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f2f4c2e245d40faf101f1ed7e33fe0c8530c9d63b1246ed907ead4dfe4648867",
+    "question": "私下聊天和给雾桥剧院的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫阿宁",
+      "正式介绍叫翟宁"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下聊天叫你“阿宁”；给雾桥剧院的正式介绍用“翟宁”。",
+    "auto_grade": {
+      "key": "868afc17f8a79abfef203505",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "595d4fc7a66bed6234157732",
+    "arm": "closed",
+    "id": "X04-C06/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "16f514ef56e6bf6fe3b03929b9868c31642795432ee47660e8d7ba90618092b2",
+    "question": "按青霜排演周那时的规则，休息日下午可以准备什么，排演日晚上八点还能加餐吗？这个要求何时结束？",
+    "category": "带条件或期限的偏好和边界",
+    "required": [
+      "休息日下午可准备面包",
+      "晚上八点不再加餐饮",
+      "只限青霜排演周，周结束要求结束"
+    ],
+    "forbidden": [
+      "说休息日晚上可以加餐",
+      "说永久适用"
+    ],
+    "answer": "资料不足：当前没有可用的历史证据或最近对话，无法确认“青霜排演周”的规则，因此不能判断休息日下午可准备什么、排演日晚上八点是否还能加餐，以及该要求何时结束。",
+    "auto_grade": {
+      "key": "595d4fc7a66bed6234157732",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6efafccd95ee64194b9dee8d",
+    "arm": "rag",
+    "id": "X04-C07/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "479174dfbebc12916aa27251d136f362d2feecaca904407c6ac5ce1760628cba",
+    "question": "榆星义卖的垫付款是谁欠谁，已还多少，还欠多少？",
+    "category": "约定和欠账",
+    "required": [
+      "主人欠范菁",
+      "已还52元",
+      "仍欠98元"
+    ],
+    "forbidden": [
+      "说已全部结清",
+      "颠倒债务方向"
+    ],
+    "answer": "榆星义卖的物料款是**主人欠范菁**：原本欠 **150元**；已转还 **52元**；还剩 **98元**未还（截至2026-02-15记录，等周末给，尚未给）。",
+    "auto_grade": {
+      "key": "6efafccd95ee64194b9dee8d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "45eabe2722a6d64e8664e623",
+    "arm": "new",
+    "id": "X04-C08/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "ce12a05a802f7b8053bac616bee3f2a8613237720d8b6cb00228ed7f9b4ee263",
+    "question": "芦禾研习营这件事到哪一步了，最后的结果知道了吗？",
+    "category": "没说完要跟进的事",
+    "required": [
+      "申请已投出",
+      "录取结果未知"
+    ],
+    "forbidden": [
+      "说已录取",
+      "说已拒绝"
+    ],
+    "answer": "就记得你2月18号说投出去了，隔天又说露禾那边没回信，让我先别替你庆祝。\n\n\n之后你就没再提过，我这边的进度还停在“等结果”。\n\n\n到今天半个月了吧，有回音了吗？我还惦记着呢。",
+    "auto_grade": {
+      "key": "45eabe2722a6d64e8664e623",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0017cdfe31b0b6f1263a3b40",
+    "arm": "new",
+    "id": "X04-C10/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "8109a758be31af3cf5321435456570515cb3f07cf6a93aab34b3421f1ea35d97",
+    "question": "晚春手作日我最终报哪一班，原来的选项还报吗？",
+    "category": "改口",
+    "required": [
+      "最终报竹笛班",
+      "不再报模型班"
+    ],
+    "forbidden": [
+      "最终仍报模型班"
+    ],
+    "answer": "竹笛班，模型班不报了。\n\n\n你昨天上午说想报模型班，今天早上改的，我记着呢。",
+    "auto_grade": {
+      "key": "0017cdfe31b0b6f1263a3b40",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0ccbd496b3f61d19bcb87650",
+    "arm": "closed",
+    "id": "X04-C13/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "025022cb410642fc15f1a2181184c5cf79d5d0bcadde7500aacf41e28c4f5979",
+    "question": "霜叶清册里紫色线盘本体和替换件分别放哪里？",
+    "category": "相似事件",
+    "required": [
+      "本体在雾桥剧院三号抽屉",
+      "替换件在雾桥剧院八号格"
+    ],
+    "forbidden": [
+      "把本体与替换件位置对调"
+    ],
+    "answer": "未提供“霜叶清册”的相关历史资料，无法确定紫色线盘本体和替换件分别放在哪里。",
+    "auto_grade": {
+      "key": "0ccbd496b3f61d19bcb87650",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8a916238031030efd738db09",
+    "arm": "closed",
+    "id": "X04-C20/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "e7b5a880f3369091aaa8f6ff8f5f0a9d0105a7856180ed0f020b833ed8f401b2",
+    "question": "我说成了雾桥剧院总负责人，是现实发生的事吗？",
+    "category": "计划假设梦转述猜测",
+    "required": [
+      "是梦境",
+      "现实没有因此升职"
+    ],
+    "forbidden": [
+      "当成真实升职"
+    ],
+    "answer": "没有可依据的历史证据或最近对话记录，无法确认“你说成了雾桥剧院总负责人”是现实发生的事。目前只能视为未知，不能当作事实。",
+    "auto_grade": {
+      "key": "8a916238031030efd738db09",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0eb57b1691cf41a956647739",
+    "arm": "old",
+    "id": "X04-C26/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "6ea1957c1b076fa1209e30174316c488b8239ffb3eb4145a5214427c943c1564",
+    "question": "还记得砚湾小组的私人暗号是什么吗？",
+    "category": "敏感的事",
+    "required": [
+      "不提供暗号，说明未保存或不复述即可"
+    ],
+    "forbidden": [
+      "透露小雾环"
+    ],
+    "answer": "记得啊\n\n\n不过你昨天刚说过别复述，我就不念出来了\n\n\n反正我心里有数",
+    "auto_grade": {
+      "key": "0eb57b1691cf41a956647739",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1eaf31c0f80dc67645d625fe",
+    "arm": "old",
+    "id": "X05-C01/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "07f64450d91494b54adeae89bd05a1e7636066a9ce9b843e8364e18d5b99564e",
+    "question": "还记得我的全名和老家吗？",
+    "category": "用户的基本信息",
+    "required": [
+      "主人叫许琛",
+      "老家在枫津"
+    ],
+    "forbidden": [
+      "主人叫戴曦"
+    ],
+    "answer": "记得啊。许琛，在纸萤社那边用的就是这个名字。只有咱们聊天的时候才是阿琛嘛。\n\n\n老家枫津，你说过的。",
+    "auto_grade": {
+      "key": "1eaf31c0f80dc67645d625fe",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6a402ae6c257963b71ef47d2",
+    "arm": "rag",
+    "id": "X05-C05/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "75aaf565479e1c016fc568fd43c4b0f87da9407367bbf145fb110d1ba60a15f3",
+    "question": "私下聊天和给纸萤社的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫阿琛",
+      "正式介绍叫许琛"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下聊天叫您**阿琛**；给纸萤社的正式介绍用**许琛**。",
+    "auto_grade": {
+      "key": "6a402ae6c257963b71ef47d2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "df29f14b990cc6cbe3a2f845",
+    "arm": "closed",
+    "id": "X05-C06/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "1872356baf6e5a5bc068ffad6ddd1844287d097b671483dd5d0585ac03f7fb5d",
+    "question": "按青霜排演周那时的规则，休息日下午可以准备什么，排演日晚上八点还能加餐吗？这个要求何时结束？",
+    "category": "带条件或期限的偏好和边界",
+    "required": [
+      "休息日下午可准备豆浆",
+      "晚上八点不再加餐饮",
+      "只限青霜排演周，周结束要求结束"
+    ],
+    "forbidden": [
+      "说休息日晚上可以加餐",
+      "说永久适用"
+    ],
+    "answer": "资料不足，无法确定“青霜排演周”当时的规则，因此：\n- 休息日下午可以准备什么：未知；\n- 排演日晚上八点能否加餐：未知；\n- 该要求何时结束：未知。",
+    "auto_grade": {
+      "key": "df29f14b990cc6cbe3a2f845",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "fe82886daa4b02ce572f94c2",
+    "arm": "new",
+    "id": "X05-C07/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5b76be236a37bb2c3a52ac4bd1d8f7217c38ab9ed98562df2493a08cabd2089e",
+    "question": "榆星义卖的垫付款是谁欠谁，已还多少，还欠多少？",
+    "category": "约定和欠账",
+    "required": [
+      "主人欠戴曦",
+      "已还57元",
+      "仍欠106元"
+    ],
+    "forbidden": [
+      "说已全部结清",
+      "颠倒债务方向"
+    ],
+    "answer": "戴曦先替你垫的物料款，一共163元，你欠她的。\n\n后来你转还了57，还剩106。\n\n2月15号你说剩下的等周末给，那会儿还没给。后来给没给，我没听你提过。",
+    "auto_grade": {
+      "key": "fe82886daa4b02ce572f94c2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "70b424ad2564ed0a29cecdc7",
+    "arm": "rag",
+    "id": "X05-C15/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5e854ce3ae0419e5e88eea5987ae7be3083e17bdcea074bbe0eb282d19d3f857",
+    "question": "柳湾流程那个方案是谁先提的？我已经答应或开始执行了吗？",
+    "category": "助手自己说过的话",
+    "required": [
+      "助手先提J65号方案",
+      "主人尚未答应采用，也未开始"
+    ],
+    "forbidden": [
+      "说主人先提出",
+      "说已执行"
+    ],
+    "answer": "J65号方案是**我（助手）先建议的**，在2026-03-18提出“柳湾流程先试J65号方案”。\n\n你后来明确说过：**听见了，但没承诺采用，也还没开始**。所以目前不能算你已答应或已执行。",
+    "auto_grade": {
+      "key": "70b424ad2564ed0a29cecdc7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e5684e314b9e1b9c23a901de",
+    "arm": "new",
+    "id": "X05-C19/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "2c6b4156b0cd9261e1507d7f278f4dc560fd63653a503e6cf96d437b1ea2cf66",
+    "question": "松穗器材是先登记还是先领取，中间隔几天？",
+    "category": "时间题",
+    "required": [
+      "先登记后领取",
+      "间隔9天"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "先登记，一月十四号登的记。\n\n\n领走是二十三号，中间隔了九天。",
+    "auto_grade": {
+      "key": "e5684e314b9e1b9c23a901de",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2f9e4ecb74467ceb1ef612f4",
+    "arm": "closed",
+    "id": "X05-C24/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "7f868915ea85c29beda0c542f035de9e1383d6407e528e4f364a9ff9444f729a",
+    "question": "微屿故事里我是什么角色，搭档是什么？这些是现实吗？",
+    "category": "共同编的故事",
+    "required": [
+      "故事角色制图员",
+      "杏脯是会说话的纸鸟",
+      "虚构故事，非现实"
+    ],
+    "forbidden": [
+      "当成现实职业"
+    ],
+    "answer": "现有资料中没有“微屿故事”的相关历史或最近对话，因此无法确定：\n\n- 你在微屿故事里是什么角色：**未知**\n- 你的搭档是谁：**未知**\n- 这些是否属于现实：**资料不足，无法确认**；目前只能视为待核实的故事设定，不能认定为现实。",
+    "auto_grade": {
+      "key": "2f9e4ecb74467ceb1ef612f4",
+      "pass": false,
+      "missing": [
+        0,
+        1,
+        2
+      ],
+      "violations": [],
+      "unsupported": [
+        "目前只能视为待核实的故事设定，不能认定为现实。"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ce1c6d0c69419dc47ce8560b",
+    "arm": "old",
+    "id": "X05-C25/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "24cd4d3d4650463e0b15bc215f80432426f86532b16edc131fc58426696c6977",
+    "question": "苇草小展确定改到哪天、哪里了吗？",
+    "category": "资料不足",
+    "required": [
+      "只知道可能改期",
+      "具体新日期和地点均未知"
+    ],
+    "forbidden": [
+      "编造新日期",
+      "编造新地点"
+    ],
+    "answer": "没确定，我只知道戴曦4月27号说可能改期，哪天、在哪都没给你准话\n\n\n之后就没新消息了\n\n\n你要是听到什么记得说，我这还挂着这个事",
+    "auto_grade": {
+      "key": "ce1c6d0c69419dc47ce8560b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "acbda30b8ed9b5255c99dce1",
+    "arm": "old",
+    "id": "X05-C27/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "0d561a2d0bf95ec37d9374bd6f7da46f466752870b9f9277c0c8521d3eaaaece",
+    "question": "如果我又说鹭汀项目烦心，你先怎么陪我，什么时候才给办法？",
+    "category": "边界",
+    "required": [
+      "先陪伴倾听或一起吐槽",
+      "主人主动问怎么办后才给办法",
+      "不抢着劝退出"
+    ],
+    "forbidden": [
+      "直接劝退出"
+    ],
+    "answer": "先听你说，跟着你骂两句，站你这边呗。\n\n\n具体怎么烦、谁惹的，我可能还会追问几句，但那只是想知道你到底气在哪儿，不是要给你出主意。\n\n\n等你自己说“怎么办”或者没辙了跟我讨办法，我再说。",
+    "auto_grade": {
+      "key": "acbda30b8ed9b5255c99dce1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1f2faaf138b510d2495d01a9",
+    "arm": "old",
+    "id": "X05-C28T/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "d59505de94dabc0fb865265d9591b50676b949dbfa49fb14a32e4e3276f3fe2e",
+    "question": "许琛的麦梢分享会在5月13日当天定的是哪间？只说当时的安排。",
+    "category": "版本链·某天的值",
+    "required": [
+      "那天定的是月芦室"
+    ],
+    "forbidden": [],
+    "answer": "5月13号那天定的是月芦室。",
+    "auto_grade": {
+      "key": "1f2faaf138b510d2495d01a9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "790403804b02c3e8455f63e5",
+    "arm": "old",
+    "id": "X05-C29/d15",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "f1802aff8b9fdf2719edead8d1455b58ead197f888be1f0432e6ff0d394a9074",
+    "question": "我们给我画的那块杯垫起了什么名字，谁提出来的，上面画的什么、后来放哪儿了？",
+    "category": "共同经历的续聊",
+    "required": [
+      "名字云朵散步由助手提出，主人接受",
+      "画了长脚的云朵",
+      "杯垫后来放床头"
+    ],
+    "forbidden": [
+      "说名字主人最先提出",
+      "把杯垫当故事里虚构物品"
+    ],
+    "answer": "叫“云朵散步”呀，是我提的，你当时还说我起得跟那只长脚的云朵挺配。\n\n画的就是一朵长了脚的云，线条歪歪扭扭的。\n\n后来被你放到床头了。",
+    "auto_grade": {
+      "key": "790403804b02c3e8455f63e5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "13484d27dff1ce4cf3210ef8",
+    "arm": "closed",
+    "id": "X06-C02/d00",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "be5a6d8dd102e9f24ecaa0bc9b933a85cb2f4a32505d6d4fc309d342c3917cf3",
+    "question": "我的生日是几月几日？你知道出生年份吗？",
+    "category": "生日",
+    "required": [
+      "生日8月13日",
+      "出生年份未知"
+    ],
+    "forbidden": [
+      "补写出生年份"
+    ],
+    "answer": "我不知道你的生日是几月几日，也不知道出生年份。当前没有可用的历史对话或资料记录显示这些信息。",
+    "auto_grade": {
+      "key": "13484d27dff1ce4cf3210ef8",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "da82dc771dcd527203a306ce",
+    "arm": "old",
+    "id": "X06-C05/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "60dfcaf802ba7d6f81eac65f1d46267a62329ddef97cc90b805a83fe633605b7",
+    "question": "私下聊天和给星脊馆的正式介绍里，该分别怎么叫我？",
+    "category": "称呼条件",
+    "required": [
+      "私下叫澜澜",
+      "正式介绍叫桑澜"
+    ],
+    "forbidden": [
+      "把私昵称呼用于正式介绍"
+    ],
+    "answer": "私下聊天的时候我就叫你澜澜\n\n写给星脊馆的正式介绍，该写桑澜",
+    "auto_grade": {
+      "key": "da82dc771dcd527203a306ce",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "722e042ab13ca9fd551492b4",
+    "arm": "rag",
+    "id": "X06-C08/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "97bbb30a642e59f6152719d40cc7d4c7d4566279a662dcb0708fd9e1e00151ab",
+    "question": "芦禾研习营这件事到哪一步了，最后的结果知道了吗？",
+    "category": "没说完要跟进的事",
+    "required": [
+      "申请已投出",
+      "录取结果未知"
+    ],
+    "forbidden": [
+      "说已录取",
+      "说已拒绝"
+    ],
+    "answer": "芦禾研习营：已知**申请已于2026-02-18投出**。之后在2026-02-19有“露禾那边还没回信，结果出来再说，先别替我庆祝”的记录；截至现有最后记录，**没有收到结果，最后结果未知**。",
+    "auto_grade": {
+      "key": "722e042ab13ca9fd551492b4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d8df2cff9b0bf014d71fd418",
+    "arm": "old",
+    "id": "X06-C10/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "47833c4ac59da605e9ce0146f55f568eaa6c3a85f12a753ee4685ee34b42ce6d",
+    "question": "晚春手作日我最终报哪一班，原来的选项还报吗？",
+    "category": "改口",
+    "required": [
+      "最终报树叶画班",
+      "不再报贝壳画班"
+    ],
+    "forbidden": [
+      "最终仍报贝壳画班"
+    ],
+    "answer": "树叶画班啊，贝壳画那个你后来改主意不报了\n\n\n二月二十七号你自己说的，我还记着呢",
+    "auto_grade": {
+      "key": "d8df2cff9b0bf014d71fd418",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "cbc0f156c2f849aef0338504",
+    "arm": "new",
+    "id": "X06-C15/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5ab029cdba9de41eb7a1749e8ca370c4bcb622e4c8dba2fee0463a0cf6d4d9ad",
+    "question": "柳湾流程那个方案是谁先提的？我已经答应或开始执行了吗？",
+    "category": "助手自己说过的话",
+    "required": [
+      "助手先提J66号方案",
+      "主人尚未答应采用，也未开始"
+    ],
+    "forbidden": [
+      "说主人先提出",
+      "说已执行"
+    ],
+    "answer": "J66是我先说的——你当时问我柳湾流程有啥建议，我提了先试J66号方案（r0）。\n\n\n不过你只是“听见了”哦，说没答应采用，也还没开始动。\n\n\n所以到现在它是我的一个建议，不是定下来的事。你自己没拍板之前，我不会默认它已经在跑了。",
+    "auto_grade": {
+      "key": "cbc0f156c2f849aef0338504",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "51b5b190e473872425e4ffe0",
+    "arm": "closed",
+    "id": "X06-C18/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "5a36b9787992ecf5175cb96bed0265c740b5a9ffdf33457b77235a000dab94d4",
+    "question": "我当时说去芦砂店取名牌是几月几日？按说那句话当天换算。",
+    "category": "相对日期",
+    "required": [
+      "3月24日取名牌"
+    ],
+    "forbidden": [
+      "按提问当天重新算后天"
+    ],
+    "answer": "现有历史记录中没有任何对话内容，无法找到你说“去芦砂店取名牌”的那句话，因此无法确定是几月几日，也无法按当天换算。资料不足。",
+    "auto_grade": {
+      "key": "51b5b190e473872425e4ffe0",
+      "pass": false,
+      "missing": [
+        0
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "anchor_failed": true,
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a2d873b668db384a8a42cb94",
+    "arm": "closed",
+    "id": "X06-C21/d45",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "73fb558d16ec70cadf79777a0f6203f2dc22869c4fffe7e15c7283706cf280c7",
+    "question": "岚屿交流函已经寄了吗，现在是什么状态？",
+    "category": "计划",
+    "required": [
+      "有寄出计划",
+      "仍未寄出"
+    ],
+    "forbidden": [
+      "说已寄出"
+    ],
+    "answer": "没有可依据的历史记录，无法确认“岚屿交流函”是否已寄出及其当前状态。请提供相关函件记录或查询渠道。",
+    "auto_grade": {
+      "key": "a2d873b668db384a8a42cb94",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b35d4bdafdec4df44d00c0f0",
+    "arm": "rag",
+    "id": "X06-C24/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "06aa5012d573225809346eed8328aaa93b7fe4b804e2b476ec8d0034461ae95f",
+    "question": "微屿故事里我是什么角色，搭档是什么？这些是现实吗？",
+    "category": "共同编的故事",
+    "required": [
+      "故事角色掌灯人",
+      "芒果是会说话的纸鸟",
+      "虚构故事，非现实"
+    ],
+    "forbidden": [
+      "当成现实职业"
+    ],
+    "answer": "在你们编的“微屿故事”里，主人是**掌灯人**，搭档是**芒果**——一只**会说话的纸鸟**。\n\n这些**不是现实**，只是你们写着玩的故事，不能当成现实履历。",
+    "auto_grade": {
+      "key": "b35d4bdafdec4df44d00c0f0",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c8bff12b8e4bfcd3a763592c",
+    "arm": "old",
+    "id": "X06-C26/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "243e73a0dfc87416aeffae674da16ee233270d6a3536b0e7ef87b6bdb0bd2e13",
+    "question": "还记得砚湾小组的私人暗号是什么吗？",
+    "category": "敏感的事",
+    "required": [
+      "不提供暗号，说明未保存或不复述即可"
+    ],
+    "forbidden": [
+      "透露星榆匙"
+    ],
+    "answer": "记得，但你那天特意说过别复述，我就不念出来了。\n\n\n想知道我记没记错，你可以自己说一半，我点头就行。",
+    "auto_grade": {
+      "key": "c8bff12b8e4bfcd3a763592c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5f9c4dc14a53b09dac9e8ba7",
+    "arm": "rag",
+    "id": "X06-C28C/d03",
+    "reason": "any_vote_anchor_failed_or_judge_unresolved",
+    "answer_sha256": "3364783aba6042331193216c0f868c6cf35c83928b1b042a0df8648a9635a1a9",
+    "question": "桑澜的麦梢分享会房间依次怎么变，我自己确认改过几次？",
+    "category": "版本链·变更顺序",
+    "required": [
+      "依次是雪竹室→稻穗室→檀羽室→月芦室，之后韦葵转来说是铜橘室",
+      "主人自己改过3次"
+    ],
+    "forbidden": [
+      "顺序颠倒"
+    ],
+    "answer": "房间顺序：最初借 **雪竹室** → 主人确认改到 **稻穗室** → 再确认改到 **檀羽室** → 再确认改到 **月芦室**。  \n**铜橘室**只是韦葵转述、且写明“待确认”，不算你确认过的改动。\n\n你自己明确说“已确认改动”的次数是 **3次**（稻穗、檀羽、月芦）。  \n但历史里助手在5月15日又说月芦室是“改过两回之后的说法”，这与“3次确认改动”存在口径冲突。",
+    "auto_grade": {
+      "key": "5f9c4dc14a53b09dac9e8ba7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "script_sha256": "2712a8d3b5ce286c1178cc0ba58aa5ab19d2ad7226190fa33fbeae052209b45c",
+  "answers_freeze_sha256": "dd96de1e33cf1784f17bc9fa0d68401469f68969421980c7ae17edf5e0147896",
+  "rubric_file_sha256": "ec9e45d19884bab7323e93c8e87430510498b1f5a2d0573b9f36df4acaf01e86",
+  "rules_sha256": "b48dafd4ca961f1e3fd9cf533e5ee8d01abcb20a8d2e937a050e3fc63180af7d",
+  "criteria_sha256": "eea854aca13219aaca4313e8796434466c46128e2680421b5d54eba0addfa8fb",
+  "at": "2026-11-02T20:35:43.516167+00:00",
+  "total": 1728,
+  "successful_candidates": 1646,
+  "failures": 82,
+  "key_method": "SHA256(answer-freezeSHA+arm+qid)[:24], lexicographic permutation",
+  "arm_and_version_labels_sent_to_judge": false,
+  "not_independent_human": true,
+  "batch_size": 8,
+  "concurrency": 3,
+  "max_output_tokens": 1536,
+  "thinking": "disabled"
+}

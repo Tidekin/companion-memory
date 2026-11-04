@@ -1,0 +1,13 @@
+{
+  "reason": "CLOUD_BUDGET_FX_EXPIRED after logical day30; evaluation configuration error, not semantic failure",
+  "superseded_batch": "native-final-v1",
+  "replacement_batch": "native-final-v2",
+  "retry_policy": "all six personas from clean databases, original frozen suite; no answer selection",
+  "preserve_expenses": true,
+  "files": {
+    "run_suite.py": "b0de67c115cb1a29b5e9010f601f2fded357df9c01bbed6a421313b7918bc79a",
+    "run_public_memory.py": "99247236868ac86de28f660fb6710db8395c713dbf5661df4048adecb2a53aec",
+    "run_reference.py": "1945794ebef861e7ca8540fe5904e242b3cddc413c7434a754c69aaf68a9aeb0",
+    "grade_suite.py": "a7ce613ab0c2d5de57914789e1fa22ad3002560e0572b19f5c8485e39752c97c"
+  }
+}

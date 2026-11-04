@@ -1,0 +1,5878 @@
+{
+  "round": "memory-accuracy-v5-20261103",
+  "at": "2026-11-03T15:16:05.663884+00:00",
+  "grading": "grading",
+  "overall": {
+    "old": {
+      "passed": 676,
+      "total": 744,
+      "rate": 0.9086021505376344,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 714,
+      "total": 744,
+      "rate": 0.9596774193548387,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 727,
+      "total": 744,
+      "rate": 0.9771505376344086,
+      "execution_failures": 0
+    }
+  },
+  "paired_changes": {
+    "both_pass": 649,
+    "loss": 27,
+    "gain": 65,
+    "both_fail": 3
+  },
+  "all_arms_answered": {
+    "old": {
+      "passed": 676,
+      "total": 744,
+      "rate": 0.9086021505376344,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 714,
+      "total": 744,
+      "rate": 0.9596774193548387,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 727,
+      "total": 744,
+      "rate": 0.9771505376344086,
+      "execution_failures": 0
+    }
+  },
+  "by_delay": {
+    "0": {
+      "old": {
+        "passed": 163,
+        "total": 186,
+        "rate": 0.8763440860215054,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 176,
+        "total": 186,
+        "rate": 0.946236559139785,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 184,
+        "total": 186,
+        "rate": 0.989247311827957,
+        "execution_failures": 0
+      }
+    },
+    "3": {
+      "old": {
+        "passed": 176,
+        "total": 186,
+        "rate": 0.946236559139785,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 182,
+        "total": 186,
+        "rate": 0.978494623655914,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 182,
+        "total": 186,
+        "rate": 0.978494623655914,
+        "execution_failures": 0
+      }
+    },
+    "15": {
+      "old": {
+        "passed": 170,
+        "total": 186,
+        "rate": 0.9139784946236559,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 178,
+        "total": 186,
+        "rate": 0.956989247311828,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 181,
+        "total": 186,
+        "rate": 0.9731182795698925,
+        "execution_failures": 0
+      }
+    },
+    "45": {
+      "old": {
+        "passed": 167,
+        "total": 186,
+        "rate": 0.8978494623655914,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 178,
+        "total": 186,
+        "rate": 0.956989247311828,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 180,
+        "total": 186,
+        "rate": 0.967741935483871,
+        "execution_failures": 0
+      }
+    }
+  },
+  "by_category": {
+    "C01": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C02": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C03": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 21,
+        "total": 24,
+        "rate": 0.875,
+        "execution_failures": 0
+      }
+    },
+    "C04": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C05": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C06": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C07": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C08": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C09": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C10": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C11": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C12": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C13": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      }
+    },
+    "C14": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 21,
+        "total": 24,
+        "rate": 0.875,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C15": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C16": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C17": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C18": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C19": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C20": {
+      "old": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C21": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C22": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C23": {
+      "old": {
+        "passed": 17,
+        "total": 24,
+        "rate": 0.7083333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 15,
+        "total": 24,
+        "rate": 0.625,
+        "execution_failures": 0
+      }
+    },
+    "C24": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C25": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C26": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C27": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28": {
+      "old": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28C": {
+      "old": {
+        "passed": 6,
+        "total": 24,
+        "rate": 0.25,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28H": {
+      "old": {
+        "passed": 18,
+        "total": 24,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28T": {
+      "old": {
+        "passed": 13,
+        "total": 24,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "category_delay": {
+    "C01": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C02": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C03": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C04": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C05": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C06": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C07": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C08": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C09": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C10": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C11": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C12": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C13": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C14": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C15": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C16": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C17": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C18": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C19": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C20": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C21": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C22": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C23": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C24": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C25": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C26": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C27": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28C": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 1,
+          "total": 6,
+          "rate": 0.16666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28H": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28T": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    }
+  },
+  "modality": {
+    "纯文字源": {
+      "old": {
+        "passed": 510,
+        "total": 552,
+        "rate": 0.9239130434782609,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 544,
+        "total": 552,
+        "rate": 0.9855072463768116,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 549,
+        "total": 552,
+        "rate": 0.9945652173913043,
+        "execution_failures": 0
+      }
+    },
+    "含语音": {
+      "old": {
+        "passed": 45,
+        "total": 48,
+        "rate": 0.9375,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "含图像": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      }
+    },
+    "含文件/表格": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "含引用/转发": {
+      "old": {
+        "passed": 53,
+        "total": 72,
+        "rate": 0.7361111111111112,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 59,
+        "total": 72,
+        "rate": 0.8194444444444444,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 63,
+        "total": 72,
+        "rate": 0.875,
+        "execution_failures": 0
+      }
+    },
+    "含助手历史": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "finance": {
+    "deepseek": {
+      "charged_or_held_cny": 38.29572228,
+      "cap_cny": 79,
+      "states": {
+        "SETTLED": 6303
+      },
+      "phases": {
+        "old": {
+          "calls": 1748,
+          "charged_or_held_cny": 13.81379448000001,
+          "input_tokens": 6794045,
+          "cached_tokens": 4315758,
+          "output_tokens": 509999
+        },
+        "new": {
+          "calls": 1522,
+          "charged_or_held_cny": 7.52974284,
+          "input_tokens": 5076089,
+          "cached_tokens": 3684864,
+          "output_tokens": 261248
+        },
+        "rag": {
+          "calls": 744,
+          "charged_or_held_cny": 4.242558840000002,
+          "input_tokens": 835437,
+          "cached_tokens": 1664,
+          "output_tokens": 145095
+        },
+        "closed": {
+          "calls": 744,
+          "charged_or_held_cny": 1.5914879999999985,
+          "input_tokens": 109396,
+          "cached_tokens": 0,
+          "output_tokens": 105275
+        },
+        "judge": {
+          "calls": 1545,
+          "charged_or_held_cny": 11.118138120000005,
+          "input_tokens": 2227507,
+          "cached_tokens": 410752,
+          "output_tokens": 470269
+        }
+      },
+      "invoice_verified": false
+    },
+    "qwen": {
+      "charged_or_held_cny": 33.104181,
+      "cap_cny": 80,
+      "states": {
+        "SETTLED": 1678
+      },
+      "phases": {
+        "rag": {
+          "calls": 1025,
+          "charged_or_held_cny": 15.167114999999987,
+          "input_tokens": 3033423,
+          "cached_tokens": 0,
+          "output_tokens": 0
+        },
+        "judge": {
+          "calls": 653,
+          "charged_or_held_cny": 17.937066,
+          "input_tokens": 1027829,
+          "cached_tokens": 0,
+          "output_tokens": 326947
+        }
+      },
+      "invoice_verified": false
+    },
+    "deepseek_smoke": {
+      "charged_or_held_cny": 0.11819016,
+      "cap_cny": 1,
+      "states": {
+        "SETTLED": 21
+      },
+      "phases": {
+        "new": {
+          "calls": 21,
+          "charged_or_held_cny": 0.11819016,
+          "input_tokens": 56110,
+          "cached_tokens": 33536,
+          "output_tokens": 4038
+        }
+      },
+      "invoice_verified": false
+    },
+    "deepseek_combined": {
+      "charged_or_held_cny": 38.41391244,
+      "cap_cny": 80,
+      "invoice_verified": false
+    }
+  },
+  "review_count": 449,
+  "override_count": 44,
+  "not_independent_human": true,
+  "limitations": [
+    "六个新虚构人物，168个事实组，744个提问实例；重复时间档和版本链视角共享事实，统计按事实组聚合。",
+    "题库参考Ornn公开方法新编，正式714题私有卷未公开；本轮分数不能与其公开排名直接比较。",
+    "题库与Core修复由同一助手完成；模型判官盲判并掺固定锚，复核不等于独立人工审计。",
+    "使用逻辑时间重放半年历史，不是真实等待半年；记录原生维护与证据截止轮。",
+    "DeepSeek主账上限79元加已曝光示例冒烟上限1元；千问另账80元。账本为保守估计及预留，非供应商发票。",
+    "实际调度：19:14旧版先开始；19:46:09起新旧臂并行，每臂人物串行。21:55起判卷，22:08:59起三票并行。混合调度且争用CPU，不能据整轮或单题耗时宣称隔离性能提升。",
+    "细考点每个间隔通常只有6题（6个事实组），薄于参考图的10–19题；31个细类中的版本链视角共享6条链。168个事实组也共享6个人物及模板，区间为探索性描述。",
+    "事后发现24道题有当前/当天时间指代歧义：主分数保留冻结判据，另对全部系统统一排除；9份钥匙归属答案存在语义边界，保留原多数票并给宽严范围。",
+    "C12判据中的或原因不明，以及v3不因unsupported额外说法直接判错，会使部分错误采信后报颜色的回答过关；该类分数不能当作严格矛盾保留率。",
+    "字段诊断为同一证据单元内的词串启发式，并非语义正确证据或端到端召回率；无法匹配的判据另列，不能把覆盖率称为准确率。",
+    "提取时有一条引用即计提问时已抽取，不表示全部必要事实齐备；batch_failed是任务事件数，与坏JSON响应数定义不同。",
+    "双供应商三票中的两票来自同一DeepSeek模型，三票不是三位独立人类；锚点来自已曝光v4复核材料，过门槛不保证每题判对。"
+  ],
+  "controls": {
+    "closed": {
+      "passed": 24,
+      "total": 744,
+      "rate": 0.03225806451612903,
+      "execution_failures": 0
+    }
+  },
+  "guessable_without_memory": [
+    "V01-C25/d00",
+    "V01-C25/d03",
+    "V01-C25/d15",
+    "V01-C25/d45",
+    "V02-C25/d00",
+    "V02-C25/d03",
+    "V02-C25/d15",
+    "V02-C25/d45",
+    "V03-C25/d00",
+    "V03-C25/d03",
+    "V03-C25/d15",
+    "V03-C25/d45",
+    "V04-C25/d00",
+    "V04-C25/d03",
+    "V04-C25/d15",
+    "V04-C25/d45",
+    "V05-C25/d00",
+    "V05-C25/d03",
+    "V05-C25/d15",
+    "V05-C25/d45",
+    "V06-C25/d00",
+    "V06-C25/d03",
+    "V06-C25/d15",
+    "V06-C25/d45"
+  ],
+  "memory_dependent": {
+    "old": {
+      "passed": 652,
+      "total": 720,
+      "rate": 0.9055555555555556,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 690,
+      "total": 720,
+      "rate": 0.9583333333333334,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 703,
+      "total": 720,
+      "rate": 0.9763888888888889,
+      "execution_failures": 0
+    }
+  },
+  "exact": {
+    "old": {
+      "checked": 432,
+      "exact_pass": 345,
+      "disagree_with_final": 44
+    },
+    "new": {
+      "checked": 432,
+      "exact_pass": 371,
+      "disagree_with_final": 59
+    },
+    "rag": {
+      "checked": 432,
+      "exact_pass": 400,
+      "disagree_with_final": 21
+    }
+  },
+  "strata": {
+    "chain_len": {
+      "values": {
+        "2": {
+          "old": {
+            "passed": 1,
+            "total": 16,
+            "rate": 0.0625,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "3": {
+          "old": {
+            "passed": 14,
+            "total": 16,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 15,
+            "total": 16,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "4": {
+          "old": {
+            "passed": 23,
+            "total": 32,
+            "rate": 0.71875,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 28,
+            "total": 32,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 32,
+            "total": 32,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "5": {
+          "old": {
+            "passed": 9,
+            "total": 16,
+            "rate": 0.5625,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 13,
+            "total": 16,
+            "rate": 0.8125,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "6": {
+          "old": {
+            "passed": 6,
+            "total": 16,
+            "rate": 0.375,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      },
+      "legacy_independent_item_z_NOT_USED_FOR_INFERENCE": {
+        "old": -2.138,
+        "new": null,
+        "rag": null
+      }
+    },
+    "interference": {
+      "values": {
+        "none": {
+          "old": {
+            "passed": 17,
+            "total": 48,
+            "rate": 0.3541666666666667,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "relayed": {
+          "old": {
+            "passed": 36,
+            "total": 48,
+            "rate": 0.75,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 40,
+            "total": 48,
+            "rate": 0.8333333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    },
+    "primary_topic": {
+      "values": {
+        "假设": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "偏好": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "共同编的故事": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "分散的线索": {
+          "old": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 16,
+            "total": 24,
+            "rate": 0.6666666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "助手自己说过的话": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "带条件或期限的偏好和边界": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "改口": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "敏感的事": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "时间约定": {
+          "old": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "时间题": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "没解释的矛盾": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "没说完要跟进的事": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "版本链": {
+          "old": {
+            "passed": 53,
+            "total": 96,
+            "rate": 0.5520833333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 88,
+            "total": 96,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 96,
+            "total": 96,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "生日": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "用户的基本信息": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "相似事件": {
+          "old": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 19,
+            "total": 24,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          }
+        },
+        "相对日期": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "真实变化": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "称呼条件": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "第三方事实": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 21,
+            "total": 24,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "纠错": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "约定和欠账": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "职业": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 21,
+            "total": 24,
+            "rate": 0.875,
+            "execution_failures": 0
+          }
+        },
+        "计划": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "计划假设梦转述猜测": {
+          "old": {
+            "passed": 19,
+            "total": 24,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "资料不足": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "转述": {
+          "old": {
+            "passed": 17,
+            "total": 24,
+            "rate": 0.7083333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 19,
+            "total": 24,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 15,
+            "total": 24,
+            "rate": 0.625,
+            "execution_failures": 0
+          }
+        },
+        "边界": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    },
+    "relayed": {
+      "values": {
+        "False": {
+          "old": {
+            "passed": 17,
+            "total": 48,
+            "rate": 0.3541666666666667,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "True": {
+          "old": {
+            "passed": 36,
+            "total": 48,
+            "rate": 0.75,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 40,
+            "total": 48,
+            "rate": 0.8333333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    }
+  },
+  "judging": {
+    "status": "AUTO_COMPLETE_REVIEW_PENDING",
+    "judges": [
+      "deepseek",
+      "deepseek",
+      "qwen"
+    ],
+    "votes": 3,
+    "anchor_gates": {
+      "vote-1": {
+        "checked": 1612,
+        "accuracy": 0.7866,
+        "majority_baseline": 0.5062,
+        "discarded_batches": 307,
+        "batches": 806,
+        "passed": true
+      },
+      "vote-2": {
+        "checked": 1478,
+        "accuracy": 0.7666,
+        "majority_baseline": 0.5034,
+        "discarded_batches": 304,
+        "batches": 739,
+        "passed": true
+      },
+      "vote-3": {
+        "checked": 1306,
+        "accuracy": 0.8224,
+        "majority_baseline": 0.5176,
+        "discarded_batches": 218,
+        "batches": 653,
+        "passed": true
+      }
+    },
+    "anchor_failed_keys": 28,
+    "split_decisions": 150
+  },
+  "new_minus_old_points": 5.107526881720437,
+  "latency": {
+    "old": {
+      "median_seconds": 4.262059,
+      "p95_seconds": 16.52924285,
+      "n": 744
+    },
+    "new": {
+      "median_seconds": 4.2929625,
+      "p95_seconds": 11.284465249999998,
+      "n": 744
+    },
+    "rag": {
+      "median_seconds": 3.313000000009197,
+      "p95_seconds": 4.937000000005355,
+      "n": 744
+    }
+  },
+  "bootstrap": {
+    "fact_group": {
+      "cluster": "dependency_group",
+      "clusters": 168,
+      "repetitions": 20000,
+      "seed": 20261103,
+      "method": "paired percentile cluster bootstrap; question-weighted ratio",
+      "accuracy_95_ci": {
+        "old": [
+          0.8571428571428571,
+          0.9525862068965517
+        ],
+        "new": [
+          0.9402985074626866,
+          0.9775132275132276
+        ],
+        "rag": [
+          0.9596774193548387,
+          0.9908854166666666
+        ]
+      },
+      "new_minus_old_points_95_ci": [
+        0.4310344827586188,
+        10.546875
+      ],
+      "equal_cluster_weight_accuracy": {
+        "old": 0.9468005952380952,
+        "new": 0.9642857142857143,
+        "rag": 0.9747023809523809
+      },
+      "exploratory_not_independent_story_or_persona_guarantee": true
+    },
+    "persona": {
+      "cluster": "persona",
+      "clusters": 6,
+      "repetitions": 20000,
+      "seed": 20261103,
+      "method": "paired percentile cluster bootstrap; question-weighted ratio",
+      "accuracy_95_ci": {
+        "old": [
+          0.8817204301075269,
+          0.9341397849462365
+        ],
+        "new": [
+          0.9395161290322581,
+          0.978494623655914
+        ],
+        "rag": [
+          0.9637096774193549,
+          0.9865591397849462
+        ]
+      },
+      "new_minus_old_points_95_ci": [
+        1.2096774193548487,
+        8.870967741935488
+      ],
+      "equal_cluster_weight_accuracy": {
+        "old": 0.9086021505376344,
+        "new": 0.9596774193548386,
+        "rag": 0.9771505376344086
+      },
+      "exploratory_not_independent_story_or_persona_guarantee": true
+    }
+  },
+  "by_persona": {
+    "V01": {
+      "old": {
+        "passed": 106,
+        "total": 124,
+        "rate": 0.8548387096774194,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 121,
+        "total": 124,
+        "rate": 0.9758064516129032,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 123,
+        "total": 124,
+        "rate": 0.9919354838709677,
+        "execution_failures": 0
+      }
+    },
+    "V02": {
+      "old": {
+        "passed": 116,
+        "total": 124,
+        "rate": 0.9354838709677419,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 122,
+        "total": 124,
+        "rate": 0.9838709677419355,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 122,
+        "total": 124,
+        "rate": 0.9838709677419355,
+        "execution_failures": 0
+      }
+    },
+    "V03": {
+      "old": {
+        "passed": 114,
+        "total": 124,
+        "rate": 0.9193548387096774,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 122,
+        "total": 124,
+        "rate": 0.9838709677419355,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 122,
+        "total": 124,
+        "rate": 0.9838709677419355,
+        "execution_failures": 0
+      }
+    },
+    "V04": {
+      "old": {
+        "passed": 113,
+        "total": 124,
+        "rate": 0.9112903225806451,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 116,
+        "total": 124,
+        "rate": 0.9354838709677419,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 122,
+        "total": 124,
+        "rate": 0.9838709677419355,
+        "execution_failures": 0
+      }
+    },
+    "V05": {
+      "old": {
+        "passed": 109,
+        "total": 124,
+        "rate": 0.8790322580645161,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 119,
+        "total": 124,
+        "rate": 0.9596774193548387,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 121,
+        "total": 124,
+        "rate": 0.9758064516129032,
+        "execution_failures": 0
+      }
+    },
+    "V06": {
+      "old": {
+        "passed": 118,
+        "total": 124,
+        "rate": 0.9516129032258065,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 114,
+        "total": 124,
+        "rate": 0.9193548387096774,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 117,
+        "total": 124,
+        "rate": 0.9435483870967742,
+        "execution_failures": 0
+      }
+    }
+  },
+  "posthoc_validity_sensitivity": {
+    "excluded_question_ids": [
+      "V01-C03/d45",
+      "V01-C04/d03",
+      "V01-C04/d15",
+      "V01-C04/d45",
+      "V02-C03/d45",
+      "V02-C04/d03",
+      "V02-C04/d15",
+      "V02-C04/d45",
+      "V03-C03/d45",
+      "V03-C04/d03",
+      "V03-C04/d15",
+      "V03-C04/d45",
+      "V04-C03/d45",
+      "V04-C04/d03",
+      "V04-C04/d15",
+      "V04-C04/d45",
+      "V05-C03/d45",
+      "V05-C04/d03",
+      "V05-C04/d15",
+      "V05-C04/d45",
+      "V06-C03/d45",
+      "V06-C04/d03",
+      "V06-C04/d15",
+      "V06-C04/d45"
+    ],
+    "all_arms_uniform": true,
+    "posthoc": true,
+    "scores": {
+      "old": {
+        "passed": 653,
+        "total": 720,
+        "rate": 0.9069444444444444,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 691,
+        "total": 720,
+        "rate": 0.9597222222222223,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 706,
+        "total": 720,
+        "rate": 0.9805555555555555,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 24,
+        "total": 720,
+        "rate": 0.03333333333333333,
+        "execution_failures": 0
+      }
+    },
+    "new_minus_old_points": 5.277777777777781,
+    "bootstrap": {
+      "cluster": "dependency_group",
+      "clusters": 168,
+      "repetitions": 20000,
+      "seed": 20261103,
+      "method": "paired percentile cluster bootstrap; question-weighted ratio",
+      "accuracy_95_ci": {
+        "old": [
+          0.8538750036537579,
+          0.9523077496274217
+        ],
+        "new": [
+          0.9399727148703957,
+          0.9780521262002744
+        ],
+        "rag": [
+          0.9629629629629629,
+          0.9943582510578279
+        ]
+      },
+      "new_minus_old_points_95_ci": [
+        0.44910179640718084,
+        10.861484499088181
+      ],
+      "equal_cluster_weight_accuracy": {
+        "old": 0.9482886904761905,
+        "new": 0.9657738095238095,
+        "rag": 0.9791666666666666
+      },
+      "exploratory_not_independent_story_or_persona_guarantee": true
+    }
+  },
+  "semantic_boundary_sensitivity": {
+    "old": {
+      "boundary_answers": 4,
+      "passed_min": 674,
+      "passed_max": 678,
+      "rate_min": 0.9059139784946236,
+      "rate_max": 0.9112903225806451
+    },
+    "new": {
+      "boundary_answers": 5,
+      "passed_min": 714,
+      "passed_max": 719,
+      "rate_min": 0.9596774193548387,
+      "rate_max": 0.9663978494623656
+    },
+    "rag": {
+      "boundary_answers": 0,
+      "passed_min": 727,
+      "passed_max": 727,
+      "rate_min": 0.9771505376344086,
+      "rate_max": 0.9771505376344086
+    }
+  },
+  "semantic_boundary_new_minus_old_points_range": [
+    4.838709677419361,
+    6.048387096774199
+  ],
+  "content_tags_overlapping": {
+    "假设": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "偏好": {
+      "old": {
+        "passed": 46,
+        "total": 48,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 47,
+        "total": 48,
+        "rate": 0.9791666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "共同编的故事": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "分散的线索": {
+      "old": {
+        "passed": 105,
+        "total": 144,
+        "rate": 0.7291666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 132,
+        "total": 144,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 139,
+        "total": 144,
+        "rate": 0.9652777777777778,
+        "execution_failures": 0
+      }
+    },
+    "助手自己说过的话": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "带条件或期限的偏好和边界": {
+      "old": {
+        "passed": 71,
+        "total": 72,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 71,
+        "total": 72,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 72,
+        "total": 72,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "改口": {
+      "old": {
+        "passed": 80,
+        "total": 96,
+        "rate": 0.8333333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 86,
+        "total": 96,
+        "rate": 0.8958333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 87,
+        "total": 96,
+        "rate": 0.90625,
+        "execution_failures": 0
+      }
+    },
+    "敏感的事": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "时间约定": {
+      "old": {
+        "passed": 90,
+        "total": 96,
+        "rate": 0.9375,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 87,
+        "total": 96,
+        "rate": 0.90625,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 96,
+        "total": 96,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "时间题": {
+      "old": {
+        "passed": 85,
+        "total": 120,
+        "rate": 0.7083333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 117,
+        "total": 120,
+        "rate": 0.975,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 120,
+        "total": 120,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "没解释的矛盾": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "没说完要跟进的事": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "版本链·变更顺序": {
+      "old": {
+        "passed": 6,
+        "total": 24,
+        "rate": 0.25,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "版本链·当前值": {
+      "old": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "版本链·最早的值": {
+      "old": {
+        "passed": 18,
+        "total": 24,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "版本链·某天的值": {
+      "old": {
+        "passed": 13,
+        "total": 24,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "生日": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "用户的基本信息": {
+      "old": {
+        "passed": 72,
+        "total": 72,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 71,
+        "total": 72,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 69,
+        "total": 72,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      }
+    },
+    "相似事件": {
+      "old": {
+        "passed": 132,
+        "total": 144,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 127,
+        "total": 144,
+        "rate": 0.8819444444444444,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 139,
+        "total": 144,
+        "rate": 0.9652777777777778,
+        "execution_failures": 0
+      }
+    },
+    "相对日期": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "真实变化": {
+      "old": {
+        "passed": 128,
+        "total": 144,
+        "rate": 0.8888888888888888,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 133,
+        "total": 144,
+        "rate": 0.9236111111111112,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 135,
+        "total": 144,
+        "rate": 0.9375,
+        "execution_failures": 0
+      }
+    },
+    "称呼条件": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "第三方事实": {
+      "old": {
+        "passed": 109,
+        "total": 120,
+        "rate": 0.9083333333333333,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 104,
+        "total": 120,
+        "rate": 0.8666666666666667,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 111,
+        "total": 120,
+        "rate": 0.925,
+        "execution_failures": 0
+      }
+    },
+    "纠错": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "约定和欠账": {
+      "old": {
+        "passed": 71,
+        "total": 72,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 71,
+        "total": 72,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 72,
+        "total": 72,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "职业": {
+      "old": {
+        "passed": 114,
+        "total": 120,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 116,
+        "total": 120,
+        "rate": 0.9666666666666667,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 117,
+        "total": 120,
+        "rate": 0.975,
+        "execution_failures": 0
+      }
+    },
+    "计划": {
+      "old": {
+        "passed": 94,
+        "total": 96,
+        "rate": 0.9791666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 94,
+        "total": 96,
+        "rate": 0.9791666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 96,
+        "total": 96,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "计划假设梦转述猜测": {
+      "old": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "资料不足": {
+      "old": {
+        "passed": 137,
+        "total": 144,
+        "rate": 0.9513888888888888,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 142,
+        "total": 144,
+        "rate": 0.9861111111111112,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 144,
+        "total": 144,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "转述": {
+      "old": {
+        "passed": 17,
+        "total": 24,
+        "rate": 0.7083333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 15,
+        "total": 24,
+        "rate": 0.625,
+        "execution_failures": 0
+      }
+    },
+    "边界": {
+      "old": {
+        "passed": 95,
+        "total": 96,
+        "rate": 0.9895833333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 95,
+        "total": 96,
+        "rate": 0.9895833333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 96,
+        "total": 96,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "native_metrics": {
+    "old": {
+      "request_response_pairs": 1748,
+      "usage_by_scenario": {
+        "memory_extract": {
+          "calls": 432,
+          "input_tokens": 1278166,
+          "cached_input_tokens": 450040,
+          "output_tokens": 334256,
+          "state_SETTLED": 432
+        },
+        "memory_review": {
+          "calls": 382,
+          "input_tokens": 435001,
+          "cached_input_tokens": 63350,
+          "output_tokens": 14286,
+          "state_SETTLED": 382
+        },
+        "chat": {
+          "calls": 934,
+          "input_tokens": 5080878,
+          "cached_input_tokens": 3802368,
+          "output_tokens": 161457,
+          "state_SETTLED": 934
+        }
+      },
+      "audit_actions": {
+        "memory.batch_failed": 54,
+        "memory.conflict": 13,
+        "memory.review_invalid": 20,
+        "memory.replaced": 8
+      },
+      "rejection_reason_codes": {},
+      "extraction_responses": 432,
+      "strict_json_parse_failures": 27,
+      "extraction_without_content": 0,
+      "exam_tool_calls": {
+        "memory_recall": 264,
+        "reading_catalog": 1,
+        "memory_history": 2
+      },
+      "exam_memory_recall_duplicate_arguments": 0,
+      "exam_cases_with_raw_fallback": 0,
+      "exam_cases_with_stopped_tool_result": 0,
+      "exam_recall_calls_distribution": {
+        "n": 744,
+        "median": 0.0,
+        "p95": 2.0,
+        "max": 5
+      },
+      "before_first_provider_seconds": {
+        "n": 744,
+        "median": 1.3575074,
+        "p95": 5.795895105,
+        "max": 31.9139356
+      },
+      "job_seconds": {
+        "n": 744,
+        "median": 4.21664515,
+        "p95": 16.441653040000002,
+        "max": 45.5419876
+      }
+    },
+    "new": {
+      "request_response_pairs": 1522,
+      "usage_by_scenario": {
+        "memory_extract": {
+          "calls": 402,
+          "input_tokens": 606119,
+          "cached_input_tokens": 404736,
+          "output_tokens": 101965,
+          "state_SETTLED": 402
+        },
+        "memory_review": {
+          "calls": 269,
+          "input_tokens": 189380,
+          "cached_input_tokens": 37760,
+          "output_tokens": 6325,
+          "state_SETTLED": 269
+        },
+        "chat": {
+          "calls": 851,
+          "input_tokens": 4280590,
+          "cached_input_tokens": 3242368,
+          "output_tokens": 152958,
+          "state_SETTLED": 851
+        }
+      },
+      "audit_actions": {
+        "memory.batch_failed": 9,
+        "memory.replaced": 12,
+        "memory.candidate_rejected": 1,
+        "memory.review_invalid": 5,
+        "memory.conflict": 11
+      },
+      "rejection_reason_codes": {
+        "UNSUPPORTED_MEMORY_EVIDENCE": 1
+      },
+      "extraction_responses": 402,
+      "strict_json_parse_failures": 1,
+      "extraction_without_content": 0,
+      "exam_tool_calls": {
+        "memory_recall": 99
+      },
+      "exam_memory_recall_duplicate_arguments": 0,
+      "exam_cases_with_raw_fallback": 17,
+      "exam_cases_with_stopped_tool_result": 0,
+      "exam_recall_calls_distribution": {
+        "n": 744,
+        "median": 0.0,
+        "p95": 1.0,
+        "max": 4
+      },
+      "before_first_provider_seconds": {
+        "n": 744,
+        "median": 1.39266135,
+        "p95": 4.136919615,
+        "max": 26.653284
+      },
+      "job_seconds": {
+        "n": 744,
+        "median": 4.248106,
+        "p95": 11.171870885,
+        "max": 49.1669272
+      }
+    }
+  },
+  "diagnosis": {
+    "old": {
+      "first_loss": {
+        "passed": 676,
+        "answered": 16,
+        "fields_in_prompt": 52
+      },
+      "executed_rate": 1.0,
+      "sources_read_rate": 1.0,
+      "extraction_at_question_time": 0.853494623655914,
+      "fields_in_prompt_rate": 0.8897849462365591,
+      "field_presence": 0.9357541899441341,
+      "unchecked_items": 152,
+      "pass_rate_given_fields": 0.9758308157099698,
+      "passed_without_detected_fields": 30,
+      "by_category": {
+        "C01": {
+          "passed": 24
+        },
+        "C02": {
+          "passed": 24
+        },
+        "C03": {
+          "passed": 24
+        },
+        "C04": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C05": {
+          "passed": 24
+        },
+        "C06": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C07": {
+          "passed": 24
+        },
+        "C08": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C09": {
+          "passed": 24
+        },
+        "C10": {
+          "passed": 24
+        },
+        "C11": {
+          "passed": 24
+        },
+        "C12": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C13": {
+          "passed": 22,
+          "answered": 2
+        },
+        "C14": {
+          "passed": 24
+        },
+        "C15": {
+          "passed": 24
+        },
+        "C16": {
+          "passed": 22,
+          "answered": 2
+        },
+        "C17": {
+          "passed": 22,
+          "fields_in_prompt": 2
+        },
+        "C18": {
+          "answered": 1,
+          "passed": 23
+        },
+        "C19": {
+          "passed": 24
+        },
+        "C20": {
+          "fields_in_prompt": 5,
+          "passed": 19
+        },
+        "C21": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C22": {
+          "passed": 24
+        },
+        "C23": {
+          "passed": 17,
+          "fields_in_prompt": 4,
+          "answered": 3
+        },
+        "C24": {
+          "passed": 23,
+          "fields_in_prompt": 1
+        },
+        "C25": {
+          "passed": 24
+        },
+        "C26": {
+          "passed": 24
+        },
+        "C27": {
+          "passed": 24
+        },
+        "C28": {
+          "fields_in_prompt": 8,
+          "passed": 16
+        },
+        "C28C": {
+          "fields_in_prompt": 18,
+          "passed": 6
+        },
+        "C28H": {
+          "passed": 18,
+          "answered": 3,
+          "fields_in_prompt": 3
+        },
+        "C28T": {
+          "fields_in_prompt": 11,
+          "passed": 13
+        }
+      }
+    },
+    "new": {
+      "first_loss": {
+        "passed": 714,
+        "answered": 16,
+        "fields_in_prompt": 14
+      },
+      "executed_rate": 1.0,
+      "sources_read_rate": 1.0,
+      "extraction_at_question_time": 0.8508064516129032,
+      "fields_in_prompt_rate": 0.9220430107526881,
+      "field_presence": 0.9587988826815642,
+      "unchecked_items": 152,
+      "pass_rate_given_fields": 0.9766763848396501,
+      "passed_without_detected_fields": 44,
+      "by_category": {
+        "C01": {
+          "passed": 24
+        },
+        "C02": {
+          "passed": 24
+        },
+        "C03": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C04": {
+          "passed": 24
+        },
+        "C05": {
+          "passed": 24
+        },
+        "C06": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C07": {
+          "passed": 24
+        },
+        "C08": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C09": {
+          "passed": 24
+        },
+        "C10": {
+          "passed": 24
+        },
+        "C11": {
+          "passed": 24
+        },
+        "C12": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C13": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C14": {
+          "passed": 21,
+          "fields_in_prompt": 1,
+          "answered": 2
+        },
+        "C15": {
+          "passed": 24
+        },
+        "C16": {
+          "passed": 16,
+          "answered": 8
+        },
+        "C17": {
+          "passed": 24
+        },
+        "C18": {
+          "passed": 24
+        },
+        "C19": {
+          "passed": 24
+        },
+        "C20": {
+          "passed": 24
+        },
+        "C21": {
+          "passed": 23,
+          "answered": 1
+        },
+        "C22": {
+          "passed": 24
+        },
+        "C23": {
+          "passed": 19,
+          "fields_in_prompt": 5
+        },
+        "C24": {
+          "passed": 24
+        },
+        "C25": {
+          "passed": 24
+        },
+        "C26": {
+          "passed": 24
+        },
+        "C27": {
+          "passed": 24
+        },
+        "C28": {
+          "passed": 19,
+          "fields_in_prompt": 5
+        },
+        "C28C": {
+          "passed": 22,
+          "fields_in_prompt": 2
+        },
+        "C28H": {
+          "passed": 23,
+          "fields_in_prompt": 1
+        },
+        "C28T": {
+          "passed": 24
+        }
+      }
+    },
+    "rag": {
+      "first_loss": {
+        "passed": 727,
+        "answered": 8,
+        "fields_in_prompt": 9
+      },
+      "executed_rate": 1.0,
+      "sources_read_rate": 1.0,
+      "extraction_at_question_time": null,
+      "fields_in_prompt_rate": 0.9193548387096774,
+      "field_presence": 0.9581005586592178,
+      "unchecked_items": 152,
+      "pass_rate_given_fields": 0.9883040935672515,
+      "passed_without_detected_fields": 51,
+      "by_category": {
+        "C01": {
+          "passed": 24
+        },
+        "C02": {
+          "passed": 24
+        },
+        "C03": {
+          "passed": 21,
+          "answered": 3
+        },
+        "C04": {
+          "passed": 24
+        },
+        "C05": {
+          "passed": 24
+        },
+        "C06": {
+          "passed": 24
+        },
+        "C07": {
+          "passed": 24
+        },
+        "C08": {
+          "passed": 24
+        },
+        "C09": {
+          "passed": 24
+        },
+        "C10": {
+          "passed": 24
+        },
+        "C11": {
+          "passed": 24
+        },
+        "C12": {
+          "passed": 24
+        },
+        "C13": {
+          "passed": 19,
+          "answered": 5
+        },
+        "C14": {
+          "passed": 24
+        },
+        "C15": {
+          "passed": 24
+        },
+        "C16": {
+          "passed": 24
+        },
+        "C17": {
+          "passed": 24
+        },
+        "C18": {
+          "passed": 24
+        },
+        "C19": {
+          "passed": 24
+        },
+        "C20": {
+          "passed": 24
+        },
+        "C21": {
+          "passed": 24
+        },
+        "C22": {
+          "passed": 24
+        },
+        "C23": {
+          "passed": 15,
+          "fields_in_prompt": 9
+        },
+        "C24": {
+          "passed": 24
+        },
+        "C25": {
+          "passed": 24
+        },
+        "C26": {
+          "passed": 24
+        },
+        "C27": {
+          "passed": 24
+        },
+        "C28": {
+          "passed": 24
+        },
+        "C28C": {
+          "passed": 24
+        },
+        "C28H": {
+          "passed": 24
+        },
+        "C28T": {
+          "passed": 24
+        }
+      }
+    }
+  },
+  "chain_contribution": {
+    "version_chain": {
+      "old": {
+        "passed": 53,
+        "total": 96,
+        "rate": 0.5520833333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 88,
+        "total": 96,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 96,
+        "total": 96,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "other_questions": {
+      "old": {
+        "passed": 623,
+        "total": 648,
+        "rate": 0.9614197530864198,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 626,
+        "total": 648,
+        "rate": 0.9660493827160493,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 631,
+        "total": 648,
+        "rate": 0.9737654320987654,
+        "execution_failures": 0
+      }
+    }
+  }
+}

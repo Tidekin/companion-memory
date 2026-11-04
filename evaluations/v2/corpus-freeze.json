@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN_SCHEMA_CHRONOLOGY_MEDIA_PASSED",
+  "at": "2026-11-02T17:34:03.501591+00:00",
+  "bundle_manifest_sha256": "b621a116ff65a7806cda72495f3c851704891750e52fb99bec743a745ac008d5",
+  "questions_sha256": "1d216e9a48b9222cd2f2c56fe291c3d06f0249d8bcdbd3e65558f97477e2681c",
+  "criteria_sha256": "eea854aca13219aaca4313e8796434466c46128e2680421b5d54eba0addfa8fb",
+  "asr_sha256": "4c694e981540825470c3aba493923c85babd3653880f6c71f77547fb907edd93",
+  "source_counts": {
+    "text": 171,
+    "file": 24,
+    "voice": 18,
+    "forward": 12,
+    "assistant": 6,
+    "quote": 6,
+    "relative_voice": 3,
+    "image": 12
+  },
+  "audio_assets": 21,
+  "audio_total_seconds": 170.70154195011338,
+  "checked_cutoffs": 576,
+  "per_persona": {
+    "M01": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "M02": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "M03": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "M04": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "M05": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    },
+    "M06": {
+      "semantic_questions": 96,
+      "maximum_cutoff_turn": 346
+    }
+  },
+  "asr_errors_preserved_not_replaced_with_authoring_text": true,
+  "actual_pngs_inspected": {
+    "M02-Q18-S1.png": "bde80dae3bfb218cbf38f809d504ce05d77ef127b84d6bb7e2c85f8660f8c3a9",
+    "M01-Q19-S1.png": "424612a13605d391243af6cb6de89becdcf6e445b4a47ec82d9856873b330d0c"
+  },
+  "review_selection_preregistered": "M02/all24categories/d15 across3arms =72 answers, plus failures differing between arms",
+  "old_bank_or_optimizer_probe_facts_imported": false,
+  "limitation": "Six fictional people and 24 topic templates; repeated delay questions are correlated. Author is Claude (same agent that changed Core); review is not independent human grading."
+}

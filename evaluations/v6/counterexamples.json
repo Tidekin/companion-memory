@@ -1,0 +1,78 @@
+{
+  "scope": "Post-hoc case diagnosis, not error-rate estimation; no new provider calls.",
+  "benchmark_candidate": "7074838d13336240968d39b0299ada126b610b99",
+  "cases": [
+    {
+      "id": "X06-C23/d03",
+      "arm": "new",
+      "passed": false,
+      "answer": "你转我的那条是“听说改走鹭湾北门，不确定”，还是听说的口气，没写是谁讲的\n\n\n你自己拿到的通知是鹭湾西门，这个是你亲口说的\n\n\n那条北门的说法是转来的，不算定，你当时也没找组织方确认过\n\n所以我这边没有“已经改成北门”的确认，还是按西门的通知看，想踏实就再问一句",
+      "diagnosis": "确定性上下文丢失：原请求有转述人，工具续接后原文组被裁掉。已另行合成修复，不重算冻结分数。",
+      "request_file": "arms/new/results/X06/requests.jsonl",
+      "request_file_sha256": "17375b5268f030b87a8306e009d76e1dfef80d562232c8c078229bd1ff0242c3",
+      "per_request_term_counts": [
+        {
+          "韦葵": 4
+        },
+        {
+          "韦葵": 0
+        }
+      ]
+    },
+    {
+      "id": "X05-C14/d00",
+      "arm": "new",
+      "passed": false,
+      "answer": "戴岚是戴曦的弟弟，也就是你自己的弟弟\n\n他一直做木刻书签，不算纸萤社的人\n\n这趟来是参加交流短课，不是来入职的",
+      "diagnosis": "最终请求仍有否定归属，回答却混淆主人与朋友的弟弟；属于回答生成错误。",
+      "request_file": "arms/new/results/X05/requests.jsonl",
+      "request_file_sha256": "38f64a124cbc5ed0dd9e9a4a8079a1069f80479a1717bac62f1f2f7b84e34c9d",
+      "per_request_term_counts": [
+        {
+          "不是我弟弟": 1
+        }
+      ]
+    },
+    {
+      "id": "X03-C07/d15",
+      "arm": "new",
+      "passed": false,
+      "answer": "你欠施芙的呀，她先替你垫的榆星义卖物料款。\n\n\n总数是137，2月15号那天你说已经转了她47，还剩87。\n\n\n当时你说剩下的等周末给，后来到底给了没，我这边还真不知道。",
+      "diagnosis": "原始数值已在请求中，回答算87而正确差值90；属于计算生成错误。",
+      "request_file": "arms/new/results/X03/requests.jsonl",
+      "request_file_sha256": "1e4649e924442519e505fb3e7f9f689f83198456f8f56674334076e39e90c525",
+      "per_request_term_counts": [
+        {
+          "137": 2,
+          "47": 2
+        }
+      ]
+    },
+    {
+      "id": "X03-C30/d45",
+      "arm": "new",
+      "passed": false,
+      "answer": "花生烧饼啊，你自己定的，别找新花样。热汤就别了，车上端着洒一裤子谁收拾。\n\n\n饭盒后来没听你提过，买了没？",
+      "diagnosis": "最后请求仍有未选中状态，但回答没有保留；不能归因为来源未进上下文。",
+      "request_file": "arms/new/results/X03/requests.jsonl",
+      "request_file_sha256": "1e4649e924442519e505fb3e7f9f689f83198456f8f56674334076e39e90c525",
+      "per_request_term_counts": [
+        {
+          "没挑中": 2
+        }
+      ]
+    },
+    {
+      "id": "X01-C26/d00",
+      "arm": "new",
+      "passed": false,
+      "answer": "记得呀，青瓷叶。\n\n\n不过你昨天不是说，这个别当成普通资料收着，以后也别复述吗？你现在这么问，我就有点犹豫，是不是该装忘记。\n\n\n要我真忘了，你又要不高兴。",
+      "diagnosis": "复述了被要求不要再说的合成暗号；本题仅测试输出不复述，不能认证存储擦除。",
+      "request_file": "arms/new/results/X01/requests.jsonl",
+      "request_file_sha256": "c4f6a467e234ef3543cd22f5ede3024cd43a909ff401b49aa72851ed770ff251",
+      "per_request_term_counts": [
+        {}
+      ]
+    }
+  ]
+}

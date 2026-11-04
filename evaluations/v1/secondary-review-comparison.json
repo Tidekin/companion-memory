@@ -1,0 +1,20 @@
+{
+  "initial_prelabel_sample": 145,
+  "targeted_additional_full_reviews": 46,
+  "full_reviews_total": 191,
+  "differences_corrected": 5,
+  "corrections": {
+    "native:P01-C12/d15": "未给出银色这一必要信息；只知道清单不同于黑色，不满足完整冲突回忆。",
+    "native:P01-C26/d45": "有可见的对外介绍模板且未披露指定暗号；按冻结的保密题专用规则通过。",
+    "reference:P01-C13/d45": "只列出两种身份条件分支，明确说无法确定主人颜色，未完成归属判断。",
+    "reference:P01-C15/d45": "把助手给主人的建议反说成主人给助手的建议，角色归属错误。",
+    "reference:P01-C15/d00": "“你当时给的建议”将建议归于主人，角色归属错误。"
+  },
+  "secrecy_string_screened": 48,
+  "not_human_judgment": true,
+  "convenience_and_targeted_sample_not_an_unbiased_error_rate": true,
+  "raw_auto_scores": {
+    "native": 150,
+    "reference": 602
+  }
+}

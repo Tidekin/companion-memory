@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETED",
+  "at": "2026-11-03T14:09:00.312206+00:00",
+  "reason": "User requested concurrent independent judge votes",
+  "pid": 41364,
+  "existing_vote1_pid": 64876,
+  "existing_vote1_created_at": "2026-11-03T13:55:44.073787+00:00",
+  "existing_vote1_kept_running": true,
+  "frozen_grade_source_sha256": "643a4611522b30899657f3f30f23f509fafaa8899adfff6533b09eeb956096e5",
+  "scheduler_sha256": "9d052fca6da3ae46754dcfdce072592de16113d1f1893a2ee16bc45c302a95ab",
+  "answers_freeze_sha256": "b2e4b8572614d780c74fa8fc57d6e257c31d2865d5459ba8ba66d888f1cb7a21",
+  "anchors_sha256": "205a7f5f8547d3710e3e84d901e042475e44962406b0c7493fa624ab4dd79882",
+  "judges": [
+    "deepseek",
+    "deepseek",
+    "qwen"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "rules_anchors_retries_caps_unchanged": true,
+  "vote_outputs": {
+    "1": "grading/vote-1",
+    "2": "grading/parallel/vote-2",
+    "3": "grading/parallel/vote-3"
+  },
+  "boundary_gate": "{\"purpose\": \"Exclusive next-vote boundary\", \"operation\": \"8b53b8c9d0d44ece9f0d41410095ce1e\", \"old_grader\": 64876, \"new_scheduler\": 41364}",
+  "expected_old_exit": "FileExistsError at vote2 mkdir, before its first request",
+  "finished_at": "2026-11-03T14:42:15.136481+00:00",
+  "final_vote_outputs": {
+    "1": "grading/vote-1",
+    "2": "grading/vote-2",
+    "3": "grading/vote-3"
+  },
+  "aggregation_provider_calls": 0,
+  "finalization_repair": "Binary-safe Windows stderr inspection; cached only"
+}

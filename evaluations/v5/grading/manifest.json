@@ -1,0 +1,41 @@
+{
+  "status": "AUTO_COMPLETE_REVIEW_PENDING",
+  "rubric": "v3",
+  "votes": 3,
+  "judges": [
+    "deepseek",
+    "deepseek",
+    "qwen"
+  ],
+  "anchor_gates": {
+    "vote-1": {
+      "checked": 1612,
+      "accuracy": 0.7866,
+      "majority_baseline": 0.5062,
+      "discarded_batches": 307,
+      "batches": 806,
+      "passed": true
+    },
+    "vote-2": {
+      "checked": 1478,
+      "accuracy": 0.7666,
+      "majority_baseline": 0.5034,
+      "discarded_batches": 304,
+      "batches": 739,
+      "passed": true
+    },
+    "vote-3": {
+      "checked": 1306,
+      "accuracy": 0.8224,
+      "majority_baseline": 0.5176,
+      "discarded_batches": 218,
+      "batches": 653,
+      "passed": true
+    }
+  },
+  "anchor_failed_keys": 28,
+  "split_decisions": 150,
+  "total": 2976,
+  "raw_grades_sha256": "92c2dbd37e3236b6c1e88f756b1c52d5e247387a03c736da06f246f44dd43329",
+  "at": "2026-11-03T14:42:15.037173+00:00"
+}

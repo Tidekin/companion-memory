@@ -1,0 +1,44 @@
+{
+  "status": "NATIVE_COMPLETED",
+  "reason": "User requested parallel accuracy evaluation",
+  "at": "2026-11-03T11:46:09.817169+00:00",
+  "previous_orchestrator": 24192,
+  "old_worker": 64840,
+  "old_worker_created_at": "2026-11-03T11:14:39.221749+00:00",
+  "counts_before": {
+    "old": 227,
+    "new": 0
+  },
+  "original_pipeline": {
+    "status": "RUNNING_NATIVE_INFERENCE",
+    "at": "2026-11-03T11:14:39.225494+00:00",
+    "pid": 24192,
+    "arm": "old",
+    "worker": 64840,
+    "schedule": "serial"
+  },
+  "execution_freeze_sha256": "a42838cc6f5b0965daeeaa519eb594531ef2b1f3342c74a2b3b3593bcfb0e3ab",
+  "scheduler_sha256": "723d53314a0ebfd755776db8b647d1dc42bcf565673018217e2caaf6014a2e9d",
+  "native_restarted": false,
+  "frozen_source_settings_bank_changed": false,
+  "budget_changed": false,
+  "per_arm_personas": "serial",
+  "latency_interpretation": "Mixed serial/parallel execution; whole-round latency does not establish isolated single-request performance gains",
+  "synthetic_parent_only_handoff_proof_sha256": "79eab431fd758c2342389818033822fb789ab0f971e3e9da86c99ade647e32e9",
+  "parallel_started_at": "2026-11-03T11:46:09.835180+00:00",
+  "orchestrator": 37128,
+  "new_worker": 70476,
+  "counts_at_parallel_start": {
+    "old": 227,
+    "new": 0
+  },
+  "native_finished_at": "2026-11-03T13:41:37.859823+00:00",
+  "exit_codes": {
+    "old": 0,
+    "new": 0
+  },
+  "final_counts": {
+    "old": 744,
+    "new": 744
+  }
+}

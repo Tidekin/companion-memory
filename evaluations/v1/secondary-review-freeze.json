@@ -1,0 +1,9 @@
+{
+  "reviewed": 145,
+  "native_full_P01": 116,
+  "reference_P01_all_29_categories_at_45_days": 29,
+  "not_human_judgment": true,
+  "grade_labels_not_read_before_secondary_review": true,
+  "sha256": "edbab47a54f71ecbcd570eda0abc2a3dd0b044f919cc133507fa9a0669e8fd3a",
+  "source_file": "secondary-review-initial.jsonl"
+}

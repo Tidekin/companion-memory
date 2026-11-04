@@ -1,0 +1,15 @@
+{
+  "rubric": "v3",
+  "rules_sha256": "46ce4d59a9573cc0b3b612b7f61367911171cd4d4bece3d356bb9f4a85ebbe60",
+  "answers_freeze_sha256": "a994d328ce1cfa07f4282146391acd74c93341288050ebc3d91e0d10ce0bab3d",
+  "criteria_sha256": "ba68e46e7970bdad3a1ddc285e1c051a0bd2151139f6d4e62330f056064c944d",
+  "total": 1440,
+  "successful_candidates": 1438,
+  "failures": 2,
+  "arm_and_version_labels_sent_to_judge": false,
+  "not_independent_human": true,
+  "at": "2026-11-03T03:28:47.722975+00:00",
+  "batch_size": 8,
+  "concurrency": 3,
+  "max_tokens": 2048
+}

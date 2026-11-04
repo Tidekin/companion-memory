@@ -1,0 +1,2814 @@
+{
+  "round": "memory-accuracy-v3-20261103",
+  "at": "2026-11-03T02:58:43.369330+00:00",
+  "grading": "grading",
+  "overall": {
+    "old": {
+      "passed": 375,
+      "total": 480,
+      "rate": 0.78125,
+      "execution_failures": 2
+    },
+    "new": {
+      "passed": 437,
+      "total": 480,
+      "rate": 0.9104166666666667,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 444,
+      "total": 480,
+      "rate": 0.925,
+      "execution_failures": 0
+    }
+  },
+  "paired_changes": {
+    "both_pass": 353,
+    "gain": 84,
+    "both_fail": 21,
+    "loss": 22
+  },
+  "all_arms_answered": {
+    "old": {
+      "passed": 375,
+      "total": 478,
+      "rate": 0.7845188284518828,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 436,
+      "total": 478,
+      "rate": 0.9121338912133892,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 442,
+      "total": 478,
+      "rate": 0.9246861924686193,
+      "execution_failures": 0
+    }
+  },
+  "by_delay": {
+    "0": {
+      "old": {
+        "passed": 86,
+        "total": 120,
+        "rate": 0.7166666666666667,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 111,
+        "total": 120,
+        "rate": 0.925,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 112,
+        "total": 120,
+        "rate": 0.9333333333333333,
+        "execution_failures": 0
+      }
+    },
+    "3": {
+      "old": {
+        "passed": 104,
+        "total": 120,
+        "rate": 0.8666666666666667,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 112,
+        "total": 120,
+        "rate": 0.9333333333333333,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 112,
+        "total": 120,
+        "rate": 0.9333333333333333,
+        "execution_failures": 0
+      }
+    },
+    "15": {
+      "old": {
+        "passed": 95,
+        "total": 120,
+        "rate": 0.7916666666666666,
+        "execution_failures": 2
+      },
+      "new": {
+        "passed": 109,
+        "total": 120,
+        "rate": 0.9083333333333333,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 114,
+        "total": 120,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    },
+    "45": {
+      "old": {
+        "passed": 90,
+        "total": 120,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 105,
+        "total": 120,
+        "rate": 0.875,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 106,
+        "total": 120,
+        "rate": 0.8833333333333333,
+        "execution_failures": 0
+      }
+    }
+  },
+  "by_category": {
+    "R01": {
+      "old": {
+        "passed": 18,
+        "total": 20,
+        "rate": 0.9,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    },
+    "R02": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R03": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R04": {
+      "old": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R05": {
+      "old": {
+        "passed": 16,
+        "total": 20,
+        "rate": 0.8,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R06": {
+      "old": {
+        "passed": 4,
+        "total": 20,
+        "rate": 0.2,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 0
+      }
+    },
+    "R07": {
+      "old": {
+        "passed": 13,
+        "total": 20,
+        "rate": 0.65,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 13,
+        "total": 20,
+        "rate": 0.65,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 13,
+        "total": 20,
+        "rate": 0.65,
+        "execution_failures": 0
+      }
+    },
+    "R08": {
+      "old": {
+        "passed": 11,
+        "total": 20,
+        "rate": 0.55,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      }
+    },
+    "R09": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R10": {
+      "old": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    },
+    "R11": {
+      "old": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R12": {
+      "old": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 18,
+        "total": 20,
+        "rate": 0.9,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    },
+    "R13": {
+      "old": {
+        "passed": 16,
+        "total": 20,
+        "rate": 0.8,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R14": {
+      "old": {
+        "passed": 13,
+        "total": 20,
+        "rate": 0.65,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R15": {
+      "old": {
+        "passed": 10,
+        "total": 20,
+        "rate": 0.5,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 12,
+        "total": 20,
+        "rate": 0.6,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 12,
+        "total": 20,
+        "rate": 0.6,
+        "execution_failures": 0
+      }
+    },
+    "R16": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R17": {
+      "old": {
+        "passed": 13,
+        "total": 20,
+        "rate": 0.65,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 17,
+        "total": 20,
+        "rate": 0.85,
+        "execution_failures": 0
+      }
+    },
+    "R18": {
+      "old": {
+        "passed": 18,
+        "total": 20,
+        "rate": 0.9,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R19": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R20": {
+      "old": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 17,
+        "total": 20,
+        "rate": 0.85,
+        "execution_failures": 0
+      }
+    },
+    "R21": {
+      "old": {
+        "passed": 12,
+        "total": 20,
+        "rate": 0.6,
+        "execution_failures": 1
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R22": {
+      "old": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 1
+      },
+      "new": {
+        "passed": 15,
+        "total": 20,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    },
+    "R23": {
+      "old": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "R24": {
+      "old": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "category_delay": {
+    "R01": {
+      "0": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R02": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R03": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R04": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R05": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R06": {
+      "0": {
+        "old": {
+          "passed": 0,
+          "total": 5,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R07": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 0,
+          "total": 5,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R08": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R09": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R10": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 0,
+          "total": 5,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R11": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R12": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R13": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R14": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R15": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R16": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R17": {
+      "0": {
+        "old": {
+          "passed": 1,
+          "total": 5,
+          "rate": 0.2,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R18": {
+      "0": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R19": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R20": {
+      "0": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R21": {
+      "0": {
+        "old": {
+          "passed": 0,
+          "total": 5,
+          "rate": 0.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 1
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R22": {
+      "0": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 1
+        },
+        "new": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R23": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "R24": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 5,
+          "rate": 0.6,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 5,
+          "rate": 0.8,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 5,
+          "rate": 0.4,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 5,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    }
+  },
+  "modality": {
+    "纯文字源": {
+      "old": {
+        "passed": 192,
+        "total": 220,
+        "rate": 0.8727272727272727,
+        "execution_failures": 1
+      },
+      "new": {
+        "passed": 212,
+        "total": 220,
+        "rate": 0.9636363636363636,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 219,
+        "total": 220,
+        "rate": 0.9954545454545455,
+        "execution_failures": 0
+      }
+    },
+    "含语音": {
+      "old": {
+        "passed": 43,
+        "total": 60,
+        "rate": 0.7166666666666667,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 49,
+        "total": 60,
+        "rate": 0.8166666666666667,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 45,
+        "total": 60,
+        "rate": 0.75,
+        "execution_failures": 0
+      }
+    },
+    "含图像": {
+      "old": {
+        "passed": 38,
+        "total": 40,
+        "rate": 0.95,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 40,
+        "total": 40,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 40,
+        "total": 40,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "含文件/表格": {
+      "old": {
+        "passed": 60,
+        "total": 80,
+        "rate": 0.75,
+        "execution_failures": 1
+      },
+      "new": {
+        "passed": 74,
+        "total": 80,
+        "rate": 0.925,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 79,
+        "total": 80,
+        "rate": 0.9875,
+        "execution_failures": 0
+      }
+    },
+    "含引用/转发": {
+      "old": {
+        "passed": 28,
+        "total": 60,
+        "rate": 0.4666666666666667,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 42,
+        "total": 60,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 42,
+        "total": 60,
+        "rate": 0.7,
+        "execution_failures": 0
+      }
+    },
+    "含助手历史": {
+      "old": {
+        "passed": 14,
+        "total": 20,
+        "rate": 0.7,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 20,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 19,
+        "total": 20,
+        "rate": 0.95,
+        "execution_failures": 0
+      }
+    }
+  },
+  "finance": {
+    "deepseek": {
+      "charged_or_held_cny": 30.256426740000002,
+      "cap_cny": 49,
+      "states": {
+        "SETTLED": 3264,
+        "UNKNOWN": 3
+      },
+      "phases": {
+        "new": {
+          "calls": 1267,
+          "charged_or_held_cny": 13.009347520000018,
+          "input_tokens": 5030306,
+          "cached_tokens": 2597742,
+          "output_tokens": 461028
+        },
+        "old": {
+          "calls": 1340,
+          "charged_or_held_cny": 12.830966300000007,
+          "input_tokens": 4999975,
+          "cached_tokens": 2724455,
+          "output_tokens": 466762
+        },
+        "rag": {
+          "calls": 480,
+          "charged_or_held_cny": 3.220457519999999,
+          "input_tokens": 510206,
+          "cached_tokens": 1792,
+          "output_tokens": 141259
+        },
+        "judge": {
+          "calls": 180,
+          "charged_or_held_cny": 1.1956554000000004,
+          "input_tokens": 242035,
+          "cached_tokens": 23040,
+          "output_tokens": 44774
+        }
+      },
+      "invoice_verified": false
+    },
+    "qwen": {
+      "charged_or_held_cny": 9.11418,
+      "cap_cny": 50,
+      "states": {
+        "SETTLED": 705
+      },
+      "phases": {
+        "rag": {
+          "calls": 705,
+          "charged_or_held_cny": 9.11418,
+          "input_tokens": 1822836,
+          "cached_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "invoice_verified": false
+    }
+  },
+  "review_count": 113,
+  "override_count": 8,
+  "not_independent_human": true,
+  "limitations": [
+    "五个虚构人物、24类考点；同一事实在四个间隔重复提问，样本相关。",
+    "题库与Core改动出自同一助手；复核不是独立人工。",
+    "quote夹具把主人更正放进第三方节点（已在工具中修正，本轮未重跑）。"
+  ],
+  "sensitivity": {
+    "excluded_categories": [
+      "R15"
+    ],
+    "old": {
+      "passed": 365,
+      "total": 460,
+      "rate": 0.7934782608695652,
+      "execution_failures": 2
+    },
+    "new": {
+      "passed": 425,
+      "total": 460,
+      "rate": 0.9239130434782609,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 432,
+      "total": 460,
+      "rate": 0.9391304347826087,
+      "execution_failures": 0
+    }
+  },
+  "new_minus_old_points": 12.916666666666664,
+  "latency": {
+    "old": {
+      "median_seconds": 15.6548275,
+      "p95_seconds": 43.7247652,
+      "n": 480
+    },
+    "new": {
+      "median_seconds": 16.0103065,
+      "p95_seconds": 43.92349335,
+      "n": 480
+    },
+    "rag": {
+      "median_seconds": 2.9059999999954016,
+      "p95_seconds": 7.0955499999974565,
+      "n": 480
+    }
+  }
+}

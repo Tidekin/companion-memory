@@ -1,0 +1,14 @@
+{
+  "status": "SELECTED_AND_ANCHOR_SUPPLEMENT_REVIEWED",
+  "at": "2026-11-03T14:55:28.102750+00:00",
+  "baseline_selection": 387,
+  "anchor_supplement": 61,
+  "same_type_closed_book_supplement": 1,
+  "reviewed": 449,
+  "overrides": 44,
+  "reviewer": "same_assistant_not_independent_human",
+  "semantic_boundary_cases_retaining_majority": 9,
+  "raw_grades_sha256": "92c2dbd37e3236b6c1e88f756b1c52d5e247387a03c736da06f246f44dd43329",
+  "review_sha256": "c97d5fb36a2f9597dea241943340952a6cebf8d87492d8705b3cf69f9e7eecaf",
+  "overrides_sha256": "75470cc89b3bd524ca14faa48b2b52484430be534de0511a6d4ce2ce1811f1c7"
+}

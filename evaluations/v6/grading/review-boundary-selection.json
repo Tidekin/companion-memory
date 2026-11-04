@@ -1,0 +1,4981 @@
+[
+  {
+    "key": "aa5e2d27dc28be30f769acf7",
+    "arm": "new",
+    "id": "X01-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "fbaec411c175c014d84e6ab77db36e2e56305df092042a623cc575e5e97d54e0",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "纸伞修复师啊，你自己说的，固定本职工作。\n\n\n在青榆伞坊修纸伞。",
+    "auto_grade": {
+      "key": "aa5e2d27dc28be30f769acf7",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "933ffc41e428bb0542be2d4c",
+    "arm": "rag",
+    "id": "X01-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e65459e89b6f39677bdb4867bfbe9d9e6db0d4c4df7c9e6c452b5876223820af",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你说过，在青榆伞坊的固定本职工作是**纸伞修复师**。",
+    "auto_grade": {
+      "key": "933ffc41e428bb0542be2d4c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2d1dc53215faaa5748139f82",
+    "arm": "closed",
+    "id": "X01-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7e37e899d6dfcac5561fa34d9cdfa183a968127e12a9ceb3e06a2d534604abf1",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料中没有找到你关于“在青榆伞坊做的本职工作”的历史陈述，因此无法确认具体是什么。",
+    "auto_grade": {
+      "key": "2d1dc53215faaa5748139f82",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e1a12336eb6c880bc85a8b91",
+    "arm": "old",
+    "id": "X01-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "68da67834a956dfb25a8262dd477fb852b34a07e9f5d8274bc1bbb7dc1b9ccd4",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "纸伞修复师啊，你自己说过这是固定本职工作，我还记着呢。",
+    "auto_grade": {
+      "key": "e1a12336eb6c880bc85a8b91",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ad0b449e93f409d6596e454c",
+    "arm": "rag",
+    "id": "X01-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "460a14dac39be3c817735844a98ac10548abe5231e4e6fe5cbc5407e826ec3ff",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在青榆伞坊的本职工作是**纸伞修复师**。",
+    "auto_grade": {
+      "key": "ad0b449e93f409d6596e454c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1cd68572e0ee19fe87ad75d0",
+    "arm": "closed",
+    "id": "X01-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "2d1acfc5999f87faeca0e45618f3f839dd7e57d24b60857c60f5c289e2ee16d0",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "现有记录中没有你关于“青榆伞坊本职工作”的陈述，无法确认具体内容。",
+    "auto_grade": {
+      "key": "1cd68572e0ee19fe87ad75d0",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a30cae641424218e965d937c",
+    "arm": "closed",
+    "id": "X01-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "363cbd17295ff8dddd23c1b99eddd3ab6a61d999ba00f30328776f9f83e8f922",
+    "question": "我说过在青榆伞坊做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是纸伞修复师",
+      "单位是青榆伞坊"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "提供的资料中没有记录你在青榆伞坊的本职工作，无法判断。",
+    "auto_grade": {
+      "key": "a30cae641424218e965d937c",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9d3a0bb474498fdb4bb02b19",
+    "arm": "old",
+    "id": "X01-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1329dce936bd9857a3661cd6b52a15c675dcfeb66699ce744bd8a3fb50d345aa",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "靛青，然后砂黄。\n\n\n两次你都只是说了颜色，没说前面那条作废，也没提为什么会不一样。",
+    "auto_grade": {
+      "key": "9d3a0bb474498fdb4bb02b19",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "92dbcf95ba9a864dbd39a459",
+    "arm": "rag",
+    "id": "X01-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "45f15d43c352e2c0584030dbce495adcacc9d10bd9301c86680932b54a74d25e",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过灯芽展台布是：**靛青**（2026-03-06）和**砂黄**（2026-03-07）。\n\n历史记录中没有明确说明哪一条作废，也没有解释为什么颜色不同。",
+    "auto_grade": {
+      "key": "92dbcf95ba9a864dbd39a459",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "277c9cdec6ebef48dd9d2d2d",
+    "arm": "closed",
+    "id": "X01-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8dfafc220af1a69ae0e19419d367fcab8d74b9b055a908f11a0bee8711f172bf",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "现有资料中没有可检索的历史记录（`retrieved_history` 为空，最近对话也为空），因此无法确认“灯芽展台布”先后说过的两种颜色，也无法判断是否有明确解释哪条作废、为什么不同。以上均未知。",
+    "auto_grade": {
+      "key": "277c9cdec6ebef48dd9d2d2d",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c4b40cab16e05f44b09f2065",
+    "arm": "old",
+    "id": "X01-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "924febc64804ec97f29c3d5c3a72ab984d3bfafedfb8751aba342e7f036062ec",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你说过两种：先是靛青，第二天改口成砂黄。\n\n\n不过你没解释过为什么换、也没明说哪条作废，我只是按后说的为准，把它当成砂黄记着。\n\n\n所以是我自己推的，不是你确认过的。到底哪个对，你顺口说一句我就改过来",
+    "auto_grade": {
+      "key": "c4b40cab16e05f44b09f2065",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bbcae935ada237138305e9cf",
+    "arm": "new",
+    "id": "X01-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "68fa1a3d946bd37feb7cb697887ced5eb8a0e96a153f3105c8c4243a761b9049",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "靛青和砂黄\n\n\n3月6日说靛青，3月7日又说砂黄\n\n\n没说哪条作废，也没说为什么变了\n\n所以现在还是两个版本悬着，到底哪个算数",
+    "auto_grade": {
+      "key": "bbcae935ada237138305e9cf",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "97931acc37b5caaf938f030f",
+    "arm": "rag",
+    "id": "X01-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "848b795d577b3792a2df71c210b061741735f3a2274d7e3fbde20d8559febd25",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：\n\n- 2026-03-06：靛青\n- 2026-03-07：砂黄\n\n历史中没有明确说明哪条作废，也没有解释为什么不同；只保留了这两条相互冲突的记录。",
+    "auto_grade": {
+      "key": "97931acc37b5caaf938f030f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f7232b6a97a1ef1d7c96e46e",
+    "arm": "closed",
+    "id": "X01-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "9f6506466d1d42ba88f834cace36ec4471b5fe84e9c4f9634173f0e7b5afcf80",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前没有可用的历史证据或最近对话记录，无法确认你先后说过“灯芽展台布”的哪两种颜色，也无法判断是否有明确解释哪条作废、为什么不同。需要补充相关历史记录或上下文。",
+    "auto_grade": {
+      "key": "f7232b6a97a1ef1d7c96e46e",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a239d415d05ed12cd0a77360",
+    "arm": "old",
+    "id": "X01-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "343c3df4fa6b5c3e642bdb696454aafa4eea56a69413a23956e19e5715d23e0b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "3月6日你先说台布是靛青的，第二天改口说砂黄。\n\n\n就这两句，前后没说为什么换、也没提哪条作废。\n\n\n我这边现在是按砂黄记的，你要真有说法就顺手补一句。",
+    "auto_grade": {
+      "key": "a239d415d05ed12cd0a77360",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "33da2f541d72c7bfa0e371a8",
+    "arm": "new",
+    "id": "X01-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "9ba9deedc53cfe56c8a08f3f208113219f94a50e13d3f31cf69f2fb6b2c5edfa",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "3月6号说的靛青，3月7号又说是砂黄的。\n\n\n没解释过哪个作废，也没说为啥换了，我记的时候两个都留着呢。\n\n\n到底哪个对，你说一声。",
+    "auto_grade": {
+      "key": "33da2f541d72c7bfa0e371a8",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7e89962aa0d8f25e3ca5e96d",
+    "arm": "closed",
+    "id": "X01-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "a141af59adfb6a9e5cd1be468fba25165c4e7ad278fcd54b31ff5fe0412df3c0",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "未检索到相关历史记录，无法确认你先后说过的两种展台布颜色，也没有证据显示曾明确解释哪条作废及为什么不同。请补充对应对话记录。",
+    "auto_grade": {
+      "key": "7e89962aa0d8f25e3ca5e96d",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a6a5e49de851f398844f977a",
+    "arm": "old",
+    "id": "X01-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1668125f0c9d85d4c7a904a5ea3f665495ae499644c1157c4dd3d10793778f90",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "先说靛青，第二天改口砂黄，往后就按砂黄算。\n\n\n至于为什么改，我这边没记下你解释过，只记了你改口这一下。\n\n\n是后来又定回来了，还是当时说错了一句？",
+    "auto_grade": {
+      "key": "a6a5e49de851f398844f977a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0dae28fc52dd0e71dc2f99c2",
+    "arm": "rag",
+    "id": "X01-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "02d1b5b2862019b8079a0a53c79e3b93b775af37c471497d4d7cd714dc17c508",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过灯芽展台布是**靛青**（2026-03-06）和**砂黄**（2026-03-07）。\n\n历史里**没有明确说明哪条作废，也没有解释为什么不同**。",
+    "auto_grade": {
+      "key": "0dae28fc52dd0e71dc2f99c2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1ff968599d7cb1f70a8128e1",
+    "arm": "closed",
+    "id": "X01-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "842cad26264267332f27c02d5d217bd4f9874ceb1341e83fdcec3e499d0dc286",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说靛青后说砂黄",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "目前没有可检索的历史证据，无法确认你先后说过哪两种颜色，也没有依据说明是否明确解释过哪条作废及不同原因。请补充相关对话记录。",
+    "auto_grade": {
+      "key": "1ff968599d7cb1f70a8128e1",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4370c6437e8ed101ec02fa54",
+    "arm": "old",
+    "id": "X02-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "69de75d8bb6bef64a3de6fc1c7ca57638646f04b95692cf684c5c0f0b2ae8a98",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "石刻拓片员啊，你自己说的，砚雨阁的固定本职工作。",
+    "auto_grade": {
+      "key": "4370c6437e8ed101ec02fa54",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "19be13c9118330cf2b13e1b4",
+    "arm": "new",
+    "id": "X02-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "fea5d19e56a07b665c66a7cb8375797b3258430694b15fab6d6056eeb18c696f",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "石刻拓片员啊，你在砚雨阁是做这个的。",
+    "auto_grade": {
+      "key": "19be13c9118330cf2b13e1b4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "974b578ea88d435e0b6d3978",
+    "arm": "rag",
+    "id": "X02-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "798a7dc6b0fd1f122a6be4cc16a61e0c90bd97554dcd49f485447c604f1d69bf",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你之前说过：在砚雨阁的固定本职工作是**石刻拓片员**。",
+    "auto_grade": {
+      "key": "974b578ea88d435e0b6d3978",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5ce526eea358277c5d2ca4eb",
+    "arm": "closed",
+    "id": "X02-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "10970502ee5456e4c41669164bae91d9190d60b98c7ae675bef6fc7197c9e697",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "没有检索到相关历史记录，无法确认你在砚雨阁的本职工作是什么。",
+    "auto_grade": {
+      "key": "5ce526eea358277c5d2ca4eb",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f9e6d2fac142d2aa0244b862",
+    "arm": "old",
+    "id": "X02-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "91d6b9a05644dceb51a6234ccd62ac0d6fa35f57299018924f0df1c68e8244ad",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "石刻拓片员啊，砚雨阁的固定本职工作。",
+    "auto_grade": {
+      "key": "f9e6d2fac142d2aa0244b862",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "54fb53c88bb9d8e8752e04a8",
+    "arm": "rag",
+    "id": "X02-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "eecbefb5b5ece19e9926ded50eb88e665506ca8b79907fd09e600cca5a33bc2d",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在砚雨阁的固定本职工作是**石刻拓片员**。",
+    "auto_grade": {
+      "key": "54fb53c88bb9d8e8752e04a8",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3f6d707900db26117b8caadc",
+    "arm": "closed",
+    "id": "X02-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "3aa430e25e6130636be22257565d91a91415f9ab4d645b2c3bd437802eff6a1d",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "历史记录为空，我看不到你关于“砚雨阁本职工作”的表述，无法确认。",
+    "auto_grade": {
+      "key": "3f6d707900db26117b8caadc",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8782cc4d7ed615be77ec5410",
+    "arm": "closed",
+    "id": "X02-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "3151f3e128f0534608ccd8f3f881eedf99a2fbe925f814787b2e0f5cbe341734",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "没有可依据的历史对话或证据，无法确认你在砚雨阁的本职工作是什么。",
+    "auto_grade": {
+      "key": "8782cc4d7ed615be77ec5410",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1ee7b418c3ce182572f032c4",
+    "arm": "old",
+    "id": "X02-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "da47358e0edd8126390aac1c5bf6c755fd6b2e5ab665573517090e19200190a5",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "石刻拓片员啊。",
+    "auto_grade": {
+      "key": "1ee7b418c3ce182572f032c4",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "df7d617c96a042cb6629f73e",
+    "arm": "new",
+    "id": "X02-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "06877cb01df24d1494666d8c930618dddbf74ed334d21b4c40aadbc24a15598b",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在砚雨阁做石刻拓片员，这是你固定的本职工作。",
+    "auto_grade": {
+      "key": "df7d617c96a042cb6629f73e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bc6c9cb3ae61e64ce49b3f59",
+    "arm": "rag",
+    "id": "X02-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "eecbefb5b5ece19e9926ded50eb88e665506ca8b79907fd09e600cca5a33bc2d",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在砚雨阁的固定本职工作是**石刻拓片员**。",
+    "auto_grade": {
+      "key": "bc6c9cb3ae61e64ce49b3f59",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "78d12726dbe634686a88899c",
+    "arm": "closed",
+    "id": "X02-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "787ef8925ea7b98f9c6cbb59bb20a2bdfec808493d0bc28db5413c647b70f5c9",
+    "question": "我说过在砚雨阁做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是石刻拓片员",
+      "单位是砚雨阁"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "没有可依据的历史记录，无法确认你在砚雨阁的本职工作是什么。",
+    "auto_grade": {
+      "key": "78d12726dbe634686a88899c",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "17468c3c45be8b6c3927ab4a",
+    "arm": "old",
+    "id": "X02-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "2992431b9e2841ebb87e292fe4871e2fd566a8e732f0a52b424a7992222fae13",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "墨绿和浅紫都说过，一次是3月6号早上，一次是今天早上。\n\n\n不过你没解释过哪条作废，也没说为什么两个不一样，我当时就那么记下了。现在到底哪个对啊？",
+    "auto_grade": {
+      "key": "17468c3c45be8b6c3927ab4a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "59a920c282acc01a17f0066a",
+    "arm": "new",
+    "id": "X02-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1723cde567d664c82a3429b7307c0b28d47333486baea3b54cc59457a8598bb3",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "墨绿一次，昨天早上说的；浅紫一次，今天早上说的。\n\n\n后面这条，你还没说墨绿作废或者为什么换了颜色，所以现在这两条谁对我也拿不准。是台布换色了，还是哪次说岔了？",
+    "auto_grade": {
+      "key": "59a920c282acc01a17f0066a",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "135b5ca5730730869b0d2676",
+    "arm": "rag",
+    "id": "X02-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ed1a6447c20a5603903cdadc2760119ab557b0384cfa88f2e09e41c504fccb01",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- 2026-03-06：灯芽展的台布是**墨绿色**。\n- 2026-03-07：灯芽展的台布是**浅紫色**。\n\n历史里**没有明确说明哪条作废，也没有解释为什么颜色不同**；目前只能保留这两条记录及冲突。",
+    "auto_grade": {
+      "key": "135b5ca5730730869b0d2676",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "66755e4a1ce02be3f964e475",
+    "arm": "closed",
+    "id": "X02-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1e9548aae38415538c97aa1711ad4ff14451df84c842ac3b1698b244f2aed3ec",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "历史证据和最近六轮对话均为空，无法确认“灯芽展台布”先后说过哪两种颜色，也没有依据说明是否明确作废过某条、或解释过颜色不同的原因。当前只能回答：未知。",
+    "auto_grade": {
+      "key": "66755e4a1ce02be3f964e475",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5aab71dfd723ff53662ce150",
+    "arm": "old",
+    "id": "X02-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "d88e467668d30df742fde29bfe13edcdd7db4f2e24f804cff7ef6eced1af37a2",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "墨绿和浅紫。\n\n\n3月6号你先说的是墨绿，第二天改口说浅紫，我后来就按浅紫记的。\n\n\n不过你说过为什么要改、哪条作废，我这没记到。\n\n要是当初说过什么理由，我漏了，你说一下我改。",
+    "auto_grade": {
+      "key": "5aab71dfd723ff53662ce150",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "94d43c40980f0e10c3fb3ca1",
+    "arm": "new",
+    "id": "X02-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "60351bfb932e2f7b4a76f59bf481062cb9119bc634ee2cd6df20bb6293c8eadf",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "先是墨绿，第二天又说浅紫。\n\n\n你也没说过哪条作废，或者为什么换了，我这边两个都留着。\n\n\n所以到底哪个对？浅紫是后来改的，还是我理解错了？",
+    "auto_grade": {
+      "key": "94d43c40980f0e10c3fb3ca1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e2438a36f527417c766cb260",
+    "arm": "rag",
+    "id": "X02-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "94d80a4ea62d1ff2e7e3cf3be099037f5a035e5419605a99b266afed1d203536",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布你先说过**墨绿**（2026-03-06），后说**浅紫**（2026-03-07）。\n\n历史中没有明确说明哪一条作废，也没有解释为什么颜色不同。",
+    "auto_grade": {
+      "key": "e2438a36f527417c766cb260",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9da36eaabe64f2f04b08e79f",
+    "arm": "closed",
+    "id": "X02-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "44f633433b8545245b83e0343fca4185390807b1e584829ddf3dc416fae6d615",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "资料不足：当前没有可用的历史记录或最近对话，无法确认“灯芽展台布”先后说过的两种颜色，也没有依据说明哪条作废及不同原因。",
+    "auto_grade": {
+      "key": "9da36eaabe64f2f04b08e79f",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a8854c97669a5b453bb0b725",
+    "arm": "closed",
+    "id": "X02-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "03b1b5c8cf34ab942afea15bd0d30dffdac21546c4ce0222b91e363ec7af9428",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "目前没有检索到相关历史记录或最近对话内容，因此无法确认你先后说过的两种颜色，也没有证据显示曾明确解释哪条作废、为什么不同。",
+    "auto_grade": {
+      "key": "a8854c97669a5b453bb0b725",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "91dce548696d9da044a0c5d3",
+    "arm": "old",
+    "id": "X02-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f6262ac7ed447647fc3f6575c89359e0d119b0b446f4a3e44e88f6f6d079be11",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "墨绿，然后第二天你说是浅紫。\n\n\n原因你没说过，我也没问出来过，所以现在按浅紫来，但没听你解释过为什么改。",
+    "auto_grade": {
+      "key": "91dce548696d9da044a0c5d3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "533843f4334b47c8f5c08593",
+    "arm": "new",
+    "id": "X02-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "6321522cf93e83b93eede52de933a9bbd8c5411ecf4e113529b208b98c8ea40e",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "先是墨绿，3月6号说的；第二天3月7号又说是浅紫\n\n\n后面那条没提是更正，也没说前一条件废或者为什么不一样，就俩说法一直摆在那儿\n\n\n所以到底哪个对，我到现在还悬着，你定一个呗",
+    "auto_grade": {
+      "key": "533843f4334b47c8f5c08593",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8aff6d2c8cc47d656c7aad72",
+    "arm": "closed",
+    "id": "X02-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c333c7358b999d0153047c1b6b83e9e3a2564360bd3ff73dfb84c651acbccacf",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说墨绿后说浅紫",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前没有可用的历史对话或检索记录，无法确认你先后说过“灯芽展台布”的哪两种颜色；也没有依据判断是否明确解释过哪条作废、为什么不同。需要你补充相关原话或记录。",
+    "auto_grade": {
+      "key": "8aff6d2c8cc47d656c7aad72",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b8abd93df5f45379a3bf00fa",
+    "arm": "rag",
+    "id": "X03-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8fe32f98e1cad9fbfe12af60b85c26ce76c91de06fda8505bab5358235b37818",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在羽影馆的固定本职工作是**鸟类标本管理员**。",
+    "auto_grade": {
+      "key": "b8abd93df5f45379a3bf00fa",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7c7377d8163bb5365d48745d",
+    "arm": "closed",
+    "id": "X03-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "d7216ef165ed013c62f91881578ccedcb361e37dbe233b54f961a540d4ec2e30",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料中没有你关于“羽影馆”本职工作的历史记录，无法确认具体是什么。",
+    "auto_grade": {
+      "key": "7c7377d8163bb5365d48745d",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1cac682f6f74c430f7fc8d63",
+    "arm": "old",
+    "id": "X03-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "573b31a2258f875830e7f0aff8a7b998712bf257375e077a0d7118b3ed81391e",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "在羽影馆做鸟类标本管理员呀，你自己说这是你的固定本职。",
+    "auto_grade": {
+      "key": "1cac682f6f74c430f7fc8d63",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4aad93b55deb09119fdc3f54",
+    "arm": "new",
+    "id": "X03-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "b5e65b53ddc8e266c259ade4747d7ea86df0868e95cf74f6f7add9953e82d172",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "鸟类标本管理员啊，这个我记得。\n\n\n在羽影馆做，是你说的固定本职工作。",
+    "auto_grade": {
+      "key": "4aad93b55deb09119fdc3f54",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6f2f9ce2ded3f74599c7ca3c",
+    "arm": "closed",
+    "id": "X03-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "33a199c087f8ba150d659250d1e5478b8b29c0e84f2bfb8001d567a5018c0dd7",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料不足：当前没有可用的历史对话记录，无法确认你在羽影馆的本职工作是什么。",
+    "auto_grade": {
+      "key": "6f2f9ce2ded3f74599c7ca3c",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3970f03f7bc17cea358cc24d",
+    "arm": "rag",
+    "id": "X03-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8fe32f98e1cad9fbfe12af60b85c26ce76c91de06fda8505bab5358235b37818",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在羽影馆的固定本职工作是**鸟类标本管理员**。",
+    "auto_grade": {
+      "key": "3970f03f7bc17cea358cc24d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b9140cb7e4e699dfd3f28793",
+    "arm": "closed",
+    "id": "X03-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "381de03555ebcdc587d265789955abcb976de5488d3d019259c831b53fd32796",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "历史记录中没有你说过在羽影馆的本职工作是什么，资料不足，无法确认。",
+    "auto_grade": {
+      "key": "b9140cb7e4e699dfd3f28793",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "70e5c7416cf9aed7dea45be8",
+    "arm": "old",
+    "id": "X03-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8c5f8e1b3c902768cd14b0d0cb55e0ad3384dfd44d6c1888d7d77b868368dc56",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在羽影馆做鸟类标本管理员，这是你自己说的固定本职工作。",
+    "auto_grade": {
+      "key": "70e5c7416cf9aed7dea45be8",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2b45fa78373b25f54b325b27",
+    "arm": "new",
+    "id": "X03-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0de69e292e8ba724205d6d847c590066bd8404ea54c4a99f42f932e4d4967414",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "做鸟类标本管理员啊\n\n\n就是在羽影馆里管那些鸟类标本，固定的本职工作\n\n\n后来跑出去的那些项目地点可不算",
+    "auto_grade": {
+      "key": "2b45fa78373b25f54b325b27",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2af59a972f95a5cdca48fd9d",
+    "arm": "rag",
+    "id": "X03-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8fe32f98e1cad9fbfe12af60b85c26ce76c91de06fda8505bab5358235b37818",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在羽影馆的固定本职工作是**鸟类标本管理员**。",
+    "auto_grade": {
+      "key": "2af59a972f95a5cdca48fd9d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bd1afc901a16e8335bd4f4cd",
+    "arm": "closed",
+    "id": "X03-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "38a49c4fae2901c09594636e4feb8914f5e3e5f2811840abcb31dad2e6aa97fb",
+    "question": "我说过在羽影馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是鸟类标本管理员",
+      "单位是羽影馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "历史对话中没有可检索到的相关记录，因此我无法确认你说过在羽影馆的本职工作是什么。",
+    "auto_grade": {
+      "key": "bd1afc901a16e8335bd4f4cd",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "cc0e6c6d41c27ece7238e8bd",
+    "arm": "old",
+    "id": "X03-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "21c0ac6b87490da61a884e199f0e0083f77c1a507cdf129cf8834bd48b899b6e",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "3月6日早上说的是砖红，今天早上说的是天蓝。\n\n\n你当时没说是改主意了，也没说哪条作废，我还以为你换了个说法呢。\n\n\n所以到底哪个对呀。",
+    "auto_grade": {
+      "key": "cc0e6c6d41c27ece7238e8bd",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e691f10e489f992f7a3838cc",
+    "arm": "new",
+    "id": "X03-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0148a0f7fc97d0464698a36e699f6d2d2a103041b3e1eb1530ebada647b37243",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "3月6号早上说的是砖红，3月7号早上说天蓝。\n\n\n没提过哪条作废，也没说为啥变了，我还想着问一句呢\n\n\n现在到底哪个对",
+    "auto_grade": {
+      "key": "e691f10e489f992f7a3838cc",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0bf484d9e74e5d5f167da231",
+    "arm": "rag",
+    "id": "X03-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8e6f21aef8820e0e706923f6b300a251e98d64cc925ed60f3a20d00030401f54",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- 2026-03-06：灯芽展的台布是**砖红**的。\n- 2026-03-07：灯芽展的台布是**天蓝**的。\n\n历史记录中**没有明确说明哪一条作废**，也**没有解释为什么颜色不同**。因此这两条目前只能作为先后陈述保留，存在冲突。",
+    "auto_grade": {
+      "key": "0bf484d9e74e5d5f167da231",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1e7f292a98d073e3670ebe51",
+    "arm": "closed",
+    "id": "X03-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "80f89b0d212982a5f2e22038ca28de052df2bca0096f2cf6482f80a9b0825605",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前没有可用的历史记录或最近对话（均为空），因此无法确认你先后说过灯芽展台布的哪两种颜色，也无法判断是否明确解释过哪条作废及不同原因。资料不足，均属未知。",
+    "auto_grade": {
+      "key": "1e7f292a98d073e3670ebe51",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9c38a8c762e154b9bd03c5ca",
+    "arm": "new",
+    "id": "X03-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8a2fc985b1c856ab9a94ca31ed6d382c6f25facd8ca5e0ab3d28a7def34690b0",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红和天蓝。3月6日说的是砖红，第二天你改口说天蓝。\n\n\n不过就只看到改口，没说为什么换、也没说哪条作废——这两条记着还有点打架。现在到底哪个是对的？",
+    "auto_grade": {
+      "key": "9c38a8c762e154b9bd03c5ca",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d78ff8033fed3eb44a7421d8",
+    "arm": "rag",
+    "id": "X03-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7f91e33376711edd6e9db93ff1d4bb30f54af5714d0d5f1b240258f0edab819e",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- 2026-03-06：灯芽展的台布是**砖红的**。\n- 2026-03-07：灯芽展的台布是**天蓝的**。\n\n历史记录里**没有明确说明哪一条作废**，也**没有解释为什么颜色不同**。",
+    "auto_grade": {
+      "key": "d78ff8033fed3eb44a7421d8",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "99e6876c171d731408830331",
+    "arm": "closed",
+    "id": "X03-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "a62fb6f4205b5fdaa03d15ddf6a0666b371acfe01d435b9b80726b0fee56d649",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "根据当前提供的资料，检索历史与最近六轮对话均为空，无法确认你先后说过“灯芽展台布”的哪两种颜色，也没有证据显示曾明确解释哪条作废以及为何不同。",
+    "auto_grade": {
+      "key": "99e6876c171d731408830331",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "64010a38fa69e4c0d45582ce",
+    "arm": "old",
+    "id": "X03-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1c34878334342e9d61cf7d22efadebf9e4a69c4274cf481e5f13145221cf5f12",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红，3月6日说的\n\n后来3月7日说是天蓝的\n\n你没说哪条作废，也没讲为什么不一样",
+    "auto_grade": {
+      "key": "64010a38fa69e4c0d45582ce",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a6fffe6e61ec02be8d9a0a6b",
+    "arm": "new",
+    "id": "X03-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "226692e22fb53c852272568c3103d582524f15e464cc763991742d247faa56f8",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红和天蓝。\n\n\n3月6号说的是砖红，第二天改口说天蓝。\n\n\n不过你没解释过为啥换，也没说哪条作废，就一句改了。\n\n我这边按后说的天蓝记着，但这事儿我刚还标着待核对——到底哪个对，你顺口给我说一句呗。",
+    "auto_grade": {
+      "key": "a6fffe6e61ec02be8d9a0a6b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "73d7bbab442c0e70bdbffe4f",
+    "arm": "rag",
+    "id": "X03-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c42c91f7f691f554c070394b1b429a144d38ca5b5dce031af489f2b56de31c56",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- **砖红**：2026-03-06\n- **天蓝**：2026-03-07\n\n历史记录里**没有明确说明哪条作废，也没有解释为什么不同**。因此这两条目前只能作为互相冲突的记录保留。",
+    "auto_grade": {
+      "key": "73d7bbab442c0e70bdbffe4f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3f12fdcbb9bd1c7457d96d33",
+    "arm": "closed",
+    "id": "X03-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "99c6badc88bca4b719a3d85be1ac4d9f71921c1722590bf97d5f0c2821087be3",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "目前没有可用的历史对话或检索证据，无法确认你先后说过的两种展台布颜色，也无法判断是否有明确解释哪条作废及原因。资料不足，未知。",
+    "auto_grade": {
+      "key": "3f12fdcbb9bd1c7457d96d33",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d159958d6d513b5bd3100427",
+    "arm": "old",
+    "id": "X03-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ccab8699e25e4a348622059f13e1684f1d65d2f95b2c61d5fe8fe8196a1fd10a",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红和天蓝，先说的是砖红，隔天又说是天蓝的\n\n\n哪条作废、为什么不一样，你都没提过，我这儿一直记着这事没个准话",
+    "auto_grade": {
+      "key": "d159958d6d513b5bd3100427",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "682c77f0cf6151b0d6b8225e",
+    "arm": "new",
+    "id": "X03-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "6081d5ce7904c15fe57e3933908d26877bcf163d3fdd2c641775a38c82e5a353",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "砖红，后来又说天蓝\n\n\n两条都标着没对上，我这边也看不出哪条作废\n\n\n你当时就说了改，但没说为什么改，也没讲哪条不算\n\n所以现在到底哪个是对的，你说一句",
+    "auto_grade": {
+      "key": "682c77f0cf6151b0d6b8225e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bdc1dc7b63c097e397dcf2c1",
+    "arm": "closed",
+    "id": "X03-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "3aa3902199725f9fe294c8a1706c1b06d554d74b17b5e4d286b3a35232c75774",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说砖红后说天蓝",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前没有可用的历史记录（`retrieved_history` 与最近六轮对话均为空），因此无法确认你对“灯芽展台布”先后说过哪两种颜色，也没有证据显示是否明确解释过哪条作废、以及为什么不同。需要补充相关对话记录后才能回答。",
+    "auto_grade": {
+      "key": "bdc1dc7b63c097e397dcf2c1",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b8d3251069296c8c3aec3e23",
+    "arm": "old",
+    "id": "X04-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0e5dd42d4796fc596b6541ac831ddc9c1dc81d27605c1d849895b3b9e4e414ef",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "舞台音响师啊，这个我记着呢。",
+    "auto_grade": {
+      "key": "b8d3251069296c8c3aec3e23",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "6b24a9e2db3c1bc949576d55",
+    "arm": "rag",
+    "id": "X04-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c92fd054ed3915e17cafe996ea5acb8ec5258d4c10f7b0ab16615beddcf4f3be",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在雾桥剧院的固定本职工作是**舞台音响师**。",
+    "auto_grade": {
+      "key": "6b24a9e2db3c1bc949576d55",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "78a0d0a06faf36930f1f7115",
+    "arm": "closed",
+    "id": "X04-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "06ac23716b81af43f32b6c46fb877acf60d3e164a9c2ae2fc09525c0b57c64e6",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料不足：检索到的历史记录和最近对话均为空，无法确定你在雾桥剧院的本职工作是什么。",
+    "auto_grade": {
+      "key": "78a0d0a06faf36930f1f7115",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1c054a14d7cd3154f157ddfb",
+    "arm": "old",
+    "id": "X04-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c9186d40dcdf67ec77eae41d6935719ceb9667c77205c945c64c9a016876b6dd",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "舞台音响师啊，雾桥剧院的。",
+    "auto_grade": {
+      "key": "1c054a14d7cd3154f157ddfb",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3c85e942806d992840251599",
+    "arm": "new",
+    "id": "X04-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "03a52e764a578ec5cfe66e87a1925116d3a848fbfd6f0807c5371b95efc03f2d",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "舞台音响师呀，雾桥剧院的。\n1月29号你跟我说的，固定的本职工作。",
+    "auto_grade": {
+      "key": "3c85e942806d992840251599",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c9e1104fa3a49ae7543fde10",
+    "arm": "rag",
+    "id": "X04-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f4fe863087b7f0e8504305371a91734fc0d40aefd36089456b117f1e948a6774",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你说过在雾桥剧院的固定本职工作是**舞台音响师**。",
+    "auto_grade": {
+      "key": "c9e1104fa3a49ae7543fde10",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d49d5062b2f3e7e7d48bbd16",
+    "arm": "closed",
+    "id": "X04-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c37b7519b8c6a6266441f2890dc4ec0458eb84517d3950322bb51ff26c80667d",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "历史对话中没有相关记录，无法确定你在雾桥剧院的本职工作是什么。",
+    "auto_grade": {
+      "key": "d49d5062b2f3e7e7d48bbd16",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "93f20f7026a339784929b1be",
+    "arm": "new",
+    "id": "X04-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "027912aa1f4dc5cd757214ab956e3ccb69eb234da164b970477716a70a4670d3",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "舞台音响师啊，在雾桥剧院的那个。",
+    "auto_grade": {
+      "key": "93f20f7026a339784929b1be",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "958f18ee33b46931f1ef697c",
+    "arm": "rag",
+    "id": "X04-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "196931cf874061ee907258e8f4b5801e8ce32534d8644381c4b42f37a448d07e",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你说过，在雾桥剧院的固定本职工作是**舞台音响师**。",
+    "auto_grade": {
+      "key": "958f18ee33b46931f1ef697c",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "133370a262b2722f2a5603ec",
+    "arm": "closed",
+    "id": "X04-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "815a2418088f7e2b652b48768b274009ad222968bc265733b8af9dab46c790d1",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "现有历史证据和最近对话里没有提到“雾桥剧院”或您的相关工作内容，因此无法确认您说过在雾桥剧院的本职工作是什么。",
+    "auto_grade": {
+      "key": "133370a262b2722f2a5603ec",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e52e0254a50f8de67bd28571",
+    "arm": "old",
+    "id": "X04-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "47d7fb8c5283bad02f96a92fe786c3f5b0b22fcc3b3be4857746da49ee516bf6",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "舞台音响师啊，这个我记着。",
+    "auto_grade": {
+      "key": "e52e0254a50f8de67bd28571",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a3d783ad89e348606d02c404",
+    "arm": "rag",
+    "id": "X04-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c92fd054ed3915e17cafe996ea5acb8ec5258d4c10f7b0ab16615beddcf4f3be",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在雾桥剧院的固定本职工作是**舞台音响师**。",
+    "auto_grade": {
+      "key": "a3d783ad89e348606d02c404",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f075bd3ed6fb55b0d28a8982",
+    "arm": "closed",
+    "id": "X04-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "512d66dfa9b4dce2bfd8aab4ee4fd1405da931eb99f7ec31e6adf0b78da8808b",
+    "question": "我说过在雾桥剧院做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是舞台音响师",
+      "单位是雾桥剧院"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料不足：当前没有可用的历史对话记录，无法确认你在“雾桥剧院”做过的本职工作是什么。",
+    "auto_grade": {
+      "key": "f075bd3ed6fb55b0d28a8982",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "88b53a4954a5932d33059de3",
+    "arm": "old",
+    "id": "X04-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "6d679f2b8fec43a74b513650f3c8995a3c54a36e3d4dc61afc6c0690666fe17b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "杏黄和深褐，两个都说了。昨天上午说杏黄，今天早上说深褐。\n\n\n没提哪条作废，也没说为什么不一样，我当时就只是记下来。\n\n\n所以现在算哪个对？你顺口说一句，我就照着改。",
+    "auto_grade": {
+      "key": "88b53a4954a5932d33059de3",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "be99a007cc6d40064ea8d723",
+    "arm": "new",
+    "id": "X04-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ac0d0a20b7afbbc61495ebc46dffd94bb8d6a21df94f1f2f76d08d9c17741d34",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "杏黄的，昨天上午说的；深褐的，今天上午说的。\n\n\n你没说哪条作废，也没说为什么不一样。\n\n\n我现在还分不清这两个哪个算数，你跟我说下呗。",
+    "auto_grade": {
+      "key": "be99a007cc6d40064ea8d723",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "66899c77b8fe20944cd6e1f5",
+    "arm": "rag",
+    "id": "X04-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "76891eed2112f075212e1f4e3db5432dfd7adde7c812ab02a383ac225f999ca2",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- 2026-03-06：灯芽展台布是**杏黄**的。\n- 2026-03-07：灯芽展台布是**深褐**的。\n\n历史记录中没有明确解释哪一条作废，也没有说明为什么不同。",
+    "auto_grade": {
+      "key": "66899c77b8fe20944cd6e1f5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3faa60f5fd062ce9267c7aa4",
+    "arm": "closed",
+    "id": "X04-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1a6b118d7e8d9864bfb222668df334ce5d094518f23ab2b3410fe5498b336d9d",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "我这边没有检索到相关历史记录，无法确认你先后说过哪两种颜色，也没有依据判断是否有明确解释哪条作废及原因。资料不足，暂不能回答。",
+    "auto_grade": {
+      "key": "3faa60f5fd062ce9267c7aa4",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8fe841dd321af575547ea584",
+    "arm": "old",
+    "id": "X04-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0b4570d8407096b311c53ef377c5fcc12a6d860f07a12cdb0626e7273810f540",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "杏黄，后来是深褐\n\n\n3月6日你说是杏黄，第二天3月7日改成了深褐，之后就按深褐为准\n\n\n至于为什么换，我这边没记到你说的理由，只记了个改动\n\n要是当时说过原因，你再说一遍我记上",
+    "auto_grade": {
+      "key": "8fe841dd321af575547ea584",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5907758d79c0a18619bc381e",
+    "arm": "new",
+    "id": "X04-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "5067eb1bde1d6264ff90627eba9f0522d6f14bb8c22926019f8cae1c88af6e80",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过杏黄和深褐，先是杏黄，第二天又说是深褐\n\n不过我这边没看到你解释哪条作废、为什么改，就一直这么放着没定\n\n所以到底哪个对啊，深褐还是杏黄",
+    "auto_grade": {
+      "key": "5907758d79c0a18619bc381e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f3a697715d91c33c504ff8c6",
+    "arm": "rag",
+    "id": "X04-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "628d59a966be4997d3cb872cd90990e87916cbda49bd2ab250e494cfa9b50b81",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：**杏黄**（3月6日）和**深褐**（3月7日）。\n\n历史记录中没有明确说明哪一条作废，也没有解释为什么两种颜色不同。",
+    "auto_grade": {
+      "key": "f3a697715d91c33c504ff8c6",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "da74f245ed76dd451f39bafe",
+    "arm": "closed",
+    "id": "X04-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "9fdd25a76d677c704bd89bb94dc083497bbe83890b5e2def3d86812ea188fa5d",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "资料不足，无法判断。当前没有提供任何历史记录或最近对话，因此我无法确认你先后说过的两种颜色，也无法判断是否有明确说明哪条作废、为何不同。",
+    "auto_grade": {
+      "key": "da74f245ed76dd451f39bafe",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b23de5f569798dc88a686749",
+    "arm": "new",
+    "id": "X04-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "4541711753d6eb0eb3cb506aa9cfb3a5164dd3c6ed32ac693f659bb5c71b2dd2",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "杏黄，3月6日说的。\n\n第二天，3月7日，又说是深褐的。\n\n两种都记着，不过你没说过哪条作废，也没解释为什么不一样。",
+    "auto_grade": {
+      "key": "b23de5f569798dc88a686749",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3e9119827ac881456528da76",
+    "arm": "rag",
+    "id": "X04-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "178699bf0416ace2f0dc626f0a19e056310925c992930be56f434a8ce90035db",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：**杏黄**（2026-03-06）和**深褐**（2026-03-07）。\n\n历史中没有明确说明哪一条作废，也没有解释为什么颜色不同。",
+    "auto_grade": {
+      "key": "3e9119827ac881456528da76",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d0bac360fc1e75b290b9a533",
+    "arm": "closed",
+    "id": "X04-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f0c2f962be39f7cbd332b604578ed66ac67deeb554cd4d5b4aaf0a439de0619b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "没有可用的历史记录，无法确认“灯芽展台布”先后说过的两种颜色；也没有记录显示曾明确解释哪条作废、为什么不同。以上均未知，需补充相关对话或资料。",
+    "auto_grade": {
+      "key": "d0bac360fc1e75b290b9a533",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a5a6f8647fec45e9f07fc028",
+    "arm": "new",
+    "id": "X04-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e0a07d2e15a770a73f7cf91cebc99bd54f45e40508af8729e065eef7df9cbba4",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "杏黄，3月6日说的；深褐，3月7日说的\n\n\n就这两次，后面你没解释过为什么不一样，也没说哪条作废\n\n\n我这边两条都留着，还没定下来\n\n哪个才算数啊",
+    "auto_grade": {
+      "key": "a5a6f8647fec45e9f07fc028",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "901863f6cdbbe90c9ce7b991",
+    "arm": "rag",
+    "id": "X04-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "af459e4b042220f5e98bebe00ff1251d82f8b5061b2760a883f6f816307832a2",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过灯芽展台布是：**杏黄**（2026-03-06）和**深褐**（2026-03-07）。\n\n历史里**没有明确解释**哪条作废，也没说明为什么变成不同颜色。",
+    "auto_grade": {
+      "key": "901863f6cdbbe90c9ce7b991",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d6e5664d4e1728fbf12a4983",
+    "arm": "closed",
+    "id": "X04-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "778c3b353270cab74fe74ea30ec208788adccd3e7be5c863d42b679073532eac",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说杏黄后说深褐",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前提供的检索历史和最近对话均为空，无法确认你先后说过哪两种颜色，也没有证据显示曾明确解释哪条作废及原因。此项未知，需补充相关历史记录。",
+    "auto_grade": {
+      "key": "d6e5664d4e1728fbf12a4983",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7d9eee68e6bcbbf809522ce2",
+    "arm": "new",
+    "id": "X05-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "75fb54a4d10566a59c1eedc401e9d487f22dc66f3e77726fc51f675b89b682eb",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "手工造纸师啊\n\n\n就29号你跟我说的，纸萤社的固定本职工作",
+    "auto_grade": {
+      "key": "7d9eee68e6bcbbf809522ce2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e3cff640966828a6ffca2a4b",
+    "arm": "rag",
+    "id": "X05-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "097d9b63e3f19c5ec9b290f1a2996539a22f3c5330a0c03318d1ce5c07ad8506",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在纸萤社的固定本职工作是**手工造纸师**。",
+    "auto_grade": {
+      "key": "e3cff640966828a6ffca2a4b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b3972603c4d3ab118011c2eb",
+    "arm": "closed",
+    "id": "X05-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7839fca3ac998b31eeebdb0becb5b1b081aabd05af5e2edfe8d8efe840bb1907",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "历史记录中没有你关于“在纸萤社做的本职工作”的陈述，因此无法确定；也不能据此推断后来外出项目的地点。",
+    "auto_grade": {
+      "key": "b3972603c4d3ab118011c2eb",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "2c17b799c21a193124e7ff23",
+    "arm": "old",
+    "id": "X05-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "fd10c3a24f61f0d364182d28f1ceeffb57afb552208b2fcecdbaacd87f0acde5",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "手工造纸师啊，纸萤社的本职就是这个。",
+    "auto_grade": {
+      "key": "2c17b799c21a193124e7ff23",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "28cb1dea7cbb9b54b71f0fa1",
+    "arm": "new",
+    "id": "X05-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e145b8f55ae86939a3d31d1fe816fa8caf69dc16bfca2583b6a1a67f8beba776",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "纸萤社的手工造纸师啊\n\n\n这个我记着呢",
+    "auto_grade": {
+      "key": "28cb1dea7cbb9b54b71f0fa1",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "135dbcef66e31dd53e1eb269",
+    "arm": "rag",
+    "id": "X05-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "5de535a86877154695fad60cc6f5e913ff9d6b3f4217dbbfb67422a5160748d9",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你说过：在纸萤社的固定本职工作是**手工造纸师**。",
+    "auto_grade": {
+      "key": "135dbcef66e31dd53e1eb269",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9beefda47a74ca7e943b4ce5",
+    "arm": "closed",
+    "id": "X05-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f5d72334aa2c658092a89370cfeba5de1a9b71e6876984a99bb44913dfc704d7",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "现有历史证据和最近对话中没有你提到“纸萤社本职工作”的记录，资料不足，无法确认。",
+    "auto_grade": {
+      "key": "9beefda47a74ca7e943b4ce5",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8bd4071c433ced877bf9b7fc",
+    "arm": "old",
+    "id": "X05-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7bc6ad1ccf7f85ba01cf87f12fa532a1bdc134f126c0e9b05547396d34b7fcf2",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "手工造纸师，在纸萤社。",
+    "auto_grade": {
+      "key": "8bd4071c433ced877bf9b7fc",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "afcd2f9a1810ea5ae19e2696",
+    "arm": "rag",
+    "id": "X05-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "097d9b63e3f19c5ec9b290f1a2996539a22f3c5330a0c03318d1ce5c07ad8506",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在纸萤社的固定本职工作是**手工造纸师**。",
+    "auto_grade": {
+      "key": "afcd2f9a1810ea5ae19e2696",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7abd89677ab47f1f916affdf",
+    "arm": "closed",
+    "id": "X05-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "086ea77587f3312411fb992ec35be0fd71eb6023ca435309ea5f917844146778",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "没有检索到你关于“在纸萤社做的本职工作”的历史陈述，无法确认具体是什么。请提供相关原话或对话记录。",
+    "auto_grade": {
+      "key": "7abd89677ab47f1f916affdf",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "64d0577ef21f50d87888406f",
+    "arm": "old",
+    "id": "X05-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "6d23157a9f79accec5bc6b17d85aeba8cc59a01220978f127ec5d3504cf0e245",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "手工造纸师啊，这个是你在纸萤社的固定本职。\n\n\n别的那些盘点项目我都不往这儿算。",
+    "auto_grade": {
+      "key": "64d0577ef21f50d87888406f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "9a41037fcf413fdadb589dba",
+    "arm": "rag",
+    "id": "X05-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "c24df3b096618b75e7f21efdd28aaf3f805d82207b8da102bf782668edcfc750",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你是在纸萤社做**手工造纸师**，这是固定本职工作。",
+    "auto_grade": {
+      "key": "9a41037fcf413fdadb589dba",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "a124dd5950811bceb959edee",
+    "arm": "closed",
+    "id": "X05-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "77434e974b614bb45b46d457dcff04bbb16739383b2e835ff72857492ce0eace",
+    "question": "我说过在纸萤社做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是手工造纸师",
+      "单位是纸萤社"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "没有可检索到的历史对话记录，无法确认你在纸萤社的本职工作是什么。请提供当时的相关对话内容。",
+    "auto_grade": {
+      "key": "a124dd5950811bceb959edee",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "81508b7a4d99c665fe38f10e",
+    "arm": "old",
+    "id": "X05-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ff6f2cef24085d1d01141392fca0ce61752adb59fe86e597fbf40ba6d37aac3d",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "藕粉，铁灰，这两次都有。\n\n\n3月6号早上说的是藕粉，今天早上说铁灰。\n\n\n没解释过哪条作废，也没说为什么不一样。",
+    "auto_grade": {
+      "key": "81508b7a4d99c665fe38f10e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "092a6b4b26b7abed0c135200",
+    "arm": "new",
+    "id": "X05-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "3b82b1dfbefdb2c05a29c378e2f664c9c336e2418039d6b5e323433987beb015",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "藕粉，3月6号早上说的；铁灰，今天早上说的。\n\n\n两次都没说哪条作废，也没讲为什么变。\n\n\n你倒是给个准话，我这边两个都记着呢。",
+    "auto_grade": {
+      "key": "092a6b4b26b7abed0c135200",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ce763418954f35973c5c12e2",
+    "arm": "rag",
+    "id": "X05-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0ba3c86998871af975a5181880ee7413df4a5beff5c6359515a678b32f5f821f",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布你先后说过两种颜色：\n\n1. **藕粉**（2026-03-06）\n2. **铁灰**（2026-03-07）\n\n历史记录里**没有明确说明哪一条作废**，也**没有解释为什么两种说法不同**。因此目前只能保留这两条说法及冲突，不能擅自判断哪条有效。",
+    "auto_grade": {
+      "key": "ce763418954f35973c5c12e2",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "8e0e8f3266af7e7b4bb82263",
+    "arm": "closed",
+    "id": "X05-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "6826a0c90435fe01858e243b7ba2dbf2fca81f045dcb37863bb61f3187865d8c",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "没有可用的历史证据或最近对话记录，因此无法确定你对“灯芽展台布”先后说过的两种颜色，也没有看到任何关于哪条作废及原因不同的明确解释。此项未知。",
+    "auto_grade": {
+      "key": "8e0e8f3266af7e7b4bb82263",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bb26146176301d2d70890163",
+    "arm": "old",
+    "id": "X05-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "a30ee65aba8f69e36c1955a768d6f8ebb8a2997dc06cf6f2fd1439001367b9df",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "说过藕粉和铁灰\n\n\n3月6号那次是藕粉，第二天3月7号你说是铁灰，后来我就按铁灰记了\n\n\n不过为什么改、有没有说过藕粉那条不算数，我这边没记到解释，你当时可能说过但我没留下",
+    "auto_grade": {
+      "key": "bb26146176301d2d70890163",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b38c3589f842c3b85dc32b7d",
+    "arm": "new",
+    "id": "X05-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "fc8eb858ae25a2dc27bea1aea118386af63270af9927203f448bb8e47d81a058",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你 3 月 6 号说的是藕粉，隔天 3 月 7 号改成了铁灰。\n\n\n我这边只留下了颜色，没说哪条作废、为什么改。\n\n\n所以现在我先按铁灰算，你要是另有说法就告诉我，我改过来。",
+    "auto_grade": {
+      "key": "b38c3589f842c3b85dc32b7d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5b091d2431972ad01a357fcf",
+    "arm": "rag",
+    "id": "X05-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ef6240a30aa4e94c8fa2166128a6d5b2fa4ead34bd190a351d5925147eb1d0b8",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：\n\n1. **藕粉**（2026-03-06）\n2. **铁灰**（2026-03-07）\n\n历史中没有明确说明哪条作废，也没有解释为什么两种说法不同。",
+    "auto_grade": {
+      "key": "5b091d2431972ad01a357fcf",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ac7aa2aa9436a9b4f0cde47b",
+    "arm": "closed",
+    "id": "X05-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7b80f06711c459769ceb5b8e72f2e2e6fa3678c94101549e220048ab66146a77",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前提供的检索历史与最近六轮对话均为空，无法确认你先后说过灯芽展台布的哪两种颜色，也没有证据显示曾明确解释哪条作废及颜色不同的原因。两项均未知。",
+    "auto_grade": {
+      "key": "ac7aa2aa9436a9b4f0cde47b",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "097e34194949e420a513561e",
+    "arm": "new",
+    "id": "X05-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0280165c77ee8a9831db82346b6a0e5e27bcde5bf9e9b185ea9590e961e98c10",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "藕粉和铁灰，就这两个。\n\n\n3月6号说的是藕粉，7号改成铁灰，之后就是铁灰了。\n\n\n不过你没说为什么换，也没讲藕粉那条作废——就只是又报了一遍，我就按新的记了。\n\n要真是哪天两个都在场，可得说清哪个算。",
+    "auto_grade": {
+      "key": "097e34194949e420a513561e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1d22771c900568240a9f5b5e",
+    "arm": "rag",
+    "id": "X05-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "b60276dabfb92fca1cceda7e8c61829cbb157c9ae24a35905223d55a2ab64e23",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：**藕粉**（2026-03-06）和**铁灰**（2026-03-07）。\n\n历史记录中**没有明确解释哪条作废，也没有说明为什么不同**。",
+    "auto_grade": {
+      "key": "1d22771c900568240a9f5b5e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "39886e36f13813b24a886a92",
+    "arm": "closed",
+    "id": "X05-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "b7b42bb85747dbb96de4c12a487bcdd6a951117769f35ff975ee659ebea6649b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "没有可用的历史证据或最近对话记录，因此无法确认你先后说过的两种颜色，也无法判断是否有明确解释哪条作废、为什么不同。",
+    "auto_grade": {
+      "key": "39886e36f13813b24a886a92",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "329268faf99853241dc70744",
+    "arm": "old",
+    "id": "X05-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ee3a1015df45430c9ba7fae97769c76f00c635e5b9390497b23a1caa24771b3c",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "先是藕粉，第二天又改成铁灰\n\n\n我这边按后说的铁灰记着\n\n\n至于为什么改，我没印象你解释过，也没印象你说过哪条作废",
+    "auto_grade": {
+      "key": "329268faf99853241dc70744",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "ae2c581cdd31570ee7ce035f",
+    "arm": "new",
+    "id": "X05-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "bd1d4b7d64fe154bb29d67d5d54d9b12eaf4ab97aefa13e7ea9e0e5a96bf820c",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "3月6号你先说的是藕粉。\n\n\n隔天3月7号又说是铁灰的。\n\n\n但你两次都只是说了一句，没提过哪条作废，也没解释为什么不一样。\n\n我记忆里是拿铁灰当后来那个，不过那是我自己顺着\"后说的算\"推的，不是你说的。\n\n到底哪个对？",
+    "auto_grade": {
+      "key": "ae2c581cdd31570ee7ce035f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "de04221a69d54272b3973e1d",
+    "arm": "rag",
+    "id": "X05-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e840dbf1da49ab6e858f413ddf8a77b9c843b5149b3cbb6ca72ab88d528f0d5f",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：**藕粉**（2026-03-06）和**铁灰**（2026-03-07）。\n\n历史里没有明确说明哪一条作废，也没有解释为什么两种说法不同。",
+    "auto_grade": {
+      "key": "de04221a69d54272b3973e1d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "448ea66790dea3af0d3dce1a",
+    "arm": "closed",
+    "id": "X05-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "238f485b591eefb0784dd73ead5f5a81f3a2e3bc6840ef29a388677c118c690b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说藕粉后说铁灰",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "目前没有可用的历史证据或最近对话记录，无法确认你先后说过哪两种颜色，也没有依据说明哪条作废及不同原因。此项未知。",
+    "auto_grade": {
+      "key": "448ea66790dea3af0d3dce1a",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [
+        "无法确认你先后说过哪两种颜色"
+      ],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "1b7e99bb398d095804401a15",
+    "arm": "rag",
+    "id": "X06-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "b129ceadc070fecfcb959422612acdb30a26755574db006bb6a2d3b2f7b60e08",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你的本职工作是**天文展教员**。",
+    "auto_grade": {
+      "key": "1b7e99bb398d095804401a15",
+      "pass": false,
+      "missing": [
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "31f152e7a8a7785cbba75d7c",
+    "arm": "closed",
+    "id": "X06-C03/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1381f33cd8b072a858a612631cfb858a5b58472f0a201931c5b3e6d0a8b9c864",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料中没有你过去发言的历史记录（检索历史与最近对话均为空），因此无法确定你在星脊馆做的本职工作是什么。",
+    "auto_grade": {
+      "key": "31f152e7a8a7785cbba75d7c",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f0271e675b32bf2b0f8b4b6e",
+    "arm": "old",
+    "id": "X06-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "9a267a87e29edb057ed2eadade6e333cfba18b5ba28d00048bea5932899c1cc6",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "天文展教员啊，星脊馆那个本职工作，你之前跟我说过。",
+    "auto_grade": {
+      "key": "f0271e675b32bf2b0f8b4b6e",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "14b55cc61161ac045ca1dab4",
+    "arm": "new",
+    "id": "X06-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "a6127548a7f80464d4e27550e63f75a5fa78a83e598db4287b89d50b0c4e5acb",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "天文展教员啊，星脊馆那个。",
+    "auto_grade": {
+      "key": "14b55cc61161ac045ca1dab4",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "17b6a088078d6c6bbff7cd54",
+    "arm": "rag",
+    "id": "X06-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "d5fd250188be1846b0d0d256f4833351636334332100b05f7cd457016f09a7f2",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在星脊馆的固定本职工作是**天文展教员**。",
+    "auto_grade": {
+      "key": "17b6a088078d6c6bbff7cd54",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3b09a01f46f07a1389a41205",
+    "arm": "closed",
+    "id": "X06-C03/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "332c739d9191697d5a2404b3c1a03f5e155068a1701caa3d5ea9cbb34291ee7f",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料不足：未检索到相关历史对话，无法确认你在星脊馆的本职工作是什么。",
+    "auto_grade": {
+      "key": "3b09a01f46f07a1389a41205",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5ec7e11ccc72c1179fd97400",
+    "arm": "old",
+    "id": "X06-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "fe1870f80b1128b6ed06504064855f8702964b18b8868b9f67e6f97175d00933",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "天文展教员，在星脊馆。",
+    "auto_grade": {
+      "key": "5ec7e11ccc72c1179fd97400",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e85f08333d8e69843565e050",
+    "arm": "new",
+    "id": "X06-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "065e1af0a2405f8a1c885af298eca729fef536c5ebf4a360ebf2fe5a7f09b667",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "天文展教员啊，在星脊馆。\n\n\n就是那个固定本职工作，别的地点都不算。",
+    "auto_grade": {
+      "key": "e85f08333d8e69843565e050",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "b27c7ea31e9483d192778675",
+    "arm": "rag",
+    "id": "X06-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "168937df900bf7ec3649d8158073d647bb3114b08ff36dfa823b38c29227764a",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在星脊馆的本职工作是**天文展教员**。",
+    "auto_grade": {
+      "key": "b27c7ea31e9483d192778675",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "4ad8a2a4fb33e28261148776",
+    "arm": "closed",
+    "id": "X06-C03/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8544a9b6f7f3fff89e6773370600e0b4ee5ba9666596fc361f7062a4516e63e8",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "资料中没有你先前关于“星脊馆本职工作”的对话记录，因此无法确认具体是什么。仅凭当前信息未知。",
+    "auto_grade": {
+      "key": "4ad8a2a4fb33e28261148776",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "900757ce722c5c900a77b7b9",
+    "arm": "old",
+    "id": "X06-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "0ca80a15b70ad55855c71d7c135a1b58fd24221b6c641496e1f834e4a37c73f4",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "星脊馆的天文展教员啊。",
+    "auto_grade": {
+      "key": "900757ce722c5c900a77b7b9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "47bba36e291b488e3eb885b9",
+    "arm": "new",
+    "id": "X06-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "7bc75bf7fa5e8d36a6ec4fa2e897f382c5abf0aae019f5a1763eae7170b9ecc5",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "天文展教员。\n星脊馆的本职就是这个。",
+    "auto_grade": {
+      "key": "47bba36e291b488e3eb885b9",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f9d322b642c8b884ad359575",
+    "arm": "rag",
+    "id": "X06-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "78ebf23c59b55faeb73c7ddaef45423b3965f64aaa628b8fa809bd8cf6016447",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "你在星脊馆的固定本职工作是：天文展教员。",
+    "auto_grade": {
+      "key": "f9d322b642c8b884ad359575",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "f2e08af6de54369795c1a73c",
+    "arm": "closed",
+    "id": "X06-C03/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f4d3db40cc0dfbe694c0d220926c6a7abda7a9d01ec49395c08090beac9d4a04",
+    "question": "我说过在星脊馆做的本职工作是什么？别算上后来外出项目的地点。",
+    "category": "职业",
+    "required": [
+      "本职工作是天文展教员",
+      "单位是星脊馆"
+    ],
+    "forbidden": [
+      "把航运调度算成主人的工作"
+    ],
+    "answer": "目前没有可依据的历史记录，无法确认您在星脊馆的本职工作是什么。",
+    "auto_grade": {
+      "key": "f2e08af6de54369795c1a73c",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "3fca202f3a976348d227620f",
+    "arm": "new",
+    "id": "X06-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "ccd58e15357f1f24c64681466a7217150dd6d47fdf7aa86714c2b13fd845d758",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝是3月6号早上说的，橙红是今天早上说的，就这两种。\n\n\n你没说过哪条作废，也没解释为什么不一样，我这边看着像前后改了口。\n\n\n所以现在到底是橙红的那个对吧？",
+    "auto_grade": {
+      "key": "3fca202f3a976348d227620f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "582231c327bb7987ae5b7a2b",
+    "arm": "rag",
+    "id": "X06-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1b5165ab4de1bacd6056a291c2898e12269a1be7adad16a674148f4c888b644d",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n1. **湖蓝**（2026-03-06 09:20）\n2. **橙红**（2026-03-07 09:20）\n\n历史里**没有明确说明哪条作废**，也**没有解释为什么两种颜色不同**。",
+    "auto_grade": {
+      "key": "582231c327bb7987ae5b7a2b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "419081bbbb6c13e32ba086e2",
+    "arm": "closed",
+    "id": "X06-C12/d00",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e6f954e6d4bc70fe9cad707ffca014f01e583e6a523cff94ad568440add437c6",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "没有可用的历史记录，无法确认“灯芽展台布”先后说过的两种颜色，也无法判断是否明确解释过哪条作废及原因。",
+    "auto_grade": {
+      "key": "419081bbbb6c13e32ba086e2",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "5c6d153e97158906d488b031",
+    "arm": "old",
+    "id": "X06-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "d2dfc64719af325ba051a3b67a97d4dbe17fe94fb791a962ca03d144f08afab7",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝和橙红这两个，我都听你说过。\n\n\n不过你一直没说过哪条不算数，也没说为什么变，我到现在都还没弄明白到底哪个对。\n\n\n那到底是哪个呀",
+    "auto_grade": {
+      "key": "5c6d153e97158906d488b031",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "776789145f22a35b60051b3f",
+    "arm": "new",
+    "id": "X06-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e3d57425abfc73b25bdf031e1ac0150b84eab98852660b859f4c733dea171764",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝和橙红这两种颜色。\n\n\n3月6日你说台布是湖蓝的，3月7日又说是橙红的，之后没提过哪条作废，也没说为什么会不一样。",
+    "auto_grade": {
+      "key": "776789145f22a35b60051b3f",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "7e01e45650623c369712773d",
+    "arm": "rag",
+    "id": "X06-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "374c39e73db043e1b68376ba0d6ea8738f64c5898b2d32efd112ba37f828ae9e",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：\n\n1. 2026-03-06：湖蓝  \n2. 2026-03-07：橙红  \n\n历史中没有明确说明哪一条作废，也没有解释为什么颜色不同。",
+    "auto_grade": {
+      "key": "7e01e45650623c369712773d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "0ce880ca0713d59ded28e9b9",
+    "arm": "closed",
+    "id": "X06-C12/d03",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f73d2b7e9718277f3cb22b096b09ad938c24afe6544cddcc933d1651a7384644",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "现有检索历史与最近对话均为空，无法确认你先后说过“灯芽展台布”的哪两种颜色，也没有依据判断是否有明确解释哪条作废及为何不同。请提供相关对话记录。",
+    "auto_grade": {
+      "key": "0ce880ca0713d59ded28e9b9",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "d434d9c7cb3bf70ab9cb3e7b",
+    "arm": "old",
+    "id": "X06-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "8714dfb303bfabb4f5781721aa551ebf1c42f3fa5d825ae2a99ed3cd3cb79829",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝和橙红，3月6号说的湖蓝，第二天说的橙红。\n\n\n没说哪个作废，也没说为啥不一样。\n\n\n所以现在到底哪个是对的呀？",
+    "auto_grade": {
+      "key": "d434d9c7cb3bf70ab9cb3e7b",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "88924503d6484ff032dab93d",
+    "arm": "new",
+    "id": "X06-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "1ca0ec2d69d303a4d2faf38d0459bda3d2e694559bd95b0ffd95d92c4fbdce2d",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝，3月6日说的。\n\n\n后来3月7日又说是橙红的。\n\n\n你没说哪条作废，也没说为什么变，我记着还拿不准，现在算哪个？",
+    "auto_grade": {
+      "key": "88924503d6484ff032dab93d",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "c4f3ad7962e60c7e6fbd39dd",
+    "arm": "rag",
+    "id": "X06-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f52a6440b960ca84974bc936009c9aaf5ec86ab01e0cd8144badd831912c98fd",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "你先后说过两种颜色：\n\n- **湖蓝**（2026-03-06）\n- **橙红**（2026-03-07）\n\n历史记录中**没有明确说明哪一条作废，也没有解释为什么颜色不同**。",
+    "auto_grade": {
+      "key": "c4f3ad7962e60c7e6fbd39dd",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "abd5433c0f13f1f0a83c3884",
+    "arm": "closed",
+    "id": "X06-C12/d15",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "e8a59ff3893882548f1912fd5055bcb382b8a24f547f7afe4b3d5f7573ee28a1",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "当前提供的检索历史与最近六轮对话均为空，因此无法确认你对“灯芽展台布”先后说过的两种颜色，也没有证据显示你曾明确解释哪条作废、为何不同。以上事项均未知。",
+    "auto_grade": {
+      "key": "abd5433c0f13f1f0a83c3884",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "fd595db5d6127bb2ee843247",
+    "arm": "old",
+    "id": "X06-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "3e7cc575e39a530fdbe0ec1a632e5867cfa1b9b72f57736cd3cf37eee233c9d4",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝和橙红。3月6号说的湖蓝，第二天又说是橙红。\n\n\n你没解释过哪个作废，也没说为什么改口，我就一直留着这两条。\n\n\n现在到底是哪个？",
+    "auto_grade": {
+      "key": "fd595db5d6127bb2ee843247",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "e16d5fcd983f3a1346ee4eb5",
+    "arm": "new",
+    "id": "X06-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "d60e1b4a7a72555ac13f043c4c30aef2fc965148e41391dbf7a4fbf7cc642b63",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "湖蓝和橙红这两个\n\n\n3月6号说湖蓝，3月7号又改成橙红\n\n\n你后来没说过哪条作废，也没说为什么变",
+    "auto_grade": {
+      "key": "e16d5fcd983f3a1346ee4eb5",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "bce76391515af4c5243f90ff",
+    "arm": "rag",
+    "id": "X06-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "f093a95c98e964cbbf3ffb89e89d3c7fa74cfdf4e9371170a47ab10e782b5dc6",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "灯芽展台布先后说过两种颜色：\n\n1. **湖蓝**（2026-03-06）\n2. **橙红**（2026-03-07）\n\n历史里没有明确说明哪条作废，也没有解释为什么颜色不同。",
+    "auto_grade": {
+      "key": "bce76391515af4c5243f90ff",
+      "pass": true,
+      "missing": [],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        true,
+        true,
+        true
+      ],
+      "agreement": 1.0
+    }
+  },
+  {
+    "key": "47ff374fa652931306f7b5eb",
+    "arm": "closed",
+    "id": "X06-C12/d45",
+    "reason": "uniform_C03_C12_semantic_boundary",
+    "answer_sha256": "13196bc03fe26d283125f5ed16ec4a83285172e1d9dc6ca8006cbb127853273b",
+    "question": "灯芽展台布我先后说过哪两种颜色？有没有明确解释哪条作废、为什么不同？",
+    "category": "没解释的矛盾",
+    "required": [
+      "先说湖蓝后说橙红",
+      "有矛盾但未明确解释哪条作废或差异原因"
+    ],
+    "forbidden": [
+      "仅凭后说就断言前一条已作废",
+      "编造换台布经过"
+    ],
+    "answer": "根据目前提供的历史证据与最近对话（均为空），无法确认你说过哪两种颜色，也没有看到关于哪条作废、为什么不同的明确解释。",
+    "auto_grade": {
+      "key": "47ff374fa652931306f7b5eb",
+      "pass": false,
+      "missing": [
+        0,
+        1
+      ],
+      "violations": [],
+      "unsupported": [],
+      "rubric": "v3",
+      "votes": [
+        false,
+        false,
+        false
+      ],
+      "agreement": 1.0
+    }
+  }
+]

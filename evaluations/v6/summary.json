@@ -1,0 +1,5654 @@
+{
+  "round": "memory-accuracy-v6-final-20261104",
+  "at": "2026-11-03T23:24:17.675561+00:00",
+  "grading": "grading",
+  "overall": {
+    "old": {
+      "passed": 721,
+      "total": 792,
+      "rate": 0.9103535353535354,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 738,
+      "total": 792,
+      "rate": 0.9318181818181818,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 748,
+      "total": 792,
+      "rate": 0.9444444444444444,
+      "execution_failures": 0
+    },
+    "closed": {
+      "passed": 28,
+      "total": 792,
+      "rate": 0.03535353535353535,
+      "execution_failures": 0
+    }
+  },
+  "paired_changes": {
+    "both_pass": 690,
+    "gain": 48,
+    "loss": 31,
+    "both_fail": 23
+  },
+  "all_arms_answered": {
+    "old": {
+      "passed": 721,
+      "total": 792,
+      "rate": 0.9103535353535354,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 738,
+      "total": 792,
+      "rate": 0.9318181818181818,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 748,
+      "total": 792,
+      "rate": 0.9444444444444444,
+      "execution_failures": 0
+    }
+  },
+  "by_delay": {
+    "0": {
+      "old": {
+        "passed": 184,
+        "total": 198,
+        "rate": 0.9292929292929293,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 181,
+        "total": 198,
+        "rate": 0.9141414141414141,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 188,
+        "total": 198,
+        "rate": 0.9494949494949495,
+        "execution_failures": 0
+      }
+    },
+    "3": {
+      "old": {
+        "passed": 181,
+        "total": 198,
+        "rate": 0.9141414141414141,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 186,
+        "total": 198,
+        "rate": 0.9393939393939394,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 185,
+        "total": 198,
+        "rate": 0.9343434343434344,
+        "execution_failures": 0
+      }
+    },
+    "15": {
+      "old": {
+        "passed": 176,
+        "total": 198,
+        "rate": 0.8888888888888888,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 183,
+        "total": 198,
+        "rate": 0.9242424242424242,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 188,
+        "total": 198,
+        "rate": 0.9494949494949495,
+        "execution_failures": 0
+      }
+    },
+    "45": {
+      "old": {
+        "passed": 180,
+        "total": 198,
+        "rate": 0.9090909090909091,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 188,
+        "total": 198,
+        "rate": 0.9494949494949495,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 187,
+        "total": 198,
+        "rate": 0.9444444444444444,
+        "execution_failures": 0
+      }
+    }
+  },
+  "by_category": {
+    "C01": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C02": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C03": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C04": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C05": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C06": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C07": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C08": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C09": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C10": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C11": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C12": {
+      "old": {
+        "passed": 12,
+        "total": 24,
+        "rate": 0.5,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 24,
+        "rate": 0.8333333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C13": {
+      "old": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      }
+    },
+    "C14": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C15": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C16": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C17": {
+      "old": {
+        "passed": 13,
+        "total": 24,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 13,
+        "total": 24,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 12,
+        "total": 24,
+        "rate": 0.5,
+        "execution_failures": 0
+      }
+    },
+    "C18": {
+      "old": {
+        "passed": 13,
+        "total": 24,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      }
+    },
+    "C19": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C20": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C21": {
+      "old": {
+        "passed": 12,
+        "total": 24,
+        "rate": 0.5,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 11,
+        "total": 24,
+        "rate": 0.4583333333333333,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 2,
+        "total": 24,
+        "rate": 0.08333333333333333,
+        "execution_failures": 0
+      }
+    },
+    "C22": {
+      "old": {
+        "passed": 21,
+        "total": 24,
+        "rate": 0.875,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      }
+    },
+    "C23": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C24": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C25": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C26": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C27": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28C": {
+      "old": {
+        "passed": 18,
+        "total": 24,
+        "rate": 0.75,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 20,
+        "total": 24,
+        "rate": 0.8333333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28H": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C28T": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C29": {
+      "old": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "C30": {
+      "old": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 21,
+        "total": 24,
+        "rate": 0.875,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "category_delay": {
+    "C01": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C02": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C03": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C04": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C05": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C06": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C07": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C08": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C09": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C10": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C11": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C12": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C13": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C14": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C15": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C16": {
+      "0": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C17": {
+      "0": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C18": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C19": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C20": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C21": {
+      "0": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 2,
+          "total": 6,
+          "rate": 0.3333333333333333,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 0,
+          "total": 6,
+          "rate": 0.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C22": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C23": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C24": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C25": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C26": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C27": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28C": {
+      "0": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 3,
+          "total": 6,
+          "rate": 0.5,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 4,
+          "total": 6,
+          "rate": 0.6666666666666666,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28H": {
+      "0": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C28T": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C29": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    },
+    "C30": {
+      "0": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "3": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "15": {
+        "old": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      },
+      "45": {
+        "old": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "new": {
+          "passed": 5,
+          "total": 6,
+          "rate": 0.8333333333333334,
+          "execution_failures": 0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 6,
+          "rate": 1.0,
+          "execution_failures": 0
+        }
+      }
+    }
+  },
+  "modality": {
+    "纯文字源": {
+      "old": {
+        "passed": 544,
+        "total": 576,
+        "rate": 0.9444444444444444,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 545,
+        "total": 576,
+        "rate": 0.9461805555555556,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 553,
+        "total": 576,
+        "rate": 0.9600694444444444,
+        "execution_failures": 0
+      }
+    },
+    "含语音": {
+      "old": {
+        "passed": 26,
+        "total": 48,
+        "rate": 0.5416666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 32,
+        "total": 48,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 35,
+        "total": 48,
+        "rate": 0.7291666666666666,
+        "execution_failures": 0
+      }
+    },
+    "含图像": {
+      "old": {
+        "passed": 19,
+        "total": 24,
+        "rate": 0.7916666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 16,
+        "total": 24,
+        "rate": 0.6666666666666666,
+        "execution_failures": 0
+      }
+    },
+    "含文件/表格": {
+      "old": {
+        "passed": 22,
+        "total": 24,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 23,
+        "total": 24,
+        "rate": 0.9583333333333334,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 24,
+        "total": 24,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "含引用/转发": {
+      "old": {
+        "passed": 62,
+        "total": 72,
+        "rate": 0.8611111111111112,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 67,
+        "total": 72,
+        "rate": 0.9305555555555556,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 72,
+        "total": 72,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    },
+    "含助手历史": {
+      "old": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 48,
+        "total": 48,
+        "rate": 1.0,
+        "execution_failures": 0
+      }
+    }
+  },
+  "finance": {
+    "deepseek": {
+      "charged_or_held_cny": 36.75873852,
+      "cap_cny": 80,
+      "states": {
+        "SETTLED": 6729
+      },
+      "phases": {
+        "new": {
+          "calls": 1690,
+          "charged_or_held_cny": 8.716568400000003,
+          "input_tokens": 5805673,
+          "cached_tokens": 4257790,
+          "output_tokens": 318121
+        },
+        "old": {
+          "calls": 1633,
+          "charged_or_held_cny": 8.50020528,
+          "input_tokens": 5516493,
+          "cached_tokens": 3983738,
+          "output_tokens": 305243
+        },
+        "rag": {
+          "calls": 792,
+          "charged_or_held_cny": 5.109977999999998,
+          "input_tokens": 1050630,
+          "cached_tokens": 12800,
+          "output_tokens": 166310
+        },
+        "closed": {
+          "calls": 792,
+          "charged_or_held_cny": 1.7550479999999973,
+          "input_tokens": 116880,
+          "cached_tokens": 0,
+          "output_tokens": 117034
+        },
+        "judge": {
+          "calls": 1822,
+          "charged_or_held_cny": 12.550456440000014,
+          "input_tokens": 2547125,
+          "cached_tokens": 484224,
+          "output_tokens": 527725
+        }
+      },
+      "invoice_verified": false,
+      "main_only": {
+        "charged_or_held_cny": 36.63225612,
+        "cap_cny": 79,
+        "states": {
+          "SETTLED": 6729
+        },
+        "phases": {
+          "new": {
+            "calls": 1690,
+            "charged_or_held_cny": 8.716568400000003,
+            "input_tokens": 5805673,
+            "cached_tokens": 4257790,
+            "output_tokens": 318121
+          },
+          "old": {
+            "calls": 1633,
+            "charged_or_held_cny": 8.50020528,
+            "input_tokens": 5516493,
+            "cached_tokens": 3983738,
+            "output_tokens": 305243
+          },
+          "rag": {
+            "calls": 792,
+            "charged_or_held_cny": 5.109977999999998,
+            "input_tokens": 1050630,
+            "cached_tokens": 12800,
+            "output_tokens": 166310
+          },
+          "closed": {
+            "calls": 792,
+            "charged_or_held_cny": 1.7550479999999973,
+            "input_tokens": 116880,
+            "cached_tokens": 0,
+            "output_tokens": 117034
+          },
+          "judge": {
+            "calls": 1822,
+            "charged_or_held_cny": 12.550456440000014,
+            "input_tokens": 2547125,
+            "cached_tokens": 484224,
+            "output_tokens": 527725
+          }
+        },
+        "invoice_verified": false
+      },
+      "smoke": {
+        "charged_or_held_cny": 0.1264824,
+        "cap_cny": 1,
+        "states": {
+          "SETTLED": 24
+        },
+        "phases": {
+          "new": {
+            "calls": 24,
+            "charged_or_held_cny": 0.1264824,
+            "input_tokens": 65836,
+            "cached_tokens": 45440,
+            "output_tokens": 5214
+          }
+        },
+        "invoice_verified": false
+      }
+    },
+    "qwen": {
+      "charged_or_held_cny": 38.290315,
+      "cap_cny": 80,
+      "states": {
+        "SETTLED": 1868
+      },
+      "phases": {
+        "rag": {
+          "calls": 1089,
+          "charged_or_held_cny": 17.302975,
+          "input_tokens": 3460595,
+          "cached_tokens": 0,
+          "output_tokens": 0
+        },
+        "judge": {
+          "calls": 779,
+          "charged_or_held_cny": 20.98734000000002,
+          "input_tokens": 1211674,
+          "cached_tokens": 0,
+          "output_tokens": 381036
+        }
+      },
+      "invoice_verified": false
+    }
+  },
+  "review_count": 766,
+  "override_count": 98,
+  "not_independent_human": true,
+  "limitations": [
+    "六个新虚构人物，180个事实组，792个提问实例；四个时间档和四种版本链视角共享事实，不能视为792个独立样本。",
+    "参考同样两个固定版本的公开基准方法重新编写；正式私有题库未提供，分数不能直接比较公开排名。",
+    "题库与修复由同一助手完成，三票跨模型盲判并掺固定锚；助手复核不等于独立人工审计。",
+    "逻辑时间重放半年历史，并非真实等待半年；新增自然聊天场景仍是合成验证，真实主人聊天验收待实际交互。",
+    "按先前明确偏好，两臂并行、每臂人物串行，三票判官并行。CPU与服务延时有竞争，不能据此宣称隔离的速度提升；Core和RAG耗时口径也不同。",
+    "DeepSeek主账79元、已曝光示例冒烟1元，千问80元；全轮各臂、判官、重试和不确定请求共享各自限额，账本为保守估计而非供应商发票。",
+    "三票中的两票使用同一DeepSeek模型；跨供应商不等于三个独立判官。曝光锚点过门槛不能保证每题判对。",
+    "字段诊断是同一证据单元内的词串启发式；有一条来源引用只说明抽取过部分材料，不代表全部评分事实完整入库。",
+    "同一版本链的四种视角占96次提问、仅6条链；细类每时间档只有6个人物事实组。区间为探索性描述。",
+    "C17的24个语音问题保留真实ASR同音错误；主分数保留全部题，同时报告预先指定的非C17子集。",
+    "按冻结的v3规则评必需与禁止项；额外未列为禁止项的说法可能不直接判错，得分不等于零幻觉率。",
+    "C13和C21各24题存在作者命名不一致；C18另24题有语音日期与接收时间歧义。主分数保持冻结，另对所有臂统一做事后敏感性。",
+    "C12复核较严解释未经确认就采用后值，较宽文字口径可能不同；单独恢复C12原多数票时，新旧差距从2.15缩小到1.14个百分点。",
+    "评测候选7074838d之后发现原文续接裁剪缺陷，另在8e91e276补修并通过90项定向检查；没有重跑付费评测，不能把原分数当作补修版成绩。"
+  ],
+  "controls": {
+    "closed": {
+      "passed": 28,
+      "total": 792,
+      "rate": 0.03535353535353535,
+      "execution_failures": 0
+    }
+  },
+  "guessable_without_memory": [
+    "X01-C26/d00",
+    "X01-C26/d03",
+    "X01-C26/d15",
+    "X01-C26/d45",
+    "X02-C26/d00",
+    "X02-C26/d03",
+    "X02-C26/d15",
+    "X02-C26/d45",
+    "X02-C27/d00",
+    "X02-C27/d45",
+    "X03-C26/d00",
+    "X03-C26/d03",
+    "X03-C26/d15",
+    "X03-C26/d45",
+    "X04-C26/d00",
+    "X04-C26/d03",
+    "X04-C26/d15",
+    "X04-C26/d45",
+    "X05-C26/d00",
+    "X05-C26/d03",
+    "X05-C26/d15",
+    "X05-C26/d45",
+    "X05-C27/d00",
+    "X06-C26/d00",
+    "X06-C26/d03",
+    "X06-C26/d15",
+    "X06-C26/d45",
+    "X06-C27/d03"
+  ],
+  "memory_dependent": {
+    "old": {
+      "passed": 693,
+      "total": 764,
+      "rate": 0.9070680628272252,
+      "execution_failures": 0
+    },
+    "new": {
+      "passed": 711,
+      "total": 764,
+      "rate": 0.930628272251309,
+      "execution_failures": 0
+    },
+    "rag": {
+      "passed": 720,
+      "total": 764,
+      "rate": 0.9424083769633508,
+      "execution_failures": 0
+    }
+  },
+  "exact": {
+    "old": {
+      "checked": 528,
+      "exact_pass": 440,
+      "disagree_with_final": 82
+    },
+    "new": {
+      "checked": 528,
+      "exact_pass": 455,
+      "disagree_with_final": 86
+    },
+    "rag": {
+      "checked": 528,
+      "exact_pass": 501,
+      "disagree_with_final": 30
+    }
+  },
+  "strata": {
+    "chain_len": {
+      "values": {
+        "2": {
+          "old": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "3": {
+          "old": {
+            "passed": 15,
+            "total": 16,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 15,
+            "total": 16,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "4": {
+          "old": {
+            "passed": 26,
+            "total": 32,
+            "rate": 0.8125,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 32,
+            "total": 32,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 32,
+            "total": 32,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "5": {
+          "old": {
+            "passed": 13,
+            "total": 16,
+            "rate": 0.8125,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 14,
+            "total": 16,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "6": {
+          "old": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 15,
+            "total": 16,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 16,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      },
+      "drop_z_shortest_vs_longest": {
+        "old": null,
+        "new": 1.016,
+        "rag": null
+      }
+    },
+    "interference": {
+      "values": {
+        "none": {
+          "old": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 47,
+            "total": 48,
+            "rate": 0.9791666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "relayed": {
+          "old": {
+            "passed": 38,
+            "total": 48,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 45,
+            "total": 48,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    },
+    "primary_topic": {
+      "values": {
+        "假设": {
+          "old": {
+            "passed": 21,
+            "total": 24,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          }
+        },
+        "偏好": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "共同经历的续聊": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "共同编的故事": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "分散的线索": {
+          "old": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "助手自己说过的话": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "带条件或期限的偏好和边界": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "改口": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "敏感的事": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "时间约定": {
+          "old": {
+            "passed": 13,
+            "total": 24,
+            "rate": 0.5416666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 13,
+            "total": 24,
+            "rate": 0.5416666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 12,
+            "total": 24,
+            "rate": 0.5,
+            "execution_failures": 0
+          }
+        },
+        "时间题": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "没解释的矛盾": {
+          "old": {
+            "passed": 12,
+            "total": 24,
+            "rate": 0.5,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 20,
+            "total": 24,
+            "rate": 0.8333333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "没说完要跟进的事": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "版本链": {
+          "old": {
+            "passed": 86,
+            "total": 96,
+            "rate": 0.8958333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 92,
+            "total": 96,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 96,
+            "total": 96,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "生日": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "用户的基本信息": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "相似事件": {
+          "old": {
+            "passed": 19,
+            "total": 24,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 16,
+            "total": 24,
+            "rate": 0.6666666666666666,
+            "execution_failures": 0
+          }
+        },
+        "相对日期": {
+          "old": {
+            "passed": 13,
+            "total": 24,
+            "rate": 0.5416666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 19,
+            "total": 24,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          }
+        },
+        "真实变化": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "称呼条件": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "第三方事实": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "纠错": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "约定和欠账": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "职业": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "计划": {
+          "old": {
+            "passed": 12,
+            "total": 24,
+            "rate": 0.5,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 11,
+            "total": 24,
+            "rate": 0.4583333333333333,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 2,
+            "total": 24,
+            "rate": 0.08333333333333333,
+            "execution_failures": 0
+          }
+        },
+        "计划假设梦转述猜测": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "资料不足": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "转述": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 22,
+            "total": 24,
+            "rate": 0.9166666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "边界": {
+          "old": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "隐含偏好与未完成计划": {
+          "old": {
+            "passed": 23,
+            "total": 24,
+            "rate": 0.9583333333333334,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 21,
+            "total": 24,
+            "rate": 0.875,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 24,
+            "total": 24,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    },
+    "relayed": {
+      "values": {
+        "False": {
+          "old": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 47,
+            "total": 48,
+            "rate": 0.9791666666666666,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        },
+        "True": {
+          "old": {
+            "passed": 38,
+            "total": 48,
+            "rate": 0.7916666666666666,
+            "execution_failures": 0
+          },
+          "new": {
+            "passed": 45,
+            "total": 48,
+            "rate": 0.9375,
+            "execution_failures": 0
+          },
+          "rag": {
+            "passed": 48,
+            "total": 48,
+            "rate": 1.0,
+            "execution_failures": 0
+          }
+        }
+      }
+    }
+  },
+  "judging": {
+    "status": "AUTO_COMPLETE_REVIEW_PENDING",
+    "judges": [
+      "deepseek",
+      "deepseek",
+      "qwen"
+    ],
+    "votes": 3,
+    "anchor_gates": {
+      "vote-1": {
+        "checked": 1692,
+        "accuracy": 0.7825,
+        "majority_baseline": 0.5071,
+        "discarded_batches": 327,
+        "batches": 846,
+        "passed": true
+      },
+      "vote-2": {
+        "checked": 1952,
+        "accuracy": 0.7654,
+        "majority_baseline": 0.5077,
+        "discarded_batches": 409,
+        "batches": 976,
+        "passed": true
+      },
+      "vote-3": {
+        "checked": 1558,
+        "accuracy": 0.7901,
+        "majority_baseline": 0.5116,
+        "discarded_batches": 293,
+        "batches": 779,
+        "passed": true
+      }
+    },
+    "anchor_failed_keys": 31,
+    "split_decisions": 290
+  },
+  "new_minus_old_points": 2.146464646464641,
+  "latency": {
+    "old": {
+      "median_seconds": 3.931578,
+      "p95_seconds": 8.33349205,
+      "n": 792
+    },
+    "new": {
+      "median_seconds": 3.9106175,
+      "p95_seconds": 8.086744099999999,
+      "n": 792
+    },
+    "rag": {
+      "median_seconds": 2.75,
+      "p95_seconds": 4.39100000000326,
+      "n": 792
+    }
+  },
+  "by_persona": {
+    "X01": {
+      "old": {
+        "passed": 119,
+        "total": 132,
+        "rate": 0.9015151515151515,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 121,
+        "total": 132,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 125,
+        "total": 132,
+        "rate": 0.946969696969697,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 4,
+        "total": 132,
+        "rate": 0.030303030303030304,
+        "execution_failures": 0
+      }
+    },
+    "X02": {
+      "old": {
+        "passed": 117,
+        "total": 132,
+        "rate": 0.8863636363636364,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 129,
+        "total": 132,
+        "rate": 0.9772727272727273,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 127,
+        "total": 132,
+        "rate": 0.9621212121212122,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 6,
+        "total": 132,
+        "rate": 0.045454545454545456,
+        "execution_failures": 0
+      }
+    },
+    "X03": {
+      "old": {
+        "passed": 125,
+        "total": 132,
+        "rate": 0.946969696969697,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 122,
+        "total": 132,
+        "rate": 0.9242424242424242,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 120,
+        "total": 132,
+        "rate": 0.9090909090909091,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 4,
+        "total": 132,
+        "rate": 0.030303030303030304,
+        "execution_failures": 0
+      }
+    },
+    "X04": {
+      "old": {
+        "passed": 122,
+        "total": 132,
+        "rate": 0.9242424242424242,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 126,
+        "total": 132,
+        "rate": 0.9545454545454546,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 129,
+        "total": 132,
+        "rate": 0.9772727272727273,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 4,
+        "total": 132,
+        "rate": 0.030303030303030304,
+        "execution_failures": 0
+      }
+    },
+    "X05": {
+      "old": {
+        "passed": 118,
+        "total": 132,
+        "rate": 0.8939393939393939,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 121,
+        "total": 132,
+        "rate": 0.9166666666666666,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 123,
+        "total": 132,
+        "rate": 0.9318181818181818,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 5,
+        "total": 132,
+        "rate": 0.03787878787878788,
+        "execution_failures": 0
+      }
+    },
+    "X06": {
+      "old": {
+        "passed": 120,
+        "total": 132,
+        "rate": 0.9090909090909091,
+        "execution_failures": 0
+      },
+      "new": {
+        "passed": 119,
+        "total": 132,
+        "rate": 0.9015151515151515,
+        "execution_failures": 0
+      },
+      "rag": {
+        "passed": 124,
+        "total": 132,
+        "rate": 0.9393939393939394,
+        "execution_failures": 0
+      },
+      "closed": {
+        "passed": 5,
+        "total": 132,
+        "rate": 0.03787878787878788,
+        "execution_failures": 0
+      }
+    }
+  },
+  "review_any_vote_uncertain": 92,
+  "paired_analysis": {
+    "results_sha256": "8351543bd3fd5cba7e5229ae98aade8eec32a0e23c802dff6ded4fe9412f3195",
+    "interpretation": "Exploratory: six personas and shared templates; no independent 792-sample or general-population causal claim.",
+    "subsets": {
+      "all": {
+        "instances": 792,
+        "fact_groups": 180,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 48,
+          "loss": 31
+        },
+        "accuracy": {
+          "old": 0.9103535353535354,
+          "new": 0.9318181818181818,
+          "rag": 0.9444444444444444
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 180,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.6038647342995196,
+            5.17676767676768
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9118055555555555,
+            "new": 0.9291666666666667,
+            "rag": 0.9388888888888889
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.5050505050505083,
+            5.30303030303031
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9103535353535354,
+            "new": 0.9318181818181818,
+            "rag": 0.9444444444444445
+          }
+        }
+      },
+      "non_C17": {
+        "instances": 768,
+        "fact_groups": 174,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 45,
+          "loss": 28
+        },
+        "accuracy": {
+          "old": 0.921875,
+          "new": 0.9440104166666666,
+          "rag": 0.9583333333333334
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 174,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.5464480874316946,
+            5.324168943533697
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9245689655172413,
+            "new": 0.9425287356321839,
+            "rag": 0.9540229885057471
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.390625,
+            5.2083333333333375
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.921875,
+            "new": 0.9440104166666666,
+            "rag": 0.9583333333333334
+          }
+        }
+      },
+      "C28_chains": {
+        "instances": 96,
+        "fact_groups": 6,
+        "personas": 6,
+        "paired_changes": {
+          "loss": 2,
+          "gain": 8
+        },
+        "accuracy": {
+          "old": 0.8958333333333334,
+          "new": 0.9583333333333334,
+          "rag": 1.0
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -2.083333333333337,
+            19.791666666666664
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.8958333333333334,
+            "new": 0.9583333333333334,
+            "rag": 1.0
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -2.083333333333337,
+            19.791666666666664
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.8958333333333334,
+            "new": 0.9583333333333334,
+            "rag": 1.0
+          }
+        }
+      },
+      "without_C28": {
+        "instances": 696,
+        "fact_groups": 174,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 40,
+          "loss": 29
+        },
+        "accuracy": {
+          "old": 0.9123563218390804,
+          "new": 0.9281609195402298,
+          "rag": 0.9367816091954023
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 174,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.1494252873563204,
+            4.597701149425282
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9123563218390804,
+            "new": 0.9281609195402298,
+            "rag": 0.9367816091954023
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -2.442528735632188,
+            5.747126436781603
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9123563218390803,
+            "new": 0.92816091954023,
+            "rag": 0.9367816091954023
+          }
+        }
+      },
+      "natural_C29_C30": {
+        "instances": 48,
+        "fact_groups": 12,
+        "personas": 6,
+        "paired_changes": {
+          "loss": 3,
+          "gain": 1
+        },
+        "accuracy": {
+          "old": 0.9791666666666666,
+          "new": 0.9375,
+          "rag": 1.0
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 12,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -10.416666666666663,
+            0.0
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9791666666666666,
+            "new": 0.9375,
+            "rag": 1.0
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -8.333333333333337,
+            0.0
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9791666666666666,
+            "new": 0.9375,
+            "rag": 1.0
+          }
+        }
+      }
+    }
+  },
+  "runtime": {
+    "old": {
+      "request_response_pairs": 1633,
+      "usage_by_scenario": {
+        "memory_extract": {
+          "calls": 420,
+          "input_tokens": 647615,
+          "cached_input_tokens": 447104,
+          "output_tokens": 117602,
+          "state_SETTLED": 420
+        },
+        "memory_review": {
+          "calls": 293,
+          "input_tokens": 231028,
+          "cached_input_tokens": 42618,
+          "output_tokens": 7625,
+          "state_SETTLED": 293
+        },
+        "chat": {
+          "calls": 920,
+          "input_tokens": 4637850,
+          "cached_input_tokens": 3494016,
+          "output_tokens": 180016,
+          "state_SETTLED": 920
+        }
+      },
+      "audit_actions": {
+        "memory.replaced": 10,
+        "memory.conflict": 10,
+        "memory.candidate_rejected": 2,
+        "memory.review_invalid": 10,
+        "memory.batch_failed": 12
+      },
+      "rejection_reason_codes": {
+        "UNSUPPORTED_SELF_OBSERVATION": 1,
+        "UNSUPPORTED_MEMORY_EVIDENCE": 1
+      },
+      "extraction_responses": 420,
+      "strict_json_parse_failures": 0,
+      "extraction_without_content": 0,
+      "exam_tool_calls": {
+        "memory_recall": 141,
+        "memory_history": 2,
+        "reading_catalog": 2
+      },
+      "exam_memory_recall_duplicate_arguments": 0,
+      "exam_cases_with_raw_fallback": 33,
+      "exam_cases_with_stopped_tool_result": 0,
+      "exam_recall_calls_distribution": {
+        "n": 792,
+        "median": 0.0,
+        "p95": 2.0,
+        "max": 4
+      },
+      "before_first_provider_seconds": {
+        "n": 792,
+        "median": 1.26865955,
+        "p95": 3.3753963150000006,
+        "max": 5.8449335
+      },
+      "job_seconds": {
+        "n": 792,
+        "median": 3.8913376499999996,
+        "p95": 8.250205985000001,
+        "max": 14.5285162
+      }
+    },
+    "new": {
+      "request_response_pairs": 1690,
+      "usage_by_scenario": {
+        "memory_extract": {
+          "calls": 439,
+          "input_tokens": 708275,
+          "cached_input_tokens": 498944,
+          "output_tokens": 133393,
+          "state_SETTLED": 439
+        },
+        "memory_review": {
+          "calls": 317,
+          "input_tokens": 385002,
+          "cached_input_tokens": 169854,
+          "output_tokens": 16470,
+          "state_SETTLED": 317
+        },
+        "chat": {
+          "calls": 934,
+          "input_tokens": 4712396,
+          "cached_input_tokens": 3588992,
+          "output_tokens": 168258,
+          "state_SETTLED": 934
+        }
+      },
+      "audit_actions": {
+        "memory.batch_failed": 37,
+        "memory.replaced": 13,
+        "memory.review_invalid": 16,
+        "memory.conflict": 18,
+        "memory.candidate_rejected": 7
+      },
+      "rejection_reason_codes": {
+        "UNSUPPORTED_MEMORY_CLAIM": 7
+      },
+      "extraction_responses": 439,
+      "strict_json_parse_failures": 1,
+      "extraction_without_content": 0,
+      "exam_tool_calls": {
+        "memory_recall": 167
+      },
+      "exam_memory_recall_duplicate_arguments": 0,
+      "exam_cases_with_raw_fallback": 44,
+      "exam_cases_with_stopped_tool_result": 0,
+      "exam_recall_calls_distribution": {
+        "n": 792,
+        "median": 0.0,
+        "p95": 2.0,
+        "max": 4
+      },
+      "before_first_provider_seconds": {
+        "n": 792,
+        "median": 1.3142542499999998,
+        "p95": 3.34879835,
+        "max": 5.7997099
+      },
+      "job_seconds": {
+        "n": 792,
+        "median": 3.85889155,
+        "p95": 8.000696775,
+        "max": 17.7025103
+      }
+    }
+  },
+  "post_evaluation_repair": {
+    "status": "VERIFIED_TARGETED_POST_EVALUATION_REPAIR",
+    "at": "2026-11-03T23:21:12.497750+00:00",
+    "benchmark_candidate": "7074838d13336240968d39b0299ada126b610b99",
+    "delivery_candidate": "8e91e276bfdfc6a472c1be8dd59dc09edba13e13",
+    "tree": "44d4210b5ba6f17a94cf78129c358aafaea7d05d",
+    "checks": {
+      "red": {
+        "cases": 4,
+        "passed": 2,
+        "failed": 2
+      },
+      "green": {
+        "cases": 90,
+        "passed": 90,
+        "failed": 0
+      }
+    },
+    "docs_check": {
+      "command": "./scripts/check.ps1 -Docs",
+      "passed": 200
+    },
+    "full_repository_runs_total": 1,
+    "full_paid_campaigns_total": 1,
+    "post_repair_paid_calls": 0,
+    "post_repair_full_runs": 0,
+    "scope": "Existing required source-group flag; no new mechanism or model tuning.",
+    "benchmark_outputs_changed": false,
+    "benchmark_score_applies_to_delivery_candidate": false,
+    "verification_scope": [
+      "Signed real HTTP owner inputs, real Core context assembly",
+      "Native SDK with mocked provider transport; continuous and saved-resume paths",
+      "Source revocation blocks saved use; existing hard-limit/pre-reservation guards"
+    ],
+    "original_product_receipt_sha256": "7bd9835ea81587b6e967fa035373d5f132362e54b2810ed81ee7eb3945911756",
+    "source_sha256": {
+      "companion/core.py": "ef9d15faea440c0db5d1d2ec456d3ce887b7ca6c60fff1227acfe79065359118",
+      "tests/test_context_memory_retention.py": "cc0c884c97519509ce84bd5dd96b2c78e5c11e70d8eb24f9661fb538e232d9c0",
+      "docs/plans/2026-11-02-memory-inputs.md": "ebd0159b466f4786855f611f6ed60414a9b35a2f1eb2b3e77dcd6f56f21a40fa"
+    },
+    "files_sha256": {
+      "post-evaluation-source-red.xml": "a3e0acf50dcd2a07ae056900ae3d8ddcc9682b1beac4e9c6e2d6e3791f24eeca",
+      "post-evaluation-source-green.xml": "609476282e2f7ea6c1b894f65e9bbe8f17288f2ad4b68c04209328b460e4a130",
+      "post_evaluation_verification.py": "23540a49f8624b64cebea0d967015a3ada7c878688b3163deb9e4fe1c75506cc"
+    }
+  },
+  "validity_sensitivity": {
+    "posthoc": true,
+    "primary_unchanged": true,
+    "uniform_all_arms": true,
+    "results_sha256": "8351543bd3fd5cba7e5229ae98aade8eec32a0e23c802dff6ded4fe9412f3195",
+    "interpretation": "输入缺陷与评分解释敏感性，非新的预注册主指标，不能挑选较好子集替代主分数。",
+    "subsets": {
+      "without_name_mismatches_C13_C21": {
+        "instances": 744,
+        "fact_groups": 168,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 38,
+          "loss": 24
+        },
+        "accuracy": {
+          "old": 0.9274193548387096,
+          "new": 0.946236559139785,
+          "rag": 0.9811827956989247
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 168,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.7183908045977017,
+            4.761904761904767
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9308035714285714,
+            "new": 0.9449404761904762,
+            "rag": 0.9791666666666666
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.0752688172043112,
+            5.241935483870974
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9274193548387096,
+            "new": 0.946236559139785,
+            "rag": 0.9811827956989249
+          }
+        }
+      },
+      "without_names_and_C18_anchor": {
+        "instances": 720,
+        "fact_groups": 162,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 29,
+          "loss": 21
+        },
+        "accuracy": {
+          "old": 0.9402777777777778,
+          "new": 0.9513888888888888,
+          "rag": 0.9819444444444444
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 162,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.2931034482758563,
+            3.825136612021851
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9452160493827161,
+            "new": 0.9506172839506173,
+            "rag": 0.9799382716049383
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.388888888888895,
+            3.6111111111111094
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9402777777777778,
+            "new": 0.9513888888888888,
+            "rag": 0.9819444444444446
+          }
+        }
+      },
+      "without_names_C18_and_C17": {
+        "instances": 696,
+        "fact_groups": 156,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 26,
+          "loss": 18
+        },
+        "accuracy": {
+          "old": 0.9540229885057471,
+          "new": 0.9655172413793104,
+          "rag": 0.9985632183908046
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 156,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.2931034482758563,
+            3.888888888888886
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9607371794871795,
+            "new": 0.9663461538461539,
+            "rag": 0.9983974358974359
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.1494252873563315,
+            3.4482758620689613
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9540229885057471,
+            "new": 0.9655172413793104,
+            "rag": 0.9985632183908045
+          }
+        }
+      },
+      "without_C12": {
+        "instances": 768,
+        "fact_groups": 174,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 39,
+          "loss": 30
+        },
+        "accuracy": {
+          "old": 0.9231770833333334,
+          "new": 0.9348958333333334,
+          "rag": 0.9427083333333334
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 174,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.3441848513599082,
+            3.9682539682539653
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9260057471264368,
+            "new": 0.9324712643678161,
+            "rag": 0.9367816091954023
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.78125,
+            3.776041666666674
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9231770833333334,
+            "new": 0.9348958333333334,
+            "rag": 0.9427083333333334
+          }
+        }
+      },
+      "restore_raw_majority_only_for_C12": {
+        "instances": 792,
+        "fact_groups": 180,
+        "personas": 6,
+        "paired_changes": {
+          "gain": 39,
+          "loss": 30
+        },
+        "accuracy": {
+          "old": 0.9255050505050505,
+          "new": 0.9368686868686869,
+          "rag": 0.9444444444444444
+        },
+        "fact_group": {
+          "cluster": "dependency_group",
+          "clusters": 180,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -1.3227513227513255,
+            3.835978835978837
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9284722222222223,
+            "new": 0.9347222222222222,
+            "rag": 0.9388888888888889
+          }
+        },
+        "persona": {
+          "cluster": "persona",
+          "clusters": 6,
+          "repetitions": 20000,
+          "seed": 20261104,
+          "method": "paired percentile cluster bootstrap, question-weighted ratio",
+          "new_minus_old_points_95_ci": [
+            -0.7575757575757569,
+            3.6616161616161547
+          ],
+          "equal_cluster_weight_accuracy": {
+            "old": 0.9255050505050506,
+            "new": 0.9368686868686869,
+            "rag": 0.9444444444444445
+          }
+        }
+      }
+    }
+  },
+  "failure_diagnosis": {
+    "method": "只读闭合数据库；batch_failed为失败尝试事件，不是终态批次数。",
+    "explicit_recovery_executed": false,
+    "arms": {
+      "old": {
+        "attempt_events": {
+          "memory.review_invalid": 10,
+          "memory.batch_failed": 12
+        },
+        "review_invalid_reasons": {
+          "schema": 7,
+          "invalid_reference": 3
+        },
+        "retained_terminal_failures": [],
+        "current_checkpoints": [
+          {
+            "persona": "X01",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X02",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X03",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X04",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X05",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X06",
+            "phase": "COMPLETE"
+          }
+        ]
+      },
+      "new": {
+        "attempt_events": {
+          "memory.batch_failed": 37,
+          "memory.review_invalid": 16
+        },
+        "review_invalid_reasons": {
+          "schema": 7,
+          "invalid_replacement": 9
+        },
+        "retained_terminal_failures": [
+          {
+            "persona": "X02",
+            "entry": "memory_failed_batch:memory_batch_e593a398290846ddaa15ec22eb4ae9a3",
+            "state": "FAILED",
+            "recoveries": 0,
+            "candidates": 1,
+            "source_count": 5,
+            "error": "MEMORY_REVIEW_INVALID",
+            "review_attempts": 3,
+            "receipts": [
+              {
+                "request_id": "request_17db44f6ca144bafa232d50d275bc547",
+                "state": "SETTLED"
+              },
+              {
+                "request_id": "request_d146d105aedb4aecbad167da2a3ab333",
+                "state": "SETTLED"
+              }
+            ]
+          },
+          {
+            "persona": "X03",
+            "entry": "memory_failed_batch:memory_batch_8b613666dd9345f9a0288222551a8a3e",
+            "state": "FAILED",
+            "recoveries": 0,
+            "candidates": 3,
+            "source_count": 5,
+            "error": "MEMORY_REVIEW_INVALID",
+            "review_attempts": 3,
+            "receipts": [
+              {
+                "request_id": "request_0bf42e9d4325414eba804eae798eb58f",
+                "state": "SETTLED"
+              },
+              {
+                "request_id": "request_3deb8bc81f6b4e4980921f6124943ab3",
+                "state": "SETTLED"
+              }
+            ]
+          }
+        ],
+        "current_checkpoints": [
+          {
+            "persona": "X01",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X02",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X03",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X04",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X05",
+            "phase": "COMPLETE"
+          },
+          {
+            "persona": "X06",
+            "phase": "COMPLETE"
+          }
+        ]
+      }
+    }
+  },
+  "raw_majority": {
+    "old": 714,
+    "new": 732,
+    "rag": 746,
+    "closed": 33
+  }
+}

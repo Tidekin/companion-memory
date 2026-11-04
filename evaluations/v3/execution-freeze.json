@@ -1,0 +1,31 @@
+{
+  "status": "EXECUTION_FROZEN_BEFORE_FIRST_NEW_PROVIDER_CALL",
+  "at": "2026-11-02T23:53:18.183676+00:00",
+  "files_sha256": {
+    "campaign-freeze.json": "36835c8777292d9efb91ada87a5ab425e6fe37ce262bfc84c137fc1336ee8311",
+    "campaign-budget.json": "09a2aa9b61abd7d486ef8d41330d9faa422f4bb7d6af0a003c799f0597056f45",
+    "source-freeze.json": "784985d06da843886592ec3f504831d706edd58d529db8934ead78e93d3c6ed6",
+    "corpus-freeze.json": "15536b30c4c7a3e50c9eb7b92603b921a51bf8c2074d0d78e63b8a431ba955fb",
+    "run_campaign.py": "22dc9431cc3b3104f215be008529bc9d35193df27983c0cad803ae160d34c057",
+    "run_rag.py": "31f0f6df40e15ac3deb20382b7aa355d3f77292ae52adc2309f1622a1591b9bb",
+    "grade_blind.py": "100f6c8e916974b0c72df410699bb090715bd8cd88753d9463ef26432c658e53",
+    "build_bank.py": "6f1011533fca74222bea1477c4855eeab6fa619cc2d3398a19f0e2646206e754",
+    "freeze_bank.py": "a5cbdfcdcca98518b5987539c3e81f0130750f841ae95d2e2c7c7008eaaccc21"
+  },
+  "grading_policy": {
+    "original_rules_file": "runner/scripts/memory_benchmark/rubric.py",
+    "original_rules_sha256": "ec9e45d19884bab7323e93c8e87430510498b1f5a2d0573b9f36df4acaf01e86",
+    "version_labels_hidden": true,
+    "review_preregistered": "S02/d15 all24 x3 =72, plus answers where arms differ",
+    "no_gold_read_by_inference": true
+  },
+  "rag_policy": {
+    "canonical_inputs": "old native actual observations/replies only",
+    "top_k": 40,
+    "rerank_top_n": 10,
+    "recent_rounds": 6,
+    "same_answer_model": "deepseek-flash"
+  },
+  "smoke_spend_cny_on_exposed_v2_bank": 0.2629,
+  "current_new_calls": 0
+}

@@ -1,0 +1,31 @@
+name: Reference checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  reference:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --frozen --python 3.11
+      - run: uv run --frozen python scripts/verify_release.py
+      - run: uv run --frozen ruff check .
+      - run: uv run --frozen pytest --basetemp=.local/test-temp
+      - run: uv build
+      - name: Install wheel in isolated consumer
+        shell: pwsh
+        run: |
+          uv venv .local/consumer --python 3.11
+          $py = if ($IsWindows) { '.local/consumer/Scripts/python.exe' } else { '.local/consumer/bin/python' }
+          $wheel = (Get-ChildItem dist/*.whl).FullName
+          uv pip install --python $py $wheel
+          & $py -I -B examples/sqlite_demo.py
+          if ($LASTEXITCODE -ne 0) { throw 'Isolated wheel example failed' }

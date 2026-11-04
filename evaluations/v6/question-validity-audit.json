@@ -1,0 +1,226 @@
+{
+  "posthoc": true,
+  "primary_unchanged": true,
+  "uniform_all_arms": true,
+  "findings": [
+    {
+      "category": "C13",
+      "kind": "authoring_name_mismatch",
+      "issue": "题干霜叶清册与图片/实际读取的榆叶工具清册不一致。",
+      "question_ids": [
+        "X01-C13/d00",
+        "X01-C13/d03",
+        "X01-C13/d15",
+        "X01-C13/d45",
+        "X02-C13/d00",
+        "X02-C13/d03",
+        "X02-C13/d15",
+        "X02-C13/d45",
+        "X03-C13/d00",
+        "X03-C13/d03",
+        "X03-C13/d15",
+        "X03-C13/d45",
+        "X04-C13/d00",
+        "X04-C13/d03",
+        "X04-C13/d15",
+        "X04-C13/d45",
+        "X05-C13/d00",
+        "X05-C13/d03",
+        "X05-C13/d15",
+        "X05-C13/d45",
+        "X06-C13/d00",
+        "X06-C13/d03",
+        "X06-C13/d15",
+        "X06-C13/d45"
+      ],
+      "example": {
+        "question": "霜叶清册里铜制漏斗本体和替换件分别放哪里？",
+        "sources": [
+          {
+            "turn": 115,
+            "id": "X01-C13-S1",
+            "now": "2026-03-10T09:20:00+08:00",
+            "modality": "image",
+            "text": "",
+            "asset": "assets/X01-C13-S1.png",
+            "caption": "这是我补充的一份资料，请按实际内容读取。",
+            "assistant_reply": "收到，我记下了。"
+          }
+        ],
+        "observed": [
+          {
+            "turn": 115,
+            "id": "X01-C13-S1",
+            "now": "2026-03-10T09:20:00+08:00",
+            "modality": "image",
+            "text": "",
+            "asset": "assets/X01-C13-S1.png",
+            "caption": "这是我补充的一份资料，请按实际内容读取。",
+            "assistant_reply": "收到，我记下了。",
+            "observed_text": "",
+            "native_reply": "看到了，榆叶工具清册\n\n\n耗材00到17，位置就在备用架1到5层来回轮，00对1层，04对5层，05又回到1层，规律挺死板的\n\n\n最后那两行倒是跳出来了，铜制漏斗本体在青榆伞坊三号抽屉，替换件在八号格，跟前面对不上\n\n这是要我记着，还是哪条线索要用上",
+            "native_state": {
+              "state": "SUCCEEDED",
+              "last_error_code": null
+            },
+            "infrastructure_error": false,
+            "media_error": null,
+            "event_id": "evt_c836b14aef074572bb75d70840721a85c79cae44c6a597635409b2110726c2e1"
+          }
+        ]
+      }
+    },
+    {
+      "category": "C21",
+      "kind": "authoring_name_mismatch",
+      "issue": "计划为岚屿交流函，未寄出的更新却称星屿那封，未说明二者同一。",
+      "question_ids": [
+        "X01-C21/d00",
+        "X01-C21/d03",
+        "X01-C21/d15",
+        "X01-C21/d45",
+        "X02-C21/d00",
+        "X02-C21/d03",
+        "X02-C21/d15",
+        "X02-C21/d45",
+        "X03-C21/d00",
+        "X03-C21/d03",
+        "X03-C21/d15",
+        "X03-C21/d45",
+        "X04-C21/d00",
+        "X04-C21/d03",
+        "X04-C21/d15",
+        "X04-C21/d45",
+        "X05-C21/d00",
+        "X05-C21/d03",
+        "X05-C21/d15",
+        "X05-C21/d45",
+        "X06-C21/d00",
+        "X06-C21/d03",
+        "X06-C21/d15",
+        "X06-C21/d45"
+      ],
+      "example": {
+        "question": "岚屿交流函已经寄了吗，现在是什么状态？",
+        "sources": [
+          {
+            "turn": 179,
+            "id": "X01-C21-S1",
+            "now": "2026-04-11T09:20:00+08:00",
+            "modality": "text",
+            "text": "我打算把岚屿交流函寄给鲁苒。",
+            "asset": null,
+            "caption": null,
+            "assistant_reply": "收到，我记下了。"
+          },
+          {
+            "turn": 181,
+            "id": "X01-C21-S2",
+            "now": "2026-04-12T09:20:00+08:00",
+            "modality": "text",
+            "text": "星屿那封还在桌上，没有寄出；以后寄了再告诉你。",
+            "asset": null,
+            "caption": null,
+            "assistant_reply": "收到，我记下了。"
+          }
+        ],
+        "observed": [
+          {
+            "turn": 179,
+            "id": "X01-C21-S1",
+            "now": "2026-04-11T09:20:00+08:00",
+            "modality": "text",
+            "text": "我打算把岚屿交流函寄给鲁苒。",
+            "asset": null,
+            "caption": null,
+            "assistant_reply": "收到，我记下了。",
+            "observed_text": "我打算把岚屿交流函寄给鲁苒。"
+          },
+          {
+            "turn": 181,
+            "id": "X01-C21-S2",
+            "now": "2026-04-12T09:20:00+08:00",
+            "modality": "text",
+            "text": "星屿那封还在桌上，没有寄出；以后寄了再告诉你。",
+            "asset": null,
+            "caption": null,
+            "assistant_reply": "收到，我记下了。",
+            "observed_text": "星屿那封还在桌上，没有寄出；以后寄了再告诉你。"
+          }
+        ]
+      }
+    },
+    {
+      "category": "C18",
+      "kind": "temporal_anchor_ambiguity",
+      "issue": "语音自述今天3月21日，入站时间3月30日；记录时间与接收时间未另作说明。",
+      "question_ids": [
+        "X01-C18/d00",
+        "X01-C18/d03",
+        "X01-C18/d15",
+        "X01-C18/d45",
+        "X02-C18/d00",
+        "X02-C18/d03",
+        "X02-C18/d15",
+        "X02-C18/d45",
+        "X03-C18/d00",
+        "X03-C18/d03",
+        "X03-C18/d15",
+        "X03-C18/d45",
+        "X04-C18/d00",
+        "X04-C18/d03",
+        "X04-C18/d15",
+        "X04-C18/d45",
+        "X05-C18/d00",
+        "X05-C18/d03",
+        "X05-C18/d15",
+        "X05-C18/d45",
+        "X06-C18/d00",
+        "X06-C18/d03",
+        "X06-C18/d15",
+        "X06-C18/d45"
+      ],
+      "example": {
+        "question": "我当时说去芦砂店取名牌是几月几日？按说那句话当天换算。",
+        "sources": [
+          {
+            "turn": 155,
+            "id": "X01-C18-S1",
+            "now": "2026-03-30T09:20:00+08:00",
+            "modality": "relative_voice",
+            "text": "",
+            "asset": "assets/X01-C18-S1.wav",
+            "caption": "这是我补充的一份资料，请按实际内容读取。",
+            "assistant_reply": "收到，我记下了。"
+          }
+        ],
+        "observed": [
+          {
+            "turn": 155,
+            "id": "X01-C18-S1",
+            "now": "2026-03-30T09:20:00+08:00",
+            "modality": "relative_voice",
+            "text": "",
+            "asset": "assets/X01-C18-S1.wav",
+            "caption": "这是我补充的一份资料，请按实际内容读取。",
+            "assistant_reply": "收到，我记下了。",
+            "observed_text": "今天3月21日,我约了后天到卢沙殿取湾豆的名牌。",
+            "native_reply": "你补充的那份资料这边没打开，显示不出内容，得麻烦你重发一下或者直接打字说。\n\n\n语音我听到了，说约了后天去卢沙殿取湾豆的名牌。\n\n\n不过里面说的是“今天3月21日”，可今天都30号了，是转写听岔了还是你那边记的日子乱着。\n\n按后天算就是4月1号，别记混淆白跑。",
+            "native_state": {
+              "state": "SUCCEEDED",
+              "last_error_code": null
+            },
+            "infrastructure_error": false,
+            "media_error": null,
+            "event_id": "evt_480f69c630b95f3495a7b1398483fa161de14f4bcd6f0fa6042fba810eb87239"
+          }
+        ]
+      }
+    }
+  ],
+  "additional_scoring_limits": [
+    "C22的借某人N把没有明确借入或借出，现有得分不能认证借用方向。",
+    "C24要求纸鸟身份却未明确写搭档归属，漏答搭档仍可能满足冻结required。",
+    "C26只检查回答不复述，不证明存储中已擦除；擦除另由产品测试验证。"
+  ]
+}

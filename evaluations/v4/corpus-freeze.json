@@ -1,0 +1,57 @@
+{
+  "status": "FROZEN_SCHEMA_CHRONOLOGY_MEDIA_PASSED",
+  "at": "2026-11-03T05:02:21.857695+00:00",
+  "bundle_manifest_sha256": "29008d59d39cdd3a70a22690e9b016af90b387f317aee5b540fbb7de2360d521",
+  "questions_sha256": "ee19402cde62eb4928d56bbd8a0999dd73361ad4d78d6ea5ae99154201e5232d",
+  "criteria_sha256": "c383bb91eab734be908f3f82bbae275135924ae36cd9d8b7d47b3ddfb8f14c54",
+  "asr_sha256": "e61847dc56ccf47d8a116f2e0afd779a2aeaf5171d0912851bb418d3c1954a46",
+  "semantic": 480,
+  "personas": 5,
+  "categories": 24,
+  "delays": [
+    0,
+    3,
+    15,
+    45
+  ],
+  "groups": 120,
+  "source_modalities": {
+    "text": 1735,
+    "file": 20,
+    "quote": 5,
+    "forward": 15,
+    "assistant": 5,
+    "relative_voice": 3,
+    "image": 10,
+    "voice": 7
+  },
+  "audio_assets": 10,
+  "audio_total_seconds": 59.3,
+  "per_persona": {
+    "U01": {
+      "semantic_questions": 96,
+      "turns": 360,
+      "maximum_cutoff_turn": 346
+    },
+    "U02": {
+      "semantic_questions": 96,
+      "turns": 360,
+      "maximum_cutoff_turn": 346
+    },
+    "U03": {
+      "semantic_questions": 96,
+      "turns": 360,
+      "maximum_cutoff_turn": 346
+    },
+    "U04": {
+      "semantic_questions": 96,
+      "turns": 360,
+      "maximum_cutoff_turn": 346
+    },
+    "U05": {
+      "semantic_questions": 96,
+      "turns": 360,
+      "maximum_cutoff_turn": 346
+    }
+  }
+}

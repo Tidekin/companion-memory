@@ -1,0 +1,67 @@
+{
+  "status": "SOURCE_AND_SETTINGS_FROZEN_BEFORE_BANK",
+  "at": "2026-11-03T11:00:11.913589+00:00",
+  "arms": {
+    "old": "c3749a14d6409bd0ca9df5f0502b8f523cb7b8b0",
+    "new": "86aa9e468e9e7f91d63f17964af82921eb65fc22"
+  },
+  "settings": {
+    "native": {
+      "context_soft_tokens": 8000,
+      "max_output_tokens": 768,
+      "chat_thinking": "high",
+      "chat_thinking_tokens": 3072,
+      "memory_extract_max_output_tokens": 2048,
+      "timeout_seconds": 45,
+      "lease_seconds": 120
+    },
+    "history_grant": {
+      "max_turns": 14,
+      "max_utf8_bytes": 32000
+    },
+    "provider": {
+      "adapter": "deepseek",
+      "base_url": "https://api.deepseek.com",
+      "model": "deepseek-flash"
+    },
+    "pricing": {
+      "input_rate": 2.0,
+      "cached_input_rate": 0.04,
+      "output_rate": 8.0,
+      "safety_factor": 1.5
+    },
+    "rag": {
+      "observed_arm": "old",
+      "base_url": "https://maas.qianwenaiapi.com",
+      "embedding": "qwen3.7-text-embedding",
+      "dimensions": 2560,
+      "rerank": "qwen3.7-text-rerank",
+      "top_k": 40,
+      "top_n": 10,
+      "recent_turns": 6,
+      "generator": "deepseek-flash",
+      "max_tokens": 3840,
+      "thinking": "high",
+      "qwen_rate_cny_per_million": 5,
+      "qwen_key_file": null
+    },
+    "grading": {
+      "rubric": "v3",
+      "votes": 3,
+      "batch_size": 8,
+      "concurrency": 3,
+      "max_tokens": 2048,
+      "judges": [
+        "deepseek",
+        "deepseek",
+        "qwen"
+      ],
+      "anchors": "anchors.jsonl",
+      "anchors_per_batch": 2,
+      "anchor_retries": 2,
+      "anchor_gate_margin": 0.15
+    }
+  },
+  "round_json_sha256": "a9a83b80961222ae8c4f5ad0e771ff82350ef2982a79b9b75db79bb607ef723c",
+  "provider_calls": 0
+}

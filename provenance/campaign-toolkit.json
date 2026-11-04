@@ -1,0 +1,174 @@
+{
+  "source_commit": "30628cff61d6642d6ababf833d6432cd83695c0f",
+  "files": {
+    "benchmarks/memory_campaign/README.md": {
+      "source_sha256": "8a3ae40c366b2547dee0b913f2398484eb49895cccdf11a6f912066745507827",
+      "public_sha256": "4c9d21a02fd9295c27c9fff76df26368df9a8fd84e45224bfbecdab0f3783026",
+      "redactions": {
+        "local_path": 1
+      }
+    },
+    "benchmarks/memory_campaign/authoring.py": {
+      "source_sha256": "cceeada3802d15bfd96d9f3b8e1e1568c55ada428268fecda41b4fd414e4f7d2",
+      "public_sha256": "cceeada3802d15bfd96d9f3b8e1e1568c55ada428268fecda41b4fd414e4f7d2",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/bank.py": {
+      "source_sha256": "3aa6178a1096ae8cab1df33a341c06b2cf78797e40a5800ffa104575e6caa894",
+      "public_sha256": "3aa6178a1096ae8cab1df33a341c06b2cf78797e40a5800ffa104575e6caa894",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/diagnose.py": {
+      "source_sha256": "b10d59a1a2ff5dbaa1a86021399cd5e7f5a8626f125d200f0939ad51cb270c58",
+      "public_sha256": "b10d59a1a2ff5dbaa1a86021399cd5e7f5a8626f125d200f0939ad51cb270c58",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/eval_recall.py": {
+      "source_sha256": "6ac8a05908c96e4e9d8f7da5eb743520db422d608debfd0021ebb7527d754bbc",
+      "public_sha256": "6ac8a05908c96e4e9d8f7da5eb743520db422d608debfd0021ebb7527d754bbc",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/grade.py": {
+      "source_sha256": "994e77f1bd5e42991b1a6fd74320cd1cd4c115f75d0d7181da6c209ed87e13a8",
+      "public_sha256": "994e77f1bd5e42991b1a6fd74320cd1cd4c115f75d0d7181da6c209ed87e13a8",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/make_anchors.py": {
+      "source_sha256": "18aaae20291a4d1884b86eb16fbcb1c350c282fed675d78eb16dc9b47bd6568d",
+      "public_sha256": "18aaae20291a4d1884b86eb16fbcb1c350c282fed675d78eb16dc9b47bd6568d",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/prepare.py": {
+      "source_sha256": "a5f57270187c55f8318d939aaee41f41efcd50cbb54886a7c186eadcce058e54",
+      "public_sha256": "a5f57270187c55f8318d939aaee41f41efcd50cbb54886a7c186eadcce058e54",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/rag.py": {
+      "source_sha256": "3e18a128599116eabea0b3c0e6458037cfc01dee0b1de9252bc3c17ec6eb8b5e",
+      "public_sha256": "3e18a128599116eabea0b3c0e6458037cfc01dee0b1de9252bc3c17ec6eb8b5e",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/report.py": {
+      "source_sha256": "6a23fb18cd1181b1db811ac664a97c9dc45526bcd7f8794ab21834e6fc0b3c61",
+      "public_sha256": "2cd8a7dce936b803b725c0ee7947ad2e268c1acedfa65a4511ea994810dc589c",
+      "redactions": {
+        "local_path": 1
+      }
+    },
+    "benchmarks/memory_campaign/roundcfg.py": {
+      "source_sha256": "94108119b37d1643fa9365003379b6fe7b22adf108456e952626db88df7e1915",
+      "public_sha256": "e2ddfe05c5a18ed65b7d7cef5d9b1c18774d3905d44093634a2c0fecca377e29",
+      "redactions": {
+        "local_path": 5,
+        "network_address": 1
+      }
+    },
+    "benchmarks/memory_campaign/rubrics.py": {
+      "source_sha256": "1d5c18596c5c27fee27a9c4d4929570f16ace494f2bcc5ceb398e79d9608f141",
+      "public_sha256": "1d5c18596c5c27fee27a9c4d4929570f16ace494f2bcc5ceb398e79d9608f141",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/ruff.toml": {
+      "source_sha256": "04c1e18d9ac173fdf17e5660eefd42dd94faa47323fe3df82233a7381bf62068",
+      "public_sha256": "04c1e18d9ac173fdf17e5660eefd42dd94faa47323fe3df82233a7381bf62068",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/run.py": {
+      "source_sha256": "08e13ef0af56f4f4a666241c6f9f02e0b4aaddc3b99ee2f6db1088c28555aa0a",
+      "public_sha256": "08e13ef0af56f4f4a666241c6f9f02e0b4aaddc3b99ee2f6db1088c28555aa0a",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/__init__.py": {
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/__init__.py": {
+      "source_sha256": "05405e19c4bcba6da7cad1b84bcc6487346c74490c7792be7f8c6393ce1be2c9",
+      "public_sha256": "05405e19c4bcba6da7cad1b84bcc6487346c74490c7792be7f8c6393ce1be2c9",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/budget.py": {
+      "source_sha256": "c5894d720c0be354a7ea3c075c879300a5ba8d28a021bb4363a753c2a90e3811",
+      "public_sha256": "c5894d720c0be354a7ea3c075c879300a5ba8d28a021bb4363a753c2a90e3811",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/cli.py": {
+      "source_sha256": "5a1339c1f15ffabe492c788d9b6dbe4b4bfb5990eb558d1db2089d4eb2778eba",
+      "public_sha256": "5a1339c1f15ffabe492c788d9b6dbe4b4bfb5990eb558d1db2089d4eb2778eba",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/grading.py": {
+      "source_sha256": "f502ac9ea68aada976544065cf980636ae5cad221b881b634a957351394a3420",
+      "public_sha256": "f502ac9ea68aada976544065cf980636ae5cad221b881b634a957351394a3420",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/native.py": {
+      "source_sha256": "9542528f521a0edecff18f15551468589c3cf707da195e35011cf5b75292b3a0",
+      "public_sha256": "9542528f521a0edecff18f15551468589c3cf707da195e35011cf5b75292b3a0",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/report.html": {
+      "source_sha256": "3a8c9dd223e4e0b7a7c37638f629102c6f9d3a5403def0fe68b91d80f3138f1c",
+      "public_sha256": "3a8c9dd223e4e0b7a7c37638f629102c6f9d3a5403def0fe68b91d80f3138f1c",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/report.py": {
+      "source_sha256": "921745a6fe668bf104dd9c2483c914ac4c1e4230c058332ad9ec4bd6207a95b7",
+      "public_sha256": "921745a6fe668bf104dd9c2483c914ac4c1e4230c058332ad9ec4bd6207a95b7",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/rubric.py": {
+      "source_sha256": "fa3e3db84cbd1a9b1edbbfc32787f52249ad9bfb46ea6e04050f3b61d7b811ec",
+      "public_sha256": "fa3e3db84cbd1a9b1edbbfc32787f52249ad9bfb46ea6e04050f3b61d7b811ec",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/runtime.py": {
+      "source_sha256": "bc028908fef1745bfca814c421cb4289daa7357db1937e79664b3f55ede59a69",
+      "public_sha256": "bc028908fef1745bfca814c421cb4289daa7357db1937e79664b3f55ede59a69",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/scripts/memory_benchmark/worker.py": {
+      "source_sha256": "94c8fcddad9e21b151331f941f7add1b0941ccc243b13c132818d5cf97d2faf2",
+      "public_sha256": "94c8fcddad9e21b151331f941f7add1b0941ccc243b13c132818d5cf97d2faf2",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/tests/test_campaign_budget.py": {
+      "source_sha256": "1d4b0d0cf7274dd80786632e9595069e53aaf5d9db0e9fc480ba4e7d79f05f5e",
+      "public_sha256": "1d4b0d0cf7274dd80786632e9595069e53aaf5d9db0e9fc480ba4e7d79f05f5e",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/tests/test_memory_benchmark_lifecycle.py": {
+      "source_sha256": "d10aea3fbf3b7ece02a11e0ef01f411f85e65bcae672b07453fda933c2150f18",
+      "public_sha256": "d10aea3fbf3b7ece02a11e0ef01f411f85e65bcae672b07453fda933c2150f18",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/runner/tests/test_rag_boundaries.py": {
+      "source_sha256": "b10b76762498daed352b426108ab2ef7eb1d4f103dc7ee0c6e1921ec6a765334",
+      "public_sha256": "b10b76762498daed352b426108ab2ef7eb1d4f103dc7ee0c6e1921ec6a765334",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/smoke.py": {
+      "source_sha256": "62f78874bf28f6e4416aa6028248081c74b472ae7a76b8ad102aaf0f59873edf",
+      "public_sha256": "62f78874bf28f6e4416aa6028248081c74b472ae7a76b8ad102aaf0f59873edf",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/synthesize_audio.ps1": {
+      "source_sha256": "5ead284b01eb55f4b7ab96ec3c53768875c719bdb907296826d17ed2c52d8c85",
+      "public_sha256": "5ead284b01eb55f4b7ab96ec3c53768875c719bdb907296826d17ed2c52d8c85",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/tests/test_toolkit.py": {
+      "source_sha256": "32bbc609af6d2c70612eefc8b7f7572bbd31e9a89d97016f8be9f55c7cd0378f",
+      "public_sha256": "32bbc609af6d2c70612eefc8b7f7572bbd31e9a89d97016f8be9f55c7cd0378f",
+      "redactions": {}
+    },
+    "benchmarks/memory_campaign/transcribe_audio.py": {
+      "source_sha256": "18f88a3a45084ea733e9afa7f767b52b10dd81a697cc34856c72b4989646a1b1",
+      "public_sha256": "202633d2421960b30ce1a3df2d38d89a56d27798ada9730be46d21f296765d91",
+      "redactions": {
+        "local_path": 2
+      }
+    }
+  }
+}

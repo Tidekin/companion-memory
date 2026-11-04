@@ -1,0 +1,10 @@
+{
+  "status": "EXECUTION_FROZEN_BEFORE_FIRST_PROVIDER_CALL",
+  "at": "2026-11-03T19:32:35.567569+00:00",
+  "files_sha256": {
+    "campaign-freeze.json": "95dc1a245f3c7ccc8f5a2ef7257138937939c89b343a92294def9f4798d1ab47",
+    "source-freeze.json": "e787986ef4688072395cd88de0c9221186fab1385ee61b69edac6db632142b8d",
+    "corpus-freeze.json": "180e757ab674a8ded0f61842a2679e62417b7dc21f9e19142dbfb20e5da7f2d8",
+    "round.json": "f9d627dd00ff2126a2bc31006bb136bfa24644e4f5d2d3dd9b14b22750f97c9f"
+  }
+}

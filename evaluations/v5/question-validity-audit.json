@@ -1,0 +1,45 @@
+{
+  "status": "POSTHOC_QUESTION_VALIDITY_AUDIT_PRIMARY_BANK_UNCHANGED",
+  "findings": [
+    {
+      "id": "workplace_current_vs_move",
+      "question_ids": [
+        "V01-C03/d45",
+        "V02-C03/d45",
+        "V03-C03/d45",
+        "V04-C03/d45",
+        "V05-C03/d45",
+        "V06-C03/d45"
+      ],
+      "reason": "C03 asks present workplace with original venue criterion, but C09 later states owner moved to a new venue. No relationship between venues is specified.",
+      "treatment": "Keep frozen primary criteria; report a uniform sensitivity exclusion across every arm, never selectively by answer."
+    },
+    {
+      "id": "today_drink_after_delay",
+      "question_ids": [
+        "V01-C04/d03",
+        "V01-C04/d15",
+        "V01-C04/d45",
+        "V02-C04/d03",
+        "V02-C04/d15",
+        "V02-C04/d45",
+        "V03-C04/d03",
+        "V03-C04/d15",
+        "V03-C04/d45",
+        "V04-C04/d03",
+        "V04-C04/d15",
+        "V04-C04/d45",
+        "V05-C04/d03",
+        "V05-C04/d15",
+        "V05-C04/d45",
+        "V06-C04/d03",
+        "V06-C04/d15",
+        "V06-C04/d45"
+      ],
+      "reason": "Question still says today after delaying3/15/45days; criteria refer to the earlier temporary replacement drink.",
+      "treatment": "Keep primary score and separately show uniform sensitivity excluding these ambiguous references."
+    }
+  ],
+  "rubric_limitation": "C12 OR wording and v3 reporting unsupported separately can accept unwarranted adoption of a later color when unknown reason is also stated. Not a strict contradiction-preservation score.",
+  "review_semantic_boundaries": "NineC16contact/key-role cases retain fixed majority and are reported with sensitivity bounds."
+}

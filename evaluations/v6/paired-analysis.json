@@ -1,0 +1,236 @@
+{
+  "results_sha256": "8351543bd3fd5cba7e5229ae98aade8eec32a0e23c802dff6ded4fe9412f3195",
+  "interpretation": "Exploratory: six personas and shared templates; no independent 792-sample or general-population causal claim.",
+  "subsets": {
+    "all": {
+      "instances": 792,
+      "fact_groups": 180,
+      "personas": 6,
+      "paired_changes": {
+        "gain": 48,
+        "loss": 31
+      },
+      "accuracy": {
+        "old": 0.9103535353535354,
+        "new": 0.9318181818181818,
+        "rag": 0.9444444444444444
+      },
+      "fact_group": {
+        "cluster": "dependency_group",
+        "clusters": 180,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -0.6038647342995196,
+          5.17676767676768
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9118055555555555,
+          "new": 0.9291666666666667,
+          "rag": 0.9388888888888889
+        }
+      },
+      "persona": {
+        "cluster": "persona",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -0.5050505050505083,
+          5.30303030303031
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9103535353535354,
+          "new": 0.9318181818181818,
+          "rag": 0.9444444444444445
+        }
+      }
+    },
+    "non_C17": {
+      "instances": 768,
+      "fact_groups": 174,
+      "personas": 6,
+      "paired_changes": {
+        "gain": 45,
+        "loss": 28
+      },
+      "accuracy": {
+        "old": 0.921875,
+        "new": 0.9440104166666666,
+        "rag": 0.9583333333333334
+      },
+      "fact_group": {
+        "cluster": "dependency_group",
+        "clusters": 174,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -0.5464480874316946,
+          5.324168943533697
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9245689655172413,
+          "new": 0.9425287356321839,
+          "rag": 0.9540229885057471
+        }
+      },
+      "persona": {
+        "cluster": "persona",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -0.390625,
+          5.2083333333333375
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.921875,
+          "new": 0.9440104166666666,
+          "rag": 0.9583333333333334
+        }
+      }
+    },
+    "C28_chains": {
+      "instances": 96,
+      "fact_groups": 6,
+      "personas": 6,
+      "paired_changes": {
+        "loss": 2,
+        "gain": 8
+      },
+      "accuracy": {
+        "old": 0.8958333333333334,
+        "new": 0.9583333333333334,
+        "rag": 1.0
+      },
+      "fact_group": {
+        "cluster": "dependency_group",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -2.083333333333337,
+          19.791666666666664
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.8958333333333334,
+          "new": 0.9583333333333334,
+          "rag": 1.0
+        }
+      },
+      "persona": {
+        "cluster": "persona",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -2.083333333333337,
+          19.791666666666664
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.8958333333333334,
+          "new": 0.9583333333333334,
+          "rag": 1.0
+        }
+      }
+    },
+    "without_C28": {
+      "instances": 696,
+      "fact_groups": 174,
+      "personas": 6,
+      "paired_changes": {
+        "gain": 40,
+        "loss": 29
+      },
+      "accuracy": {
+        "old": 0.9123563218390804,
+        "new": 0.9281609195402298,
+        "rag": 0.9367816091954023
+      },
+      "fact_group": {
+        "cluster": "dependency_group",
+        "clusters": 174,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -1.1494252873563204,
+          4.597701149425282
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9123563218390804,
+          "new": 0.9281609195402298,
+          "rag": 0.9367816091954023
+        }
+      },
+      "persona": {
+        "cluster": "persona",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -2.442528735632188,
+          5.747126436781603
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9123563218390803,
+          "new": 0.92816091954023,
+          "rag": 0.9367816091954023
+        }
+      }
+    },
+    "natural_C29_C30": {
+      "instances": 48,
+      "fact_groups": 12,
+      "personas": 6,
+      "paired_changes": {
+        "loss": 3,
+        "gain": 1
+      },
+      "accuracy": {
+        "old": 0.9791666666666666,
+        "new": 0.9375,
+        "rag": 1.0
+      },
+      "fact_group": {
+        "cluster": "dependency_group",
+        "clusters": 12,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -10.416666666666663,
+          0.0
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9791666666666666,
+          "new": 0.9375,
+          "rag": 1.0
+        }
+      },
+      "persona": {
+        "cluster": "persona",
+        "clusters": 6,
+        "repetitions": 20000,
+        "seed": 20261104,
+        "method": "paired percentile cluster bootstrap, question-weighted ratio",
+        "new_minus_old_points_95_ci": [
+          -8.333333333333337,
+          0.0
+        ],
+        "equal_cluster_weight_accuracy": {
+          "old": 0.9791666666666666,
+          "new": 0.9375,
+          "rag": 1.0
+        }
+      }
+    }
+  }
+}

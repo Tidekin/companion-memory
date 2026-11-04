@@ -1,0 +1,20 @@
+{
+  "name": "memory-accuracy-v3-20261103",
+  "arms": {
+    "old": "8b8e59bcf5e6048d5501e4a079d87e829bb391a8",
+    "new": "93795f329e4c18b00c96d335d49894eef4d75eb6"
+  },
+  "budget": {
+    "deepseek_total_cny": 49,
+    "deepseek_inference_cny": 47,
+    "qwen_total_cny": 50
+  },
+  "sensitivity_exclude_categories": [
+    "R15"
+  ],
+  "limitations": [
+    "五个虚构人物、24类考点；同一事实在四个间隔重复提问，样本相关。",
+    "题库与Core改动出自同一助手；复核不是独立人工。",
+    "quote夹具把主人更正放进第三方节点（已在工具中修正，本轮未重跑）。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AUTO_COMPLETE_CODEX_REVIEW_PENDING",
+  "total": 1728,
+  "rules_sha256": "b48dafd4ca961f1e3fd9cf533e5ee8d01abcb20a8d2e937a050e3fc63180af7d",
+  "annotation_errors": [
+    "1997a8ac9808a9f713afe354",
+    "4879708a621b6c3559c2fed3",
+    "5318bf03f1e9feccf4cfcfa0",
+    "5b1a02ec6fa4b1f9000beb9d",
+    "6216c97ed638ed5b7f711250",
+    "6dcb43ffedfb464d3723ceb8",
+    "9b1a1b8ed2de723337d3d173",
+    "9a83dfab4aa5114ace57015d",
+    "a29b5bd9fbdf321777803e68",
+    "a782e4dbb30ce009ca6a8454",
+    "bde10ce75b840d105435ab53",
+    "c9c7be8b81771fae076e8315"
+  ],
+  "raw_grades_sha256": "5467bf8babfcba4c5b6e237092b54f82461c49953ae3edc1bad933cfc4d1fa2c",
+  "at": "2026-11-02T20:37:35.777822+00:00"
+}

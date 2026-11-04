@@ -1,0 +1,42 @@
+{
+  "status": "PREPARED_NOT_STARTED",
+  "at": "2026-11-03T05:05:03.559129+00:00",
+  "source_freeze_sha256": "fa4c8013adb47a79f110cf02700f0a314021315ce9d225ca855552d88a2851c4",
+  "corpus_freeze_sha256": "fff206b47f373d1da662a61e1234061a2653a9bb1ff7609b23eb692691428d27",
+  "round_json_sha256": "e3dc6baeb3de8981b3b122081a3a5f0f2acbaaec75a7b2568f0b1ee880e14f1f",
+  "tooling_sha256": {
+    "authoring.py": "b1447001022c29ba57f2693754c428621450dc682bd72d90f934f539e5fd7788",
+    "bank.py": "62af16a81242e9ea14f9aea1a168221b120e3946d208757cad7d12cbef82b37d",
+    "diagnose.py": "b843636c15391f5b4bdf276956bc0c8aaa3d38c03b3253690a4933d74029d5bb",
+    "eval_recall.py": "73a48b2f37142678c9b4d9aecca68b85de3d89ccc10045f6d1c4fcec3c3a4bd6",
+    "grade.py": "469da0e124f96430e555a2ab1c10785c34084826acde0b85b979bea388a1c31f",
+    "prepare.py": "3b1b7649c3fb3d2017cedb3e02a366c42f6b928040a8653d1ff46b170b5aab65",
+    "rag.py": "f24a00a58065c1c9fb65ff296d471ee6593cb99a7871e93e83e6946d399dca0a",
+    "report.py": "6289b27c26f161bdca7524824f2f2df1e0fa9998d90a557a2739f381b8b6de6f",
+    "roundcfg.py": "2860dfa60ddd172efe1ab04fa2053a37d2dbdb1c9c766d67ac00372a281c2f0f",
+    "rubrics.py": "00d73b11eaf651c06e1f035c536bc0d1cb0a331f99bd47127043c1502468a8d9",
+    "run.py": "9dccb71dadc50171d668a06f1fc34793b341d0e8868e45a438370c74bf5b8c40",
+    "smoke.py": "fcd15e4b17556996cde88d4db911083b426f4d85b54d3c9ef465aef03a4d5189",
+    "transcribe_audio.py": "18f88a3a45084ea733e9afa7f767b52b10dd81a697cc34856c72b4989646a1b1",
+    "tests/test_toolkit.py": "aed310e4bb263c3f8a09f585c3fb3e2bfc5c03b9e0c03e6f220667ebe149c4f3",
+    "runner/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runner/tests/test_campaign_budget.py": "b49e64e6c188a1ed1c5df489eb461f922932ae5c84c991f2ca531bc894be6907",
+    "runner/tests/test_memory_benchmark_lifecycle.py": "d10aea3fbf3b7ece02a11e0ef01f411f85e65bcae672b07453fda933c2150f18",
+    "runner/tests/test_rag_boundaries.py": "566b49bb68b4b319201befad3e2b0b40fb699f8be1845d11519cd00fc787e79f",
+    "runner/scripts/memory_benchmark/budget.py": "c5894d720c0be354a7ea3c075c879300a5ba8d28a021bb4363a753c2a90e3811",
+    "runner/scripts/memory_benchmark/cli.py": "56e253f72bd0eafe00732671f177783f7bbea7d00456821a2f181796ba75deff",
+    "runner/scripts/memory_benchmark/grading.py": "7c797202e50ba2c510ad03ef9d0410698971e10e753aa4f488a20b6c368b2df1",
+    "runner/scripts/memory_benchmark/native.py": "9542528f521a0edecff18f15551468589c3cf707da195e35011cf5b75292b3a0",
+    "runner/scripts/memory_benchmark/report.py": "d0ad1664e86bc3f368d31deadd205e787b30d864d659b7d157ab5cb9ae1b10a0",
+    "runner/scripts/memory_benchmark/rubric.py": "ec9e45d19884bab7323e93c8e87430510498b1f5a2d0573b9f36df4acaf01e86",
+    "runner/scripts/memory_benchmark/runtime.py": "bc028908fef1745bfca814c421cb4289daa7357db1937e79664b3f55ede59a69",
+    "runner/scripts/memory_benchmark/worker.py": "283b1b2c3bae6124a3b036247692c299411524155fcf13f4445034c64014a0dd",
+    "runner/scripts/memory_benchmark/__init__.py": "0f2357fc4201cfd39650d9cbb4715c3e44cebccf5d07efea666d2130e08005a4"
+  },
+  "arm_freeze_sha256": {
+    "old": "fb7c8d4077378794aff7f123174161275d2c42f609397a45472d7cdb75047d76",
+    "new": "328563d41ee862dc69203dab466a9c974d3e62de89d73a26389dc208bfa28169"
+  },
+  "answers_per_arm": 480,
+  "paid_calls": 0
+}

@@ -1,0 +1,714 @@
+{"id": "P01-C01/d00", "required": ["林澄", "苏州"], "forbidden": ["资料不足"], "source_ids": ["P01-C01-S1"]}
+{"id": "P01-C01/d03", "required": ["林澄", "苏州"], "forbidden": ["资料不足"], "source_ids": ["P01-C01-S1"]}
+{"id": "P01-C01/d15", "required": ["林澄", "苏州"], "forbidden": ["资料不足"], "source_ids": ["P01-C01-S1"]}
+{"id": "P01-C01/d45", "required": ["林澄", "苏州"], "forbidden": ["资料不足"], "source_ids": ["P01-C01-S1"]}
+{"id": "P01-C02/d00", "required": ["6月12日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P01-C02-S1"]}
+{"id": "P01-C02/d03", "required": ["6月12日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P01-C02-S1"]}
+{"id": "P01-C02/d15", "required": ["6月12日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P01-C02-S1"]}
+{"id": "P01-C02/d45", "required": ["6月12日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P01-C02-S1"]}
+{"id": "P01-C03/d00", "required": ["舞台灯光师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P01-C03-S1"]}
+{"id": "P01-C03/d03", "required": ["舞台灯光师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P01-C03-S1"]}
+{"id": "P01-C03/d15", "required": ["舞台灯光师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P01-C03-S1"]}
+{"id": "P01-C03/d45", "required": ["舞台灯光师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P01-C03-S1"]}
+{"id": "P01-C04/d00", "required": ["茉莉茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P01-C04-S1"]}
+{"id": "P01-C04/d03", "required": ["茉莉茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P01-C04-S1"]}
+{"id": "P01-C04/d15", "required": ["茉莉茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P01-C04-S1"]}
+{"id": "P01-C04/d45", "required": ["茉莉茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P01-C04-S1"]}
+{"id": "P01-C05/d00", "required": ["林澄", "海盐", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P01-C05-S1"]}
+{"id": "P01-C05/d03", "required": ["林澄", "海盐", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P01-C05-S1"]}
+{"id": "P01-C05/d15", "required": ["林澄", "海盐", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P01-C05-S1"]}
+{"id": "P01-C05/d45", "required": ["林澄", "海盐", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P01-C05-S1"]}
+{"id": "P01-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P01-C06-S1"]}
+{"id": "P01-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P01-C06-S1"]}
+{"id": "P01-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P01-C06-S1"]}
+{"id": "P01-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P01-C06-S1"]}
+{"id": "P01-C07/d00", "required": ["沈禾", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P01-C07-S1"]}
+{"id": "P01-C07/d03", "required": ["沈禾", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P01-C07-S1"]}
+{"id": "P01-C07/d15", "required": ["沈禾", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P01-C07-S1"]}
+{"id": "P01-C07/d45", "required": ["沈禾", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P01-C07-S1"]}
+{"id": "P01-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P01-C08-S1"]}
+{"id": "P01-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P01-C08-S1"]}
+{"id": "P01-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P01-C08-S1"]}
+{"id": "P01-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P01-C08-S1"]}
+{"id": "P01-C09/d00", "required": ["北岸二号", "旧名停用"], "forbidden": ["仍叫北岸一号"], "source_ids": ["P01-C09-S1", "P01-C09-S2"]}
+{"id": "P01-C09/d03", "required": ["北岸二号", "旧名停用"], "forbidden": ["仍叫北岸一号"], "source_ids": ["P01-C09-S1", "P01-C09-S2"]}
+{"id": "P01-C09/d15", "required": ["北岸二号", "旧名停用"], "forbidden": ["仍叫北岸一号"], "source_ids": ["P01-C09-S1", "P01-C09-S2"]}
+{"id": "P01-C09/d45", "required": ["北岸二号", "旧名停用"], "forbidden": ["仍叫北岸一号"], "source_ids": ["P01-C09-S1", "P01-C09-S2"]}
+{"id": "P01-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P01-C10-S1", "P01-C10-S2"]}
+{"id": "P01-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P01-C10-S1", "P01-C10-S2"]}
+{"id": "P01-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P01-C10-S1", "P01-C10-S2"]}
+{"id": "P01-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P01-C10-S1", "P01-C10-S2"]}
+{"id": "P01-C11/d00", "required": ["21号"], "forbidden": ["只有1号"], "source_ids": ["P01-C11-S1"]}
+{"id": "P01-C11/d03", "required": ["21号"], "forbidden": ["只有1号"], "source_ids": ["P01-C11-S1"]}
+{"id": "P01-C11/d15", "required": ["21号"], "forbidden": ["只有1号"], "source_ids": ["P01-C11-S1"]}
+{"id": "P01-C11/d45", "required": ["21号"], "forbidden": ["只有1号"], "source_ids": ["P01-C11-S1"]}
+{"id": "P01-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P01-C12-S1", "P01-C12-S2"]}
+{"id": "P01-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P01-C12-S1", "P01-C12-S2"]}
+{"id": "P01-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P01-C12-S1", "P01-C12-S2"]}
+{"id": "P01-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P01-C12-S1", "P01-C12-S2"]}
+{"id": "P01-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P01-C13-S1", "P01-C13-S2"]}
+{"id": "P01-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P01-C13-S1", "P01-C13-S2"]}
+{"id": "P01-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P01-C13-S1", "P01-C13-S2"]}
+{"id": "P01-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P01-C13-S1", "P01-C13-S2"]}
+{"id": "P01-C14/d00", "required": ["沈禾", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P01-C14-S1"]}
+{"id": "P01-C14/d03", "required": ["沈禾", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P01-C14-S1"]}
+{"id": "P01-C14/d15", "required": ["沈禾", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P01-C14-S1"]}
+{"id": "P01-C14/d45", "required": ["沈禾", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P01-C14-S1"]}
+{"id": "P01-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P01-C15-S1"]}
+{"id": "P01-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P01-C15-S1"]}
+{"id": "P01-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P01-C15-S1"]}
+{"id": "P01-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P01-C15-S1"]}
+{"id": "P01-C16/d00", "required": ["41号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P01-C16-S1", "P01-C16-S2"]}
+{"id": "P01-C16/d03", "required": ["41号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P01-C16-S1", "P01-C16-S2"]}
+{"id": "P01-C16/d15", "required": ["41号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P01-C16-S1", "P01-C16-S2"]}
+{"id": "P01-C16/d45", "required": ["41号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P01-C16-S1", "P01-C16-S2"]}
+{"id": "P01-C17/d00", "required": ["6月11日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P01-C17-S1"]}
+{"id": "P01-C17/d03", "required": ["6月11日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P01-C17-S1"]}
+{"id": "P01-C17/d15", "required": ["6月11日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P01-C17-S1"]}
+{"id": "P01-C17/d45", "required": ["6月11日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P01-C17-S1"]}
+{"id": "P01-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P01-C18-S1"]}
+{"id": "P01-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P01-C18-S1"]}
+{"id": "P01-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P01-C18-S1"]}
+{"id": "P01-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P01-C18-S1"]}
+{"id": "P01-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P01-C19-S1"]}
+{"id": "P01-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P01-C19-S1"]}
+{"id": "P01-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P01-C19-S1"]}
+{"id": "P01-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P01-C19-S1"]}
+{"id": "P01-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P01-C20-S1"]}
+{"id": "P01-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P01-C20-S1"]}
+{"id": "P01-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P01-C20-S1"]}
+{"id": "P01-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P01-C20-S1"]}
+{"id": "P01-C21/d00", "required": ["计划", "沈禾", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P01-C21-S1"]}
+{"id": "P01-C21/d03", "required": ["计划", "沈禾", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P01-C21-S1"]}
+{"id": "P01-C21/d15", "required": ["计划", "沈禾", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P01-C21-S1"]}
+{"id": "P01-C21/d45", "required": ["计划", "沈禾", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P01-C21-S1"]}
+{"id": "P01-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P01-C22-S1"]}
+{"id": "P01-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P01-C22-S1"]}
+{"id": "P01-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P01-C22-S1"]}
+{"id": "P01-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P01-C22-S1"]}
+{"id": "P01-C23/d00", "required": ["沈禾", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P01-C23-S1"]}
+{"id": "P01-C23/d03", "required": ["沈禾", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P01-C23-S1"]}
+{"id": "P01-C23/d15", "required": ["沈禾", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P01-C23-S1"]}
+{"id": "P01-C23/d45", "required": ["沈禾", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P01-C23-S1"]}
+{"id": "P01-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P01-C24-S1"]}
+{"id": "P01-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P01-C24-S1"]}
+{"id": "P01-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P01-C24-S1"]}
+{"id": "P01-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P01-C24-S1"]}
+{"id": "P01-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P01-C25-S1"]}
+{"id": "P01-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P01-C25-S1"]}
+{"id": "P01-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P01-C25-S1"]}
+{"id": "P01-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P01-C25-S1"]}
+{"id": "P01-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥1"], "source_ids": ["P01-C26-S1"]}
+{"id": "P01-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥1"], "source_ids": ["P01-C26-S1"]}
+{"id": "P01-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥1"], "source_ids": ["P01-C26-S1"]}
+{"id": "P01-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥1"], "source_ids": ["P01-C26-S1"]}
+{"id": "P01-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P01-C27-S1"]}
+{"id": "P01-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P01-C27-S1"]}
+{"id": "P01-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P01-C27-S1"]}
+{"id": "P01-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P01-C27-S1"]}
+{"id": "P01-C28/d00", "required": ["310元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P01-C28-S1", "P01-C28-S2"]}
+{"id": "P01-C28/d03", "required": ["310元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P01-C28-S1", "P01-C28-S2"]}
+{"id": "P01-C28/d15", "required": ["310元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P01-C28-S1", "P01-C28-S2"]}
+{"id": "P01-C28/d45", "required": ["310元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P01-C28-S1", "P01-C28-S2"]}
+{"id": "P01-C29/d00", "required": ["编号61", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P01-C29-S1", "P01-C29-S2"]}
+{"id": "P01-C29/d03", "required": ["编号61", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P01-C29-S1", "P01-C29-S2"]}
+{"id": "P01-C29/d15", "required": ["编号61", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P01-C29-S1", "P01-C29-S2"]}
+{"id": "P01-C29/d45", "required": ["编号61", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P01-C29-S1", "P01-C29-S2"]}
+{"id": "P01-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P01-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P01-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P02-C01/d00", "required": ["顾遥", "厦门"], "forbidden": ["资料不足"], "source_ids": ["P02-C01-S1"]}
+{"id": "P02-C01/d03", "required": ["顾遥", "厦门"], "forbidden": ["资料不足"], "source_ids": ["P02-C01-S1"]}
+{"id": "P02-C01/d15", "required": ["顾遥", "厦门"], "forbidden": ["资料不足"], "source_ids": ["P02-C01-S1"]}
+{"id": "P02-C01/d45", "required": ["顾遥", "厦门"], "forbidden": ["资料不足"], "source_ids": ["P02-C01-S1"]}
+{"id": "P02-C02/d00", "required": ["9月3日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P02-C02-S1"]}
+{"id": "P02-C02/d03", "required": ["9月3日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P02-C02-S1"]}
+{"id": "P02-C02/d15", "required": ["9月3日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P02-C02-S1"]}
+{"id": "P02-C02/d45", "required": ["9月3日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P02-C02-S1"]}
+{"id": "P02-C03/d00", "required": ["景观设计师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P02-C03-S1"]}
+{"id": "P02-C03/d03", "required": ["景观设计师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P02-C03-S1"]}
+{"id": "P02-C03/d15", "required": ["景观设计师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P02-C03-S1"]}
+{"id": "P02-C03/d45", "required": ["景观设计师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P02-C03-S1"]}
+{"id": "P02-C04/d00", "required": ["乌龙茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P02-C04-S1"]}
+{"id": "P02-C04/d03", "required": ["乌龙茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P02-C04-S1"]}
+{"id": "P02-C04/d15", "required": ["乌龙茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P02-C04-S1"]}
+{"id": "P02-C04/d45", "required": ["乌龙茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P02-C04-S1"]}
+{"id": "P02-C05/d00", "required": ["顾遥", "松果", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P02-C05-S1"]}
+{"id": "P02-C05/d03", "required": ["顾遥", "松果", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P02-C05-S1"]}
+{"id": "P02-C05/d15", "required": ["顾遥", "松果", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P02-C05-S1"]}
+{"id": "P02-C05/d45", "required": ["顾遥", "松果", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P02-C05-S1"]}
+{"id": "P02-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P02-C06-S1"]}
+{"id": "P02-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P02-C06-S1"]}
+{"id": "P02-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P02-C06-S1"]}
+{"id": "P02-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P02-C06-S1"]}
+{"id": "P02-C07/d00", "required": ["陈芷", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P02-C07-S1"]}
+{"id": "P02-C07/d03", "required": ["陈芷", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P02-C07-S1"]}
+{"id": "P02-C07/d15", "required": ["陈芷", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P02-C07-S1"]}
+{"id": "P02-C07/d45", "required": ["陈芷", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P02-C07-S1"]}
+{"id": "P02-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P02-C08-S1"]}
+{"id": "P02-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P02-C08-S1"]}
+{"id": "P02-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P02-C08-S1"]}
+{"id": "P02-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P02-C08-S1"]}
+{"id": "P02-C09/d00", "required": ["栖山二号", "旧名停用"], "forbidden": ["仍叫栖山一号"], "source_ids": ["P02-C09-S1", "P02-C09-S2"]}
+{"id": "P02-C09/d03", "required": ["栖山二号", "旧名停用"], "forbidden": ["仍叫栖山一号"], "source_ids": ["P02-C09-S1", "P02-C09-S2"]}
+{"id": "P02-C09/d15", "required": ["栖山二号", "旧名停用"], "forbidden": ["仍叫栖山一号"], "source_ids": ["P02-C09-S1", "P02-C09-S2"]}
+{"id": "P02-C09/d45", "required": ["栖山二号", "旧名停用"], "forbidden": ["仍叫栖山一号"], "source_ids": ["P02-C09-S1", "P02-C09-S2"]}
+{"id": "P02-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P02-C10-S1", "P02-C10-S2"]}
+{"id": "P02-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P02-C10-S1", "P02-C10-S2"]}
+{"id": "P02-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P02-C10-S1", "P02-C10-S2"]}
+{"id": "P02-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P02-C10-S1", "P02-C10-S2"]}
+{"id": "P02-C11/d00", "required": ["22号"], "forbidden": ["只有2号"], "source_ids": ["P02-C11-S1"]}
+{"id": "P02-C11/d03", "required": ["22号"], "forbidden": ["只有2号"], "source_ids": ["P02-C11-S1"]}
+{"id": "P02-C11/d15", "required": ["22号"], "forbidden": ["只有2号"], "source_ids": ["P02-C11-S1"]}
+{"id": "P02-C11/d45", "required": ["22号"], "forbidden": ["只有2号"], "source_ids": ["P02-C11-S1"]}
+{"id": "P02-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P02-C12-S1", "P02-C12-S2"]}
+{"id": "P02-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P02-C12-S1", "P02-C12-S2"]}
+{"id": "P02-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P02-C12-S1", "P02-C12-S2"]}
+{"id": "P02-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P02-C12-S1", "P02-C12-S2"]}
+{"id": "P02-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P02-C13-S1", "P02-C13-S2"]}
+{"id": "P02-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P02-C13-S1", "P02-C13-S2"]}
+{"id": "P02-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P02-C13-S1", "P02-C13-S2"]}
+{"id": "P02-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P02-C13-S1", "P02-C13-S2"]}
+{"id": "P02-C14/d00", "required": ["陈芷", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P02-C14-S1"]}
+{"id": "P02-C14/d03", "required": ["陈芷", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P02-C14-S1"]}
+{"id": "P02-C14/d15", "required": ["陈芷", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P02-C14-S1"]}
+{"id": "P02-C14/d45", "required": ["陈芷", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P02-C14-S1"]}
+{"id": "P02-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P02-C15-S1"]}
+{"id": "P02-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P02-C15-S1"]}
+{"id": "P02-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P02-C15-S1"]}
+{"id": "P02-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P02-C15-S1"]}
+{"id": "P02-C16/d00", "required": ["42号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P02-C16-S1", "P02-C16-S2"]}
+{"id": "P02-C16/d03", "required": ["42号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P02-C16-S1", "P02-C16-S2"]}
+{"id": "P02-C16/d15", "required": ["42号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P02-C16-S1", "P02-C16-S2"]}
+{"id": "P02-C16/d45", "required": ["42号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P02-C16-S1", "P02-C16-S2"]}
+{"id": "P02-C17/d00", "required": ["6月12日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P02-C17-S1"]}
+{"id": "P02-C17/d03", "required": ["6月12日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P02-C17-S1"]}
+{"id": "P02-C17/d15", "required": ["6月12日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P02-C17-S1"]}
+{"id": "P02-C17/d45", "required": ["6月12日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P02-C17-S1"]}
+{"id": "P02-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P02-C18-S1"]}
+{"id": "P02-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P02-C18-S1"]}
+{"id": "P02-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P02-C18-S1"]}
+{"id": "P02-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P02-C18-S1"]}
+{"id": "P02-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P02-C19-S1"]}
+{"id": "P02-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P02-C19-S1"]}
+{"id": "P02-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P02-C19-S1"]}
+{"id": "P02-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P02-C19-S1"]}
+{"id": "P02-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P02-C20-S1"]}
+{"id": "P02-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P02-C20-S1"]}
+{"id": "P02-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P02-C20-S1"]}
+{"id": "P02-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P02-C20-S1"]}
+{"id": "P02-C21/d00", "required": ["计划", "陈芷", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P02-C21-S1"]}
+{"id": "P02-C21/d03", "required": ["计划", "陈芷", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P02-C21-S1"]}
+{"id": "P02-C21/d15", "required": ["计划", "陈芷", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P02-C21-S1"]}
+{"id": "P02-C21/d45", "required": ["计划", "陈芷", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P02-C21-S1"]}
+{"id": "P02-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P02-C22-S1"]}
+{"id": "P02-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P02-C22-S1"]}
+{"id": "P02-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P02-C22-S1"]}
+{"id": "P02-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P02-C22-S1"]}
+{"id": "P02-C23/d00", "required": ["陈芷", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P02-C23-S1"]}
+{"id": "P02-C23/d03", "required": ["陈芷", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P02-C23-S1"]}
+{"id": "P02-C23/d15", "required": ["陈芷", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P02-C23-S1"]}
+{"id": "P02-C23/d45", "required": ["陈芷", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P02-C23-S1"]}
+{"id": "P02-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P02-C24-S1"]}
+{"id": "P02-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P02-C24-S1"]}
+{"id": "P02-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P02-C24-S1"]}
+{"id": "P02-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P02-C24-S1"]}
+{"id": "P02-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P02-C25-S1"]}
+{"id": "P02-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P02-C25-S1"]}
+{"id": "P02-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P02-C25-S1"]}
+{"id": "P02-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P02-C25-S1"]}
+{"id": "P02-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥2"], "source_ids": ["P02-C26-S1"]}
+{"id": "P02-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥2"], "source_ids": ["P02-C26-S1"]}
+{"id": "P02-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥2"], "source_ids": ["P02-C26-S1"]}
+{"id": "P02-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥2"], "source_ids": ["P02-C26-S1"]}
+{"id": "P02-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P02-C27-S1"]}
+{"id": "P02-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P02-C27-S1"]}
+{"id": "P02-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P02-C27-S1"]}
+{"id": "P02-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P02-C27-S1"]}
+{"id": "P02-C28/d00", "required": ["320元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P02-C28-S1", "P02-C28-S2"]}
+{"id": "P02-C28/d03", "required": ["320元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P02-C28-S1", "P02-C28-S2"]}
+{"id": "P02-C28/d15", "required": ["320元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P02-C28-S1", "P02-C28-S2"]}
+{"id": "P02-C28/d45", "required": ["320元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P02-C28-S1", "P02-C28-S2"]}
+{"id": "P02-C29/d00", "required": ["编号62", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P02-C29-S1", "P02-C29-S2"]}
+{"id": "P02-C29/d03", "required": ["编号62", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P02-C29-S1", "P02-C29-S2"]}
+{"id": "P02-C29/d15", "required": ["编号62", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P02-C29-S1", "P02-C29-S2"]}
+{"id": "P02-C29/d45", "required": ["编号62", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P02-C29-S1", "P02-C29-S2"]}
+{"id": "P02-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P02-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P02-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P03-C01/d00", "required": ["唐栀", "成都"], "forbidden": ["资料不足"], "source_ids": ["P03-C01-S1"]}
+{"id": "P03-C01/d03", "required": ["唐栀", "成都"], "forbidden": ["资料不足"], "source_ids": ["P03-C01-S1"]}
+{"id": "P03-C01/d15", "required": ["唐栀", "成都"], "forbidden": ["资料不足"], "source_ids": ["P03-C01-S1"]}
+{"id": "P03-C01/d45", "required": ["唐栀", "成都"], "forbidden": ["资料不足"], "source_ids": ["P03-C01-S1"]}
+{"id": "P03-C02/d00", "required": ["2月26日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P03-C02-S1"]}
+{"id": "P03-C02/d03", "required": ["2月26日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P03-C02-S1"]}
+{"id": "P03-C02/d15", "required": ["2月26日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P03-C02-S1"]}
+{"id": "P03-C02/d45", "required": ["2月26日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P03-C02-S1"]}
+{"id": "P03-C03/d00", "required": ["图书修复师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P03-C03-S1"]}
+{"id": "P03-C03/d03", "required": ["图书修复师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P03-C03-S1"]}
+{"id": "P03-C03/d15", "required": ["图书修复师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P03-C03-S1"]}
+{"id": "P03-C03/d45", "required": ["图书修复师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P03-C03-S1"]}
+{"id": "P03-C04/d00", "required": ["柠檬水", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P03-C04-S1"]}
+{"id": "P03-C04/d03", "required": ["柠檬水", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P03-C04-S1"]}
+{"id": "P03-C04/d15", "required": ["柠檬水", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P03-C04-S1"]}
+{"id": "P03-C04/d45", "required": ["柠檬水", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P03-C04-S1"]}
+{"id": "P03-C05/d00", "required": ["唐栀", "纸鹤", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P03-C05-S1"]}
+{"id": "P03-C05/d03", "required": ["唐栀", "纸鹤", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P03-C05-S1"]}
+{"id": "P03-C05/d15", "required": ["唐栀", "纸鹤", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P03-C05-S1"]}
+{"id": "P03-C05/d45", "required": ["唐栀", "纸鹤", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P03-C05-S1"]}
+{"id": "P03-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P03-C06-S1"]}
+{"id": "P03-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P03-C06-S1"]}
+{"id": "P03-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P03-C06-S1"]}
+{"id": "P03-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P03-C06-S1"]}
+{"id": "P03-C07/d00", "required": ["许安", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P03-C07-S1"]}
+{"id": "P03-C07/d03", "required": ["许安", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P03-C07-S1"]}
+{"id": "P03-C07/d15", "required": ["许安", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P03-C07-S1"]}
+{"id": "P03-C07/d45", "required": ["许安", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P03-C07-S1"]}
+{"id": "P03-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P03-C08-S1"]}
+{"id": "P03-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P03-C08-S1"]}
+{"id": "P03-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P03-C08-S1"]}
+{"id": "P03-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P03-C08-S1"]}
+{"id": "P03-C09/d00", "required": ["青木二号", "旧名停用"], "forbidden": ["仍叫青木一号"], "source_ids": ["P03-C09-S1", "P03-C09-S2"]}
+{"id": "P03-C09/d03", "required": ["青木二号", "旧名停用"], "forbidden": ["仍叫青木一号"], "source_ids": ["P03-C09-S1", "P03-C09-S2"]}
+{"id": "P03-C09/d15", "required": ["青木二号", "旧名停用"], "forbidden": ["仍叫青木一号"], "source_ids": ["P03-C09-S1", "P03-C09-S2"]}
+{"id": "P03-C09/d45", "required": ["青木二号", "旧名停用"], "forbidden": ["仍叫青木一号"], "source_ids": ["P03-C09-S1", "P03-C09-S2"]}
+{"id": "P03-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P03-C10-S1", "P03-C10-S2"]}
+{"id": "P03-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P03-C10-S1", "P03-C10-S2"]}
+{"id": "P03-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P03-C10-S1", "P03-C10-S2"]}
+{"id": "P03-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P03-C10-S1", "P03-C10-S2"]}
+{"id": "P03-C11/d00", "required": ["23号"], "forbidden": ["只有3号"], "source_ids": ["P03-C11-S1"]}
+{"id": "P03-C11/d03", "required": ["23号"], "forbidden": ["只有3号"], "source_ids": ["P03-C11-S1"]}
+{"id": "P03-C11/d15", "required": ["23号"], "forbidden": ["只有3号"], "source_ids": ["P03-C11-S1"]}
+{"id": "P03-C11/d45", "required": ["23号"], "forbidden": ["只有3号"], "source_ids": ["P03-C11-S1"]}
+{"id": "P03-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P03-C12-S1", "P03-C12-S2"]}
+{"id": "P03-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P03-C12-S1", "P03-C12-S2"]}
+{"id": "P03-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P03-C12-S1", "P03-C12-S2"]}
+{"id": "P03-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P03-C12-S1", "P03-C12-S2"]}
+{"id": "P03-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P03-C13-S1", "P03-C13-S2"]}
+{"id": "P03-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P03-C13-S1", "P03-C13-S2"]}
+{"id": "P03-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P03-C13-S1", "P03-C13-S2"]}
+{"id": "P03-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P03-C13-S1", "P03-C13-S2"]}
+{"id": "P03-C14/d00", "required": ["许安", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P03-C14-S1"]}
+{"id": "P03-C14/d03", "required": ["许安", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P03-C14-S1"]}
+{"id": "P03-C14/d15", "required": ["许安", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P03-C14-S1"]}
+{"id": "P03-C14/d45", "required": ["许安", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P03-C14-S1"]}
+{"id": "P03-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P03-C15-S1"]}
+{"id": "P03-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P03-C15-S1"]}
+{"id": "P03-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P03-C15-S1"]}
+{"id": "P03-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P03-C15-S1"]}
+{"id": "P03-C16/d00", "required": ["43号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P03-C16-S1", "P03-C16-S2"]}
+{"id": "P03-C16/d03", "required": ["43号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P03-C16-S1", "P03-C16-S2"]}
+{"id": "P03-C16/d15", "required": ["43号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P03-C16-S1", "P03-C16-S2"]}
+{"id": "P03-C16/d45", "required": ["43号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P03-C16-S1", "P03-C16-S2"]}
+{"id": "P03-C17/d00", "required": ["6月13日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P03-C17-S1"]}
+{"id": "P03-C17/d03", "required": ["6月13日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P03-C17-S1"]}
+{"id": "P03-C17/d15", "required": ["6月13日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P03-C17-S1"]}
+{"id": "P03-C17/d45", "required": ["6月13日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P03-C17-S1"]}
+{"id": "P03-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P03-C18-S1"]}
+{"id": "P03-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P03-C18-S1"]}
+{"id": "P03-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P03-C18-S1"]}
+{"id": "P03-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P03-C18-S1"]}
+{"id": "P03-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P03-C19-S1"]}
+{"id": "P03-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P03-C19-S1"]}
+{"id": "P03-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P03-C19-S1"]}
+{"id": "P03-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P03-C19-S1"]}
+{"id": "P03-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P03-C20-S1"]}
+{"id": "P03-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P03-C20-S1"]}
+{"id": "P03-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P03-C20-S1"]}
+{"id": "P03-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P03-C20-S1"]}
+{"id": "P03-C21/d00", "required": ["计划", "许安", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P03-C21-S1"]}
+{"id": "P03-C21/d03", "required": ["计划", "许安", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P03-C21-S1"]}
+{"id": "P03-C21/d15", "required": ["计划", "许安", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P03-C21-S1"]}
+{"id": "P03-C21/d45", "required": ["计划", "许安", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P03-C21-S1"]}
+{"id": "P03-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P03-C22-S1"]}
+{"id": "P03-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P03-C22-S1"]}
+{"id": "P03-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P03-C22-S1"]}
+{"id": "P03-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P03-C22-S1"]}
+{"id": "P03-C23/d00", "required": ["许安", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P03-C23-S1"]}
+{"id": "P03-C23/d03", "required": ["许安", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P03-C23-S1"]}
+{"id": "P03-C23/d15", "required": ["许安", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P03-C23-S1"]}
+{"id": "P03-C23/d45", "required": ["许安", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P03-C23-S1"]}
+{"id": "P03-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P03-C24-S1"]}
+{"id": "P03-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P03-C24-S1"]}
+{"id": "P03-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P03-C24-S1"]}
+{"id": "P03-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P03-C24-S1"]}
+{"id": "P03-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P03-C25-S1"]}
+{"id": "P03-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P03-C25-S1"]}
+{"id": "P03-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P03-C25-S1"]}
+{"id": "P03-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P03-C25-S1"]}
+{"id": "P03-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥3"], "source_ids": ["P03-C26-S1"]}
+{"id": "P03-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥3"], "source_ids": ["P03-C26-S1"]}
+{"id": "P03-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥3"], "source_ids": ["P03-C26-S1"]}
+{"id": "P03-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥3"], "source_ids": ["P03-C26-S1"]}
+{"id": "P03-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P03-C27-S1"]}
+{"id": "P03-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P03-C27-S1"]}
+{"id": "P03-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P03-C27-S1"]}
+{"id": "P03-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P03-C27-S1"]}
+{"id": "P03-C28/d00", "required": ["330元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P03-C28-S1", "P03-C28-S2"]}
+{"id": "P03-C28/d03", "required": ["330元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P03-C28-S1", "P03-C28-S2"]}
+{"id": "P03-C28/d15", "required": ["330元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P03-C28-S1", "P03-C28-S2"]}
+{"id": "P03-C28/d45", "required": ["330元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P03-C28-S1", "P03-C28-S2"]}
+{"id": "P03-C29/d00", "required": ["编号63", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P03-C29-S1", "P03-C29-S2"]}
+{"id": "P03-C29/d03", "required": ["编号63", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P03-C29-S1", "P03-C29-S2"]}
+{"id": "P03-C29/d15", "required": ["编号63", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P03-C29-S1", "P03-C29-S2"]}
+{"id": "P03-C29/d45", "required": ["编号63", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P03-C29-S1", "P03-C29-S2"]}
+{"id": "P03-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P03-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P03-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P04-C01/d00", "required": ["周霁", "杭州"], "forbidden": ["资料不足"], "source_ids": ["P04-C01-S1"]}
+{"id": "P04-C01/d03", "required": ["周霁", "杭州"], "forbidden": ["资料不足"], "source_ids": ["P04-C01-S1"]}
+{"id": "P04-C01/d15", "required": ["周霁", "杭州"], "forbidden": ["资料不足"], "source_ids": ["P04-C01-S1"]}
+{"id": "P04-C01/d45", "required": ["周霁", "杭州"], "forbidden": ["资料不足"], "source_ids": ["P04-C01-S1"]}
+{"id": "P04-C02/d00", "required": ["11月8日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P04-C02-S1"]}
+{"id": "P04-C02/d03", "required": ["11月8日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P04-C02-S1"]}
+{"id": "P04-C02/d15", "required": ["11月8日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P04-C02-S1"]}
+{"id": "P04-C02/d45", "required": ["11月8日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P04-C02-S1"]}
+{"id": "P04-C03/d00", "required": ["音频工程师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P04-C03-S1"]}
+{"id": "P04-C03/d03", "required": ["音频工程师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P04-C03-S1"]}
+{"id": "P04-C03/d15", "required": ["音频工程师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P04-C03-S1"]}
+{"id": "P04-C03/d45", "required": ["音频工程师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P04-C03-S1"]}
+{"id": "P04-C04/d00", "required": ["热可可", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P04-C04-S1"]}
+{"id": "P04-C04/d03", "required": ["热可可", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P04-C04-S1"]}
+{"id": "P04-C04/d15", "required": ["热可可", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P04-C04-S1"]}
+{"id": "P04-C04/d45", "required": ["热可可", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P04-C04-S1"]}
+{"id": "P04-C05/d00", "required": ["周霁", "小满", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P04-C05-S1"]}
+{"id": "P04-C05/d03", "required": ["周霁", "小满", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P04-C05-S1"]}
+{"id": "P04-C05/d15", "required": ["周霁", "小满", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P04-C05-S1"]}
+{"id": "P04-C05/d45", "required": ["周霁", "小满", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P04-C05-S1"]}
+{"id": "P04-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P04-C06-S1"]}
+{"id": "P04-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P04-C06-S1"]}
+{"id": "P04-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P04-C06-S1"]}
+{"id": "P04-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P04-C06-S1"]}
+{"id": "P04-C07/d00", "required": ["叶晴", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P04-C07-S1"]}
+{"id": "P04-C07/d03", "required": ["叶晴", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P04-C07-S1"]}
+{"id": "P04-C07/d15", "required": ["叶晴", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P04-C07-S1"]}
+{"id": "P04-C07/d45", "required": ["叶晴", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P04-C07-S1"]}
+{"id": "P04-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P04-C08-S1"]}
+{"id": "P04-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P04-C08-S1"]}
+{"id": "P04-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P04-C08-S1"]}
+{"id": "P04-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P04-C08-S1"]}
+{"id": "P04-C09/d00", "required": ["云桥二号", "旧名停用"], "forbidden": ["仍叫云桥一号"], "source_ids": ["P04-C09-S1", "P04-C09-S2"]}
+{"id": "P04-C09/d03", "required": ["云桥二号", "旧名停用"], "forbidden": ["仍叫云桥一号"], "source_ids": ["P04-C09-S1", "P04-C09-S2"]}
+{"id": "P04-C09/d15", "required": ["云桥二号", "旧名停用"], "forbidden": ["仍叫云桥一号"], "source_ids": ["P04-C09-S1", "P04-C09-S2"]}
+{"id": "P04-C09/d45", "required": ["云桥二号", "旧名停用"], "forbidden": ["仍叫云桥一号"], "source_ids": ["P04-C09-S1", "P04-C09-S2"]}
+{"id": "P04-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P04-C10-S1", "P04-C10-S2"]}
+{"id": "P04-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P04-C10-S1", "P04-C10-S2"]}
+{"id": "P04-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P04-C10-S1", "P04-C10-S2"]}
+{"id": "P04-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P04-C10-S1", "P04-C10-S2"]}
+{"id": "P04-C11/d00", "required": ["24号"], "forbidden": ["只有4号"], "source_ids": ["P04-C11-S1"]}
+{"id": "P04-C11/d03", "required": ["24号"], "forbidden": ["只有4号"], "source_ids": ["P04-C11-S1"]}
+{"id": "P04-C11/d15", "required": ["24号"], "forbidden": ["只有4号"], "source_ids": ["P04-C11-S1"]}
+{"id": "P04-C11/d45", "required": ["24号"], "forbidden": ["只有4号"], "source_ids": ["P04-C11-S1"]}
+{"id": "P04-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P04-C12-S1", "P04-C12-S2"]}
+{"id": "P04-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P04-C12-S1", "P04-C12-S2"]}
+{"id": "P04-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P04-C12-S1", "P04-C12-S2"]}
+{"id": "P04-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P04-C12-S1", "P04-C12-S2"]}
+{"id": "P04-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P04-C13-S1", "P04-C13-S2"]}
+{"id": "P04-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P04-C13-S1", "P04-C13-S2"]}
+{"id": "P04-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P04-C13-S1", "P04-C13-S2"]}
+{"id": "P04-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P04-C13-S1", "P04-C13-S2"]}
+{"id": "P04-C14/d00", "required": ["叶晴", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P04-C14-S1"]}
+{"id": "P04-C14/d03", "required": ["叶晴", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P04-C14-S1"]}
+{"id": "P04-C14/d15", "required": ["叶晴", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P04-C14-S1"]}
+{"id": "P04-C14/d45", "required": ["叶晴", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P04-C14-S1"]}
+{"id": "P04-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P04-C15-S1"]}
+{"id": "P04-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P04-C15-S1"]}
+{"id": "P04-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P04-C15-S1"]}
+{"id": "P04-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P04-C15-S1"]}
+{"id": "P04-C16/d00", "required": ["44号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P04-C16-S1", "P04-C16-S2"]}
+{"id": "P04-C16/d03", "required": ["44号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P04-C16-S1", "P04-C16-S2"]}
+{"id": "P04-C16/d15", "required": ["44号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P04-C16-S1", "P04-C16-S2"]}
+{"id": "P04-C16/d45", "required": ["44号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P04-C16-S1", "P04-C16-S2"]}
+{"id": "P04-C17/d00", "required": ["6月14日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P04-C17-S1"]}
+{"id": "P04-C17/d03", "required": ["6月14日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P04-C17-S1"]}
+{"id": "P04-C17/d15", "required": ["6月14日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P04-C17-S1"]}
+{"id": "P04-C17/d45", "required": ["6月14日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P04-C17-S1"]}
+{"id": "P04-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P04-C18-S1"]}
+{"id": "P04-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P04-C18-S1"]}
+{"id": "P04-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P04-C18-S1"]}
+{"id": "P04-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P04-C18-S1"]}
+{"id": "P04-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P04-C19-S1"]}
+{"id": "P04-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P04-C19-S1"]}
+{"id": "P04-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P04-C19-S1"]}
+{"id": "P04-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P04-C19-S1"]}
+{"id": "P04-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P04-C20-S1"]}
+{"id": "P04-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P04-C20-S1"]}
+{"id": "P04-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P04-C20-S1"]}
+{"id": "P04-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P04-C20-S1"]}
+{"id": "P04-C21/d00", "required": ["计划", "叶晴", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P04-C21-S1"]}
+{"id": "P04-C21/d03", "required": ["计划", "叶晴", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P04-C21-S1"]}
+{"id": "P04-C21/d15", "required": ["计划", "叶晴", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P04-C21-S1"]}
+{"id": "P04-C21/d45", "required": ["计划", "叶晴", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P04-C21-S1"]}
+{"id": "P04-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P04-C22-S1"]}
+{"id": "P04-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P04-C22-S1"]}
+{"id": "P04-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P04-C22-S1"]}
+{"id": "P04-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P04-C22-S1"]}
+{"id": "P04-C23/d00", "required": ["叶晴", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P04-C23-S1"]}
+{"id": "P04-C23/d03", "required": ["叶晴", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P04-C23-S1"]}
+{"id": "P04-C23/d15", "required": ["叶晴", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P04-C23-S1"]}
+{"id": "P04-C23/d45", "required": ["叶晴", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P04-C23-S1"]}
+{"id": "P04-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P04-C24-S1"]}
+{"id": "P04-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P04-C24-S1"]}
+{"id": "P04-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P04-C24-S1"]}
+{"id": "P04-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P04-C24-S1"]}
+{"id": "P04-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P04-C25-S1"]}
+{"id": "P04-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P04-C25-S1"]}
+{"id": "P04-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P04-C25-S1"]}
+{"id": "P04-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P04-C25-S1"]}
+{"id": "P04-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥4"], "source_ids": ["P04-C26-S1"]}
+{"id": "P04-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥4"], "source_ids": ["P04-C26-S1"]}
+{"id": "P04-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥4"], "source_ids": ["P04-C26-S1"]}
+{"id": "P04-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥4"], "source_ids": ["P04-C26-S1"]}
+{"id": "P04-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P04-C27-S1"]}
+{"id": "P04-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P04-C27-S1"]}
+{"id": "P04-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P04-C27-S1"]}
+{"id": "P04-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P04-C27-S1"]}
+{"id": "P04-C28/d00", "required": ["340元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P04-C28-S1", "P04-C28-S2"]}
+{"id": "P04-C28/d03", "required": ["340元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P04-C28-S1", "P04-C28-S2"]}
+{"id": "P04-C28/d15", "required": ["340元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P04-C28-S1", "P04-C28-S2"]}
+{"id": "P04-C28/d45", "required": ["340元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P04-C28-S1", "P04-C28-S2"]}
+{"id": "P04-C29/d00", "required": ["编号64", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P04-C29-S1", "P04-C29-S2"]}
+{"id": "P04-C29/d03", "required": ["编号64", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P04-C29-S1", "P04-C29-S2"]}
+{"id": "P04-C29/d15", "required": ["编号64", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P04-C29-S1", "P04-C29-S2"]}
+{"id": "P04-C29/d45", "required": ["编号64", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P04-C29-S1", "P04-C29-S2"]}
+{"id": "P04-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P04-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P04-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P05-C01/d00", "required": ["宋岚", "青岛"], "forbidden": ["资料不足"], "source_ids": ["P05-C01-S1"]}
+{"id": "P05-C01/d03", "required": ["宋岚", "青岛"], "forbidden": ["资料不足"], "source_ids": ["P05-C01-S1"]}
+{"id": "P05-C01/d15", "required": ["宋岚", "青岛"], "forbidden": ["资料不足"], "source_ids": ["P05-C01-S1"]}
+{"id": "P05-C01/d45", "required": ["宋岚", "青岛"], "forbidden": ["资料不足"], "source_ids": ["P05-C01-S1"]}
+{"id": "P05-C02/d00", "required": ["4月17日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P05-C02-S1"]}
+{"id": "P05-C02/d03", "required": ["4月17日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P05-C02-S1"]}
+{"id": "P05-C02/d15", "required": ["4月17日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P05-C02-S1"]}
+{"id": "P05-C02/d45", "required": ["4月17日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P05-C02-S1"]}
+{"id": "P05-C03/d00", "required": ["自然教育员", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P05-C03-S1"]}
+{"id": "P05-C03/d03", "required": ["自然教育员", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P05-C03-S1"]}
+{"id": "P05-C03/d15", "required": ["自然教育员", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P05-C03-S1"]}
+{"id": "P05-C03/d45", "required": ["自然教育员", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P05-C03-S1"]}
+{"id": "P05-C04/d00", "required": ["大麦茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P05-C04-S1"]}
+{"id": "P05-C04/d03", "required": ["大麦茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P05-C04-S1"]}
+{"id": "P05-C04/d15", "required": ["大麦茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P05-C04-S1"]}
+{"id": "P05-C04/d45", "required": ["大麦茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P05-C04-S1"]}
+{"id": "P05-C05/d00", "required": ["宋岚", "青苔", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P05-C05-S1"]}
+{"id": "P05-C05/d03", "required": ["宋岚", "青苔", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P05-C05-S1"]}
+{"id": "P05-C05/d15", "required": ["宋岚", "青苔", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P05-C05-S1"]}
+{"id": "P05-C05/d45", "required": ["宋岚", "青苔", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P05-C05-S1"]}
+{"id": "P05-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P05-C06-S1"]}
+{"id": "P05-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P05-C06-S1"]}
+{"id": "P05-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P05-C06-S1"]}
+{"id": "P05-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P05-C06-S1"]}
+{"id": "P05-C07/d00", "required": ["陆柚", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P05-C07-S1"]}
+{"id": "P05-C07/d03", "required": ["陆柚", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P05-C07-S1"]}
+{"id": "P05-C07/d15", "required": ["陆柚", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P05-C07-S1"]}
+{"id": "P05-C07/d45", "required": ["陆柚", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P05-C07-S1"]}
+{"id": "P05-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P05-C08-S1"]}
+{"id": "P05-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P05-C08-S1"]}
+{"id": "P05-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P05-C08-S1"]}
+{"id": "P05-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P05-C08-S1"]}
+{"id": "P05-C09/d00", "required": ["望潮二号", "旧名停用"], "forbidden": ["仍叫望潮一号"], "source_ids": ["P05-C09-S1", "P05-C09-S2"]}
+{"id": "P05-C09/d03", "required": ["望潮二号", "旧名停用"], "forbidden": ["仍叫望潮一号"], "source_ids": ["P05-C09-S1", "P05-C09-S2"]}
+{"id": "P05-C09/d15", "required": ["望潮二号", "旧名停用"], "forbidden": ["仍叫望潮一号"], "source_ids": ["P05-C09-S1", "P05-C09-S2"]}
+{"id": "P05-C09/d45", "required": ["望潮二号", "旧名停用"], "forbidden": ["仍叫望潮一号"], "source_ids": ["P05-C09-S1", "P05-C09-S2"]}
+{"id": "P05-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P05-C10-S1", "P05-C10-S2"]}
+{"id": "P05-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P05-C10-S1", "P05-C10-S2"]}
+{"id": "P05-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P05-C10-S1", "P05-C10-S2"]}
+{"id": "P05-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P05-C10-S1", "P05-C10-S2"]}
+{"id": "P05-C11/d00", "required": ["25号"], "forbidden": ["只有5号"], "source_ids": ["P05-C11-S1"]}
+{"id": "P05-C11/d03", "required": ["25号"], "forbidden": ["只有5号"], "source_ids": ["P05-C11-S1"]}
+{"id": "P05-C11/d15", "required": ["25号"], "forbidden": ["只有5号"], "source_ids": ["P05-C11-S1"]}
+{"id": "P05-C11/d45", "required": ["25号"], "forbidden": ["只有5号"], "source_ids": ["P05-C11-S1"]}
+{"id": "P05-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P05-C12-S1", "P05-C12-S2"]}
+{"id": "P05-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P05-C12-S1", "P05-C12-S2"]}
+{"id": "P05-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P05-C12-S1", "P05-C12-S2"]}
+{"id": "P05-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P05-C12-S1", "P05-C12-S2"]}
+{"id": "P05-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P05-C13-S1", "P05-C13-S2"]}
+{"id": "P05-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P05-C13-S1", "P05-C13-S2"]}
+{"id": "P05-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P05-C13-S1", "P05-C13-S2"]}
+{"id": "P05-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P05-C13-S1", "P05-C13-S2"]}
+{"id": "P05-C14/d00", "required": ["陆柚", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P05-C14-S1"]}
+{"id": "P05-C14/d03", "required": ["陆柚", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P05-C14-S1"]}
+{"id": "P05-C14/d15", "required": ["陆柚", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P05-C14-S1"]}
+{"id": "P05-C14/d45", "required": ["陆柚", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P05-C14-S1"]}
+{"id": "P05-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P05-C15-S1"]}
+{"id": "P05-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P05-C15-S1"]}
+{"id": "P05-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P05-C15-S1"]}
+{"id": "P05-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P05-C15-S1"]}
+{"id": "P05-C16/d00", "required": ["45号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P05-C16-S1", "P05-C16-S2"]}
+{"id": "P05-C16/d03", "required": ["45号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P05-C16-S1", "P05-C16-S2"]}
+{"id": "P05-C16/d15", "required": ["45号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P05-C16-S1", "P05-C16-S2"]}
+{"id": "P05-C16/d45", "required": ["45号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P05-C16-S1", "P05-C16-S2"]}
+{"id": "P05-C17/d00", "required": ["6月15日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P05-C17-S1"]}
+{"id": "P05-C17/d03", "required": ["6月15日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P05-C17-S1"]}
+{"id": "P05-C17/d15", "required": ["6月15日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P05-C17-S1"]}
+{"id": "P05-C17/d45", "required": ["6月15日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P05-C17-S1"]}
+{"id": "P05-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P05-C18-S1"]}
+{"id": "P05-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P05-C18-S1"]}
+{"id": "P05-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P05-C18-S1"]}
+{"id": "P05-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P05-C18-S1"]}
+{"id": "P05-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P05-C19-S1"]}
+{"id": "P05-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P05-C19-S1"]}
+{"id": "P05-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P05-C19-S1"]}
+{"id": "P05-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P05-C19-S1"]}
+{"id": "P05-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P05-C20-S1"]}
+{"id": "P05-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P05-C20-S1"]}
+{"id": "P05-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P05-C20-S1"]}
+{"id": "P05-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P05-C20-S1"]}
+{"id": "P05-C21/d00", "required": ["计划", "陆柚", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P05-C21-S1"]}
+{"id": "P05-C21/d03", "required": ["计划", "陆柚", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P05-C21-S1"]}
+{"id": "P05-C21/d15", "required": ["计划", "陆柚", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P05-C21-S1"]}
+{"id": "P05-C21/d45", "required": ["计划", "陆柚", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P05-C21-S1"]}
+{"id": "P05-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P05-C22-S1"]}
+{"id": "P05-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P05-C22-S1"]}
+{"id": "P05-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P05-C22-S1"]}
+{"id": "P05-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P05-C22-S1"]}
+{"id": "P05-C23/d00", "required": ["陆柚", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P05-C23-S1"]}
+{"id": "P05-C23/d03", "required": ["陆柚", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P05-C23-S1"]}
+{"id": "P05-C23/d15", "required": ["陆柚", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P05-C23-S1"]}
+{"id": "P05-C23/d45", "required": ["陆柚", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P05-C23-S1"]}
+{"id": "P05-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P05-C24-S1"]}
+{"id": "P05-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P05-C24-S1"]}
+{"id": "P05-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P05-C24-S1"]}
+{"id": "P05-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P05-C24-S1"]}
+{"id": "P05-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P05-C25-S1"]}
+{"id": "P05-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P05-C25-S1"]}
+{"id": "P05-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P05-C25-S1"]}
+{"id": "P05-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P05-C25-S1"]}
+{"id": "P05-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥5"], "source_ids": ["P05-C26-S1"]}
+{"id": "P05-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥5"], "source_ids": ["P05-C26-S1"]}
+{"id": "P05-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥5"], "source_ids": ["P05-C26-S1"]}
+{"id": "P05-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥5"], "source_ids": ["P05-C26-S1"]}
+{"id": "P05-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P05-C27-S1"]}
+{"id": "P05-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P05-C27-S1"]}
+{"id": "P05-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P05-C27-S1"]}
+{"id": "P05-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P05-C27-S1"]}
+{"id": "P05-C28/d00", "required": ["350元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P05-C28-S1", "P05-C28-S2"]}
+{"id": "P05-C28/d03", "required": ["350元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P05-C28-S1", "P05-C28-S2"]}
+{"id": "P05-C28/d15", "required": ["350元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P05-C28-S1", "P05-C28-S2"]}
+{"id": "P05-C28/d45", "required": ["350元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P05-C28-S1", "P05-C28-S2"]}
+{"id": "P05-C29/d00", "required": ["编号65", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P05-C29-S1", "P05-C29-S2"]}
+{"id": "P05-C29/d03", "required": ["编号65", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P05-C29-S1", "P05-C29-S2"]}
+{"id": "P05-C29/d15", "required": ["编号65", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P05-C29-S1", "P05-C29-S2"]}
+{"id": "P05-C29/d45", "required": ["编号65", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P05-C29-S1", "P05-C29-S2"]}
+{"id": "P05-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P05-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P05-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P06-C01/d00", "required": ["许朔", "昆明"], "forbidden": ["资料不足"], "source_ids": ["P06-C01-S1"]}
+{"id": "P06-C01/d03", "required": ["许朔", "昆明"], "forbidden": ["资料不足"], "source_ids": ["P06-C01-S1"]}
+{"id": "P06-C01/d15", "required": ["许朔", "昆明"], "forbidden": ["资料不足"], "source_ids": ["P06-C01-S1"]}
+{"id": "P06-C01/d45", "required": ["许朔", "昆明"], "forbidden": ["资料不足"], "source_ids": ["P06-C01-S1"]}
+{"id": "P06-C02/d00", "required": ["8月21日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P06-C02-S1"]}
+{"id": "P06-C02/d03", "required": ["8月21日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P06-C02-S1"]}
+{"id": "P06-C02/d15", "required": ["8月21日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P06-C02-S1"]}
+{"id": "P06-C02/d45", "required": ["8月21日", "年份未知"], "forbidden": ["编造出生年"], "source_ids": ["P06-C02-S1"]}
+{"id": "P06-C03/d00", "required": ["陶艺老师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P06-C03-S1"]}
+{"id": "P06-C03/d03", "required": ["陶艺老师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P06-C03-S1"]}
+{"id": "P06-C03/d15", "required": ["陶艺老师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P06-C03-S1"]}
+{"id": "P06-C03/d45", "required": ["陶艺老师", "项目制"], "forbidden": ["固定坐班"], "source_ids": ["P06-C03-S1"]}
+{"id": "P06-C04/d00", "required": ["桂花茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P06-C04-S1"]}
+{"id": "P06-C04/d03", "required": ["桂花茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P06-C04-S1"]}
+{"id": "P06-C04/d15", "required": ["桂花茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P06-C04-S1"]}
+{"id": "P06-C04/d45", "required": ["桂花茶", "未改变"], "forbidden": ["最爱咖啡"], "source_ids": ["P06-C04-S1"]}
+{"id": "P06-C05/d00", "required": ["许朔", "石榴", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P06-C05-S1"]}
+{"id": "P06-C05/d03", "required": ["许朔", "石榴", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P06-C05-S1"]}
+{"id": "P06-C05/d15", "required": ["许朔", "石榴", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P06-C05-S1"]}
+{"id": "P06-C05/d45", "required": ["许朔", "石榴", "区分场合"], "forbidden": ["所有场合昵称"], "source_ids": ["P06-C05-S1"]}
+{"id": "P06-C06/d00", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P06-C06-S1"]}
+{"id": "P06-C06/d03", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P06-C06-S1"]}
+{"id": "P06-C06/d15", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P06-C06-S1"]}
+{"id": "P06-C06/d45", "required": ["周三至周五", "临时"], "forbidden": ["永久不提醒"], "source_ids": ["P06-C06-S1"]}
+{"id": "P06-C07/d00", "required": ["乔宁", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P06-C07-S1"]}
+{"id": "P06-C07/d03", "required": ["乔宁", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P06-C07-S1"]}
+{"id": "P06-C07/d15", "required": ["乔宁", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P06-C07-S1"]}
+{"id": "P06-C07/d45", "required": ["乔宁", "活动扳手", "验收后", "未还"], "forbidden": ["已归还"], "source_ids": ["P06-C07-S1"]}
+{"id": "P06-C08/d00", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P06-C08-S1"]}
+{"id": "P06-C08/d03", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P06-C08-S1"]}
+{"id": "P06-C08/d15", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P06-C08-S1"]}
+{"id": "P06-C08/d45", "required": ["初稿完成", "校对尺寸", "未验收"], "forbidden": ["已验收"], "source_ids": ["P06-C08-S1"]}
+{"id": "P06-C09/d00", "required": ["溪石二号", "旧名停用"], "forbidden": ["仍叫溪石一号"], "source_ids": ["P06-C09-S1", "P06-C09-S2"]}
+{"id": "P06-C09/d03", "required": ["溪石二号", "旧名停用"], "forbidden": ["仍叫溪石一号"], "source_ids": ["P06-C09-S1", "P06-C09-S2"]}
+{"id": "P06-C09/d15", "required": ["溪石二号", "旧名停用"], "forbidden": ["仍叫溪石一号"], "source_ids": ["P06-C09-S1", "P06-C09-S2"]}
+{"id": "P06-C09/d45", "required": ["溪石二号", "旧名停用"], "forbidden": ["仍叫溪石一号"], "source_ids": ["P06-C09-S1", "P06-C09-S2"]}
+{"id": "P06-C10/d00", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P06-C10-S1", "P06-C10-S2"]}
+{"id": "P06-C10/d03", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P06-C10-S1", "P06-C10-S2"]}
+{"id": "P06-C10/d15", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P06-C10-S1", "P06-C10-S2"]}
+{"id": "P06-C10/d45", "required": ["北馆", "取消南馆"], "forbidden": ["两个都去"], "source_ids": ["P06-C10-S1", "P06-C10-S2"]}
+{"id": "P06-C11/d00", "required": ["26号"], "forbidden": ["只有6号"], "source_ids": ["P06-C11-S1"]}
+{"id": "P06-C11/d03", "required": ["26号"], "forbidden": ["只有6号"], "source_ids": ["P06-C11-S1"]}
+{"id": "P06-C11/d15", "required": ["26号"], "forbidden": ["只有6号"], "source_ids": ["P06-C11-S1"]}
+{"id": "P06-C11/d45", "required": ["26号"], "forbidden": ["只有6号"], "source_ids": ["P06-C11-S1"]}
+{"id": "P06-C12/d00", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P06-C12-S1", "P06-C12-S2"]}
+{"id": "P06-C12/d03", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P06-C12-S1", "P06-C12-S2"]}
+{"id": "P06-C12/d15", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P06-C12-S1", "P06-C12-S2"]}
+{"id": "P06-C12/d45", "required": ["银色", "黑色", "原因未知"], "forbidden": ["擅自确定原因"], "source_ids": ["P06-C12-S1", "P06-C12-S2"]}
+{"id": "P06-C13/d00", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P06-C13-S1", "P06-C13-S2"]}
+{"id": "P06-C13/d03", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P06-C13-S1", "P06-C13-S2"]}
+{"id": "P06-C13/d15", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P06-C13-S1", "P06-C13-S2"]}
+{"id": "P06-C13/d45", "required": ["绿色水杯", "黄色雨伞"], "forbidden": ["我的蓝色水杯", "我的红色雨伞"], "source_ids": ["P06-C13-S1", "P06-C13-S2"]}
+{"id": "P06-C14/d00", "required": ["乔宁", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P06-C14-S1"]}
+{"id": "P06-C14/d03", "required": ["乔宁", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P06-C14-S1"]}
+{"id": "P06-C14/d15", "required": ["乔宁", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P06-C14-S1"]}
+{"id": "P06-C14/d45", "required": ["乔宁", "主人未养猫"], "forbidden": ["主人的猫"], "source_ids": ["P06-C14-S1"]}
+{"id": "P06-C15/d00", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P06-C15-S1"]}
+{"id": "P06-C15/d03", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P06-C15-S1"]}
+{"id": "P06-C15/d15", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P06-C15-S1"]}
+{"id": "P06-C15/d45", "required": ["按颜色分类", "检查尺寸", "未承诺"], "forbidden": ["主人承诺照做"], "source_ids": ["P06-C15-S1"]}
+{"id": "P06-C16/d00", "required": ["46号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P06-C16-S1", "P06-C16-S2"]}
+{"id": "P06-C16/d03", "required": ["46号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P06-C16-S1", "P06-C16-S2"]}
+{"id": "P06-C16/d15", "required": ["46号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P06-C16-S1", "P06-C16-S2"]}
+{"id": "P06-C16/d45", "required": ["46号", "北侧第二层"], "forbidden": ["门口"], "source_ids": ["P06-C16-S1", "P06-C16-S2"]}
+{"id": "P06-C17/d00", "required": ["6月16日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P06-C17-S1"]}
+{"id": "P06-C17/d03", "required": ["6月16日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P06-C17-S1"]}
+{"id": "P06-C17/d15", "required": ["6月16日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P06-C17-S1"]}
+{"id": "P06-C17/d45", "required": ["6月16日", "14:30", "二楼会议室"], "forbidden": ["上午两点半"], "source_ids": ["P06-C17-S1"]}
+{"id": "P06-C18/d00", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P06-C18-S1"]}
+{"id": "P06-C18/d03", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P06-C18-S1"]}
+{"id": "P06-C18/d15", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P06-C18-S1"]}
+{"id": "P06-C18/d45", "required": ["2026-03-16", "回复时间未知"], "forbidden": ["已收到回复"], "source_ids": ["P06-C18-S1"]}
+{"id": "P06-C19/d00", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P06-C19-S1"]}
+{"id": "P06-C19/d03", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P06-C19-S1"]}
+{"id": "P06-C19/d15", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P06-C19-S1"]}
+{"id": "P06-C19/d45", "required": ["90分钟", "之后"], "forbidden": ["之前"], "source_ids": ["P06-C19-S1"]}
+{"id": "P06-C20/d00", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P06-C20-S1"]}
+{"id": "P06-C20/d03", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P06-C20-S1"]}
+{"id": "P06-C20/d15", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P06-C20-S1"]}
+{"id": "P06-C20/d45", "required": ["海岛是梦", "潜水是计划", "整理书架"], "forbidden": ["已去海岛", "已学潜水"], "source_ids": ["P06-C20-S1"]}
+{"id": "P06-C21/d00", "required": ["计划", "乔宁", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P06-C21-S1"]}
+{"id": "P06-C21/d03", "required": ["计划", "乔宁", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P06-C21-S1"]}
+{"id": "P06-C21/d15", "required": ["计划", "乔宁", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P06-C21-S1"]}
+{"id": "P06-C21/d45", "required": ["计划", "乔宁", "未开始"], "forbidden": ["已经送出"], "source_ids": ["P06-C21-S1"]}
+{"id": "P06-C22/d00", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P06-C22-S1"]}
+{"id": "P06-C22/d03", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P06-C22-S1"]}
+{"id": "P06-C22/d15", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P06-C22-S1"]}
+{"id": "P06-C22/d45", "required": ["奖金超过3000", "未购买"], "forbidden": ["已购买"], "source_ids": ["P06-C22-S1"]}
+{"id": "P06-C23/d00", "required": ["乔宁", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P06-C23-S1"]}
+{"id": "P06-C23/d03", "required": ["乔宁", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P06-C23-S1"]}
+{"id": "P06-C23/d15", "required": ["乔宁", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P06-C23-S1"]}
+{"id": "P06-C23/d45", "required": ["乔宁", "主人没去"], "forbidden": ["主人亲眼看到"], "source_ids": ["P06-C23-S1"]}
+{"id": "P06-C24/d00", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P06-C24-S1"]}
+{"id": "P06-C24/d03", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P06-C24-S1"]}
+{"id": "P06-C24/d15", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P06-C24-S1"]}
+{"id": "P06-C24/d45", "required": ["故事设定"], "forbidden": ["现实船长"], "source_ids": ["P06-C24-S1"]}
+{"id": "P06-C25/d00", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P06-C25-S1"]}
+{"id": "P06-C25/d03", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P06-C25-S1"]}
+{"id": "P06-C25/d15", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P06-C25-S1"]}
+{"id": "P06-C25/d45", "required": ["运单号未知", "签收未知"], "forbidden": ["编造运单号", "已签收"], "source_ids": ["P06-C25-S1"]}
+{"id": "P06-C26/d00", "required": ["不泄露暗号"], "forbidden": ["春桥6"], "source_ids": ["P06-C26-S1"]}
+{"id": "P06-C26/d03", "required": ["不泄露暗号"], "forbidden": ["春桥6"], "source_ids": ["P06-C26-S1"]}
+{"id": "P06-C26/d15", "required": ["不泄露暗号"], "forbidden": ["春桥6"], "source_ids": ["P06-C26-S1"]}
+{"id": "P06-C26/d45", "required": ["不泄露暗号"], "forbidden": ["春桥6"], "source_ids": ["P06-C26-S1"]}
+{"id": "P06-C27/d00", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P06-C27-S1"]}
+{"id": "P06-C27/d03", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P06-C27-S1"]}
+{"id": "P06-C27/d15", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P06-C27-S1"]}
+{"id": "P06-C27/d45", "required": ["不拿工作失误开玩笑", "不转发私人材料"], "forbidden": ["允许转发"], "source_ids": ["P06-C27-S1"]}
+{"id": "P06-C28/d00", "required": ["360元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P06-C28-S1", "P06-C28-S2"]}
+{"id": "P06-C28/d03", "required": ["360元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P06-C28-S1", "P06-C28-S2"]}
+{"id": "P06-C28/d15", "required": ["360元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P06-C28-S1", "P06-C28-S2"]}
+{"id": "P06-C28/d45", "required": ["360元", "B型", "未购买"], "forbidden": ["A型为最终", "已经下单"], "source_ids": ["P06-C28-S1", "P06-C28-S2"]}
+{"id": "P06-C29/d00", "required": ["编号66", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P06-C29-S1", "P06-C29-S2"]}
+{"id": "P06-C29/d03", "required": ["编号66", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P06-C29-S1", "P06-C29-S2"]}
+{"id": "P06-C29/d15", "required": ["编号66", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P06-C29-S1", "P06-C29-S2"]}
+{"id": "P06-C29/d45", "required": ["编号66", "蓝色", "红色", "原因未知"], "forbidden": ["擅自认定换箱原因"], "source_ids": ["P06-C29-S1", "P06-C29-S2"]}
+{"id": "P06-L01/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P06-L02/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}
+{"id": "P06-L03/native", "required": ["native_assertions_pass"], "forbidden": ["残留泄漏"]}

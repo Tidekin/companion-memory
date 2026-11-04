@@ -1,0 +1,11 @@
+{
+  "files_sha256": {
+    "run_public_memory.py": "99247236868ac86de28f660fb6710db8395c713dbf5661df4048adecb2a53aec",
+    "run_suite.py": "3a84aca70b202543a95458ac20d3e4feeaf399a160f0859e28f62b976eb696c2"
+  },
+  "probe_original_turns": 13,
+  "probe_retained_replies": 13,
+  "probe_queries_erased": 2,
+  "budget_usage_retained": true,
+  "note": "synthetic corpus episodes/summaries/delivered transcript fixture restored after native exam erasure; actual expense and uncertainty retained"
+}

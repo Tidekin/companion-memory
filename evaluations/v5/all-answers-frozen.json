@@ -1,0 +1,25 @@
+{
+  "status": "ALL_ANSWERS_CLOSED_BEFORE_GOLD_READ",
+  "answers": 2976,
+  "files_sha256": {
+    "arms/old/results/V01/answers.jsonl": "81ae5f60f3dec4f84724cf56c3d618507cd13d9c4224e2f44489615a514b737a",
+    "arms/old/results/V02/answers.jsonl": "a605d6e97479128584e99ba33982d8fd79e1f8619186b94477dc1cb463c591c2",
+    "arms/old/results/V03/answers.jsonl": "d8d6b505d5ae45b5559812e0807b241251aca685d9bb03895c5c104fe44de865",
+    "arms/old/results/V04/answers.jsonl": "4d5d84badf0a39dc0ed9e5d06c80a1abb40fca5b3537b0e4c4caaaf5ea0f9566",
+    "arms/old/results/V05/answers.jsonl": "a2bc95784e9af6c3f9c503dd3fa95527c5ae7ec55071aab1e42137c44f23db42",
+    "arms/old/results/V06/answers.jsonl": "fef19a1614e31b498d31b10f59db2af46a34ee0404e12b1fd98e8a178af34927",
+    "arms/new/results/V01/answers.jsonl": "28e0eb7d4e93ca53f96242294b707268296468430eedceae50bd4bf1595f1795",
+    "arms/new/results/V02/answers.jsonl": "81616cc96d9b56bde14e0b421b5b4448f1080b8e13b7cb27c713c9d8cce2197f",
+    "arms/new/results/V03/answers.jsonl": "0c941510d8947caf2e61e96c3a98fe9a0bd0a019b5f724e9ad96ec4e4e4daf61",
+    "arms/new/results/V04/answers.jsonl": "6ee821bf7a82e80d4f03c826a6cf19704821a0122161e8a34223feac563ce002",
+    "arms/new/results/V05/answers.jsonl": "4e2fc53a9e78d922edf2c791e8ddd5a388502028b4472ab7424717f2a298ecf0",
+    "arms/new/results/V06/answers.jsonl": "60a7c9603519fe98923224c6d2fbcde13b0da8859b05ef3877082f947982cdd6",
+    "rag/answers.jsonl": "1efe7b404330098f4456157a9e07f0d4b4068e3abb5534012e077cd77d4cea3c",
+    "closed/answers.jsonl": "e91e76ce72311d1fab69e9b955de50b2a9ef57326edbf31a3d01dbd0e884f43d"
+  },
+  "corpus_freeze_sha256": "aa9175c104f1004cebcd40f6a44270ca64a4742e7d8b6c8720655be68b26aeb5",
+  "charged_or_held_cny": 27.177584160000002,
+  "qwen_charged_or_held_cny": 15.167115,
+  "failures_kept_in_denominator": true,
+  "at": "2026-11-03T13:54:31.216757+00:00"
+}

@@ -1,0 +1,1067 @@
+{
+  "classification": "SELF_AUTHORED_714_INSTANCES_NOT_ORIGINAL_PRIVATE_BENCHMARK",
+  "core_commit": "3da60d63307612ae813b8e6fd61ca318eedd4140",
+  "generated_at": "2026-11-02T05:03:27.165878+00:00",
+  "semantic": {
+    "questions": 696,
+    "native": {
+      "passed": 150,
+      "answered": 694,
+      "unanswered": 2,
+      "pass_rate_all": 0.21551724137931033,
+      "pass_rate_answered": 0.21613832853025935
+    },
+    "reference": {
+      "passed": 599,
+      "answered": 696,
+      "unanswered": 0,
+      "pass_rate_all": 0.860632183908046,
+      "pass_rate_answered": 0.860632183908046
+    }
+  },
+  "common_answered": {
+    "questions": 694,
+    "native": {
+      "passed": 150,
+      "answered": 694,
+      "unanswered": 0,
+      "pass_rate_all": 0.21613832853025935,
+      "pass_rate_answered": 0.21613832853025935
+    },
+    "reference": {
+      "passed": 597,
+      "answered": 694,
+      "unanswered": 0,
+      "pass_rate_all": 0.8602305475504323,
+      "pass_rate_answered": 0.8602305475504323
+    }
+  },
+  "positive_information_subset": {
+    "questions": 648,
+    "native": {
+      "passed": 102,
+      "answered": 646,
+      "unanswered": 2,
+      "pass_rate_all": 0.1574074074074074,
+      "pass_rate_answered": 0.15789473684210525
+    },
+    "reference": {
+      "passed": 551,
+      "answered": 648,
+      "unanswered": 0,
+      "pass_rate_all": 0.8503086419753086,
+      "pass_rate_answered": 0.8503086419753086
+    }
+  },
+  "lifecycle": {
+    "passed": 18,
+    "total": 18
+  },
+  "pivots": {
+    "category": {
+      "基本资料": {
+        "questions": 24,
+        "native": {
+          "passed": 18,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "生日": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "职业": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 20,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.8333333333333334,
+          "pass_rate_answered": 0.8333333333333334
+        }
+      },
+      "偏好": {
+        "questions": 24,
+        "native": {
+          "passed": 4,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.16666666666666666,
+          "pass_rate_answered": 0.16666666666666666
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "称呼条件": {
+        "questions": 24,
+        "native": {
+          "passed": 1,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.041666666666666664,
+          "pass_rate_answered": 0.041666666666666664
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "条件期限": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 21,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.875,
+          "pass_rate_answered": 0.875
+        }
+      },
+      "约定欠账": {
+        "questions": 24,
+        "native": {
+          "passed": 15,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.625,
+          "pass_rate_answered": 0.625
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "未完成事项": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "真实变化": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 6,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.25,
+          "pass_rate_answered": 0.25
+        }
+      },
+      "改口": {
+        "questions": 24,
+        "native": {
+          "passed": 1,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.041666666666666664,
+          "pass_rate_answered": 0.041666666666666664
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "纠错": {
+        "questions": 24,
+        "native": {
+          "passed": 18,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "未解释矛盾": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 23,
+          "unanswered": 1,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "相似事件": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 7,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.2916666666666667,
+          "pass_rate_answered": 0.2916666666666667
+        }
+      },
+      "第三方事实": {
+        "questions": 24,
+        "native": {
+          "passed": 4,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.16666666666666666,
+          "pass_rate_answered": 0.16666666666666666
+        },
+        "reference": {
+          "passed": 15,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.625,
+          "pass_rate_answered": 0.625
+        }
+      },
+      "助手原话": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 18,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        }
+      },
+      "分散线索": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "时间约定": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 20,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.8333333333333334,
+          "pass_rate_answered": 0.8333333333333334
+        }
+      },
+      "相对日期": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "时长顺序": {
+        "questions": 24,
+        "native": {
+          "passed": 18,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "叙述性质": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "计划未完成": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 14,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.5833333333333334,
+          "pass_rate_answered": 0.5833333333333334
+        }
+      },
+      "假设前提": {
+        "questions": 24,
+        "native": {
+          "passed": 17,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.7083333333333334,
+          "pass_rate_answered": 0.7083333333333334
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "转述来源": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 21,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.875,
+          "pass_rate_answered": 0.875
+        }
+      },
+      "虚构故事": {
+        "questions": 24,
+        "native": {
+          "passed": 6,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.25,
+          "pass_rate_answered": 0.25
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "信息不足": {
+        "questions": 24,
+        "native": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "敏感限制": {
+        "questions": 24,
+        "native": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "明确边界": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 23,
+          "unanswered": 1,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "跨模态纠正": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 1,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.041666666666666664,
+          "pass_rate_answered": 0.041666666666666664
+        }
+      },
+      "文件图像冲突": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      }
+    },
+    "delay_days": {
+      "0": {
+        "questions": 174,
+        "native": {
+          "passed": 33,
+          "answered": 173,
+          "unanswered": 1,
+          "pass_rate_all": 0.1896551724137931,
+          "pass_rate_answered": 0.1907514450867052
+        },
+        "reference": {
+          "passed": 148,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.8505747126436781,
+          "pass_rate_answered": 0.8505747126436781
+        }
+      },
+      "3": {
+        "questions": 174,
+        "native": {
+          "passed": 40,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.22988505747126436,
+          "pass_rate_answered": 0.22988505747126436
+        },
+        "reference": {
+          "passed": 151,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.867816091954023,
+          "pass_rate_answered": 0.867816091954023
+        }
+      },
+      "15": {
+        "questions": 174,
+        "native": {
+          "passed": 39,
+          "answered": 173,
+          "unanswered": 1,
+          "pass_rate_all": 0.22413793103448276,
+          "pass_rate_answered": 0.2254335260115607
+        },
+        "reference": {
+          "passed": 151,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.867816091954023,
+          "pass_rate_answered": 0.867816091954023
+        }
+      },
+      "45": {
+        "questions": 174,
+        "native": {
+          "passed": 38,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.21839080459770116,
+          "pass_rate_answered": 0.21839080459770116
+        },
+        "reference": {
+          "passed": 149,
+          "answered": 174,
+          "unanswered": 0,
+          "pass_rate_all": 0.8563218390804598,
+          "pass_rate_answered": 0.8563218390804598
+        }
+      }
+    },
+    "persona": {
+      "P01": {
+        "questions": 116,
+        "native": {
+          "passed": 26,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.22413793103448276,
+          "pass_rate_answered": 0.22413793103448276
+        },
+        "reference": {
+          "passed": 94,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.8103448275862069,
+          "pass_rate_answered": 0.8103448275862069
+        }
+      },
+      "P02": {
+        "questions": 116,
+        "native": {
+          "passed": 22,
+          "answered": 115,
+          "unanswered": 1,
+          "pass_rate_all": 0.1896551724137931,
+          "pass_rate_answered": 0.19130434782608696
+        },
+        "reference": {
+          "passed": 101,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.8706896551724138,
+          "pass_rate_answered": 0.8706896551724138
+        }
+      },
+      "P03": {
+        "questions": 116,
+        "native": {
+          "passed": 23,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.19827586206896552,
+          "pass_rate_answered": 0.19827586206896552
+        },
+        "reference": {
+          "passed": 96,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.8275862068965517,
+          "pass_rate_answered": 0.8275862068965517
+        }
+      },
+      "P04": {
+        "questions": 116,
+        "native": {
+          "passed": 27,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.23275862068965517,
+          "pass_rate_answered": 0.23275862068965517
+        },
+        "reference": {
+          "passed": 101,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.8706896551724138,
+          "pass_rate_answered": 0.8706896551724138
+        }
+      },
+      "P05": {
+        "questions": 116,
+        "native": {
+          "passed": 27,
+          "answered": 115,
+          "unanswered": 1,
+          "pass_rate_all": 0.23275862068965517,
+          "pass_rate_answered": 0.23478260869565218
+        },
+        "reference": {
+          "passed": 104,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.896551724137931,
+          "pass_rate_answered": 0.896551724137931
+        }
+      },
+      "P06": {
+        "questions": 116,
+        "native": {
+          "passed": 25,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.21551724137931033,
+          "pass_rate_answered": 0.21551724137931033
+        },
+        "reference": {
+          "passed": 103,
+          "answered": 116,
+          "unanswered": 0,
+          "pass_rate_all": 0.8879310344827587,
+          "pass_rate_answered": 0.8879310344827587
+        }
+      }
+    },
+    "modality_group": {
+      "text": {
+        "questions": 144,
+        "native": {
+          "passed": 110,
+          "answered": 144,
+          "unanswered": 0,
+          "pass_rate_all": 0.7638888888888888,
+          "pass_rate_answered": 0.7638888888888888
+        },
+        "reference": {
+          "passed": 144,
+          "answered": 144,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "image": {
+        "questions": 120,
+        "native": {
+          "passed": 24,
+          "answered": 120,
+          "unanswered": 0,
+          "pass_rate_all": 0.2,
+          "pass_rate_answered": 0.2
+        },
+        "reference": {
+          "passed": 96,
+          "answered": 120,
+          "unanswered": 0,
+          "pass_rate_all": 0.8,
+          "pass_rate_answered": 0.8
+        }
+      },
+      "file": {
+        "questions": 96,
+        "native": {
+          "passed": 6,
+          "answered": 96,
+          "unanswered": 0,
+          "pass_rate_all": 0.0625,
+          "pass_rate_answered": 0.0625
+        },
+        "reference": {
+          "passed": 92,
+          "answered": 96,
+          "unanswered": 0,
+          "pass_rate_all": 0.9583333333333334,
+          "pass_rate_answered": 0.9583333333333334
+        }
+      },
+      "voice": {
+        "questions": 72,
+        "native": {
+          "passed": 4,
+          "answered": 71,
+          "unanswered": 1,
+          "pass_rate_all": 0.05555555555555555,
+          "pass_rate_answered": 0.056338028169014086
+        },
+        "reference": {
+          "passed": 62,
+          "answered": 72,
+          "unanswered": 0,
+          "pass_rate_all": 0.8611111111111112,
+          "pass_rate_answered": 0.8611111111111112
+        }
+      },
+      "quote": {
+        "questions": 24,
+        "native": {
+          "passed": 1,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.041666666666666664,
+          "pass_rate_answered": 0.041666666666666664
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      },
+      "mixed": {
+        "questions": 144,
+        "native": {
+          "passed": 1,
+          "answered": 143,
+          "unanswered": 1,
+          "pass_rate_all": 0.006944444444444444,
+          "pass_rate_answered": 0.006993006993006993
+        },
+        "reference": {
+          "passed": 103,
+          "answered": 144,
+          "unanswered": 0,
+          "pass_rate_all": 0.7152777777777778,
+          "pass_rate_answered": 0.7152777777777778
+        }
+      },
+      "forward": {
+        "questions": 48,
+        "native": {
+          "passed": 4,
+          "answered": 48,
+          "unanswered": 0,
+          "pass_rate_all": 0.08333333333333333,
+          "pass_rate_answered": 0.08333333333333333
+        },
+        "reference": {
+          "passed": 36,
+          "answered": 48,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        }
+      },
+      "assistant": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 18,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_answered": 0.75
+        }
+      },
+      "relative_voice": {
+        "questions": 24,
+        "native": {
+          "passed": 0,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_answered": 0.0
+        },
+        "reference": {
+          "passed": 24,
+          "answered": 24,
+          "unanswered": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_answered": 1.0
+        }
+      }
+    }
+  },
+  "verification_passed": 96,
+  "media_states": [
+    {
+      "modality": "image",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 54
+    },
+    {
+      "modality": "file",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 42
+    },
+    {
+      "modality": "voice",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 36
+    },
+    {
+      "modality": "quote",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 6
+    },
+    {
+      "modality": "forward",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 12
+    },
+    {
+      "modality": "relative_voice",
+      "state": "SUCCEEDED",
+      "error": null,
+      "count": 6
+    }
+  ],
+  "maintenance_noncomplete": {
+    "MEMORY_INVALID_OUTPUT": 26
+  },
+  "native_costs": [
+    {
+      "batch": "isolation-final-probe\\P01",
+      "calls": 9,
+      "configured_usd": 0.003169
+    },
+    {
+      "batch": "mixed-smoke-v1\\P01",
+      "calls": 4,
+      "configured_usd": 0.001814
+    },
+    {
+      "batch": "mixed-smoke-v2\\P01",
+      "calls": 4,
+      "configured_usd": 0.001365
+    },
+    {
+      "batch": "mixed-smoke-v3\\P01",
+      "calls": 39,
+      "configured_usd": 0.016255
+    },
+    {
+      "batch": "native-final-v1\\P01",
+      "calls": 74,
+      "configured_usd": 0.028665
+    },
+    {
+      "batch": "native-final-v1\\P02",
+      "calls": 74,
+      "configured_usd": 0.02866
+    },
+    {
+      "batch": "native-final-v1\\P03",
+      "calls": 74,
+      "configured_usd": 0.027341
+    },
+    {
+      "batch": "native-final-v1\\P04",
+      "calls": 77,
+      "configured_usd": 0.028988
+    },
+    {
+      "batch": "native-final-v1\\P05",
+      "calls": 78,
+      "configured_usd": 0.031676
+    },
+    {
+      "batch": "native-final-v1\\P06",
+      "calls": 69,
+      "configured_usd": 0.026288
+    },
+    {
+      "batch": "native-final-v2\\P01",
+      "calls": 433,
+      "configured_usd": 0.175714
+    },
+    {
+      "batch": "native-final-v2\\P02",
+      "calls": 458,
+      "configured_usd": 0.181405
+    },
+    {
+      "batch": "native-final-v2\\P03",
+      "calls": 442,
+      "configured_usd": 0.182896
+    },
+    {
+      "batch": "native-final-v2\\P04",
+      "calls": 438,
+      "configured_usd": 0.171702
+    },
+    {
+      "batch": "native-final-v2\\P05",
+      "calls": 453,
+      "configured_usd": 0.185377
+    },
+    {
+      "batch": "native-final-v2\\P06",
+      "calls": 440,
+      "configured_usd": 0.175129
+    },
+    {
+      "batch": "smoke-v1",
+      "calls": 0,
+      "configured_usd": 0.0
+    },
+    {
+      "batch": "smoke-v2",
+      "calls": 0,
+      "configured_usd": 0.0
+    },
+    {
+      "batch": "smoke-v3",
+      "calls": 0,
+      "configured_usd": 0.0
+    },
+    {
+      "batch": "smoke-v4",
+      "calls": 4,
+      "configured_usd": 0.002398
+    }
+  ],
+  "direct_costs": {
+    "reference_deepseek": {
+      "calls": 696,
+      "held": 0.412664004,
+      "states": {
+        "SETTLED": 696
+      }
+    },
+    "judge": {
+      "calls": 174,
+      "held": 0.10489116,
+      "states": {
+        "SETTLED": 174
+      }
+    },
+    "qwen": {
+      "calls": 966,
+      "held": 12.477255,
+      "states": {
+        "SETTLED": 966
+      }
+    }
+  },
+  "deepseek_conservative_hold_cny": 17.86397164,
+  "deepseek_at_peak_public_rates_cny": 11.909314426666667,
+  "qwen_conservative_hold_cny": 12.47776,
+  "qwen_at_reference_published_rates_cny": 1.247776,
+  "manual_grade_overrides": 5,
+  "automated_judge_same_model_family": true,
+  "isolation_checks": 696,
+  "native_diagnostic_counts": {
+    "initial_requests": 696,
+    "nominated_six_history_turns": 696,
+    "initial_only_system_time_question": 570,
+    "maintenance_MEMORY_INVALID_OUTPUT": 26,
+    "traits_remaining": 0
+  }
+}
