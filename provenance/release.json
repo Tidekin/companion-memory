@@ -4235,6 +4235,10 @@
       "sha256": "6def307f3efa33783a3a067eed9b73014b6fae2854dd330ebc83328fa355055c",
       "bytes": 5492
     },
+    "tests/conftest.py": {
+      "sha256": "5c06150517512f7def5ea831fcc15799fb3bd63499758f3671babf4ee78ac441",
+      "bytes": 258
+    },
     "tests/test_publication.py": {
       "sha256": "aa4c9f03716325a519556b07a3613bd0697bb8b33c3d99e2f256ce7f6a96208c",
       "bytes": 1721
